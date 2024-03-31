@@ -85,8 +85,8 @@ interfacedeployment_zoneblue	蓝色区域
 interfacedeployment_zoneyellow	黄色区域
 interfacedeployment_zoning	区划
 interfacedeployment_accessonly	目的地专区
-interfacedeployment_prisonerdirection	引导标志\n(囚犯)
-interfacedeployment_staffdirection	引导标志\n(非囚犯)
+interfacedeployment_prisonerdirection	引导标识\n(囚犯)
+interfacedeployment_staffdirection	引导标识\n(非囚犯)
 
 interfacelogistics_jobs	狱中劳役
 interfacelogistics_removejobs	移除劳动名额
@@ -2915,38 +2915,38 @@ mutators_random	随机
 
 mutator_name_bigheads					大头模式
 mutator_name_moreviolentprisoners		更暴力的囚犯
-mutator_name_noviolentprisoners			没有暴力的囚犯
+mutator_name_noviolentprisoners			和平囚犯
 mutator_name_fastwalking				快速行走
 mutator_name_biggerfights				更大规模的斗殴
-mutator_name_morevolatileprisoners		不安定的囚犯们
+mutator_name_morevolatileprisoners		动荡不安
 mutator_name_endlesswinter				无尽寒冬
-mutator_name_norevealedreps				不揭示囚犯特征
-mutator_name_allrepsrevealed			揭示所有囚犯特征
+mutator_name_norevealedreps				隐藏囚犯特征
+mutator_name_allrepsrevealed			显示囚犯特征
 mutator_name_indestructabletrees		自然保护区
-mutator_name_alllegendary				大佬集中营
-mutator_name_slowdeliveries				慢速递送
-mutator_name_fastdeliveries				快速递送
-mutator_name_extremelyneedyprisoners	需求旺盛的囚犯们
+mutator_name_alllegendary				传奇监狱
+mutator_name_slowdeliveries				慢速运输
+mutator_name_fastdeliveries				快速运输
+mutator_name_extremelyneedyprisoners	需求旺盛
 mutator_name_slowtime					缓慢时间
-mutator_name_burnthedead				烧掉死者
+mutator_name_burnthedead				尸体自燃
 mutator_name_gangwarfare				帮派战争
 mutator_name_massescapes				越狱行动
 mutator_name_notunnels					没有地道
 mutator_name_morecontraband				更多违禁品
 mutator_name_nocontrabandlimits			违禁品无限制
-mutator_name_highdanger					危险地带
-mutator_name_superdrugs					好爽的%$#！
+mutator_name_highdanger					高危地区
+mutator_name_superdrugs					超级毒品
 mutator_name_weirdreputations			额外的特征
 mutator_name_nopausing					不可暂停
 mutator_name_norelease					不可释放
 mutator_name_fastrelease				短暂刑期
 mutator_name_acidrain					酸雨
-mutator_name_permanentday				永久白昼
-mutator_name_permanentnight				永久黑夜
+mutator_name_permanentday				极昼
+mutator_name_permanentnight				极夜
 mutator_name_spreadingtrees				野蛮生长
-mutator_name_contrabanddetectors		违禁品扫描仪
+mutator_name_contrabanddetectors		违禁品探测器
 mutator_name_superguards				超级警卫
-mutator_name_oldschoolintake			老派接收
+mutator_name_oldschoolintake			强制接收
 mutator_name_noclipstaff				幽灵员工
 mutator_name_superdogs					超级警犬
 
@@ -2960,13 +2960,13 @@ mutator_tooltip_endlesswinter	把可怕的【暴露(在恶劣天气中)】状态
 mutator_tooltip_norevealedreps	你对从囚车下来的囚犯们的特征将一无所知。
 mutator_tooltip_allrepsrevealed	从囚车下来的囚犯们的特征将始终可见。
 mutator_tooltip_indestructabletrees	当地的保护法律要求这个地区的树木不能被砍伐。你将不得不绕开它们来建设！
-mutator_tooltip_alllegendary	所有的囚犯都是“传奇”级的。祝你好运！
+mutator_tooltip_alllegendary	所有囚犯都是“传奇囚犯”，祝你好运！
 mutator_tooltip_slowdeliveries	你购买的每一样东西都必须通过卡车运来。
 mutator_tooltip_fastdeliveries	不用再等待卡车了；一切都会直接来到你的监狱，只要你有地方给它即可。
 mutator_tooltip_extremelyneedyprisoners	囚犯们的需求会大大提速。
 mutator_tooltip_slowtime	让游戏时钟变慢，会导致每一天都变得更长。
 mutator_tooltip_burnthedead	在你的监狱中任何被杀的人都会自燃。小心火灾。
-mutator_tooltip_gangwarfare	只有帮派成员才会到达你的监狱。(如果帮派被禁用，则无效。))
+mutator_tooltip_gangwarfare	只有帮派成员才会到达你的监狱。(如果帮派被禁用，则无效。)
 mutator_tooltip_massescapes	囚犯们更可能尝试挖出一条路来离开你的监狱。将去除任何关于越狱地道的通常限制。
 mutator_tooltip_notunnels	囚犯们无法挖越狱地道。
 mutator_tooltip_morecontraband	更多的违禁品将被走私到监狱里，而且囚犯们也更可能在有机可乘时偷取违禁品。
@@ -2974,19 +2974,19 @@ mutator_tooltip_nocontrabandlimits	去除关于能被走私进来的违禁品的
 mutator_tooltip_highdanger	你监狱的危险等级总是在最高点上。你更可能得到暴力的囚犯，并且他们更可能打架斗殴。
 mutator_tooltip_superdrugs	服用药物或酒精的囚犯们会随机获得一项特质，从而逐渐地让他们变得更难对付。
 mutator_tooltip_weirdreputations	解锁一系列的特质，共你的囚犯们具有。这会改变他们的行为以及他们与监狱的互动方式。
-mutator_tooltip_nopausing	去除你暂停游戏时钟的能力。
-mutator_tooltip_norelease	囚犯们永远不会被释放；他们的刑期是永久的，而且不可假释。
+mutator_tooltip_nopausing	无法暂停游戏时间。
+mutator_tooltip_norelease	囚犯们永远不会被释放，他们的刑期是永久的，且不可假释。
 mutator_tooltip_fastrelease	所有的刑期都大大缩短，意味着你的监狱中囚犯们会更快地周转。
 mutator_tooltip_acidrain	将导致雨雪对在户外的任何囚犯造成伤害。(如果天气被禁用，则无效。)
 mutator_tooltip_permanentday	你的监狱永远不会天黑；永远都像正午一般明媚！
 mutator_tooltip_permanentnight	在这里，太阳永不升起。你的监狱会永久地在黑暗中。
 mutator_tooltip_spreadingtrees	树木会扩散，并且生长得比正常的快得多。
 mutator_tooltip_contrabanddetectors	金属探测器会探测出所有形态的违禁品，但会消耗5倍的电量。
-mutator_tooltip_superguards	你的警卫们是同行中的精英，不会鬼混日子。他们更大、更壮、更快、而且更机警。
+mutator_tooltip_superguards	监狱雇佣的警卫都是同行中的精英。他们更大、更壮、更快、而且更机警。
 mutator_tooltip_oldschoolintake	很久很久以前，每天都会有一辆满载的囚车出现在你的监狱，不管你想不想要他们。欢迎回到美好的往昔！你会每一天都得到满是囚犯的巴士，无论你是否有空间接纳他们。
 mutator_tooltip_noclipstaff	你的员工们能够穿墙行走。
 
-mutator_title_extrachallenge	额外的挑战
+mutator_title_extrachallenge	增加挑战
 mutator_title_extrachallenge_tooltip	这些变异器会以形形色色的方式让你的日子更不好过。有时会显著地如此！
 mutator_title_lightentheload	减轻重负
 mutator_title_lightentheload_tooltip	这些变异器会以某种方式让你的监狱更容易管理或者降低难度。
@@ -3218,8 +3218,8 @@ interface_undo	撤消
 # =============================================================================
 
 codex_save_failed	保存监狱失败。
-codex_changelog_next	下一步＞
-codex_changelog_prev	＜上一步
+codex_changelog_next	下一页＞
+codex_changelog_prev	＜上一页
 codex_credits	制作组
 
 codex_options_screenshotmode	截图模式
@@ -3610,7 +3610,7 @@ object_prisoner_freshfish	囚犯（新囚犯）
 total_Connections	连接总数：*X
 active_Connections	活跃连接数上限：*X
 
-interfacedeployment_VisitorDirection	引导标志\n(探监者)
+interfacedeployment_VisitorDirection	引导标识\n(探监者)
 
 interface_action_move	移动
 
@@ -3630,7 +3630,7 @@ rapsheet_category_PrisonerTransfer	囚犯转移！
 
 buildtoolbar_tooltip_noUtilities	水管和电缆无法建在地下。
 
-buildtoolbar_deployment_VisitorDirection	点击并拖动指明楼层标志。\n\n这可提示非囚犯人员走哪条路。\n帮助控制监狱里的人流。
+buildtoolbar_deployment_VisitorDirection	点击并拖动指明楼层标识。\n\n这可提示非囚犯人员走哪条路。\n帮助控制监狱里的人流。
 
 # =============================================================================
 # Programs
@@ -5832,7 +5832,7 @@ interfacecallout_reconstructionspecialists	修理工
 interfacecallout_airreconstructionspecialists	空中修理工
 interfacecallout_drainagespecialists	管道工
 interfacecallout_airdrainagespecialists	空中管道工
-mutator_name_DoggieDoo	狗屎！
+mutator_name_DoggieDoo	狗屎
 mutator_tooltip_DoggieDoo	警犬现在也制造麻烦，这会增加清洁工的工作，并对牢房卫生产生一点影响。警犬和训练中的警犬都会大便！
 d11_prisoner_programs	囚犯
 d11_staff_programs	员工
@@ -6486,7 +6486,7 @@ codex_plotGrid	网格叠层
 codex_plotCoords	坐标
 codex_plotGridAndCoords	同时启用
 interfaceplanning_fence	栅栏
-mutator_name_DailyHearse	运走尸体！
+mutator_name_DailyHearse	每日灵车
 mutator_tooltip_DailyHearse	灵车现在每晚8点会抵达监狱，如果当日受到遣返，灵车会在次日再次来到监狱。
 security_menu_default	选择类别
 regime_eatLockdown	用餐/监禁
@@ -8645,9 +8645,9 @@ object_Sprinkler	喷水灭火器
 buildtoolbar_popup_obj_sprinkler	发生火灾时，自动向此区域喷水。\n\n感应的直径为7米。\n如果管道被烧毁，那么会失去供水。
 #-========================
 #+==============================劳役
-object_WorkshopSaw			冲压机
+object_WorkshopSaw				电锯台
 buildtoolbar_popup_obj_WorkshopSaw 工坊里的基本工具。\n · 把1张‘金属板’加工成2张‘车牌(空白)’\n   用时12分钟\n · 把1根‘原木’加工成4块‘木板’\n   用时30分钟\n\n无法限定为只加工某一种！\n由于金属板是从外面采购的，所以供应很稳定。\n原木的供应取决于林场的生产情况。
-object_WorkshopPress				电锯台
+object_WorkshopPress			冲压机
 buildtoolbar_popup_obj_WorkshopPress 借助这项工坊工具，囚犯可以在车牌上冲压出文字。\n·用时6分钟\n\n建议：与加工金属板的电锯台的数量比为1:1。
 object_CarpenterTable			木工桌
 buildtoolbar_popup_obj_CarpenterTable 囚犯可以使用这个工坊工具将原木制成高级床。\n·用时60分钟\n\n建议：木工桌与电锯台的数量比为2:1。

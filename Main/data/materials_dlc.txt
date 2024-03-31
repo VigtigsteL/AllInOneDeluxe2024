@@ -421,17 +421,6 @@ Properties           ExtraContraband
 END
 #-
 
-#+急救背包
-BEGIN Equipment  
-Name                 FirstAidBackpack 
-BEGIN SpriteBank
-Name				objects_d11_2
-Sprite				d_FirstAidBackpack
-END
-Properties           NoImport
-END
-#-
-
 #+急救箱
 BEGIN Equipment  
 Name                FirstAidKit 
@@ -514,17 +503,6 @@ Properties				NoImport
 END
 #-
 
-#+安全护目镜
-BEGIN Equipment  
-Name                 SafetyGoggles
-BEGIN SpriteBank
-Name				objects_d11_2
-Sprite				d_SafetyGoggles
-END
-Properties           NoImport
-END
-#-
-
 #+灭火器（材料）
 BEGIN Equipment  
 Name					FireExtinguisher 
@@ -535,7 +513,7 @@ Properties				NoImport
 END
 #-
 
-#+违禁品
+#+僵尸咬伤
 BEGIN Equipment  
 Name                 ZombieBite
 AttackPower          0.25
@@ -545,7 +523,7 @@ Properties           NoImport
 END
 #-
 
-#+违禁品
+#+蛇腹型铁丝网
 BEGIN Equipment  
 Name                 BarbedWireBat
 AttackPower          9 
@@ -558,7 +536,7 @@ Properties           Weapons
 END
 #-
 
-#+
+#+撬棍
 BEGIN Equipment  
 Name                 Crowbar
 AttackPower          9 
@@ -572,7 +550,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+改装过的手枪
 BEGIN Equipment  
 Name                 ModifiedHandgun  
 BEGIN SpriteBank
@@ -592,7 +570,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+改装过的突击步枪
 BEGIN Equipment  
 Name                 ModifiedAssaultRifle  
 BEGIN SpriteBank
@@ -612,7 +590,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+链锯
 BEGIN Equipment  
 Name                 ChainsawWeapon
 BEGIN SpriteBank
@@ -626,7 +604,7 @@ Properties           Metal
 END
 #-
 
-#+违禁品
+#+打蛋器
 BEGIN Equipment  
 Name                 Whisk  
 BEGIN SpriteBank
@@ -639,7 +617,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+擀面杖
 BEGIN Equipment  
 Name                 RollingPin
 AttackPower          1.50000  
@@ -654,7 +632,7 @@ Properties           Weapons
 END
 #-
 
-#+花丛违禁品
+#+酒类成品
 BEGIN Equipment  
 Name                 ProducedBooze  
 Sprite               Booze  
@@ -665,7 +643,7 @@ Properties			 Narcotics
 END
 #-
 
-#+
+#+毒品成品
 BEGIN Equipment  
 Name                 ProducedDrugs  
 Sprite               Pills
@@ -677,7 +655,7 @@ Properties			 Narcotics
 END
 #-
 
-#+
+#+麻醉品成品
 BEGIN Equipment      
 Name                 ProducedNarcotics
 BEGIN SpriteBank	
@@ -690,7 +668,7 @@ Properties		Narcotics
 END
 #-
 
-#+农作物违禁品
+#+酒水
 BEGIN Equipment  
 Name                 Drink 
 BEGIN SpriteBank	
@@ -705,7 +683,7 @@ Scale                0.700000
 END
 #-
 
-#+
+#+发酵水果
 BEGIN Equipment  
 Name                 Kicker  
 BEGIN SpriteBank	
@@ -720,7 +698,7 @@ SearchChance		 55
 END
 #-
 
-#+
+#+酒袋
 BEGIN Equipment  
 Name                 BoozeBag  
 BEGIN SpriteBank	
@@ -776,7 +754,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+洒水壶
 BEGIN Equipment
 Name		WateringCan
 Sprite 		WateringCan
@@ -786,16 +764,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 MoreContraband
-Sprite               d_MoreContraband
-Scale                0.700000  
-Properties			 NoImport
-END
-#-
-
-#+
+#+电击棍
 BEGIN Equipment  
 Name                 Baton  
 Sprite               HandBaton  
@@ -805,7 +774,7 @@ Properties           Weapons
 END
 #-
 
-#+
+#+木棍
 BEGIN Equipment  
 Name                 Club
 Sprite               Stick  
@@ -816,7 +785,7 @@ Properties           Improvised
 END
 #-
 
-#+
+#+刃尖
 BEGIN Equipment  
 Name                 Shank  
 Sprite               HandKnife  
@@ -829,7 +798,7 @@ Properties           Improvised
 END
 #-
 
-#+
+#+绳子
 BEGIN Equipment  
 Name                 Rope  
 Sprite               Rope  
@@ -842,7 +811,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+小刀
 BEGIN Equipment  
 Name                 Knife  
 Sprite               Knife  
@@ -855,7 +824,7 @@ Properties           Tools
 END
 #-
 
-#+
+#+叉子
 BEGIN Equipment  
 Name                 Fork  
 Sprite               Fork  
@@ -868,7 +837,7 @@ Properties           Tools
 END
 #-
 
-#+
+#+勺子
 BEGIN Equipment  
 Name                 Spoon  
 Sprite               Spoon  
@@ -878,15 +847,7 @@ Properties           Metal
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 Needle  
-Sprite               Needle  
-Properties           Narcotics 
-END
-#-
-
-#+
+#+烈酒
 BEGIN Equipment  
 Name                 Booze  
 Sprite               Booze  
@@ -896,7 +857,7 @@ Properties           Luxuries
 END
 #-
 
-#+
+#+毒物
 BEGIN Equipment  
 Name                 Poison  
 Sprite               Poison  
@@ -906,7 +867,7 @@ Properties           Smelly
 END
 #-
 
-#+
+#+香烟
 BEGIN Equipment  
 Name                 Cigs  
 Sprite               Cigs  
@@ -917,16 +878,7 @@ Properties           Smelly
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 Saw  
-Sprite               Saw  
-Properties           Tools
-Properties           Metal
-END
-#-
-
-#+
+#+监狱钥匙
 BEGIN Equipment  
 Name                 JailKeys  
 Sprite               JailKey  
@@ -937,7 +889,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+手机
 BEGIN Equipment
 Name                 MobilePhone
 Sprite               MobilePhone
@@ -947,7 +899,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+打火机
 BEGIN Equipment  
 Name                 Lighter  
 Sprite               Lighter  
@@ -956,7 +908,7 @@ Properties           Luxuries
 END
 #-
 
-#+
+#+螺丝刀
 BEGIN Equipment  
 Name                 Screwdriver  
 Sprite               Screwdriver  
@@ -969,7 +921,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+毒品
 BEGIN Equipment  
 Name                 Drugs  
 Sprite               Pills  
@@ -979,7 +931,7 @@ Properties           Smelly
 END
 #-
 
-#+
+#+药物
 BEGIN Equipment  
 Name                 Medicine
 Sprite               Medicine
@@ -989,7 +941,7 @@ Properties           Smelly
 END
 #-
 
-#+
+#+小剪刀
 BEGIN Equipment  
 Name                 Scissors
 Sprite               Scissors
@@ -1002,7 +954,7 @@ Properties           Tools
 END
 #-
 
-#+
+#+大剪刀
 BEGIN Equipment  
 Name                 Sheers  
 Sprite               Sheers  
@@ -1014,37 +966,7 @@ RechargeTime         4.00000
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 Mop  
-Sprite               Mop  
-TwoHanded            true
-Properties           NoImport
-Properties           ExtraContraband
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 Rake  
-Sprite               Rake  
-TwoHanded            true
-Properties           NoImport
-Properties           ExtraContraband
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 Hose  
-Sprite               Hose  
-TwoHanded            true
-Properties           NoImport
-Properties           ExtraContraband
-END
-#-
-
-#+
+#+抹刀
 BEGIN Equipment  
 Name                 Spatula  
 Sprite               Spatula  
@@ -1054,16 +976,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 WoodenSpoon  
-Sprite               WoodenSpoon  
-Properties           NoImport
-Properties           ExtraContraband
-END
-#-
-
-#+
+#+清洁刷
 BEGIN Equipment  
 Name                 CleaningBrush  
 Sprite               CleaningBrush  
@@ -1073,7 +986,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+锤子
 BEGIN Equipment  
 Name                 Hammer  
 Sprite               Hammer  
@@ -1085,7 +998,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+写字板
 BEGIN Equipment  
 Name                 Clipboard  
 Sprite               Clipboard  
@@ -1095,7 +1008,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+钻头
 BEGIN Equipment  
 Name                 Drill  
 Sprite               Drill  
@@ -1107,7 +1020,7 @@ Properties           Weapons
 END
 #-
 
-#+
+#+钢琴线
 BEGIN Equipment
 Name                 PianoWire
 Sprite               PianoWire
@@ -1118,7 +1031,7 @@ TwoHanded            true
 END
 #-
 
-#+
+#+手枪
 BEGIN Equipment  
 Name                 Gun  
 Sprite               Gun  
@@ -1135,7 +1048,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+霰弹枪
 BEGIN Equipment
 Name                 Shotgun
 Sprite               Shotgun
@@ -1152,7 +1065,7 @@ Properties           NoImport
 END
 #-
 
-#+
+#+步枪
 BEGIN Equipment  
 Name                 Rifle  
 Sprite               Rifle  
@@ -1171,7 +1084,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+突击步枪
 BEGIN Equipment  
 Name                 AssaultRifle  
 Sprite               AssaultRifle  
@@ -1189,7 +1102,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+冲锋枪
 BEGIN Equipment  
 Name                 SubMachineGun
 Sprite               Mac10
@@ -1206,7 +1119,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+电击枪
 BEGIN Equipment
 Name                 Tazer
 Sprite               Tazer
@@ -1223,31 +1136,7 @@ Properties           Metal
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 GuardUniform  
-Sprite               GuardUniform  
-Properties           NoImport
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 PrisonerUniform
-Sprite               PrisonUniformDirty
-Properties           NoImport
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 StabVest  
-Sprite               StabVest  
-Properties           NoImport
-END
-#-
-
-#+
+#+手电筒
 BEGIN Equipment  
 Name                 Torch  
 Sprite               Torch
@@ -1261,17 +1150,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 DogBite
-AttackPower          0.750000
-RechargeTime         1.00000  
-Properties           Weapons   
-Properties           NoImport 
-END
-#-
-
-#+
+#+熨斗
 BEGIN Equipment  
 Name                 Iron  
 Sprite               Iron  
@@ -1283,16 +1162,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 MoneyBag  
-Sprite               MoneyBag  
-Properties           NoImport
-Properties           ExtraContraband
-END
-#-
-
-#+
+#+狗绳
 BEGIN Equipment  
 Name                 DogLeash  
 Sprite               DogLeash  
@@ -1302,7 +1172,7 @@ Properties           NoImport
 END
 #-
 
-#+
+#+斧子
 BEGIN Equipment  
 Name                 Axe  
 Sprite               Axe  
@@ -1316,30 +1186,7 @@ RechargeTime         2.50000
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 Spade  
-Sprite               Spade  
-TwoHanded            true 
-Properties           NoImport
-Properties           ExtraContraband
-Properties           Metal
-Properties           Tools
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 WoodenPickAxe
-Sprite               WoodPickAxe
-Properties           NoImport
-Properties           ExtraContraband
-Properties           Tools
-Properties           Improvised
-END
-#-
-
-#+
+#+攻坚锤
 BEGIN Equipment  
 Name                 BatteringRam
 Sprite               BatteringRam
@@ -1354,25 +1201,7 @@ RechargeTime         10.00000
 END
 #-
 
-#+
-BEGIN Equipment  
-Name                 Megaphone
-Sprite               Megaphone
-Properties           NoImport
-Properties           ExtraContraband
-
-END
-#-
-
-#+
-BEGIN Equipment  
-Name                 Photo
-Sprite               Photo
-Properties           NoImport
-END
-#-
-
-#+
+#+麦克风
 BEGIN Equipment  
 Name                 Microphone
 Sprite               Microphone
@@ -1382,7 +1211,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
+#+对讲机
 BEGIN Equipment  
 Name                 CbRadio
 Sprite               CbRadio
@@ -1392,50 +1221,7 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment
-Name                Book
-Sprite              Book
-Properties          NoImport
-Rotatable           true
-Properties           ExtraContraband
-END
-#-
-
-#+
-BEGIN Equipment
-Name                BookClosed
-Sprite              BooksSorted
-Properties          NoImport
-Properties          ExtraContraband
-END
-#-
-
-#+
-BEGIN Equipment
-Name                Snack
-Sprite              ShopGoods3
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                Magazine
-Sprite              ShopGoods2
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                 Soap
-Sprite               WoodenSpoon
-Properties           NoImport
-END
-#-
-
-#+
+#+罢工标语牌
 BEGIN Equipment
 Name                StrikePlacard
 Sprite              StrikePlacard
@@ -1444,7 +1230,7 @@ Scale               1.300000
 END
 #-
 
-#+
+#+钢笔
 BEGIN Equipment  
 Name                 FountainPen  
 Sprite               d_FountainPen
@@ -1456,7 +1242,7 @@ Properties           Metal
 END
 #-
 
-#+
+#+金怀表
 BEGIN Equipment  
 Name                 GoldPocketWatch  
 Sprite               d_GoldPocketWatch
@@ -1466,7 +1252,7 @@ Properties           Luxuries
 END
 #-
 
-#+
+#+镇静剂（注射）
 BEGIN Equipment  
 Name                 SedativeSyringe  
 Sprite               Needle  
@@ -1476,7 +1262,7 @@ RechargeTime         2.00000
 END
 #-
 
-#+
+#+镇静针（注射）
 BEGIN Equipment  
 Name                 SedativeShot  
 Sprite               Needle
@@ -1494,117 +1280,8 @@ Properties           ExtraContraband
 END
 #-
 
-#+
-BEGIN Equipment
-Name                GarbageBag
-Sprite              Garbage
-Properties          NoImport
-Properties           ExtraContraband
-END
-#-
 
-#+
-BEGIN Equipment
-Name                Crate
-Sprite              Box
-Properties          NoImport
-END
-#-
 
-#+
-BEGIN Equipment
-Name                LogPile
-Sprite              StackLogs
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                Box
-Sprite              BooksUnSorted
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                PrisonerIco
-Sprite              BenedictHenchman2
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                Brick
-Sprite              StackBrick
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name                MailUnsorted
-Sprite              StackMailSorted
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		Visitor
-Sprite		PalermoDaughter1
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		Export
-Sprite		StackPlates
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		Food
-Sprite		StackIngredients2
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		HeliIco
-Sprite		d_HeliIcon
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		DockIco
-Sprite		d_DockIcon
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		RoadIco
-Sprite		d_RoadIcon
-Properties          NoImport
-END
-#-
-
-#+
-BEGIN Equipment
-Name		Blank
-Properties          NoImport
-END
-#-
 
 #-===========================================================
 
@@ -17143,7 +16820,7 @@ Sprite               FireEngine
 SpriteScale          1.2
 Properties           Vehicle
 Properties           Undamageable
-TopSpeed		 12.0
+TopSpeed		 10.0
 END
 #-
 
@@ -17158,7 +16835,7 @@ Toughness            35
 Sprite               RiotVan
 SpriteScale          1.4
 Properties           Vehicle
-TopSpeed		 12.0
+TopSpeed		 10.0
 END
 #-
 
@@ -17173,7 +16850,7 @@ Toughness            35
 Sprite               Ambulance
 SpriteScale          1.2
 Properties           Vehicle
-TopSpeed		 12.0
+TopSpeed		 10.0
 END
 #-
 
@@ -17217,7 +16894,7 @@ NumSlots             6
 Toughness            35
 Sprite               TroopTruck
 Properties           Vehicle
-TopSpeed		 12.0
+TopSpeed		 10.0
 END
 #-
 
@@ -19540,6 +19217,7 @@ Name                 FarmingField
 Properties          PrisonersCanWork
 Properties	    RequiresSector
 Qualification        FarmTraining
+Research             Farming
 VersionAdded        4000
 WorkExperience		WorkLabourer
 WorkExperienceRate	0.025
@@ -19608,8 +19286,9 @@ END
 BEGIN Room       
 Name                 VegetableAllotment
 Properties          PrisonersCanWork
-Properties	    RequiresSector
+Properties	    	RequiresSector
 Qualification        FarmTraining
+Research             Farming
 VersionAdded        4000
 WorkExperience		WorkLabourer
 WorkExperienceRate	0.025
@@ -19678,8 +19357,9 @@ END
 BEGIN Room       
 Name                 FruitOrchard
 Properties          PrisonersCanWork
-Properties	    RequiresSector
+Properties			RequiresSector
 Qualification        FarmTraining
+Research             Farming
 VersionAdded        4000
 WorkExperience		WorkLabourer
 WorkExperienceRate	0.025
@@ -19740,7 +19420,7 @@ END
 
 BEGIN Room       
 Name                 FlowerGarden
-Research             GroundsKeeping
+Research             Farming
 Properties           PrisonerRelax
 VersionAdded        4000
 
