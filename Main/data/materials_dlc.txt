@@ -677,8 +677,8 @@ Sprite          d_Drink
 END	
 Properties           Luxuries
 Properties			 NoImport
+Properties           Metal
 SearchChance		 0
-Properties			 BrewingItem
 Scale                0.700000  
 END
 #-
@@ -3073,6 +3073,7 @@ BEGIN Object
 	DLC					 PrisonWingPriviledges
 	Sprite 				 d_Canvas
 	ToolbarSprite		 d_CanvasToolbar
+	SpriteScale          0.8
 END
 #-
 
@@ -3242,6 +3243,7 @@ BEGIN Object
 	DLC					 PrisonWingPriviledges
 	Sprite 				 d_BirdCage
 	ToolbarSprite		 d_BirdCageToolbar
+	SpriteScale          0.8
 END
 #-
 
@@ -3517,6 +3519,8 @@ BEGIN Object
 		Sprite          d_Fan
 		ToolbarSprite	d_FanToolbar 
 	END 
+	SpriteScale          0.9
+	AttachToWall        true
 	RenderDepth 		 1
 	MadeOf               Composite
 	Properties           RadiatesHeat
@@ -7352,7 +7356,7 @@ BlockedBy            Wall
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
 Sprite               Bin
-SpriteScale          0.85
+SpriteScale          0.7
 MadeOf               Composite
 Properties           StaticObject
 Filter               Foliage
@@ -7379,6 +7383,8 @@ BEGIN SpriteBank
 	Sprite          d_RecyclingBin
 	ToolbarSprite   d_RecyclingBinToolbar
 END
+SpriteScale          0.7
+AttachToWall         true
 MadeOf               	Composite
 Properties           	StaticObject
 IndoorOutdoor			Either
@@ -9233,7 +9239,7 @@ AttachToWall         false
 BlockedBy            Wall
 BlockedBy            UtilityStation
 Sprite               FireSprinkler
-SpriteScale          0.6
+SpriteScale          0.5
 MadeOf               HollowMetal
 Properties           StaticObject
 Properties           DontAvoid
@@ -10295,7 +10301,7 @@ END
 #+健康监视器 $400
 BEGIN Object
 Name				HealthMonitor
-Filter 					Security
+Filter 				Security
 Filter              RequiresElectricity
 ConstructionTime	7.00000
 Toughness			100.000
@@ -17163,6 +17169,7 @@ BEGIN Grading		Type	Item    Id		OldBed Alt Mattress Multi true Quantity 1 GradeE
 BEGIN Grading		Type	Item    Id		OldBed Alt Mattress Multi true Quantity 2 GradeEffect -1	 END
 BEGIN Grading		Type	Item    Id		OldBed Alt Mattress Multi true Quantity 3 GradeEffect -1	 END
 BEGIN Grading		Type	Item    Id		OldBed Alt Mattress Multi true Quantity 4 GradeEffect -1	 END
+
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
 BEGIN Grading		Type	HasGlassWalls Percent 50	GradeEffect -1		END
 BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
@@ -17239,7 +17246,6 @@ BEGIN Grading       Type    RoomSize Size   9              END
 BEGIN Grading       Type    RoomSize Size   16              END
 BEGIN Grading       Type    OutsideWindow   Large true      END
 
-BEGIN Grading       Type    Item    Id      ComfyBed Alt SoftPillow Multi true END
 BEGIN Grading       Type    Item    Id      WoodenTable Alt OakTable,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      WoodenStool Alt OakBench,Chair,ChairYellow,MetalStool,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      ShowerHead Alt PersonalSink,BathroomSink,SinkMirror Multi true END
@@ -17254,9 +17260,13 @@ BEGIN Grading       Type    MultiItems  Quantity 5 END
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
 BEGIN Grading		Type	HasGlassWalls Percent 50	GradeEffect -1		END
 BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
+BEGIN Grading       Type    HasPASystem GradeEffect -1  END
+
 BEGIN Grading       Type    Item    Id      Mattress   GradeEffect -2    END 
 BEGIN Grading		Type	Item    Id		OldBed	   GradeEffect -1	 END
-BEGIN Grading       Type    HasPASystem GradeEffect -1  END
+BEGIN Grading		Type	Item    Id		Bed	   GradeEffect -0	 END
+BEGIN Grading       Type    Item    Id      ComfyBed Alt SoftPillow Multi true END
+
 END
 #-
 #-==
@@ -17662,7 +17672,6 @@ BEGIN Requirement Type MinimumSize x 3 y 3 END
 BEGIN Requirement Type Object  Id Light  Alt WallLight END
 BEGIN Requirement Type Object Id ShopShelf END
 BEGIN Requirement Type Object Id SnackMachine END
-BEGIN Requirement Type Object Id DrinkMachine END
 BEGIN Requirement Type AdjacentObject Id ShopFront END
 #-
 
@@ -17885,7 +17894,6 @@ BEGIN Grading       Type    MealQuality         END
 BEGIN Grading       Type    MealVariety         END
 
 BEGIN Grading       Type    Item    Id      Fan        END
-BEGIN Grading       Type    Item    Id      DrinkMachine  END
 BEGIN Grading       Type    Item    Id      SnackMachine  END
 BEGIN Grading       Type    Item    Id      Sprinkler  END
 BEGIN Grading       Type    Item    Id      WaterCooler Alt DrinkingFountain   END
@@ -18255,7 +18263,6 @@ BEGIN Grading      Type    Item    Id  DumbbellRack Alt WeightsBench,GymMat Quan
 BEGIN Grading      Type    Item    Id  PunchBag Alt TrainingDummy Quantity 4 Multi true          END
 BEGIN Grading      Type    Item    Id  BoxingRing          END
 BEGIN Grading       Type    Item    Id      PhoneBooth Quantity 4 END
-BEGIN Grading       Type    Item    Id      DrinkMachine  END
 BEGIN Grading       Type    Item    Id      SnackMachine  END
 
 BEGIN Grading       Type    MultiItems  Quantity 16 END
@@ -18484,6 +18491,8 @@ BEGIN LikelyObject  Id    PlantCactus             END
 BEGIN LikelyObject  Id    MetalDetector             END
 BEGIN LikelyObject  Id    ServoProxy             END
 BEGIN LikelyObject  Id    Sprinkler             END
+
+BEGIN LikelyObject	Id		HealthMonitor	END
 #-
 
 #+违禁品
