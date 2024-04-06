@@ -1,7 +1,7 @@
 ﻿#Mod
 
 object_jaildoorXL Jail Door XL
-buildtoolbar_popup_obj_jaildoorXL 超大的监狱门。
+buildtoolbar_popup_obj_jaildoorXL Oversized prison door.
 
 room_Accounting Accounting
 buildtoolbar_popup_room_accounting Accept accounting outsourcing services for medium-sized enterprises. \nLet prisoners perform simple and boring bookkeeping work. \n\nWork space: 12 square meters/per prisoner
@@ -35,165 +35,165 @@ interfacecallout_Hearse                  Hearse
 interfacecallout_NationalGuard 			National Guard
 
 research_Hitman Hitman
-researchtooltip_Hitman 监狱有机会与杀手组织秘密合作，把监狱变成绝佳的演练舞台。\n\n能够玩到几个风格各异的小游戏，从全新的角度感受你的监狱。\n关键词：钢琴线、变装、偷取、下毒、爆炸、越狱。\n\n在员工菜单雇佣“代号48”以开始一个任务。
+researchtooltip_Hitman The prison has the opportunity to cooperate secretly with the killer organization, turning the prison into an excellent training stage. \n\nYou can play several mini-games with different styles to experience your prison from a new perspective. \nKeywords: piano wire, cross-dressing, stealing, poisoning, explosion, jailbreak. \n\nHire "Codename 48" in the staff menu to start a mission.
 
 research_PrisonerEvaluation Prisoner Evaluation
-researchtooltip_PrisonerEvaluation 监狱的主要使命是降低囚犯们的再犯罪率。\n及时地评估囚犯能帮助你更好解决问题。\n\n · 解锁方案“近距离接触”\n · 解锁方案“危险座谈”\n · 解锁员工“大胆主持人”\n\n能够了解各个囚犯的“不满爆发点”和“再犯罪可能性”。
+researchtooltip_PrisonerEvaluation The main mission of prisons is to reduce the recidivism rate of prisoners. \nPromptly assessing prisoners can help you solve problems better. \n\n · Unlocking program "Close Contact"\n · Unlocking program "Dangerous Discussion"\n · Unlocking employee "Bold Host"\n\nBe able to understand each prisoner's "dissatisfaction flashpoint" and "possibility of re-offending" sex".
 
 research_PrisonerSorting Prisoner Sorting
-researchtooltip_PrisonerSorting 升级高端设备后，警卫终于能够能够清晰地观察囚犯。\n现在警卫可以在监控中识别出特定人群，并重新指定其戒备类别。
+researchtooltip_PrisonerSorting After upgrading to high-end equipment, guards were finally able to get a clear view of prisoners. \nNow guards can identify specific groups of people in surveillance and reassign their alert categories.
 
 objective_grant_visitation	[Mod] Prison visitation rights
-objective_grant_visitation_description	由于否认囚犯的探监权，这片地区里好多家其它监狱正面临诉讼。\n投资者不希望陷入丑闻，于是提供了这一补助，以确保功能齐备。\n在探监室里，安装会客桌或更安全的探监柜台。\n此外，为了基本的声誉，也补充一些娱乐设施吧。\n它们可以安装在庭院、食堂或公共活动室。
-objective_grant_visitation_room	建造 探监室
-objective_grant_visitation_tables	至少接受 5 人探监
-objective_grant_visitation_commonroom	安装3张 举重床
-objective_grant_visitation_pooltable	安装1张 台球桌
-objective_grant_visitation_tv	安装1台 大电视
-objective_grant_visitation_phones	安装5个 电话亭
+objective_grant_visitation_description	Several other prisons in the area are facing lawsuits over denying inmates visitation rights. \nInvestors did not want to be caught in a scandal, so they provided this subsidy to ensure full functionality. \nIn visiting rooms, install reception desks or more secure visiting counters. \nIn addition, for the sake of basic reputation, some entertainment facilities should also be added. \nThey can be installed in courtyards, canteens or public activity rooms.
+objective_grant_visitation_room	Construction Visiting Room
+objective_grant_visitation_tables	Accept at least 5 people to visit the prison
+objective_grant_visitation_commonroom	Install 3 weight benches
+objective_grant_visitation_pooltable	Install 1 pool table
+objective_grant_visitation_tv	Install 1 large TV
+objective_grant_visitation_phones	Install 5 phone booths
 
 objective_grant_enhancedsecurity	[Mod] Government Security Rating
-objective_grant_enhancedsecurity_description	政府对超过特定规模的监狱有特定安全要求，\n并会重罚那些不合标准的监狱。\n确保这方面不出现问题。
-objective_grant_enhancedsecurity_armoury	建造 枪械库
-objective_grant_enhancedsecurity_kennel	建造 狗舍
-objective_grant_enhancedsecurity_guards	雇用2名 武装警卫
-objective_grant_enhancedsecurity_dogs	雇用2名 训犬员
-objective_grant_enhancedsecurity_patroldogs	指派2名 训犬员(警犬) 巡逻
-objective_grant_enhancedsecurity_patrolarmed	指派3名 武装警卫 巡逻
+objective_grant_enhancedsecurity_description	The government has specific security requirements for prisons over a certain size and imposes heavy fines on those that do not meet standards. \nMake sure there are no problems in this area.
+objective_grant_enhancedsecurity_armoury	Build an armory
+objective_grant_enhancedsecurity_kennel	build kennel
+objective_grant_enhancedsecurity_guards	Hire 2 guards
+objective_grant_enhancedsecurity_dogs	Hire 2 dog trainers
+objective_grant_enhancedsecurity_patroldogs	Assign 2 police dogs to patrol
+objective_grant_enhancedsecurity_patrolarmed	Assign 3 armed guards to patrol
 
 objective_grant_advancedsecurity	[Mod] Security Infrastructure
-objective_grant_advancedsecurity_description	保证大量囚犯的妥善监禁会相当困难。\n但是比实施安保措施的代价，囚犯突破防卫造成的代价要大得多。\n在你的监狱中配置必要的人力和装备。
-objective_grant_advancedsecurity_guards	雇用20名 警卫
-objective_grant_advancedsecurity_researchcctv	通过[行政系统]解锁“监控”
-objective_grant_advancedsecurity_researchbodyarmour	通过[行政系统]解锁“护甲”
-objective_grant_advancedsecurity_researchtazers	通过[行政系统]解锁“电击枪”
-objective_grant_advancedsecurity_office	建造 警卫室
-objective_grant_advancedsecurity_cctvmonitor	通过[行政系统]解锁“推广电击枪”
-objective_grant_advancedsecurity_cctvcameras	令10名警卫通过 警卫电击枪认证
+objective_grant_advancedsecurity_description	Ensuring the proper confinement of large numbers of prisoners can be difficult. \nBut compared with the cost of implementing security measures, the cost of prisoners breaking through the defense is much greater. \nAssemble the necessary manpower and equipment in your prison.
+objective_grant_advancedsecurity_guards	Hire 20 guards
+objective_grant_advancedsecurity_researchcctv	Unlock "Monitor" through [Administrative System]
+objective_grant_advancedsecurity_researchbodyarmour	Unlock "Armor" through [Administrative System]
+objective_grant_advancedsecurity_researchtazers	Unlock "Stun Gun" through [Administrative System]
+objective_grant_advancedsecurity_office	build guardhouse
+objective_grant_advancedsecurity_cctvmonitor	Unlock "Promote Stun Gun" through [Administrative System]
+objective_grant_advancedsecurity_cctvcameras	Passed security stun gun certification for 10 guards
 
 objective_grant_SecurityOutdoor [Mod] Remote Security Force
-objective_grant_SecurityOutdoor_description 在户外，狙击手可以大范围压制不安分的囚犯。\n虽然他们的薪酬很高，但完全值得。
-objective_grant_SecurityOutdoor_GuardTowers 通过[行政系统]解锁“警戒塔”
-objective_grant_SecurityOutdoor_GuardTower 安装1座 警戒塔
-objective_grant_SecurityOutdoor_Sniper 雇用1名 狙击手
+objective_grant_SecurityOutdoor_description Outdoors, snipers can suppress restless prisoners over a wide area. \nAlthough their salary is high, it is completely worth it.
+objective_grant_SecurityOutdoor_GuardTowers Unlock "Guard Tower" through [Administrative System]
+objective_grant_SecurityOutdoor_GuardTower Install 1 guard tower
+objective_grant_SecurityOutdoor_Sniper Hire a sniper
 
 objective_grant_SecurityTunnel [Mod] Impregnable
-objective_grant_SecurityTunnel_description 对于追求自由的囚犯，巡逻的警备力量是头号大敌。\n在牢房周围，让警卫和警犬在夜间巡逻，以便及时发现越狱活动。
-objective_grant_SecurityTunnel_Dog 指派6名 训犬员(警犬) 巡逻
-objective_grant_SecurityTunnel_Guard 指派12名 警卫 巡逻
-objective_grant_SecurityTunnel_ArmedGuard 指派4名 武装警卫 巡逻
+objective_grant_SecurityTunnel_description For prisoners pursuing freedom, patrolling security forces are the number one enemy. \nAllow guards and police dogs to patrol around the cell at night to detect prison break activities in time.
+objective_grant_SecurityTunnel_Dog Assign 6 dog handlers (police dogs) to patrol
+objective_grant_SecurityTunnel_Guard Assign 12 guards to patrol
+objective_grant_SecurityTunnel_ArmedGuard Assign 4 armed guards to patrol
 
 objective_grant_securityoffice1 [Mod] Guardhouse Ⅰ
-objective_grant_securityoffice1_description 让待命的警卫和武装警卫有一个据点。\n警卫室最适合位于容易发生事端的区域附近。\n这里也是远程管理门禁的重要地点。
-objective_grant_SecurityOffice1_office 建造 警卫室
-objective_grant_SecurityOffice1_RemoteAccess 通过[行政系统]解锁“遥控”
-objective_grant_SecurityOffice1_DoorControlSystem 在警卫室，安装1台 门禁系统
-objective_grant_SecurityOffice1_RemoteDoor 安装2个 遥控门
-objective_grant_SecurityOffice1_Servo 安装4个 门禁控制器
+objective_grant_securityoffice1_description Allow the on-call guards and armed guards to have a stronghold. \nGuard rooms are best located near trouble-prone areas. \nThis is also an important location for remote management of access control.
+objective_grant_SecurityOffice1_office build guardhouse
+objective_grant_SecurityOffice1_RemoteAccess Unlock "Remote Control" through [Administrative System]
+objective_grant_SecurityOffice1_DoorControlSystem In the guard room, install an access control system
+objective_grant_SecurityOffice1_RemoteDoor Install 2 remote doors
+objective_grant_SecurityOffice1_Servo Install 4 access controllers
 
 objective_grant_securityoffice2 [Mod] Guardhouse Ⅱ
-objective_grant_securityoffice2_description 违禁品是监狱里各种动荡的催化剂。\n为了充分地预防和搜查它们，你需要更好地获取情报。
-objective_grant_SecurityOffice_contraband 通过[行政系统]解锁“情报”
-objective_grant_SecurityOffice_Cctv 通过[行政系统]解锁“监控”
-objective_grant_SecurityOffice_PhoneMonitor 在警卫室，安装1台 电话窃听器 (基础设施)
+objective_grant_securityoffice2_description Contraband is a catalyst for all kinds of unrest in prisons. \nTo adequately prevent and search for them, you need better intelligence.
+objective_grant_SecurityOffice_contraband Unlock "Intelligence" through [Administrative System]
+objective_grant_SecurityOffice_Cctv Unlock "Monitor" through [Administrative System]
+objective_grant_SecurityOffice_PhoneMonitor In the guard room, install a phone bug (infrastructure)
 
 objective_grant_securityoffice3 [Mod] Guardhouse Ⅲ
-objective_grant_securityoffice3_description 我们不希望忽视在监狱这种地方里留下监视的死角。\n在缺少警卫巡逻的角落，安装一些摄像头。
-objective_grant_SecurityOffice_cctvmonitor 在警卫室，安装1台 监控监视器
-objective_grant_SecurityOffice_cctvcameras 在监狱各处，安装4台 监控摄像头
+objective_grant_securityoffice3_description We don't want to overlook the blind spots that leave surveillance in places like prisons. \nInstall some cameras in corners where there is a lack of guard patrols.
+objective_grant_SecurityOffice_cctvmonitor In the guard room, install a surveillance monitor
+objective_grant_SecurityOffice_cctvcameras Install 4 surveillance cameras throughout the prison
 
 objective_grant_educationreformprogram	[Mod] Education transformation
-objective_grant_educationreformprogram_description	一个著名的运动团体正在执行一个大规模社会实验。\n它考察的是教育对囚犯的再犯罪率的影响。\n设立一些教室，并开始教育你的囚犯。
-objective_grant_educationreformprogram_research	通过[行政系统]解锁“教育”
-objective_grant_educationreformprogram_classroom	建造 教室
-objective_grant_educationreformprogram_desks	安装10张 课桌
-objective_grant_educationreformprogram_foundationed	令10个囚犯通过 基础教育课程 方案
-objective_grant_educationreformprogram_generaled	让1个囚犯通过 普通教育课程 方案
-objective_grant_educationreformprogram_generaled 在监狱各处，安装5个 小书架
+objective_grant_educationreformprogram_description	A prominent campaign group is conducting a massive social experiment. \nIt examines the impact of education on prisoners' recidivism rates. \nSet up some classrooms and start educating your prisoners.
+objective_grant_educationreformprogram_research	Unlock "Education" through [Administrative System]
+objective_grant_educationreformprogram_classroom	build classroom
+objective_grant_educationreformprogram_desks	Install 10 desks
+objective_grant_educationreformprogram_foundationed	Get 10 prisoners to pass the Basic Education Program
+objective_grant_educationreformprogram_generaled	Get 1 inmate to pass the General Education Program
+objective_grant_educationreformprogram_generaled Install 5 small bookshelves throughout the prison
 
 objective_grant_prisonlabour	[Mod] Prison production facility
-objective_grant_prisonlabour_description	投资人想让你提高监狱的盈利能力，愿意投资资金来帮你\n建造工坊，并将囚犯们转变为劳动力。
-objective_grant_prisonlabour_workshop	建造 工坊
-objective_grant_prisonlabour_saw	安装2个 锯木台
-objective_grant_prisonlabour_press	建造2个 电锯台
-objective_grant_prisonlabour_reform	让5个囚犯通过 工坊安全方案 方案
-objective_grant_prisonlabour_plates	制作40个 车牌
+objective_grant_prisonlabour_description	Investors want you to increase the prison's profitability and are willing to invest funds to help you build workshops and turn prisoners into a workforce.
+objective_grant_prisonlabour_workshop	construction workshop
+objective_grant_prisonlabour_saw	Install 2 sawmills
+objective_grant_prisonlabour_press	Build 2 chainsaw stations
+objective_grant_prisonlabour_reform	Get 5 prisoners through the Workshop Safety Plan
+objective_grant_prisonlabour_plates	Make 40 license plates
 
 objective_grant_furnituremanufacturing	[Mod] Carpentry Apprenticeship Program
-objective_grant_furnituremanufacturing_description	向囚犯们提供木工课程，传授出狱后能够用上的宝贵技能。\n让他们在工坊中制作高档家具，并且出售以增加收入。\n先建造林场，以生产原木。\n平均分成5片，按天分别种植，以稳定产量。
-objective_grant_furnituremanufacturing_forestry	建造第一个 林场
-objective_grant_furnituremanufacturing_forestrys 一共建造4个 林场
-objective_grant_FurnitureManufacturing_gardener 雇用4名 园丁
-objective_grant_furnituremanufacturing_table	安装2张 木工桌
-objective_grant_furnituremanufacturing_reform	令2个囚犯通过 木工学徒 方案
-objective_grant_furnituremanufacturing_Bed	制作10张 高级床
+objective_grant_furnituremanufacturing_description	Carpentry classes are provided to inmates to teach them valuable skills they can use after they are released from prison. \nLet them make high-end furniture in the workshop and sell it to increase income. \nBuild a forest farm first to produce logs. \nDivide it into 5 pieces on average and plant them separately on a daily basis to stabilize the yield.
+objective_grant_furnituremanufacturing_forestry	Build the first forest farm
+objective_grant_furnituremanufacturing_forestrys Build a total of 4 forest farms
+objective_grant_FurnitureManufacturing_gardener Hire 4 gardeners
+objective_grant_furnituremanufacturing_table	Install 2 carpentry tables
+objective_grant_furnituremanufacturing_reform	Passed 2 prisoners through carpentry apprenticeship scheme
+objective_grant_furnituremanufacturing_Bed	Make 10 Premium Beds
 
 objective_grant_shortterminvestment	[Mod] Short-term investments
-objective_grant_shortterminvestment_description	付钱给一项短期投资，最终会带来与投资额相称的合理回报。\n\n等待: 72小时(3天)\n回报率: 3倍
-objective_grant_shortterminvestment_wait	等待资金回笼...
+objective_grant_shortterminvestment_description	Paying money for a short-term investment that will eventually provide a reasonable return commensurate with the amount invested. \n\nWait: 72 hours (3 days)\nReturn rate: 3 times
+objective_grant_shortterminvestment_wait	Waiting for funds to be withdrawn...
 
 objective_grant_longterminvestment	[Mod] Long-term investment
-objective_grant_longterminvestment_description	付钱给一项长期投资，最终会带来与投资额相称的可观回报。\n\n等待: 192小时(8天)\n回报率: 10倍
-objective_grant_longterminvestment_wait	等待资金回笼...
+objective_grant_longterminvestment_description	Paying money to a long-term investment will eventually bring a handsome return commensurate with the amount invested. \n\nWait: 192 hours (8 days)\nReturn rate: 10 times
+objective_grant_longterminvestment_wait	Waiting for funds to be withdrawn...
 
 objective_grant_Release1 [Mod] Release Ⅰ
-objective_grant_Release1_description 恭喜！这是从你的监狱释放的第一个犯人。
-objective_grant_Release1_JustTakeIt 领取这份额外的奖励吧。
+objective_grant_Release1_description Congratulations! This is the first prisoner released from your prison.
+objective_grant_Release1_JustTakeIt Claim this extra bonus.
 
 objective_grant_Release2 [Mod] Release Ⅱ
-objective_grant_Release2_description 除了到期放人，你更重要的职责是让他们有效地回归社会。\n政府希望从你监狱出来的囚犯的整体的再犯罪率足够低。\n(可以在屏幕左上角打开[监狱评级]来查看)\n\n除了压制和惩罚，也给囚犯们提供一些积极的改造项目。
-objective_grant_Release2_Population 释放10个囚犯
-objective_grant_Release2_ReoffendingRate 令整体的再犯罪率低于30%
+objective_grant_Release2_description In addition to releasing people upon expiration, your more important responsibility is to allow them to return to society effectively. \nThe government wants the overall recidivism rate of prisoners coming out of your prison to be low enough. \n(You can open [Prison Rating] in the upper left corner of the screen to view)\n\nIn addition to suppression and punishment, some positive rehabilitation projects are also provided to the prisoners.
+objective_grant_Release2_Population Release 10 prisoners
+objective_grant_Release2_ReoffendingRate Keep the overall recidivism rate below 30%
 
 objective_grant_Release3 [Mod] Release Ⅲ
-objective_grant_Release3_description 再接再厉。\n保持你对监狱秩序的控制力。\n并且提供更多改造项目，让囚犯们改头换面。
-objective_grant_Release3_Population 释放50个囚犯
-objective_grant_Release3_ReoffendingRate 令整体的再犯罪率低于25%
+objective_grant_Release3_description Make persistent efforts. \nRemain in control of your prison order. \nAnd provide more rehabilitation projects to allow prisoners to change their appearance.
+objective_grant_Release3_Population Release 50 prisoners
+objective_grant_Release3_ReoffendingRate Keep the overall recidivism rate below 25%
 
 objective_grant_Release4 [Mod] Release Ⅳ
-objective_grant_Release4_description 你的监狱对社会有重要意义。\n政府期待你更上一层楼。\n补充并优化你监狱里的方方面面。\n用无懈可击的秩序和丰富多样的改造项目，让囚犯们洗心革面。
-objective_grant_Release4_Population 释放200个囚犯
-objective_grant_Release4_ReoffendingRate 令整体的再犯罪率低于20%
+objective_grant_Release4_description Your prison has great significance to society. \nThe government looks forward to your advancement. \nSupplement and optimize every aspect of your prison. \nUse impeccable order and a variety of rehabilitation projects to reform the prisoners.
+objective_grant_Release4_Population Release 200 prisoners
+objective_grant_Release4_ReoffendingRate Keep the overall re-offending rate below 20%
 
 objective_grant_Parole1 [Mod] Parole Ⅰ
-objective_grant_Parole1_description 囚犯会给你带来每日收入，但让他们早点离开同样有利可图。\n政府非常鼓励这种多方共赢的结果。
-objective_grant_Parole1_ParoleRoom 建造 假释听证室
-objective_grant_Parole1_Passed 令5个囚犯通过 假释听证会
+objective_grant_Parole1_description Prisoners will bring you daily income, but getting them out early is just as profitable. \nThe government strongly encourages this kind of win-win result for all parties.
+objective_grant_Parole1_ParoleRoom Construction of Parole Hearing Room
+objective_grant_Parole1_Passed Put 5 prisoners through parole hearings
 
 objective_grant_Parole2 [Mod] Parole Ⅱ
-objective_grant_Parole2_description 扩大你的假释成果。\n但政府不会乐意见到这个好意被滥用。\n只有当再犯罪率非常低时，你才会得到这份奖励。\n在[政策]标签页里，下调“假释放行基准线”
-objective_grant_Parole2_Passed 令20个囚犯通过 假释听证会
-objective_grant_Parole2_ReoffendingRate 令整体的再犯罪率低于15%
+objective_grant_Parole2_description Expand your parole outcomes. \nBut the government will not be happy to see this good intention being abused. \nYou will only receive this reward if your recidivism rate is very low. \nIn the [Policy] tab, lower the "Fake Release Baseline"
+objective_grant_Parole2_Passed Put 20 prisoners through parole hearings
+objective_grant_Parole2_ReoffendingRate Keep the overall recidivism rate below 15%
 
 objective_grant_Parole3 [Mod] Parole Ⅲ
-objective_grant_Parole3_description 你能为了社会更加美好而做出卓越的贡献吗？\n相应地，奖励会很丰厚。\n接受挑战吧！
-objective_grant_Parole3_Passed 令100个囚犯通过 假释听证会
-objective_grant_Parole3_ReoffendingRate 令整体的再犯罪率低于10%
+objective_grant_Parole3_description Can you make an outstanding contribution to make society better? \nAccordingly, the rewards will be generous. \nAccept the challenge!
+objective_grant_Parole3_Passed Put 100 prisoners through parole hearings
+objective_grant_Parole3_ReoffendingRate Keep the overall recidivism rate below 10%
 
 objective_Grant_FireProtection [Mod] Fire Protection
-objective_Grant_FireProtection_description “防患于未然”，防火于未燃。\n虽然火灾的发生概率很低，万一不幸发生了，\n你会蒙受相当大的损失。\n在厨房等房间安装一些喷水灭火器，\n以便在消防队到来之前控制火势，减少损失。
-objective_Grant_FireProtection_Sprinkler 安装10个 喷水灭火器
+objective_Grant_FireProtection_description "Nip trouble in the bud" and prevent fire before it burns. \nAlthough the probability of fire is very low, if unfortunately it happens, \nyou will suffer considerable losses. \nInstall some sprinkler fire extinguishers in rooms such as the kitchen to control the fire and reduce losses before the fire brigade arrives.
+objective_Grant_FireProtection_Sprinkler Install 10 sprinklers
 
 objective_Grant_SmallIsBeautiful [Mod] Get twice the result with half the effort Ⅰ
-objective_grant_SmallIsBeautiful_description 建立一个小型监狱，并尽可能优化其安保配置。\n\n人工成本是现实中监狱运营的重点，也是私营监狱相比于\n国营监狱的主要优势。\n雇佣大量的警卫来维持秩序不算本事。\n你能只用1:5的警卫比例来管好囚犯们吗？\n\n【提示】为了最大化利用警卫，你需要——\n · 给警卫方便的休息手段。\n · 尽量避免警卫浪费精力在开门上。\n · 建设发达的道路网络，以便警卫及时赶赴事端现场。\n · 充分利用[部署时刻盘]。
-objective_Grant_SmallIsBeautiful_Prisoners 囚犯数至少 100
-objective_Grant_SmallIsBeautiful_Guards 警卫数少于 25
-objective_Grant_SmallIsBeautiful_ArmedGuard 武装警卫数少于 5
-objective_Grant_SmallIsBeautiful_Wait 至少保持3天
+objective_grant_SmallIsBeautiful_description Build a small prison and optimize its security configuration as much as possible. \n\nLabor costs are the focus of prison operations in reality and are also the main advantages of private prisons compared\n to state-run prisons. \nHiring a large number of guards to maintain order is not a skill. \nCan you manage the prisoners with only a 1:5 guard ratio? \n\n[Tip] In order to maximize the use of guards, you need to——\n · Give guards a convenient way to rest. \n · Try to prevent the guard from wasting energy opening the door. \n · Build a well-developed road network so that guards can rush to the scene of the incident in a timely manner. \n · Make full use of [Deployment Time Disk].
+objective_Grant_SmallIsBeautiful_Prisoners The number of prisoners must be at least 100
+objective_Grant_SmallIsBeautiful_Guards Number of guards is less than 25
+objective_Grant_SmallIsBeautiful_ArmedGuard There are less than 5 armed guards
+objective_Grant_SmallIsBeautiful_Wait Keep it for at least 3 days
 
 objective_Grant_SmallIsBeautiful2 [Mod] Get twice the result with half the effort Ⅱ
-objective_grant_SmallIsBeautiful2_description 建立一个中型监狱，并尽可能优化其安保配置。\n\n人工成本是现实中监狱运营的重点，也是私营监狱相比于\n国营监狱的主要优势。\n雇佣大量的警卫来维持秩序不算本事。\n你能只用1:5的警卫比例来管好囚犯们吗？\n\n【提示】为了最大化利用警卫，你需要——\n · 给警卫方便的休息手段。\n · 尽量避免警卫浪费精力在开门上。\n · 建设发达的道路网络，以便警卫及时赶赴事端现场。\n · 充分利用[部署时刻盘]。
-objective_Grant_SmallIsBeautiful2_Prisoners 囚犯数至少 200
-objective_Grant_SmallIsBeautiful2_Guards 警卫数少于 50
-objective_Grant_SmallIsBeautiful2_ArmedGuard 武装警卫数少于 10
-objective_Grant_SmallIsBeautiful2_Wait 至少保持3天
+objective_grant_SmallIsBeautiful2_description Build a medium-sized prison and optimize its security configuration as much as possible. \n\nLabor costs are the focus of prison operations in reality and are also the main advantages of private prisons compared\n to state-run prisons. \nHiring a large number of guards to maintain order is not a skill. \nCan you manage the prisoners with only a 1:5 guard ratio? \n\n[Tip] In order to maximize the use of guards, you need to——\n · Give guards a convenient way to rest. \n · Try to prevent the guard from wasting energy opening the door. \n · Build a well-developed road network so that guards can rush to the scene of the incident in a timely manner. \n · Make full use of [Deployment Time Disk].
+objective_Grant_SmallIsBeautiful2_Prisoners Number of prisoners at least 200
+objective_Grant_SmallIsBeautiful2_Guards There are less than 50 guards
+objective_Grant_SmallIsBeautiful2_ArmedGuard There are less than 10 armed guards
+objective_Grant_SmallIsBeautiful2_Wait Keep it for at least 3 days
 
 objective_Grant_SmallIsBeautiful3 [Mod] Get twice the result with half the effort Ⅲ
-objective_grant_SmallIsBeautiful3_description 建立一个大型监狱，并尽可能优化其安保配置。\n\n人工成本是现实中监狱运营的重点，也是私营监狱相比于\n国营监狱的主要优势。\n雇佣大量的警卫来维持秩序不算本事。\n你能只用1:5的警卫比例来管好囚犯们吗？\n\n【提示】为了最大化利用警卫，你需要——\n · 给警卫方便的休息手段。\n · 尽量避免警卫浪费精力在开门上。\n · 建设发达的道路网络，以便警卫及时赶赴事端现场。\n · 充分利用[部署时刻盘]。
-objective_Grant_SmallIsBeautiful3_Prisoners 囚犯数至少 300
-objective_Grant_SmallIsBeautiful3_Guards 警卫数少于 75
-objective_Grant_SmallIsBeautiful3_ArmedGuard 武装警卫数少于 15
-objective_Grant_SmallIsBeautiful3_Wait 至少保持3天
+objective_grant_SmallIsBeautiful3_description Build a large prison and optimize its security configuration as much as possible. \n\nLabor costs are the focus of prison operations in reality and are also the main advantages of private prisons compared\n to state-run prisons. \nHiring a large number of guards to maintain order is not a skill. \nCan you manage the prisoners with only a 1:5 guard ratio? \n\n[Tip] In order to maximize the use of guards, you need to——\n · Give guards a convenient way to rest. \n · Try to prevent the guard from wasting energy opening the door. \n · Build a well-developed road network so that guards can rush to the scene of the incident in a timely manner. \n · Make full use of [Deployment Time Disk].
+objective_Grant_SmallIsBeautiful3_Prisoners Number of prisoners at least 300
+objective_Grant_SmallIsBeautiful3_Guards Guard count is less than 75
+objective_Grant_SmallIsBeautiful3_ArmedGuard There are less than 15 armed guards
+objective_Grant_SmallIsBeautiful3_Wait Keep it for at least 3 days
 
 #+===============================模组===============================
 
@@ -201,465 +201,465 @@ objective_Grant_SmallIsBeautiful3_Wait 至少保持3天
 #作弊组件 
 Start
 object_CheatWorkman						CheatWorkman
-buildtoolbar_popup_staff_CheatWorkman	一个作弊用的工人，被yuanze31用于调试组件时使用，非常不推荐正常游玩时使用
+buildtoolbar_popup_staff_CheatWorkman	A worker for cheating, used by Yuanze31 when debugging components. It is highly not recommended for normal play.
 #作弊组件 End
 
 # 劳工 Start
 object_Laborer							Laborer
-buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。\n\n- 略微带有作弊之意，可以按照自身喜好选择是否使用
+buildtoolbar_popup_staff_Laborer		No one uses the workshop? Let these workers help you create more income. \n\n- Slightly cheating, you can choose whether to use it according to your own preferences.
 # 劳工 End
 
 # 新增的动作,见 needs.txt
-action_ReadBook2 读书
-action_Diary 写日记
-action_WashingHand 洗手
-job_custom_DoctorCalled 医生被呼叫
-# 这些并不会显示出来，但还是写了
-action_KeepTidy 保持清洁
-action_TouchNature 接触自然
+action_ReadBook2 Read
+action_Diary Write diary
+action_WashingHand Handwashing
+job_custom_DoctorCalled Doctor is called
+# 这些并不会显示出来
+action_KeepTidy Keep clean
+action_TouchNature Contact with nature
 
-object_Reinstall 重新安装
-buildtoolbar_popup_staff_Reinstall 在转动或移动物品后，它可能会出现奇怪的问题。
+object_Reinstall Re-install
+buildtoolbar_popup_staff_Reinstall After turning or moving an item, it may behave strangely.
 
 object_MisconductMarker Misconduct Marker
 
-ec__active 瞬移见证人: *B
-ec__tt_on \n这是你真正用来执行死刑的一部电椅。\n见证人会被瞬移过来。
-ec__tt_off \n这并不用来执行死刑。
-w__ttt 悬停提示关于: *T
-w__ttt/sick 疾病点数
-w__ttt/rc 再犯罪可能性
-w__ttt/bp 不满爆发点
-w__tt/sick \n囚犯平均疾病点数: *A\n一般或壮硕体型比例: *G%\n\n今天的医疗费用: *H 元
-w__tt/rc/outside \n今天评估 *X 人次\n产生奖金 *Y 元
-w__tt/rc/no \n今天评估 *X 人次\n产生奖金 *Y 元\n\n(待在办公室里时，无法评估囚犯)
-w__tt/bp \n囚犯平均不满爆发点: *A\n为100者的比例: *F%
-ptt/sick/init \n疾病点数: *P\n【疾病点数变化累计】\n · 锻炼: *X\n · 食物: *F\n · 受伤: *L
-ptt/sick/damaged \n疾病点数: *P\n【疾病点数变化累计】\n · 锻炼: *X\n · 食物: *F\n · 受伤: *L\n\n上次疾病伤害: *D%\n发生在 *A 天前
-ptt/rc/no \n【再犯罪可能性】\n(典狱长尚未评估)
-ptt/rc/first \n【再犯罪可能性】\n · 最初: *F%\n\n(这是第一次评估)
-ptt/rc/no_bonus \n【再犯罪可能性】\n · 最初: *F%\n · 最低: *L%\n   *D 天里，取得进步 *I%\n   (尚未产生进步奖金)
-ptt/rc/bonus \n【再犯罪可能性】\n · 最初: *F%\n · 最低: *L%\n   *D 天里，取得进步 *I%\n   == 产生进步奖金 *B 次 ==
-ptt/bp/always_full \n【不满爆发点】\n · 最低: *A\n   (始终是满的)
-ptt/bp/other \n【不满爆发点】\n · 最低: *A\n · 最新: *B
-w__change_sickness_difficulty 疾病难度系数: *N
-food_st_tt \n当前伙食政策评分: *R\n囚犯的疾病点数每天 *D
-BodyBonus_tt \n囚犯的体型发生了可喜的改变。\n从原本的 *O 变成了现在的 *N\n\n奖金: *M 元
+ec__active Teleportation witness: *B
+ec__tt_on \nThis is the electric chair you actually use to carry out executions. \nWitnesses will be teleported over.
+ec__tt_off \nThis is not used to carry out executions.
+w__ttt Hover Tips About: *T
+w__ttt/sick Disease points
+w__ttt/rc Likelihood of re-offending
+w__ttt/bp Point of dissatisfaction
+w__tt/sick \nAverage disease points of prisoners: *A\nAverage or strong body proportions: *G%\n\nToday’s medical expenses: *H 元
+w__tt/rc/outside \nAssess today *X Number of people\nGenerate bonus *Y $
+w__tt/rc/no \nAssess today *X Number of people\nGenerate bonus *Y $\n\n(Unable to assess prisoners while in office)
+w__tt/bp \n Average prisoner dissatisfaction breaking point: *A\nis the proportion of 100: *F%
+ptt/sick/init \nDisease points: *P\n【Cumulative disease point changes】\n · Exercise: *X\n · Food: *F\n · Injuried: *L
+ptt/sick/damaged \nDisease points: *P\n【Cumulative disease point changes】\n · Exercise: *X\n · Food: *F\n · Injuried: *L\n\nLast disease injury: *D%\nOccurred *A days ago
+ptt/rc/no \n【Likelihood of re-offending】\n(The warden has not yet evaluated)
+ptt/rc/first \n【Likelihood of re-offending】\n · First: *F%\n\n(This is the first evaluation)
+ptt/rc/no_bonus \n【Likelihood of re-offending】\n · First: *F%\n · Lowest: *L%\n   *D days, progress *I%\n   (Progress bonus has not been generated yet)
+ptt/rc/bonus \n【Likelihood of re-offending】\n · First: *F%\n · Lowest: *L%\n   *D days, progress *I%\n   == Generate progress bonus *B times ==
+ptt/bp/always_full \n【Point of dissatisfaction】\n · Lowest: *A\n   (always full)
+ptt/bp/other \n【Point of dissatisfaction】\n · Lowest: *A\n · Newest: *B
+w__change_sickness_difficulty Disease difficulty coefficient: *N
+food_st_tt \nCurrent Meal Policy Rating: *R\nPrisoner's disease points per day *D
+BodyBonus_tt \nThe prisoner's body shape has undergone gratifying changes. \nFrom the original *O to the current *N\n\nBonus: *M yuan
 
-bodytype_fat 肥胖
-bodytype_thin 瘦小
-bodytype_average 一般
-bodytype_strong 壮硕
-object_bodybonus0 塑身奖励A($5)
-object_bodybonus2 塑身奖励B($5)
-object_bodybonus3 塑身奖励C($5)
+bodytype_fat Fat
+bodytype_thin Thin
+bodytype_average Average
+bodytype_strong Strong
+object_bodybonus0 Body Bonus A($5)
+object_bodybonus2 Body Bonus B($5)
+object_bodybonus3 Body Bonus C($5)
 
-w__define_sleep_title 定义睡眠时间段：
-w__sleep_start_at 开始于 *N 点
-w__sleep_end_at 结束于 *N 点
-w__toggle_fast_sleep 启用睡眠加速: *B
-w__start 开始加速(测试用)
-w__stop 停止加速
-w__continue 继续加速
-w__timewarping 是否正在加速睡眠: *B
-w__need_ImmediateObjects 必须启用 ImmediateObjects
+w__define_sleep_title Define sleep period：
+w__sleep_start_at Start at *N point
+w__sleep_end_at End at *N point
+w__toggle_fast_sleep Enable sleep acceleration: *B
+w__start Start Accelerating (for testing)
+w__stop Stop Accelerating
+w__continue Continue to accelerate
+w__timewarping Whether it is accelerating sleep: *B
+w__need_ImmediateObjects Must be enabled ImmediateObjects
 object_TimeWarpNeedModifier TimeWarp\nNeedModifier
-buildtoolbar_popup_obj_TimeWarpNeedModifier 用于在“睡眠加速”时，同比例地加速改变囚犯的“睡眠”等需求。\n\n睡眠加速的基本效果仅仅是让时钟走得更快，而不影响需求的增减。\n这会导致囚犯的“睡眠”和“舒适”得不到满足，且其它需求增长太少。\n所以，必须给每张床临时配有这个对象，以影响牢房内囚犯的需求。\n在定义的“睡眠时间段”开始时，这些对象会被自动批量生成。\n如果你很好奇，那么可以试试它的巨大威力。\n显然，正常情况下你永远不该手动建造它。
+buildtoolbar_popup_obj_TimeWarpNeedModifier It is used to accelerate and change the prisoner's "sleep" and other needs in the same proportion during "sleep acceleration". \n\nThe basic effect of sleep acceleration is just to make the clock run faster, without affecting the increase or decrease in demand. \nThis will result in prisoners' "sleep" and "comfort" not being met, and other needs increasing too little. \nTherefore, each bed must be temporarily equipped with this object to affect the needs of the prisoners in the cell. \nAt the beginning of the defined "sleep period", these objects will be automatically generated in batches. \nIf you are curious, you can try its huge power. \nObviously, you should never build it manually under normal circumstances.
 
 
-object_Medicine1 [1级]创可贴(新)
-object_Medicine2 [2级]口服药(新)
-object_Medicine3 [3级]注射器(新)
-object_MedWaste1 [1级]创可贴(废弃)
-object_MedWaste2 [2级]口服药(废弃)
-object_MedWaste3 [3级]注射器(废弃)
+object_Medicine1 [Level 1] Band-Aid (New)
+object_Medicine2 [Level 2] Oral Drugs (New)
+object_Medicine3 [Level 3] Syringe (New)
+object_MedWaste1 [Level 1] Band-Aid (Abandoned)
+object_MedWaste2 [Level 2] Oral medicine (obsolete)
+object_MedWaste3 [Level 3] Syringe (discarded)
 
-medcab__level 治疗上限: *L 级
-medcab__level_no 治疗上限: 不治疗
-medcab__call_doctor_for_injured 为伤者呼叫医生: *B
-medcab__this_is_medicalward 这是医务室: *B
-medcab__call_range 检查范围: *R 米
-medcab__test 测试呼叫
-medcab__calling [已呼叫]
+medcab__level Treatment upper limit: *L level
+medcab__level_no Treatment upper limit: No treatment
+medcab__call_doctor_for_injured Call a doctor for the injured: *B
+medcab__this_is_medicalward This is the infirmary: *B
+medcab__call_range Check scope: *R meter
+medcab__test Test call
+medcab__calling [Called]
 
-doctor__tt \n今日已治疗 *X 分钟\n花费 *Y 元
+doctor__tt \nTreated today *X minute\nSpend *Y $
 
 object_CheatPrisonerMisbehavior [Cheat] Prisoner Misbehavior
-buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个特殊物品可以让囚犯们立即闹事。\n\n“安装”它后，点击它，在菜单中操作。
+buildtoolbar_popup_obj_CheatPrisonerMisbehavior This special item can cause prisoners to cause trouble in no time. \n\nAfter "installing" it, click on it and work in the menu.
 
 # 隐藏的对象
-equipment_SubmachineGun 冲锋枪
-equipment_torch 手电筒
-equipment_microphone 话筒
+equipment_SubmachineGun Submachine gun
+equipment_torch Flashlight
+equipment_microphone Microphone
 
 # Foreman: Change Grounds
 mc__sep ——————————
-mc__reinstall_passive 重新安装所有被动物品
-mc__reinstall_passive_waiting 等待安装所有被动物品
-mc__reminder 【提醒】最好先存一下档
-mc__current_border_type 当前边界: *N
-mc__change_border 改变边界为 *N
-mc__cannot_change_border 你已经扩张了边界
-mc__current_main_type 当前主体: *N
-mc__change_main 改变主体为 *N
-mc__toggle_grid 是否显示网格: *B
-mc__current_grid_type 当前网格: *N
-mc__change_grid 改变网格为 *N
+mc__reinstall_passive Reinstall all passive items
+mc__reinstall_passive_waiting Waiting for all passive items to be installed
+mc__reminder 【Warn】It's best to save it first
+mc__current_border_type Current boundary: *N
+mc__change_border Change the bounds to *N
+mc__cannot_change_border You have expanded your boundaries
+mc__current_main_type Current subject: *N
+mc__change_main Change the subject to *N
+mc__toggle_grid Whether to display the grid: *B
+mc__current_grid_type current grid: *N
+mc__change_grid Change the grid to *N
 
 # Chief: Fight Corruption
 Object_MusterGuards Muster Guards
-fc__toggle_corruption 腐败斗争: *B
-fc__add_corrupt_guard [作弊]增加腐败的警卫
-fc__muster_corrupt_guards [作弊]调查所有腐败的警卫
-fc__change_corruption_difficulty 腐败难度系数: *N
-chief__tt__fc_off \n已禁用“腐败斗争”玩法\n所有的警卫都会永远安分守己\n很无趣，不是吗？
-chief__tt__fc_on \n目前腐败警卫数: *N\n整体腐败水平: *L\n\n已调查 *I 人次\n整顿腐败的警卫 *G 人\n正确率 *R%
-fc__tt__bonus \n【腐败报告】\n腐败水平: *L\n勒索 *X 次\n殴打 *B 次\n被反击 *F 次\n所得金额 $*M
-fc__tt__p \n【不满爆发点】\n · 最低: *A\n · 最新: *B\n\n被警卫勒索了 *X 次\n反击 *F 次\n损失金额 $*M\n\n最近被勒索于 *L 分钟前
-object_DiciplineBonus 腐败警卫\n整顿奖励($2000)
+fc__toggle_corruption Fight against corruption: *B
+fc__add_corrupt_guard [Cheating]Add corrupt guards
+fc__muster_corrupt_guards [Cheating]Investigate all corrupt guards
+fc__change_corruption_difficulty Corruption Difficulty Coefficient: *N
+chief__tt__fc_off \nThe "Corruption Struggle" gameplay has been disabled\nAll guards will always stay on their toes\nIt's boring, isn't it?
+chief__tt__fc_on \nCurrent number of corrupt guards: *N\nOverall corruption level: *L\n\nInvestigated *I persons\nCorrupt guards *G persons\nCorrect rate *R%
+fc__tt__bonus \n【Corruption Report】\nCorruption level: *L\nExtortion *X times\nAssault *B times\nCountered *F times\nAmount earned $*M
+fc__tt__p \n【Flash point of dissatisfaction】\n · Lowest: *A\n · Latest: *B\n\nExtorted by guards *X times\nCountered *F times\nLoss amount $*M\n\nLatest Blackmailed *L minutes ago
+object_DiciplineBonus Corrupt Guard\nReinforcement Reward ($2000)
 
 object_AttentionToPrisoner Attention To Prisoner
 object_AttentionMarker Attention Marker
-buildtoolbar_popup_staff_AttentionToPrisoner 如果你需要长期对一个囚犯保持关注，那么你\n可以标记此人。\n\n本“员工”被放置后，会搜索附近0.8米内的囚犯。\n如果找到一个，那么会对其标记。\n\n如果启用作弊模式，那么你还可以点击本标记，\n在其菜单里，——\n · 让被标记的囚犯彼此攻击。\n   该囚犯一旦在5米内遭遇其他标记者，就会攻击。\n · 把囚犯变成死刑犯。\n   注意：此行为不可撤销。\n · 给囚犯增加多种特殊的状态效果。
+buildtoolbar_popup_staff_AttentionToPrisoner If you need to keep an eye on a prisoner for a long time, you\ncan tag that person. \n\nAfter this "employee" is placed, it will search for nearby prisoners within 0.8 meters. \nIf one is found, it will be marked. \n\nIf cheat mode is enabled, you can also click on this marker,\nand in its menu, -\n · Make marked prisoners attack each other. \n The prisoner will attack once he encounters another marked person within 5 meters. \n · Turn prisoners into death row. \n Note: This action cannot be undone. \n · Add a variety of special status effects to prisoners.
 
-attention_marker__delete 移除本标记
-attention_marker__attack_other 攻击其他标记者: *A
-attention_marker__deathrow_already 已经是死刑犯
-attention_marker__deathrow_set 变成死刑犯
-attention_marker__StatusEffects 【状态效果】
-attention_marker__calming (心灵)平静
-attention_marker__drunk 醉酒
-attention_marker__high (麻醉剂)亢奋
-attention_marker__foodpoisoning 食物中毒
-attention_marker__wounded 持续流血
-attention_marker__virusdeadly 致命病毒
+attention_marker__delete Remove this tag
+attention_marker__attack_other Attack other taggers: *A
+attention_marker__deathrow_already Already a death row prisoner
+attention_marker__deathrow_set become a death row prisoner
+attention_marker__StatusEffects 【Status effects】
+attention_marker__calming (Mind) Peace
+attention_marker__drunk Drunk
+attention_marker__high (Anesthetic)Excited
+attention_marker__foodpoisoning Food poisoning
+attention_marker__wounded Continuous bleeding
+attention_marker__virusdeadly Deadly virus
 
 
-reformprogram_Bookkeeping [制造]记账
-reformprogram_Bookkeeping_text 在会计外包业务中最简单的一种。单调、累人。\n非常适合尚且看得懂数字的囚犯们，不是吗？\n\n由于有资格的囚犯少，感兴趣的更少，所以本项目是强制性的。\n只有通过的囚犯才能进行“记账外包”打工。\n\n这让“[学术Ⅰ]基础教育项目”有了更大的价值。\n也让你在混乱的“工坊”制造之外多了一种挣钱的选择。\n并且，会计不会在平时闲着没事干了。
-object_AccountingBookUnfinished 账本(未处理)
-object_AccountingBookFinished 账本($85)
-object_AccountingBookFailed 账本(有错误)
-object_AccountingBookFailed2 账本(有错误)
-object_AccountingBookCorrecting 账本(修正中)
-ab__failed_tt__progress \n修正进度: *P%
-ab__accountant_tt__count \n今天修正账本数: *C
-ab__accountant_tt__notworking \n今天修正账本数: *C\n\n*P
-ab__accountant_tt__outside 不在办公室里
-ab__accountant_tt__night 现在是下班时间。你的会计坚决不肯加班。
-ab__accountant_tt__dead 死人显然是无法工作的。
-ab__accountant_tt__unconscious 先赶紧救治她吧。
+reformprogram_Bookkeeping [Manufacturing] Accounting
+reformprogram_Bookkeeping_text The simplest type of accounting outsourcing business. Monotonous and tiring. \nPerfect for prisoners who can still understand numbers, isn't it? \n\nSince there are few eligible inmates and even fewer are interested, this program is mandatory. \nOnly prisoners who pass the exam can work in "bookkeeping outsourcing". \n\nThis gives the "[Academic I] Basic Education Project" greater value. \nIt also gives you one more option to make money besides the chaotic "workshop" manufacturing. \nMoreover, accountants will no longer be idle.
+object_AccountingBookUnfinished Ledger (not processed)
+object_AccountingBookFinished Ledger($85)
+object_AccountingBookFailed Ledger (with errors)
+object_AccountingBookFailed2 Ledger (with errors)
+object_AccountingBookCorrecting Ledger (under revision)
+ab__failed_tt__progress \nCorrection progress: *P%
+ab__accountant_tt__count \nCorrection of ledger numbers today: *C
+ab__accountant_tt__notworking \nCorrection of ledger numbers today: *C\n\n*P
+ab__accountant_tt__outside not in the office
+ab__accountant_tt__night It's time to get off work. Your accountant is determined not to work overtime.
+ab__accountant_tt__dead Dead people obviously can't work.
+ab__accountant_tt__unconscious Let’s treat her quickly first.
 
 #- =============================================================================
 #+==========================杀手开始
 
 object_Avatar Codename 48
-buildtoolbar_popup_staff_Avatar 【新增玩法】\n某著名杀手的新人后辈。但在非工作时，喜欢老派的装扮。\n为了秘密任务，他可以轻易地潜入到各种“戒备森严”的禁区。\n他有多样的致命和非致命手法，是个艺术家。\n\n你暂时化身为他。用 WSAD 键控制移动。Shift键冲刺。\n他接触的第一个囚犯，将被标记为目标。\n然后，点击他，在弹出菜单选择任务类型，并按照步骤进行下去。\n\n此外，当他走到特定设施旁边，可以偷取物品。\n但为了避免暴露，在偷取时，应当尽量避开囚犯、员工和摄像头。\n\n大多数步骤中，可以变装。\n\n(无法同时“雇用”多个“代号48”)\n(你最好先存档)
-buildtoolbar_popup_help_Avatar_1 你不知道这是在致敬什么？\n你需要了解一下《杀手》系列及其主角“代号47”。\n\n这个玩法凝结了我对本游戏的潜力的多样探索。\n相信你会得到比“越狱模式”更多的乐趣。
+buildtoolbar_popup_staff_Avatar [New gameplay]\nA new junior of a famous killer. But when not working, I like to dress up old-school. \nFor secret missions, he can easily sneak into various "heavily guarded" restricted areas. \nHe has a variety of lethal and non-lethal techniques and is an artist. \n\nYou temporarily transform into him. Use the WSAD keys to control movement. Shift key sprint. \nThe first prisoner he comes into contact with will be marked as a target. \nThen, click on him, select the task type in the pop-up menu, and follow the steps. \n\nIn addition, when he walks next to certain facilities, he can steal items. \nBut in order to avoid exposure, you should try to avoid prisoners, employees and cameras when stealing. \n\nYou can cross-dress in most steps. \n\n(You cannot "hire" multiple "Codename 48" at the same time)\n(You'd better save it first)
+buildtoolbar_popup_help_Avatar_1 Don’t you know what this is a tribute to? \nYou need to know something about the "Hitman" series and its protagonist "Codename 47". \n\nThis gameplay condenses my diverse exploration of the potential of this game. \nI believe you will have more fun than "jailbreak mode".
 
-a48__menu__target_status__no \n未标记目标\n你接触的第一个活跃的囚犯，将被标记为目标。
-a48__at__need_select_mission \n已标记目标\n点击“48”，选择一个演练的任务\n\n每当你进行到新的任务步骤，记得悬停“48”，\n以查看新的指示！
+a48__menu__target_status__no \nUnmarked target\nThe first active prisoner you come into contact with will be marked as a target.
+a48__at__need_select_mission \nTarget marked\nClick "48" to select a walkthrough mission\n\nWhenever you reach a new mission step, remember to hover over "48"\n to see new instructions!
 
-a48__am__select_mission_option_title 【选择任务】
+a48__am__select_mission_option_title 【Select task】
 a48__am__title_name *N
-a48__am__title_step 【第*S步】
+a48__am__title_step 【Step *S】
 
-a48__at__desc \n*N\n【第*S步】\n\n*D
-a48__at__failed \n任务失败！\n\n幸好这只是秘密合作下的演练。\n比起你的那位前辈，果然还有差距啊。
-a48__am__abort X 终止任务并退场
-
-
-a48__mission_name_backstab 刺杀/偷袭
-a48__mission_name_scuffle 刺杀/混战
-a48__mission_name_food 刺杀/下毒
-a48__mission_name_fire 刺杀/火焚
-a48__mission_name_grenade 刺杀/手雷
-
-object_HitmanMarker 目标标记
-object_SightMarker 目击者视线
-object_TargetDirection 目标方向指示器
+a48__at__desc \n*N\n【Step *S】\n\n*D
+a48__at__failed \nMission failed! \n\nFortunately, this is just a secret cooperation exercise. \nCompared to your senior, there is indeed a gap.
+a48__am__abort X Terminate the task and exit
 
 
-a48__am__disguise_access \n此变装有利于拿取: *X%
-a48__am__disguise_access_none \n此变装不影响拿取……
-a48__am__witness_number 目击者数量: *X
-a48__am__exposure_rate 总的暴露概率: *X%
+a48__mission_name_backstab Assassination/Sneak Attack
+a48__mission_name_scuffle Assassination/Melee
+a48__mission_name_food Assassination/poisoning
+a48__mission_name_fire Assassination/burning
+a48__mission_name_grenade Assassination/Grenade
+
+object_HitmanMarker Target mark
+object_SightMarker Eyewitness sight
+object_TargetDirection Target direction indicator
+
+
+a48__am__disguise_access \nThis transformation is convenient for picking up: *X%
+a48__am__disguise_access_none \nThis disguise does not affect access……
+a48__am__witness_number Number of witnesses: *X
+a48__am__exposure_rate total exposure probability: *X%
 a48__am__sep ——————————
 
-a48__am__action_requirement_failed [需要先满足行动的前提]
-a48__am__far_from_target [需要先靠近目标]
+a48__am__action_requirement_failed [The prerequisites for action need to be met first]
+a48__am__far_from_target [Need to get closer to the target first]
 
-a48__fine__disguise \n你变装时暴露了。
-a48__fine__backstab \n偷袭失手了。你耻辱地落荒而逃。
-a48__fine__take_item \n你拿取东西时被目击。
-a48__fine__dead \n你死掉了。
-a48__fine__pursuit \n你没有跳脱警卫们的追捕。
-a48__fine__grenade \n这次高调行动的结果是失败的逃脱。
-a48__fine__outbreak \n即使在如此大的混乱中，\n目标还是没有成功逃脱。
+a48__fine__disguise \nYou were exposed while cross-dressing.
+a48__fine__backstab \nThe sneak attack failed. You fled in disgrace.
+a48__fine__take_item \nYou were witnessed while taking something.
+a48__fine__dead \nYou are dead.
+a48__fine__pursuit \nYou did not escape the pursuit of the guards.
+a48__fine__grenade \nThe result of this high-profile operation was a failed escape.
+a48__fine__outbreak \nEven in such chaos,\nthe target still failed to escape.
 
 
-a48__am__disguise_required [需要变装成 *X]
-a48__am__action_disguise 变装
-a48__am__hot_pursuit [警卫们在追捕你]
+a48__am__disguise_required [Need to dress up *X]
+a48__am__action_disguise Cross-dressing
+a48__am__hot_pursuit [The guards are after you]
 
-a48__am__target_strength 目标健壮度: *X
-a48__am__weapon 持有武器: *X
-a48__am__weapon_power 武器威力: *X
+a48__am__target_strength Target robustness: *X
+a48__am__weapon Possessing weapons: *X
+a48__am__weapon_power Weapon power: *X
 
-a48__am__view_angle 焦点人物的视角: *X 度
-a48__am__view_penalty 焦点人物的注意力: *X%
+a48__am__view_angle Focus Person's Perspective: *X 度
+a48__am__view_penalty Focus person's attention: *X%
 
-a48__am__success_rate 总成功率: *X%
+a48__am__success_rate Overall success rate: *X%
 
-a48__am__shackled [目标戴着镣铐]
-a48__am__prisoners_around_target 目标周围囚犯数: *C/*N *B
+a48__am__shackled [target in shackles]
+a48__am__prisoners_around_target Number of prisoners around the target: *C/*N *B
 
-a48__am__skip_step 跳过这个步骤
+a48__am__skip_step Skip this step
 
-a48__am__action_backstab 背后偷袭
-a48__am__action_scuffle 制造混战
-a48__am__action_playdead 制造混战
+a48__am__action_backstab Attack from behind
+a48__am__action_scuffle Create a melee
+a48__am__action_playdead Create a melee
 
-object_HitmanReward 杀手使命奖励($3000)
-object_HitmanFine 杀手使命罚款($-1000)
+object_HitmanReward Killer mission reward($3000)
+object_HitmanFine Killer mission fine($-1000)
 
-object_DeathFine 死亡罚款($-4000)
+object_DeathFine Death penalty($-4000)
 
-a48__am__has_item 物品 *X [已获得✔]
-a48__am__need_item 物品 *X 的来源有：
+a48__am__has_item Item *X [gained✔]
+a48__am__need_item Item *X The sources are：
 a48__am__item_source   · *X
-a48__am__take_item  拿取 *X
+a48__am__take_item  Take *X
 
-Object_Icon_GuardUniform 警卫制服
-Object_Icon_Shank 刃尖
-Object_Icon_Knife 小刀
-Object_Icon_Intercom 对讲机
-Object_Icon_MobilePhone 手机
-Object_Icon_Screwdriver 螺丝刀
-Object_Icon_Dynamite 炸药
-Object_Icon_Lighter 打火机
-Object_Icon_Ingredient 食材
-Object_Icon_Poison 毒物
-Object_Icon_Medicine 药物
-Object_Icon_Needle 注射器
-Object_Icon_Scissors 小剪刀
+Object_Icon_GuardUniform GuardUniform
+Object_Icon_Shank Shank
+Object_Icon_Knife Knife
+Object_Icon_Intercom Intercom
+Object_Icon_MobilePhone MobilePhone
+Object_Icon_Screwdriver Screwdriver
+Object_Icon_Dynamite Dynamite
+Object_Icon_Lighter Lighter
+Object_Icon_Ingredient Ingredient
+Object_Icon_Poison Poison
+Object_Icon_Medicine Medicine
+Object_Icon_Needle Needle
+Object_Icon_Scissors Scissors
 
-Object_Icon_Flammable 易燃溶剂
+Object_Icon_Flammable Flammable solvents
 
-object_Icon_FakeExtinguisher 假灭火器(遥控炸弹)
+object_Icon_FakeExtinguisher Fake fire extinguisher (remote control bomb)
 
-a48__at__target_dead \n目标死亡。\n\n你唯一能做的事只剩下“终止任务”了。
-a48__at__need_disguise 你需要先变装
+a48__at__target_dead \nTarget dies. \n\nThe only thing you can do is "terminate the mission".
+a48__at__need_disguise You need to dress up first
 
-a48__menu__action_Backstab 背后偷袭目标(成功率 *R%)
-a48__at__desc_backstab_1 你原本就带着隐蔽性极高的钢琴线\n但你最好去厨房、工坊更换更强的武器\n\n首先，点击“代号48”，打开菜单\n\n武器的威力依次为：\n钢琴线<小刀<刃尖\n\n有时你在拿取时无法避开目击者，\n所以需要先到别处进行适当的变装。\n变装同样有暴露的可能。\n不过即使暴露了，也只是罚款而已，\n所以大胆尝试不同的变装吧！
-a48__at__desc_backstab_2 当四下无人的时候，从背后一击毙命。\n注意目标面朝的方向。
-a48__reward__backstab \n你低调地解决了目标。
+a48__menu__action_Backstab Sneak attack on the target from behind (success rate *R%)
+a48__at__desc_backstab_1 You originally carried a highly concealable piano wire\nBut you'd better go to the kitchen or workshop to change to a stronger weapon\n\nFirst, click "Codename 48" to open the menu\n\nThe power of the weapon is in order For:\nPiano Wire<Pocket Knife<Blade Tip\n\nSometimes you can't avoid witnesses when taking it,\nso you need to make appropriate disguises elsewhere first. \nCross-dressing also has the potential to be exposed. \nBut even if you are exposed, you will only be fined,\nso be bold and try different cross-dressings!
+a48__at__desc_backstab_2 When no one is around, kill him with one blow from behind. \nPay attention to the direction the target is facing.
+a48__reward__backstab \nYou solved the goal under the radar.
 
-a48__at__desc_scuffle_2 当你和目标的附近有足够多的囚犯时，\n可以制造一场混战。\n\n你同时会让武装警卫忍不住动用霰弹枪。\n\n运气好的话，目标会被打晕。\n而你会确保他流血，直至失血而亡。
-a48__at__desc_scuffle_3 从混战中脱身。等着目标受伤吧。\n\n你还可以鼓动更多囚犯加入混战。
-a48__reward__scuffle \n真是不幸的悲剧啊。\n但这种事儿在监狱里也不稀奇，对吧？\n\n你漂亮地借刀杀人。没有人怀疑到你。
+a48__at__desc_scuffle_2 When there are enough prisoners near you and the target,\nyou can start a melee. \n\nYou will also make armed guards tempted to use their shotguns. \n\nWith any luck, the target will be knocked unconscious. \nAnd you will make sure he bleeds until he bleeds to death.
+a48__at__desc_scuffle_3 Escape from the melee. Wait for the target to get hurt. \n\nYou can also encourage more prisoners to join the melee.
+a48__reward__scuffle \nWhat an unfortunate tragedy. \nBut this kind of thing is not uncommon in prison, right? \n\nYou kill someone with a borrowed knife beautifully. No one suspects you.
 
-a48__am__target_bleeding [√目标已经昏迷并流血]
-a48__am__more_scuffle 鼓动更多囚犯
-a48__am__damage 目标受伤: *X%
+a48__am__target_bleeding [√The target is unconscious and bleeding]
+a48__am__more_scuffle Instigate more prisoners
+a48__am__damage Target injured: *X%
 
-a48__at__desc_food_1 到食堂，等目标坐下来吃饭时，\n以灵活的手法给他的食物添加点“佐料”。
-a48__at__desc_food_3 目标对这顿饭的特殊之处一无所知。
-a48__at__desc_food_4 目标已经中毒。\n欣赏他最后的呕吐吧。
+a48__at__desc_food_1 Go to the cafeteria, wait for the target to sit down to eat,\nadd some "seasoning" to his food in a flexible way.
+a48__at__desc_food_3 The target had no idea what was special about the meal.
+a48__at__desc_food_4 The target has been poisoned. \nEnjoy his final vomiting.
 
-a48__am__need_meal [需要目标先打饭]
-a48__am__need_eating [需要目标坐下吃饭]
-a48__am__action_food 给食物下毒
-a48__am__wait_target_eat [等目标吃掉食物]
-a48__am__target_poisoned [√目标已经中毒]
-a48__reward__food \n你让目标享用了最后的“美食”。\n可怜的家伙。假如他生在中国，也许就会早已充分适应，\n而不至于死在这一点点毒药上。
+a48__am__need_meal [Need a target to eat first]
+a48__am__need_eating [Need target to sit down and eat]
+a48__am__action_food Poison food
+a48__am__wait_target_eat [Wait for the target to eat the food]
+a48__am__target_poisoned [√The target has been poisoned]
+a48__reward__food \nYou let the target enjoy the last "meal". \nPoor guy. If he had been born in China, he might have adapted well enough and not died from this little bit of poison.
 
-a48__at__desc_fire_1 收集素材后，制作出易燃的囚服。\n让不知情的目标换上它，然后引燃。\n\n当然，会引发火灾，所以建议你作为监狱负责人，\n先想好对策，以免灾害扩大。\n或许你现在应该“解雇”代号48，或加载存档。
-a48__at__desc_fire_3 你已经把‘易燃溶剂’做了改良，\n让它闻起来很像是清洁剂。\n接下来，你需要把它涂抹到一个囚服上。
-a48__at__desc_fire_4 把这个特制的囚服送到目标的床上。\n他会自动换上这件新衣服。
-a48__at__desc_fire_5 等目标回到自己的牢房，换上你的“礼物”。\n他会觉得这次囚服用了太多的洗涤剂，\n但不会怀疑有什么危险。
-a48__at__desc_fire_6 找个合适的地方，用你的打火机给目标一个机会，\n成为“热力四射”的男人。
-a48__at__desc_fire_7 欣赏你努力的成果吧。
+a48__at__desc_fire_1 After collecting the materials, make a flammable prison uniform. \nLet an unsuspecting target put it on and set it on fire. \n\nOf course, it will cause a fire, so I suggest you, as the prison director, \nthink about countermeasures first to avoid the disaster from expanding. \nPerhaps you should "fire" Code 48 now, or load the save file.
+a48__at__desc_fire_3 You've modified the 'flammable solvent' to make it smell a lot like detergent. \nNext, you need to apply it to a prison uniform.
+a48__at__desc_fire_4 Deliver this specially crafted prison uniform to the target's bed. \nHe will automatically change into the new clothes.
+a48__at__desc_fire_5 Wait for the target to return to his cell and put on your "gift". \nHe may feel that the prisoner took too much detergent this time,\nbut he will not suspect any danger.
+a48__at__desc_fire_6 Find a suitable place, use your lighter to give the target a chance,\nbecome a "hot" man.
+a48__at__desc_fire_7 Appreciate the fruits of your efforts.
 
-a48__am__need_PrisonerUniform 需要获得干净且熨过的囚服
-a48__am__take_PrisonerUniform 拿取囚服
-a48__am__need_BedForUniform 需要寻找目标的床
-a48__am__need_BedForUniform_hint (建议你先存档)
-a48__am__putdown_PrisonerUniform 放下易燃的囚服
-a48__am__wait_target_puton 等待目标穿上囚服
-a48__am__target_puton 目标已经穿上囚服
-a48__am__action_fire 点燃目标
-a48__reward__fire \n你给与了目标历史悠久的处刑方式——“火刑”。
+a48__am__need_PrisonerUniform Need to obtain clean and pressed prison uniforms
+a48__am__take_PrisonerUniform Get the prison uniform
+a48__am__need_BedForUniform Need to find a target bed
+a48__am__need_BedForUniform_hint (It is recommended that you save it first)
+a48__am__putdown_PrisonerUniform Put down the flammable prison uniforms
+a48__am__wait_target_puton Waiting for the target to put on prison uniform
+a48__am__target_puton The target has put on prison uniform
+a48__am__action_fire Ignite target
+a48__reward__fire \nYou gave the target a time-honored method of execution - "burning at the stake."
 
-Object_FlammableUniform 易燃的囚服
+Object_FlammableUniform Flammable prison uniforms
 
-a48__at__desc_grenade_1 收集素材后，制作出手雷。\n\n把它扔到目标的头上并引爆。\n\n这个手雷基本上不会引发火灾。\n\n但这样高调的做法，会让你被所有警卫攻击。\n尽快完成变装，以逃脱追捕。
-a48__at__desc_grenade_2 你心灵手巧地用这些简单的素材，\n做出了威力惊人的手雷。\n它的杀伤半径为3.5米。\n引爆点周围的墙壁也会被摧毁。\n\n用它杀掉目标是轻而易举的事情。\n但你要准备好躲避警卫的追捕。\n先想一想，可以迅速躲到哪里以变装。
-a48__at__desc_grenade_3 避开警卫的视线，完成变装。\n这样你就会安全了。
+a48__at__desc_grenade_1 After collecting the materials, make a grenade. \n\nThrows it over the target's head and detonates it. \n\nThis grenade will basically not cause fire. \n\nBut such a high-profile approach will make you attacked by all the guards. \nComplete the disguise as quickly as possible to escape capture.
+a48__at__desc_grenade_2 You used these simple materials with ingenuity and skill to make an amazingly powerful grenade. \nIts killing radius is 3.5 meters. \nThe walls around the detonation point will also be destroyed. \n\nKilling targets is a piece of cake with it. \nBut you have to be prepared to evade the guards. \nFirst think about where you can quickly hide and disguise yourself.
+a48__at__desc_grenade_3 Avoid the sight of the guards and complete the transformation. \nYou'll be safe this way.
 
-a48__am__need_see_target [需要目标在你的视野内]
-a48__am__grenade_too_far [距离目标太远]
-a48__am__grenade_too_near [距离目标太近]
-a48__am__throw_grenade 扔出手雷
+a48__am__need_see_target [Requires the target to be within your field of vision]
+a48__am__grenade_too_far [Too far from target]
+a48__am__grenade_too_near [Too close to target]
+a48__am__throw_grenade Throw grenade
 
-a48__reward__grenade \n你让目标死得轰轰烈烈。
+a48__reward__grenade \nYou make your target die with a bang.
 
-a48__mission_name_playdead 援救/装死
-a48__mission_name_outbreak 援救/爆发
+a48__mission_name_playdead Rescue/play dead
+a48__mission_name_outbreak Rescue/Outbreak
 
-a48__at__desc_playdead_1 怎样让警卫主动把目标从正门护送出去？\n需要先去医务室获得药物。\n之后，引发混战，让目标“不幸身亡”。\n上了灵车之后，目标就会向监狱说拜拜了。
-a48__at__desc_playdead_2 你已经合成了一副药剂。\n把它交给目标。
-a48__at__desc_playdead_3 引发混战，并让目标被卷入。\n(和“刺杀/混战”任务的步骤相同)\n目标并不会真的死亡。\n但警卫们并不会意识到这一点。\n之后，就看目标扮演死人的本领和运气了。
-a48__at__desc_playdead_4 当你和目标的附近有足够多的囚犯时，\n可以制造一场混战。\n\n你同时会让武装警卫忍不住动用霰弹枪。\n\n运气好的话，目标会被打晕。\n而你会确保他流血，直至失血而亡(假)。
-a48__at__desc_playdead_5 从混战中脱身。等着目标受伤吧。\n\n可以鼓动更多囚犯加入混战。
+a48__at__desc_playdead_1 How to get the guard to take the initiative to escort the target out of the main entrance? \nYou need to go to the infirmary first to get medicine. \nAfterwards, a melee broke out and the target "unfortunately died." \nAfter getting on the hearse, the target will say goodbye to the prison.
+a48__at__desc_playdead_2 You have crafted a potion. \nGive it to the target.
+a48__at__desc_playdead_3 Starts a melee and gets the target involved. \n(Same steps as "Assassination/Melee" mission)\nThe target will not actually die. \nBut the guards won't realize this. \nAfter that, it all depends on the target's ability and luck to act as a dead person.
+a48__at__desc_playdead_4 When there are enough prisoners near you and the target,\nyou can start a melee. \n\nYou will also make armed guards tempted to use their shotguns. \n\nWith any luck, the target will be knocked unconscious. \nAnd you will ensure that he bleeds until he bleeds to death (false).
+a48__at__desc_playdead_5 Escape from the melee. Wait for the target to get hurt. \n\nMore prisoners can be encouraged to join the melee.
 
-a48__am__too_far [距离目标太远]
-a48__am__give_potion_to_playdead 给目标装死药剂
+a48__am__too_far [too far from target]
+a48__am__give_potion_to_playdead Give the target a fake death potion
 
-a48__reward__playdead \n你已经协助目标装死。\n\n目标在被放在灵车上时，有可能会暴露。\n但那就看他的造化了……
+a48__reward__playdead \nYou have assisted the target in pretending to be dead. \n\nThe target may be exposed while being placed on the hearse. \nBut that depends on his luck...
 
-a48__target_info__play_dead__in_progress \n(你协助目标装死)\n\n我是死人，我是死人，我是死人……\n\n(放在灵车上时，有 *X% 概率会暴露)
-a48__target_info__play_dead__exposed \n(你协助目标装死)\n\n糟糕！被发觉不对劲了。怎么能放弃？！
-a48__target_info__play_dead__success \n(你协助目标装死)\n\n感谢“48”。自由近在眼前！
+a48__target_info__play_dead__in_progress \n(You assist the target in pretending to be dead)\n\nI am a dead person, I am a dead person, I am a dead person...\n\n(When placed on the hearse, there is a *X% probability of being exposed)
+a48__target_info__play_dead__exposed \n(You assist the target in pretending to be dead)\n\nOops! It was discovered that something was wrong. How could you give up? !
+a48__target_info__play_dead__success \n(You assisted the target in pretending to be dead)\n\nThank you "48". Freedom is at hand!
 
-object_FakeExtinguisher 假灭火器(遥控炸弹)
-object_Explosion 爆炸
+object_FakeExtinguisher Fake fire extinguisher (remote control bomb)
+object_Explosion Explosion
 
-a48__at__desc_outbreak_1 被收买的卡车司机会给你带来炸弹。\n\n在适当的地方引爆走私进来的三枚炸弹。\n犯人们会集体越狱，让警卫们顾此失彼。\n你就可以带领目标浑水摸鱼了。\n\n显然，这个欢乐的任务会让你的监狱走向毁灭……
-a48__at__desc_outbreak_3 仔细考虑在哪里安装这些炸弹。\n\n每个炸弹的杀伤半径为3.5米。\n引爆点周围的墙壁会被摧毁。\n(与“刺杀/手雷”的爆炸效果相同)
-a48__at__desc_outbreak_4 回到目标附近，并开始一场“双人舞”。\n目标会和你的移动尽量保持同步。\n你们的目的是打晕一名警卫以取得监狱钥匙。
-a48__at__desc_outbreak_5 让目标走到一名警卫的面前，\n吸引其注意力。\n同时，你从该警卫的身后偷袭。\n一旦偷袭得手，你会引爆所有炸弹，\n并鼓动周围10米内的囚犯们集体越狱。\n\n建议你现在存一下档。
-a48__at__desc_outbreak_6 这是隐形的48。居然被你发现了。\n请忽视他，而专心控制你的目标。
+a48__at__desc_outbreak_1 Bribed truck drivers will bring you bombs. \n\nDetonate the three smuggled bombs at appropriate places. \nThe prisoners will escape collectively, leaving the guards to focus on one thing and not the other. \nYou can lead the target to fish in troubled waters. \n\nObviously, this joyful mission will bring your prison to its destruction...
+a48__at__desc_outbreak_3 Think carefully about where to plant these bombs. \n\nThe killing radius of each bomb is 3.5 meters. \nThe walls around the detonation point will be destroyed. \n(Same as the explosion effect of "Assassination/Grenade")
+a48__at__desc_outbreak_4 Return to the target and begin a "pas de deux". \nThe target will try to keep pace with your movements. \nYour goal is to knock out a guard to obtain the prison key.
+a48__at__desc_outbreak_5 Have the target walk in front of a guard and attract his attention. \nAt the same time, you sneak attack from behind the guard. \nOnce the sneak attack is successful, you will detonate all the bombs,\nand encourage the prisoners within 10 meters to escape collectively. \n\nIt is recommended that you save the file now.
+a48__at__desc_outbreak_6This is the invisible 48. You actually discovered it. \nPlease ignore him and focus on controlling your target.
 
 # pas_de_deux
 
-a48__am__bomb_remaining 剩余炸弹 *X 枚
+a48__am__bomb_remaining Remaining bombs *X pieces
 
-a48__am__install_bomb 安装炸弹
-a48__am__uninstall_bomb 拆卸炸弹
+a48__am__install_bomb Plant a bomb
+a48__am__uninstall_bomb Defuse bomb
 
-a48__am__pas_de_deux 开始“双人舞”
-a48__am__followed 让目标*B
-a48__am__following_false 追随你
-a48__am__following_true 留在原地
+a48__am__pas_de_deux Begin the "couple dance"
+a48__am__followed Let target*B
+a48__am__following_false Follow you
+a48__am__following_true Stay on the spot
 
-a48__am__more_than_one_guard [你身边有不止一名警卫]
-a48__am__you_must_reach_guard [你必须靠近警卫]
-a48__am__guard_must_face_target [警卫必须面朝目标]
-a48__am__guard_must_cansee_target [目标必须在警卫的视野内]
-a48__am__guard_must_not_face_you [警卫必须背朝你]
+a48__am__more_than_one_guard [You have more than one guard]
+a48__am__you_must_reach_guard [You have to get close to the guard]
+a48__am__guard_must_face_target [The guard must face the target]
+a48__am__guard_must_cansee_target [The target must be within sight of the guard]
+a48__am__guard_must_not_face_you [The guard must face away from you]
 
-a48__am__action_outbreak 击晕警卫并引爆炸弹
+a48__am__action_outbreak Stun the guard and detonate the bomb
 
-a48__am__to_borders 奔向地图边界吧！
-a48__target_info__outbreak 现在你控制的是目标。\n(“代号48”走得比目标快，步调差异导致控制不便。\n所以隐藏了“代号48”。)\n\n监狱已经陷入混乱。\n监狱钥匙给了你其他囚犯所没有的优势。\n现在，大胆而谨慎地逃跑吧。\n挑选偏僻的路径，或者利用人群分散警卫的注意。\n\n由于技术限制，警卫掉落的钥匙并不会真的被拾取，\n但你就当这事儿发生了吧……
+a48__am__to_borders Run to the map border!
+a48__target_info__outbreak Now you control the target. \n("Codename 48" moves faster than the target, and the difference in pace makes control inconvenient.\nSo "Codename 48" is hidden.)\n\nThe prison has fallen into chaos. \nPrison keys give you advantages that other prisoners don't have. \nNow, escape boldly but cautiously. \nChoose off-the-beaten path paths, or use crowds to distract guards. \n\nDue to technical limitations, the keys dropped by the guards will not actually be picked up,\nBut just treat it like it happened...
 
-a48__reward__outbreak \n你让目标在有惊无险地抵达了自由。
+a48__reward__outbreak \nYou allowed the target to reach freedom with little risk.
 
-object_A48Clothes 杀手留言
+object_A48Clothes Killer message
 
 #-=============================================================================
 #+==========================杀手结束
 
 
-object_TargetSorter 囚犯分类器
-buildtoolbar_popup_uts_TargetSorter 告密者和前执法者都是其他犯人的眼中钉，会被当做袭击目标。\n(如果你开启了“事件”，那么一种事件是保护联邦证人。)\n最好的对策是把他们分类为“重点保护”，以便远离威胁。\n\n本“设施”可以升级一台‘监控摄像头’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n最需要它的地方是“入狱搜查室”。
+object_TargetSorter Prisoner classifier
+buildtoolbar_popup_uts_TargetSorter Informers and former law enforcers are thorns in the eyes of other prisoners and will be targeted. \n(If you have "Incidents" turned on, one event is the Protection of Federal Witnesses.)\nThe best countermeasure is to classify them as "Key Protection" to keep them away from threats. \n\nThis "facility" can upgrade a 'surveillance camera' so that it can automatically detect\n these prisoners and classify them into the corresponding security categories. \nThe detection range radius of the camera is 7 meters. \n\n"Install" this upgrade package to the camera location, and the upgrade will be completed automatically. \n\nThe place that needs it most is the "Jail Search Room".
 
-object_GangSorter 分类帮派成员
-buildtoolbar_popup_uts_GangSorter 你开启了“帮派”，那么三个帮派之间会不断地发生冲突。\n最好的对策是把他们分类为“中、高、低戒备”。\n\n本“设施”可以升级一台‘监控摄像头’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n死刑犯和超高戒备的囚犯不受此影响。\n告密者等目标(分类为“重点保护”)优先于帮派。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n除了新接收的囚犯，帮派还会慢慢地在监狱中招募新人。\n所以你也许需要不止一个本工具。
+object_GangSorter Classifying gang members
+buildtoolbar_popup_uts_GangSorter If you turn on "Gang", there will be constant conflicts between the three gangs. \nThe best countermeasure is to classify them into "medium, high, and low alert." \n\nThis "facility" can upgrade a 'surveillance camera' so that it can automatically detect\n these prisoners and classify them into the corresponding security categories. \nThe detection range radius of the camera is 7 meters. \n\nDeath row inmates and ultra-high security prisoners are not affected by this. \nTargets such as informers (classified as "key protection") take priority over gangs. \n\n"Install" this upgrade package to the camera location, and the upgrade will be completed automatically. \n\nIn addition to newly admitted prisoners, gangs will slowly recruit new people in prisons. \nSo you may need more than one tool.
 
-PrisonerSorter_NeedUpgrade \n(尚未升级“囚犯分类器”的功能)
-PrisonerSorter_TargetFound \n已分类受袭击目标 *X 人
-PrisonerSorter_GangFound \n已分类帮派成员 *X 人
-PrisonerSorter_TargetNGangFound \n已分类袭击目标 *X 人\n已分类帮派成员 *Y 人
-PrisonerSorter_NotEnabledGangs \n你需要在[主菜单/附加功能/本监狱的额外玩法]中，“启用 帮派”。否则这个毫无用处。
-PrisonerSorter_DidNotUpgrade \n本升级包没有发挥作用。原因可能是：\n · 当前位置上没有‘监控摄像头’\n · 摄像头已经被升级过了\n可以拆除本升级包，再“安装”到别的摄像头。
+PrisonerSorter_NeedUpgrade \n(The function of "Prisoner Classifier" has not been upgraded yet)
+PrisonerSorter_TargetFound \nClassified attack targets *X people
+PrisonerSorter_GangFound \nClassified gang members *X people
+PrisonerSorter_TargetNGangFound \n Attack targets have been classified *X people \n Gang members have been classified *Y people
+PrisonerSorter_NotEnabledGangs \nYou need to "enable gang" in [Main Menu/Additional Functions/Additional Gameplay in this Prison]. Otherwise this is useless.
+PrisonerSorter_DidNotUpgrade \nThis upgrade package does not work. The possible reasons are:\n · There is no 'surveillance camera' at the current location\n · The camera has been upgraded\n You can remove this upgrade package and then "install" it to another camera.
 
-lawyer__tt \n已为探监者提供服务 *S 人次\n产生奖金 *B 次
-reformprogram_VisitorService [特殊]探监者服务
-reformprogram_VisitorService_text 囚犯的家属或多或少总有对法律咨询的需求。\n你的律师除了偶尔搞搞行政研究，还可以作出更大贡献。\n\n让律师到探监室为所有探监者提供服务。\n每4人次会得到政府提供的100元奖金。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n因为如果没有任何“学生”，项目就根本无法进行。\n“学生”囚犯会得到“平静”状态作为补偿。\n\n建议你[编辑时刻表]，以合理安排时间。
+lawyer__tt \nProvided services to prison visitors *S times\nGenerated bonuses *B times
+reformprogram_VisitorService [Special] Prison Visitor Service
+reformprogram_VisitorService_text Families of prisoners are more or less always in need of legal advice. \nYour lawyer can make a greater contribution besides occasionally conducting administrative research. \n\nHave lawyers go to the visiting room to provide services to all visitors. \nEvery 4 people will receive a bonus of NT$100 from the government. \n\nDue to technical limitations, a prisoner must be randomly forced to "participate" in this project. \nBecause if there are no "students", the project cannot proceed at all. \n"Student" prisoners will be compensated by the "Calm" status. \n\nIt is recommended that you [edit timetable] to arrange your time reasonably.
 
 
-reformprogram_CloseContact [特殊]近距离接触
-reformprogram_CloseContact_text 让你的典狱长走出被行政文件包围的办公室。\n他会观察周围的囚犯们，评估并记录其再犯罪可能性。\n每当一个囚犯有阶段性的进步，你会收到政府的奖金。\n\n典狱长会每3分钟评估一个人次。\n被评估的囚犯需要在10米之内。\n同一个囚犯的评估间隔至少为12小时。\n\n囚犯的“再犯罪可能性”的最低值会被记录。\n每当这个值下降经过5%的整数倍，会产生100元奖金。\n当典狱长接触囚犯时，其积累的奖金会被生成。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n\n建议你[编辑时刻表]，以合理安排时间和地点。
+reformprogram_CloseContact [Special]Close contact
+reformprogram_CloseContact_text Get your warden out of an office surrounded by administrative paperwork. \nHe will observe the prisoners around him, assess and record their likelihood of re-offending. \nEvery time a prisoner makes progress, you will receive a bonus from the government. \n\nThe warden will evaluate a person every 3 minutes. \nThe prisoner being assessed needs to be within 10 meters. \nThe interval between assessments for the same prisoner shall be at least 12 hours. \n\nThe lowest value of the prisoner's "likelihood to reoffend" is recorded. \nWhenever this value drops by an integral multiple of 5%, a bonus of 100 yuan will be generated. \nWhen the warden touches a prisoner, his or her accumulated bonus will be generated. \n\nDue to technical limitations, a prisoner must be randomly forced to "participate" in this project. \n\nIt is recommended that you [edit timetable] to arrange the time and location reasonably.
 
-object_MoneyBag1000 奖金($1000)
-object_MoneyBag100 奖金($100)
-object_MoneyBag10 奖金($10)
+object_MoneyBag1000 Reward($1000)
+object_MoneyBag100 Reward($100)
+object_MoneyBag10 Reward($10)
 
-reformprogram_DangerousMeeting [特殊]危险座谈
-reformprogram_DangerousMeeting_text 一个电视节目以大胆著称。\n现在，其主持人常驻于此，想要挖掘罪犯们的故事。\n不仅如此，他还会试图激怒这些身陷囹圄的野兽，\n把他们的面貌和言行用摄影机捕捉下来。\n显然，这是很冒险的举动。\n但你会不会为了钱而放宽原则呢？\n\n该项目的过程则会逐渐“激怒”每个犯人。\n主持人会根据各个囚犯的“再犯罪可能性”(主要)\n以及“不满爆发点”(次要)，计算并产生奖金。\n这个风险越高，则奖金越多，但也越容易导致囚犯“发飙”，\n其中一定概率会攻击主持人或摄影师。\n所以，准备好应对失控的局面吧。
+reformprogram_DangerousMeeting [Special]Danger Discussion
+reformprogram_DangerousMeeting_text A TV show known for its boldness. \nNow, its host is based here and wants to dig up the stories of criminals. \nNot only that, he will also try to provoke these imprisoned beasts,\nand capture their faces, words and deeds on camera. \nObviously, this is a very risky move. \nBut will you relax your principles for the sake of money? \n\nThe process of this project will gradually "irritate" each prisoner. \nThe host will calculate and generate bonuses based on each prisoner's "possibility of re-offending" (primary)\n and "point of dissatisfaction" (secondary). \nThe higher the risk, the greater the bonus, but the easier it is to cause the prisoner to "go crazy",\nthere is a certain probability that he will attack the host or photographer. \nSo, be prepared for situations that get out of hand.
 
-dangerous_meeting__not_at_office \n不在办公室
-dangerous_meeting__need_cameraman \n需要在身边配有一名摄影师
-dangerous_meeting__stats \n座谈 *X 轮\n产生奖金 *Y 元\n\n引起囚犯发飙 *Z 次
+dangerous_meeting__not_at_office \nNot in the office
+dangerous_meeting__need_cameraman \nNeed a photographer by your side
+dangerous_meeting__stats \nSymposium *X round\nGenerate bonus *Y $\n\nCausing the prisoner to get angry *Z bout
 
 object_BoldHost Bold Host
-buildtoolbar_popup_staff_BoldHost 以冒犯别人为卖点的娱乐圈人士，却自诩为真相斗士。\n在职业生涯的危险期，他决定再搏一把。\n\n通过“危险座谈”方案，他会给你带来可观的金钱回报。\n但风险也同样高。\n\n如果你对过于平和而乏味的日常感到无聊，那么这个\n充满刺激的项目会很适合你。\n\n他的办公室里需要较多的椅子。\n\n座谈还需要从外部自动过来的摄影师。\n他非常脆弱。一旦被攻击，很容易死亡，并产生罚款。\n\n主持人或摄影师受伤后，会自动呼叫医生。\n你无法控制他们，所以只能等医生过来。
+buildtoolbar_popup_staff_BoldHost People in the entertainment industry who sell themselves on offending others regard themselves as truth warriors. \nIn a dangerous period of his career, he decided to give it another try. \n\nThrough the "Danger Talk" program, he will bring you considerable financial returns. \nBut the risks are equally high. \n\nIf you are bored with your daily life that is too peaceful and boring, then this\nexciting project will be suitable for you. \n\nHe needs more chairs in his office. \n\nThe symposium also requires a photographer who comes automatically from outside. \nHe is very fragile. Once attacked, it is easy to die and incur fines. \n\nWhen the host or photographer is injured, a doctor will be called automatically. \nYou can't control them, so you can only wait for the doctor to come.
 
 object_CameraMan Camera Man
-# buildtoolbar_popup_staff_CameraMan 主持人的必要协助者。\n\n需要放置在主持人办公室里。\n你也可以选中他并右击以移动。\n\n摄影师非常脆弱。一旦被攻击，就很容易死亡。
+# buildtoolbar_popup_staff_CameraMan Necessary facilitator for the presenter. \n\nNeeds to be placed in the host's office. \nYou can also select it and right-click to move it. \n\nPhotographers are very fragile. Once attacked, it is easy to die.
 
-dangerous_meeting__cameraman_sees_host__No \n没有对应的主持人
-dangerous_meeting__cameraman_waits_for_host \n等待主持人回到办公室
-dangerous_meeting__cameraman_sees_host__Yes \n正在跟踪拍摄主持人
-dangerous_meeting__cameraman_LeavingMap \n正在离开
+dangerous_meeting__cameraman_sees_host__No \nThere is no corresponding host
+dangerous_meeting__cameraman_waits_for_host \nWaiting for the host to return to the office
+dangerous_meeting__cameraman_sees_host__Yes \nFollowing and filming the host
+dangerous_meeting__cameraman_LeavingMap \nLeaving
 
-dangerous_meeting__p_tt \n再犯罪可能性: *R\n不满爆发点: *B
+dangerous_meeting__p_tt \nPotential for re-offending: *R\nDissatisfaction flash point: *B
 
 
 object_RoomSelector Room Selector
-buildtoolbar_popup_staff_RoomSelector 克隆的第一步。\n点击一个房间中的任意一格，就会自动检测并选中\n该房间的所有格子，包括四周的墙壁和门。\n\n检测时，假定房间为长方形。\n出于性能考虑，向四周探测最远到10米为止。\n\n每次新的选择都会替代旧的选择。\n\n点击选择器对象，在菜单里你还可以调整选中区域。
+buildtoolbar_popup_staff_RoomSelector The first step in cloning. \nClick on any grid in a room and it will automatically detect and select\nAll grids in the room, including surrounding walls and doors. \n\nWhen detecting, it is assumed that the room is rectangular. \nFor performance reasons, the maximum detection distance is 10 meters in all directions. \n\nEach new selection will replace the old selection. \n\nClick on the selector object, and you can also adjust the selected area in the menu.
 
-rs__adjust_t_d 顶部下移↓
-rs__adjust_t_u 顶部上移↑
-rs__adjust_b_d 底部下移↓
-rs__adjust_b_u 底部上移↑
-rs__adjust_l_l 左边左移←
-rs__adjust_l_r 左边右移→
-rs__adjust_r_l 右边左移←
-rs__adjust_r_r 右边右移→
+rs__adjust_t_d Top moves down↓
+rs__adjust_t_u top move up↑
+rs__adjust_b_d Bottom moves down↓
+rs__adjust_b_u Bottom moves up↑
+rs__adjust_l_l left shift left←
+rs__adjust_l_r Move left to right→
+rs__adjust_r_l right left←
+rs__adjust_r_r right move right→
 
 
 object_ClearSelector Clear Selector
-buildtoolbar_popup_staff_ClearSelector 克隆的最后一步。\n点击任意地方，即可清除当前的房间选择器。
+buildtoolbar_popup_staff_ClearSelector The final step in cloning. \nClick anywhere to clear the current room selector.
 
 object_CloneSimple Clone Simple
-buildtoolbar_popup_staff_CloneSimple 以目标地点为左上角，克隆选中的房间。\n所有固定对象(亦即除了洗衣篮)(包括灯)都会被复制。\n地面建材也会被复制。\n重复本操作并不会导致同一位置上出现多个同类型物品。\n\n由于技术限制无法修改地基，亦即无法克隆室内与否。\n这会影响灯、战争迷雾和温度。\n你必须用常规方法建造地基，无法克隆房间类型。\n\n如果没有启用作弊，那么墙壁和物品都会由工人来建造。\n虽然你在员工菜单时看不到墙壁，但它们确实已经被安排建造了。
+buildtoolbar_popup_staff_CloneSimple With the target location as the upper left corner, clone the selected room. \nAll fixed objects (that is, except the laundry basket) (including lights) will be copied. \nGround building materials will also be copied. \nRepeating this operation will not cause multiple items of the same type to appear at the same location. \n\nDue to technical limitations, the foundation cannot be modified, that is, it cannot be cloned indoors or not. \nThis affects lights, fog of war, and temperature. \nYou must build the foundation using regular methods, room types cannot be cloned. \n\nIf cheats are not enabled, walls and items will be built by workers. \nAlthough you can't see the walls in the staff menu, they have indeed been arranged to be built.
 
 object_CloneSpreadAligned Clone Spread Aligned
-buildtoolbar_popup_staff_CloneSpreadAligned 从选中的房间开始，向目标地点连续克隆，\n得到多个副本。\n\n特别适合克隆一行或一列牢房。\n新房间会与选中的房间水平或垂直对齐。\n\n使用前，建议你先存一下档。
+buildtoolbar_popup_staff_CloneSpreadAligned Starting from the selected room, clone continuously to the target location to obtain multiple copies. \n\nEspecially suitable for cloning a row or column of cells. \nThe new room will be aligned horizontally or vertically with the selected room. \n\nIt is recommended that you save the file before using it.
 
 object_CloneSpreadAngled Clone Spread Angled
-buildtoolbar_popup_staff_CloneSpreadAngled 从选中的房间开始，向目标地点连续克隆，\n得到多个副本。\n\n新房间的排列会呈现斜角。倾斜程度取决于\n目标地点相对于选择器对象的相对坐标。\n房间之间的错位必须为相同的整数(米)。\n这个限制是为了避免让人意外的不整齐。\n\n有些喜欢不规则形状监狱的玩家会需要此功能。\n\n使用前，建议你先存一下档。
+buildtoolbar_popup_staff_CloneSpreadAngled Starting from the selected room, clone continuously to the target location to obtain multiple copies. \n\nThe new rooms will be arranged at an angle. The degree of tilt depends\non the relative coordinates of the target location relative to the selector object. \nThe offset between rooms must be the same integer (meters). \nThis restriction is to avoid unexpected irregularities. \n\nSome players who like irregularly shaped prisons may need this feature. \n\nIt is recommended that you save the file before using it.
 
 object_CloneFlipX Clone Flip X
-buildtoolbar_popup_staff_CloneFlipX 以目标地点为左上角，克隆选中的房间。\n克隆的房间里，每个对象的X坐标被镜像翻转。\n但为了对称，不改变开门方向。
+buildtoolbar_popup_staff_CloneFlipX With the target location as the upper left corner, clone the selected room. \nIn the cloned room, the X coordinate of each object is mirrored. \nBut for the sake of symmetry, the door opening direction will not be changed.
 
 object_CloneFlipY Clone Flip Y
-buildtoolbar_popup_staff_CloneFlipY 以目标地点为左上角，克隆选中的房间。\n克隆的房间里，每个对象的Y坐标被镜像翻转。\n但为了对称，不改变开门方向。
+buildtoolbar_popup_staff_CloneFlipY With the target location as the upper left corner, clone the selected room. \nIn the cloned room, the Y coordinate of each object is mirrored. \nBut for the sake of symmetry, the door opening direction will not be changed.
 
 
 object_RoomCellMarker Room Cell Marker
-object_Anchor 锚点
-anchor_tt 为了绕开某些技术限制而需要这个特殊的对象。\n等雇佣了典狱长之后，再加载地图时，\n这个“锚点”会消失。因为典狱长扮演了它的角色。\n\n总之，请你不要管它。
+object_Anchor anchor point
+anchor_tt This special object is needed to get around certain technical limitations. \nAfter hiring the warden,\nwhen you load the map again,\nthis "anchor point" will disappear. Because the warden plays its role. \n\nIn short, please leave it alone.
 
 object_MoveObject Move Object
-object_MoveObjectMarker 移动物品标记
-buildtoolbar_popup_staff_MoveObject 立即从一个格子移动其所有物品到另一个格子。\n\n首先，用本“员工”定位要移动其物品的格子。\n然后，再用本“员工”定位移动目的地。\n‘发电站’、‘电容器’、‘水泵站’的地下部分无法移动。\n尤其是水泵站，会导致漏水。所以排除了它们。\n\n在转动或移动物品后，它可能会出现奇怪的问题。\n比如：炊具、冰柜会时而闪烁“缺少供电”图标。\n这时，你只需要常规地先拆除再重新安装即可。
+object_MoveObjectMarker Move item tag
+buildtoolbar_popup_staff_MoveObject Immediately moves all of its items from one grid to another. \n\nFirst, use this "employee" to locate the grid whose items you want to move. \nThen, use this "employee" to locate the mobile destination. \nThe underground parts of the 'Power Station', 'Capacitor', and 'Water Pumping Station' cannot be moved. \nEspecially water pumping stations, which can cause water leaks. So they are excluded. \n\nAfter turning or moving an item, it may behave strangely. \nFor example: cookers and freezers will flash the "lack of power" icon from time to time. \nAt this time, you only need to remove and reinstall it normally.
 
 object_RotateObject RotateObject
-buildtoolbar_popup_staff_RotateObject 让物品顺时针旋转90°。\n\n个别物品的靠墙状态可能会不太对。\n\n偶尔还会遇到：旋转实际上发生了，但图片并没有随之改变。\n这个问题只能等游戏开发者修复。\n暂时的对策是：你用“移动物品”来把它移到别处再移动回来。\n\n现在这个功能事实上也被自带移动功能取代了
+buildtoolbar_popup_staff_RotateObject Rotate the object 90° clockwise. \n\nThe status of some items against the wall may not be correct. \n\nOccasionally you will encounter: the rotation actually occurs, but the image does not change accordingly. \nThis problem can only be fixed by the game developers. \nThe temporary solution is: you use "Move Object" to move it elsewhere and then move it back. \n\nNow this function is actually replaced by the built-in mobile function.
 
 object_MoveRoom Move Room
-buildtoolbar_popup_staff_MoveRoom 立即从选中的房间移动其所有对象和建材到另一个位置。\n操作和“简单克隆”一样。\n\n一个区别是：新位置可以在来源房间内部。
+buildtoolbar_popup_staff_MoveRoom Immediately moves all objects and building materials from the selected room to another location. \nThe operation is the same as "Simple Clone". \n\nOne difference is: the new location can be inside the source room.
 
 object_LightHere Light Here
-buildtoolbar_popup_staff_LightHere 由于种种原因，你有时会想要移除多余的灯，\n或者移动灯的位置。\n\n由于灯经常与其它物品重叠，所以选择它们比较麻烦。\n现在，你用这个“员工”，可以——\n · 删除周围的灯\n · 在当前位置生成新的灯\n\n删除的范围为2.2米，且仅限当前房间。\n删除的灯会回收其价格30元到银行余额。\n所以相当于免费移动一盏灯，并消除多余的灯。
+buildtoolbar_popup_staff_LightHere For various reasons, you may sometimes want to remove redundant lights,\nor move the position of lights. \n\nSince lights often overlap with other items, selecting them can be tricky. \nNow, with this "employee", you can -\n · Delete surrounding lights\n · Generate new lights at the current location\n\nThe deletion range is 2.2 meters and is limited to the current room. \nThe deleted lamp will have its price of 30 yuan returned to the bank balance. \nSo it is equivalent to moving one light for free and eliminating redundant lights.
 
-object_PCommand 安装物品指令
-object_CCommand 建造建材指令
+object_PCommand Install item instructions
+object_CCommand Construction Building Materials Directive
 
 
 

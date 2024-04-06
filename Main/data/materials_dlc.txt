@@ -11039,7 +11039,7 @@ ToolbarSprite 		 d_SnackMachineToolbar
 MadeOf               Composite
 RenderDepth 		 1
 NumSlots 			 1          
-IndoorOutdoor        2   
+IndoorOutdoor        0   
 Properties           StaticObject
 Properties		 	 RoomSpecific
 BEGIN ImprovesRoom	 Room	Canteen    END
