@@ -1,4 +1,4 @@
-[h1][B]　　　　　　当前版本:V1.8.0 | 更新日期:2024.03.31[/B][/h1][hr][/hr]
+[h1][B]　　　　　　当前版本:V1.8.1 | 更新日期:2024.04.06[/B][/h1][hr][/hr]
 [H1]本次模组是对 [中文豪华版] 基于 < 原始模组 > 与 < 二次开发模组 >
 进行的修复与更新[/H1]
 [H1][b]Module now supports "Chinese/English" version!!![/b][/H1]
@@ -109,4 +109,4 @@
 <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2978340955]Ozone's Fixes & Qol All-In-One[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3009547076]Restyling UI (Continued)[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=227085867]Prison Population Grants[/url]>
 ------------------------------------------------------------------------------------------------------
 [h3]感谢以下玩家提交的反馈与建议！[/h3]
- @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Vulcan-H
+ @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Muziyami @Vulcan-H

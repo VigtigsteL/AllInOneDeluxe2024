@@ -1,6 +1,14 @@
 ﻿#Mod
+object_ImmediatePrisonerUniform [Buy]PrisonerUniform*1
+object_ImmediateShopGoods		[Buy]ShopGoods*10
 
-object_jaildoorXL Jail Door XL
+object_jaildoorXL 				Jail Door XL
+object_jaildoorGreyXL			Jail Door XL\n（Grey）
+object_jaildoorOrangeXL			Jail Door XL\n（Orange）
+object_jaildoorRedXL			Jail Door XL\n（Red）
+object_jaildoorYellowXL			Jail Door XL\n（Yellow）
+object_JailDoorWhiteXL			Jail Door XL\n（White）
+
 buildtoolbar_popup_obj_jaildoorXL Oversized prison door.
 
 room_Accounting Accounting

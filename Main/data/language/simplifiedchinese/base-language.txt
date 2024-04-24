@@ -18,8 +18,7 @@ grant_category_PrisonersReleased 已释放囚犯数:
 
 interfacecallout_NationalGuard 部队
 
-object_jaildoorXL 特大监狱门
-buildtoolbar_popup_obj_jaildoorXL 超大的监狱门。
+
 
 reformprogram_GroupFitness [特殊]集体健身
 reformprogram_GroupFitness_text 让众多囚犯们大量流汗以充分健身。\n普通的举重时间很短，最好提供这个额外的健身机会。\n\n疾病点数机制：\n每个新囚犯会根据体型得到初始的疾病点数。\n比如：肥胖者最高，为300。\n之后的变化规则为：\n+/- 伙食政策\n- 使用锻炼物品\n+ 保持受伤(尚未得到治疗)
@@ -1743,12 +1742,10 @@ nameplate_wounded	流血！
 
 
 
-object_door						门\n  （无锁）
-  
-object_solitarydoor				禁闭门
+
 buildtoolbar_popup_obj_solitarydoor	牢固的门，能够阻挡哪怕最强壮的犯人越狱。\n\n任何作息时，它都会把囚犯关起来。\n适合禁闭室和枪械库。
 
-object_remotedoor				遥控门
+
 
 object_jailbars					牢房栏杆
 
@@ -1849,7 +1846,7 @@ object_mailsorted				邮件(已分类)
 object_prisonermail				邮件(待读)
 object_prisonermailopened		邮件(已拆开)
 
-object_shopgoods				商店货物
+
 
 object_playmat					玩耍垫
 
@@ -1904,7 +1901,7 @@ material_roadmarkingsright	_ 马路标识线(右)
 
 material_Snow	_ 雪地
 material_lunarfloor	_ 月球
-material_CliffEdge	_ 悬崖
+material_CliffEdge	悬崖
 
 #-==
 
@@ -1963,14 +1960,14 @@ material_paddedfloor	软垫
 
 #+==分区墙壁
 
-material_concretewall	混凝土墙※
-material_WallMinSec	墙壁\n（低戒备）
-material_WallMedSec	墙壁\n（中戒备）
-material_WallMaxSec	墙壁\n（高戒备）
-material_WallSuperMaxSec	墙壁\n（超高戒备）
-material_WallDeathRowSec	墙壁\n（死刑犯）
-material_WallInsaneSec	墙壁\n （精神病犯） 
-material_WallProtective	墙壁\n （重点保护） 
+material_concretewall	'混凝土墙※
+material_WallMinSec	*墙壁\n（低戒备）
+material_WallMedSec	*墙壁\n（中戒备）
+material_WallMaxSec	*墙壁\n（高戒备）
+material_WallSuperMaxSec	*墙壁\n（超高戒备）
+material_WallDeathRowSec	*墙壁\n（死刑犯）
+material_WallInsaneSec	*墙壁\n （精神病犯） 
+material_WallProtective	*墙壁\n （重点保护） 
 
 #-==
 
@@ -1980,19 +1977,19 @@ material_WallProtective	墙壁\n （重点保护）
 
 
 
-
-
-
+material_WoodenFence	栅栏\n （木制）
+material_bamboofence	栅栏\n （竹制）
+material_WhitePicketFence	栅栏\n （白色）
 
 material_fence	铁网围栏
-material_yutaniwall	墙壁\n（科技）
+material_yutaniwall	墙壁\n （科技） 
 
 material_pipewall	墙壁\n（管道）
 material_overgrownwall	墙壁\n （藤蔓） 
 material_derelictwall	墙壁\n （破旧） 
 material_slumwall	墙壁\n（贫民窟）
 material_rustywall	墙壁\n （生锈） 
-material_bamboofence	竹栅栏
+
 material_decayedWall	墙壁\n （腐朽） 
 
 material_FenceAndGrass	铁网围栏\n（草坪）
@@ -2012,15 +2009,15 @@ material_NewBarredWall	铁栅栏
 material_NewBBlockWall	墙壁\n （白色） 
 material_NewHedgeWall	篱笆
 
-material_BottleWall	墙壁\n （回收） 
-material_WhitePicketFence	白色栅栏
+material_BottleWall	墙壁\n （塑料瓶） 
+
 
 material_HayBailWall	干草墙
-material_WoodenFence	木栅栏
+
 material_GardenWall	墙壁\n （花园） 
 
-material_brickwall	砖墙\n（红砖）
-material_perimeterwall	监狱围墙
+material_brickwall	墙壁\n （红砖） 
+material_perimeterwall	'监狱围墙※
 material_burntfloor	烧焦的地板
 material_burntwall	烧焦的墙
 material_buildingframe	建筑框架
@@ -7720,8 +7717,8 @@ interfacemode_designation	房间
 buildtoolbar_popup_designation	为监狱不同区域划分功能
 interfacemode_objects	物品
 buildtoolbar_popup_objects	在监狱各处放置有用的物品
-interfacemode_staff	员工
-buildtoolbar_popup_staff	雇用必要的人员运营监狱
+interfacemode_staff	员工\n（特殊功能）
+buildtoolbar_popup_staff	雇用必要的人员运营监狱。\n（模组的特殊功能也在此使用）
 interfacemode_utilities	基础设施
 buildtoolbar_popup_utilities	水源与电气系统。
 interfacemode_deployment	部署
@@ -7734,7 +7731,7 @@ interfacemode_prefabs	快速建造
 buildtoolbar_popup_prefabs 放置预设房间或者复制已有的建筑
 interfacemode_planning	规划
 buildtoolbar_popup_planning	在草稿中对监狱主体结构进行规划，在你准备好之前不必担心工人会动工。
-interfacemode_emergencies	应急
+interfacemode_emergencies	应急服务
 buildtoolbar_popup_emergencies	如果事态恶化可以呼叫应急服务获取帮助。
 interfacemode_spawn	作弊生成
 buildtoolbar_popup_spawn	可以自由地创建并放置各种对象。\n\n在已经存在的对象上按住左键并拖动，可以移动其位置。\n按住Shift键并按住和拖动鼠标，可以旋转它的朝向。\n在空地上点击并拖动鼠标，可以新建多个对象；\n但记得同时还应按住Shift键，以免中途变成移动已有对象。\n\n警告：部分对象生成后无法移除！
@@ -8194,6 +8191,7 @@ object_meal						伙食
 object_foodtray					餐盘
 object_foodtraydirty			餐盘(脏)
 object_grassturf				草坪
+object_ImmediatePrisonerUniform [购买]囚服*1
 object_prisoneruniform			囚服(干净)
 object_dirtyprisoneruniform		囚服(脏)
 object_crumpledprisoneruniform	囚服(皱)
@@ -8204,6 +8202,7 @@ object_licenseplate				车牌($25)
 object_log						原木($85)
 object_wood						木板($85)
 
+object_ImmediateShopGoods		[购买]商店货物*10
 #-===========================================================
 
 #+===============================物品===============================
@@ -8887,50 +8886,60 @@ object_stack					一堆
 #-========================
 
 #+==============================门
+object_door						*门\n  （无锁）  
+object_DoubleDoor				*门-双开\n（无锁）
 
-object_DoubleDoor	双开门\n（无锁）
+object_fencegatestandard		铁网门\n（无锁）
+object_fencegatestaff			铁网门\n（员工）
+object_fencegatevisitor			铁网门\n（访客）
+object_fencegateguard			铁网门\n（警卫）
 
-object_fencegatestaff	铁网门\n（员工）
-object_fencegatestandard	铁网门\n（无锁）
-object_fencegatevisitor	铁网门\n（访客）
-object_fencegateguard	铁网门\n（警卫）
+object_jaildoor					监狱门-普通
+object_jaildoorgrey				监狱门-普通\n（灰色）
+object_jaildoororange			监狱门-普通\n（橙色）
+object_jaildoorred				监狱门-普通\n（红色）
+object_jaildoorYellow			监狱门-普通\n（黄色）
+object_JailDoorWhite			监狱门-普通\n（白色）
 
-object_jaildoor					监狱门
-object_jaildoorlarge			大型监狱门
-object_jaildoorgrey	监狱门\n（灰色）
-object_jaildoorlargegrey	大型监狱门\n（灰色）
-object_jaildoororange	监狱门\n（橙色）
-object_jaildoorlargeorange	大型监狱门\n（橙色）
-object_jaildoorred	监狱门\n（红色）
-object_jaildoorlargered	大型监狱门\n（红色）
-object_jaildoorYellow	监狱门\n（黄色）
-object_jaildoorlargeyellow	大型监狱门\n（黄色）
-object_JailDoorWhite	监狱门\n（白色）
-object_JailDoorLargeWhite	大型监狱门\n（白色）
+object_jaildoorlarge			监狱门-大型
+object_jaildoorlargegrey		监狱门-大型\n（灰色）
+object_jaildoorlargeorange		监狱门-大型\n（橙色）
+object_jaildoorlargered			监狱门-大型\n（红色）
+object_jaildoorlargeyellow		监狱门-大型\n（黄色）
+object_JailDoorLargeWhite		监狱门-大型\n（白色）
 
-object_DoubleStaffDoor	双开员工门\n（绿色）
-object_StaffDoorBlue	员工门\n（蓝色）
-object_DoubleStaffDoorBlue	双开员工门\n（蓝色）
-object_StaffDoorOrange	员工门\n（橙色）
-object_DoubleStaffDoorOrange	双开员工门\n（橙色）
-object_StaffDoorRed	员工门\n（红色）
-object_DoubleVisitorDoor	双开探视门
-object_visitorDoor	探视门
-object_BarnDoor	谷仓门\n（无锁）
-object_WhitePicketGate	白色栅栏门\n（无锁）
+object_jaildoorXL 				监狱门-特大
+object_jaildoorgreyXL			监狱门-特大\n（灰色）
+object_jaildoororangeXL			监狱门-特大\n（橙色）
+object_jaildoorredXL			监狱门-特大\n（红色）
+object_jaildoorYellowXL			监狱门-特大\n（黄色）
+object_JailDoorWhiteXL			监狱门-特大\n（白色）
 
-object_staffdoor				员工门\n（绿色）
+object_staffdoor				员工门-\n（绿色）
+object_StaffDoorBlue			员工门\n（蓝色）
+object_StaffDoorOrange			员工门\n（橙色）
+object_StaffDoorRed				员工门\n（红色）
+object_visitorDoor				探视门
+
+object_DoubleStaffDoor			员工门-双开\n（绿色）
+object_DoubleStaffDoorBlue		员工门-双开\n（蓝色）
+object_DoubleStaffDoorOrange	员工门-双开\n（橙色）
+object_DoubleVisitorDoor		探视门-双开
+
+object_solitarydoor				禁闭门
+object_securedoor				禁闭安全门
+object_remotedoor				遥控门
+object_secretdoor				隐藏门
+
+object_BarnDoor					谷仓门\n（无锁）
+object_WhitePicketGate			白色栅栏门\n（无锁）
 buildtoolbar_popup_obj_staffdoor	上锁的门，所有员工都能打开它。\n\n不过，囚犯仍然可以等有人开门而通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
-
-
-object_securedoor	安全禁闭门
-object_secretdoor	隐藏门
-
+buildtoolbar_popup_obj_jaildoorXL 超大的监狱门。
 object_roadgate					道路闸门
 buildtoolbar_popup_obj_roadgate 通常用在马路上，以防大胆的囚犯从那里越狱。
 
-object_roadbarrier	路障
-buildtoolbar_popup_obj_roadbarrier	一个坚实的路障，能够阻挡哪怕急速的卡车。\n仅当戒严时关闭。
+object_roadbarrier				防暴升降路障
+buildtoolbar_popup_obj_roadbarrier	坚实的自动路障，甚至能够阻挡卡车冲撞。\n平时路障隐藏于地下，当戒严时自动升起。
 
 #-==============================
 
