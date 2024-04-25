@@ -81,6 +81,10 @@ function CreateEnhancedSecurityGrant()
     Objective.CreateGrant("Grant_EnhancedSecurity_PatrolArmed", 5000, 8000)
     Objective.SetParent("Grant_EnhancedSecurity")
     Objective.Requires("PatrolArmed", "AtLeast", 2)
+	
+	Objective.CreateGrant           ( "Grant_EnhancedSecurity_Wait", 0, 0 )
+    Objective.SetParent             ( "Grant_EnhancedSecurity" )
+    Objective.RequireTimePassed     ( 1440 )
 end
 
 function CreateAdvancedSecurityGrant()
@@ -139,12 +143,15 @@ function CreateSecurityTunnelGrant()
 
     Objective.CreateGrant("Grant_SecurityTunnel_Guard", 1000, 4000)
     Objective.SetParent("Grant_SecurityTunnel")
-    Objective.Requires("Patrols", "AtLeast", 12)
+    Objective.Requires("PatrolGuards", "AtLeast", 12)
 
     Objective.CreateGrant("Grant_SecurityTunnel_ArmedGuard", 1000, 4000)
     Objective.SetParent("Grant_SecurityTunnel")
-    Objective.Requires("Patrolarmed", "AtLeast", 4)
+    Objective.Requires("PatrolArmed", "AtLeast", 4)
 
+	Objective.CreateGrant           ( "Grant_SecurityTunnel_Wait", 0, 0 )
+    Objective.SetParent             ( "Grant_SecurityTunnel" )
+    Objective.RequireTimePassed     ( 2880 )
 end
 
 function CreateSecurityOfficeGrant1()

@@ -18710,7 +18710,7 @@ BEGIN Requirement Type MinimumSize  x 3  y 3  END
 BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
 
 BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
-BEGIN Requirement Type Object  Id Chair Alt OfficeChair END
+BEGIN Requirement Type Object  Id SwivelChair Alt OfficeChair END
 BEGIN Requirement Type Object  Id FilingCabinet Alt FilingCabinetFancy END
 #-
 

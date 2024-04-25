@@ -1,4 +1,8 @@
 ﻿#Mod
+
+objective_Grant_enhancedsecurity_Wait Keep it for at least 1 days
+objective_Grant_SecurityTunnel_Wait Keep it for at least 2 days
+
 object_ImmediatePrisonerUniform [Buy]PrisonerUniform*1
 object_ImmediateShopGoods		[Buy]ShopGoods*10
 

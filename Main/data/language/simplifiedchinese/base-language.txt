@@ -7155,11 +7155,12 @@ objective_grant_basicsecurity_research		通过[行政系统]解锁“巡逻”
 objective_grant_enhancedsecurity	[Mod] 政府安全评级
 objective_grant_enhancedsecurity_description	政府对超过特定规模的监狱有特定安全要求，\n并会重罚那些不合标准的监狱。\n确保这方面不出现问题。
 objective_grant_enhancedsecurity_armoury	建造 枪械库
-objective_grant_enhancedsecurity_kennel	建造 狗舍
+objective_grant_enhancedsecurity_kennel	建造 警犬休息室
 objective_grant_enhancedsecurity_guards	雇用2名 武装警卫
 objective_grant_enhancedsecurity_dogs	雇用2名 训犬员
 objective_grant_enhancedsecurity_patroldogs	指派2名 训犬员(警犬) 巡逻
 objective_grant_enhancedsecurity_patrolarmed	指派3名 武装警卫 巡逻
+objective_Grant_enhancedsecurity_Wait 至少保持1天
 
 objective_grant_advancedsecurity	[Mod] 安保基础建设
 objective_grant_advancedsecurity_description	保证大量囚犯的妥善监禁会相当困难。\n但是比实施安保措施的代价，囚犯突破防卫造成的代价要大得多。\n在你的监狱中配置必要的人力和装备。
@@ -7182,7 +7183,7 @@ objective_grant_SecurityTunnel_description 对于追求自由的囚犯，巡逻�
 objective_grant_SecurityTunnel_Dog 指派6名 训犬员(警犬) 巡逻
 objective_grant_SecurityTunnel_Guard 指派12名 警卫 巡逻
 objective_grant_SecurityTunnel_ArmedGuard 指派4名 武装警卫 巡逻
-
+objective_Grant_SecurityTunnel_Wait 至少保持2天
 
 objective_grant_securityoffice1 [Mod] 警卫室 Ⅰ
 objective_grant_securityoffice1_description 让待命的警卫和武装警卫有一个据点。\n警卫室最适合位于容易发生事端的区域附近。\n这里也是远程管理门禁的重要地点。
@@ -8994,7 +8995,7 @@ interfacemode_objectType_filter_all	物品类型：所有类型
 
 #+===============================补助金===============================
 
-objective_grant_prison_population_0                    [Mod] 里程碑(0/20)：点击打开监狱人口补助金
+objective_grant_prison_population_0                    [Mod] 里程碑(0/20)：点击启用监狱人口补助金
 objective_grant_prison_population_0_description        提示：人口里程碑共20级\n未满足条件时为隐藏状态\n达到相应人数时可在补助金内领取奖励
 
 objective_grant_prison_population_10                    [Mod] 里程碑(1/20)：10 名囚犯
