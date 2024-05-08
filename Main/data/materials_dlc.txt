@@ -18291,12 +18291,13 @@ BEGIN LikelyObject  Id    PASystem             END
 BEGIN Contraband    Id      Rope		END
 BEGIN Contraband    Id      Club		END
 BEGIN Contraband    Id      Medicine	END
-END
+
 #-
 
 #+品质评级
 BEGIN Grading      Type    RoomSize Size   50               END
 BEGIN Grading       Type    OutsideWindow   Large true      END
+BEGIN Grading      Type    OutsideWindow  Quantity 2   END
 
 BEGIN Grading      Type    Item    Id  Treadmill Quantity 4 END
 BEGIN Grading      Type    Item    Id  WeightsBench Quantity 4 END
@@ -18310,11 +18311,11 @@ BEGIN Grading      Type    Item    Id  WaterCooler Alt DrinkMachine,DrinkingFoun
 
 
 BEGIN Grading       Type    MultiItems  Quantity 16 END
-BEGIN Grading      Type    OutsideWindow  Quantity 2   END
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
 BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
 BEGIN Grading       Type    Item    Id      Cctv   GradeEffect -1    END
-BEGIN Grading       Type    Item    Id      PASystem    GradeEffect -1 END	
+BEGIN Grading       Type    Item    Id      PASystem    GradeEffect -1 END
+END	
 #-	
 #-==
 

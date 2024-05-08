@@ -8161,6 +8161,7 @@ roomgrading_CommonRoom_OutsideWindow_Large	[*E] *Y 大型窗户
 roomgrading_CommonRoom_HasWindow_None	[*E] 无窗户
 roomgrading_CommonRoom_MultiItems	[*E] 包含 *X 个上述物品
 
+roomgrading_Gymnasium_BadWalls	[*E] 半数墙壁摇摇欲坠
 roomgrading_Gymnasium_RoomSize	[*E] 房间面积至少 *X ㎡
 roomgrading_Gymnasium_OutsideWindow	[*E] *Y 室外窗户
 roomgrading_Gymnasium_Item	[*E] 物品: *X

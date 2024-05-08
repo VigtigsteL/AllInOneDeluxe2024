@@ -1,5 +1,7 @@
 ﻿#Mod
 
+roomgrading_Gymnasium_BadWalls	[*E] Surrounded by depressing walls
+
 objective_Grant_enhancedsecurity_Wait Keep it for at least 1 days
 objective_Grant_SecurityTunnel_Wait Keep it for at least 2 days
 
