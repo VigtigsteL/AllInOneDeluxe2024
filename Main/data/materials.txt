@@ -13313,37 +13313,6 @@ BEGIN Sprite1    	 x 5  y 2  END
 END
 #-
 
-#+悬崖 $250
-BEGIN Material
-Name				CliffEdge		
-ConstructionTime	25.00000
-BlockMovement       true  
-BlockVisibility     false  
-MoveCost            0.400000  
-SoftEdged           0  
-BlendIntoScale      0.7
-IndoorOutdoor       1    
-SpecialRestriction	NoShadow
-Price               -250
-SpriteType          ChoosableSingle 
-NumSprites          12  
-BEGIN Sprite0    	x 62  y 60  END
-BEGIN Sprite1    	x 62  y 61  END
-BEGIN Sprite2    	x 63  y 60  END
-BEGIN Sprite3    	x 63  y 61  END
-BEGIN Sprite4		x 62  y 62  END
-BEGIN Sprite5    	x 62  y 63  END
-BEGIN Sprite6    	x 63  y 62  END
-BEGIN Sprite7   	x 63  y 63  END
-BEGIN Sprite8    	x 62  y 58  END
-BEGIN Sprite9    	x 62  y 59  END
-BEGIN Sprite10   	x 63  y 58  END
-BEGIN Sprite11   	x 63  y 59  END 
-VersionAdded		3000
-DLC					SeaAirLand
-END
-#-
-
 #-==
 
 #+==两者皆可
@@ -13905,7 +13874,259 @@ END
 
 #+=====墙壁
 
-#+==分区
+#+==装饰类
+
+#+篱笆 $10
+BEGIN Material   
+Name                 NewHedgeWall  
+ConstructionTime     10.0000  
+BlockMovement        true
+BlockVisibility      true  	
+MoveCost             0.400000  
+SoftEdged            -1  
+IndoorOutdoor        1
+Price                -10
+SpriteType           Connected  
+NumSprites           1
+VersionAdded		 200
+BEGIN Sprite0		 x 0  y 40  END
+Properties           HeatWaveAffected
+END
+#-
+
+#+干草墙 $10
+BEGIN Material
+Name				 HayBailWall
+ConstructionTime     10.0000  
+BlockMovement        true
+BlockVisibility      true  	
+MoveCost             0.400000  
+SoftEdged            -1
+MadeOf		 Wood  
+IndoorOutdoor        1
+Price                -10
+SpriteType           Connected  
+NumSprites           1
+BEGIN Sprite0    	 x 21  y 48 END
+VersionAdded        4000
+Properties           HeatWaveAffected
+END
+#-
+
+#+竹栅栏 $15
+BEGIN Material   
+Name                 BambooFence
+ConstructionTime     5.0000  
+BlockMovement        true  
+MoveCost             0.400000  
+SoftEdged            -1  
+IndoorOutdoor        1
+Price                -15
+SpriteType           Connected  
+NumSprites           1
+BEGIN Sprite0    	 x 0  y 60  END
+VersionAdded		 3000
+DLC					 PrisonWingPriviledges
+Properties           HeatWaveAffected
+END
+#-
+
+#+木栅栏 $15
+BEGIN Material
+Name				 WoodenFence
+ConstructionTime     10.0000  
+BlockMovement        true	
+MoveCost             0.400000  
+SoftEdged            -1  
+IndoorOutdoor        1
+Price                -15
+SpriteType           Connected  
+NumSprites           1
+BEGIN Sprite0    	 x 21  y 44 END
+VersionAdded        4000
+Properties           HeatWaveAffected
+DLC_Replace_Type	 FenceAndGrass
+END
+#-
+
+#+白色栅栏 $15
+BEGIN Material   
+Name                 WhitePicketFence
+ConstructionTime     5.0000  
+BlockMovement        true  
+MoveCost             0.400000  
+SoftEdged            -1  
+BlendIntoScale       0.7
+IndoorOutdoor        1
+Price                -15
+SpriteType           Connected  
+NumSprites           1
+BEGIN Sprite0    	 x 21  y 36 END
+VersionAdded        4000
+Properties           HeatWaveAffected
+DLC_Replace_Type	 FenceAndGrass
+END
+#-
+
+#-
+
+#+==简易
+
+#+铁网围栏 $20
+BEGIN Material
+Name                 Fence
+ConstructionTime     10.0000
+BlockMovement        true
+MoveCost             0.400000
+IndoorOutdoor        1
+SoftEdged            -1
+Price                -20
+SpriteType           Connected
+NumSprites           1
+BEGIN Sprite0    x 0  y 16  END
+END
+#-
+
+#+铁网围栏（草坪） $25
+BEGIN Material   
+Name                 FenceAndGrass
+ConstructionTime     5.0000  
+BlockMovement        true  
+MoveCost             0.400000  
+SoftEdged            -1  
+BlendIntoScale       0.7
+IndoorOutdoor        1
+Price                -25
+SpriteType           Connected  
+NumSprites           1
+BEGIN Sprite0    	 x 14  y 40 END
+VersionAdded		 3000
+DLC					 PrisonWingPriviledges
+Properties           HeatWaveAffected
+END
+#-
+
+#+铁栅栏 $30
+BEGIN Material   
+Name                 NewBarredWall  
+ConstructionTime     5.00000  
+BlockMovement        true  
+BlockVisibility      false  
+MoveCost             0.400000  
+SoftEdged            -1  
+Price                -30
+ObjectRequired       Steel  
+SpriteType           Connected  
+Properties			 IsFoundationWall
+NumSprites           1
+VersionAdded		 200
+BEGIN Sprite0		 x 0  y 36  END
+END
+#-
+
+#-
+
+#+==混凝土-劣质
+
+#+墙壁（生锈） $40 
+BEGIN Material   
+Name                 RustyWall 
+ConstructionTime     5.00000  
+BlockMovement        true  
+BlockVisibility      true  
+MoveCost             0.400000  
+SoftEdged            -1
+Price                -40 
+SpriteType           Connected  
+NumSprites           1
+Properties			 AffectsGrading
+Properties			 IsFoundationWall
+VersionAdded		 3000
+BEGIN Sprite0		 x 0  y 56  END
+DLC					 PrisonWingPriviledges
+END
+#-
+
+#+墙壁（贫民窟） $40 
+BEGIN Material   
+Name                 SlumWall 
+ConstructionTime     5.00000  
+BlockMovement        true  
+BlockVisibility      true  
+MoveCost             0.400000  
+SoftEdged            -1
+Price                -40 
+SpriteType           Connected  
+NumSprites           1
+Properties			 AffectsGrading
+Properties			 IsFoundationWall
+VersionAdded		 3000
+BEGIN Sprite0		 x 7  y 56  END
+DLC					 PrisonWingPriviledges
+END
+#-
+
+#+墙壁（破旧） $40 
+BEGIN Material   
+Name                 DerelictWall 
+ConstructionTime     5.00000  
+BlockMovement        true  
+BlockVisibility      true  
+MoveCost             0.400000  
+SoftEdged            -1
+Price                -40
+SpriteType           Connected  
+NumSprites           1
+Properties			 AffectsGrading
+Properties			 IsFoundationWall
+VersionAdded		 3000
+BEGIN Sprite0		 x 0  y 52  END
+DLC					 PrisonWingPriviledges
+END
+#-
+
+#+墙壁（藤蔓） $40 
+BEGIN Material   
+Name                 OvergrownWall 
+ConstructionTime     5.00000  
+BlockMovement        true
+BlockVisibility      true  
+MoveCost             0.400000  
+SoftEdged            -1
+Price                -40 
+SpriteType           Connected  
+NumSprites           1
+Properties			 AffectsGrading
+Properties			 IsFoundationWall
+Properties           HeatWaveAffected
+VersionAdded		 3000
+BEGIN Sprite0		 x 7  y 52  END
+DLC					 PrisonWingPriviledges
+END
+#-
+
+#+墙壁（腐朽） $40 
+BEGIN Material   
+Name                 DecayedWall
+ConstructionTime     5.00000  
+BlockMovement        true  
+BlockVisibility      true  
+MoveCost             0.400000  
+SoftEdged            -1
+Price                -40 
+SpriteType           Connected  
+NumSprites           1
+Properties			 AffectsGrading
+Properties			 IsFoundationWall
+VersionAdded		 3000
+BEGIN Sprite0		 x 14  y 36  END
+DLC					 PrisonWingPriviledges
+END
+#-
+
+#-==
+
+#+==混凝土-分区
 
 #+混凝土墙壁 $80
 BEGIN Material   
@@ -14076,255 +14297,9 @@ DLC					 PrisonWingPriviledges
 END
 #-
 
-#+监狱围墙
-BEGIN Material   
-Name                 PerimeterWall  
-ConstructionTime     25.00000
-BlockMovement        true  
-BlockVisibility      true  
-MoveCost             0.100000
-SoftEdged            -1  
-ObjectRequired       Brick  
-Price                -150
-IndoorOutdoor        1  
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    x 8  y 16  END
-END
-#-
-
 #-==
 
-#+==简易
-
-#+铁网围栏 $50
-BEGIN Material
-Name                 Fence
-ConstructionTime     10.0000
-BlockMovement        true
-MoveCost             0.400000
-IndoorOutdoor        1
-SoftEdged            -1
-Price                -50
-SpriteType           Connected
-NumSprites           1
-BEGIN Sprite0    x 0  y 16  END
-END
-#-
-
-#+铁网围栏（草坪） $60
-BEGIN Material   
-Name                 FenceAndGrass
-ConstructionTime     5.0000  
-BlockMovement        true  
-MoveCost             0.400000  
-SoftEdged            -1  
-BlendIntoScale       0.7
-IndoorOutdoor        1
-Price                -60
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    	 x 14  y 40 END
-VersionAdded		 3000
-DLC					 PrisonWingPriviledges
-Properties           HeatWaveAffected
-END
-#-
-
-#+铁栅栏 $70
-BEGIN Material   
-Name                 NewBarredWall  
-ConstructionTime     5.00000  
-BlockMovement        true  
-BlockVisibility      false  
-MoveCost             0.400000  
-SoftEdged            -1  
-Price                -60
-ObjectRequired       Steel  
-SpriteType           Connected  
-Properties			 IsFoundationWall
-NumSprites           1
-VersionAdded		 200
-BEGIN Sprite0		 x 0  y 36  END
-END
-#-
-
-#+竹栅栏 $30
-BEGIN Material   
-Name                 BambooFence
-ConstructionTime     5.0000  
-BlockMovement        true  
-MoveCost             0.400000  
-SoftEdged            -1  
-IndoorOutdoor        1
-Price                -30
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    	 x 0  y 60  END
-VersionAdded		 3000
-DLC					 PrisonWingPriviledges
-Properties           HeatWaveAffected
-END
-#-
-
-#+木栅栏 $30
-BEGIN Material
-Name				 WoodenFence
-ConstructionTime     10.0000  
-BlockMovement        true	
-MoveCost             0.400000  
-SoftEdged            -1  
-IndoorOutdoor        1
-Price                -30
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    	 x 21  y 44 END
-VersionAdded        4000
-Properties           HeatWaveAffected
-DLC_Replace_Type	 FenceAndGrass
-END
-#-
-
-#+白色栅栏 $30
-BEGIN Material   
-Name                 WhitePicketFence
-ConstructionTime     5.0000  
-BlockMovement        true  
-MoveCost             0.400000  
-SoftEdged            -1  
-BlendIntoScale       0.7
-IndoorOutdoor        1
-Price                -30
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    	 x 21  y 36 END
-VersionAdded        4000
-Properties           HeatWaveAffected
-DLC_Replace_Type	 FenceAndGrass
-END
-#-
-
-#+篱笆 $30
-BEGIN Material   
-Name                 NewHedgeWall  
-ConstructionTime     10.0000  
-BlockMovement        true
-BlockVisibility      true  	
-MoveCost             0.400000  
-SoftEdged            -1  
-IndoorOutdoor        1
-Price                -30
-SpriteType           Connected  
-NumSprites           1
-VersionAdded		 200
-BEGIN Sprite0		 x 0  y 40  END
-Properties           HeatWaveAffected
-END
-#-
-
-#+干草墙 $30
-BEGIN Material
-Name				 HayBailWall
-ConstructionTime     10.0000  
-BlockMovement        true
-BlockVisibility      true  	
-MoveCost             0.400000  
-SoftEdged            -1
-MadeOf		 Wood  
-IndoorOutdoor        1
-Price                -30
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0    	 x 21  y 48 END
-VersionAdded        4000
-Properties           HeatWaveAffected
-END
-#-
-
-
-
-#+栅栏围墙 $120
-BEGIN Material
-Name				FenceWall
-ConstructionTime	5.00000
-BlockMovement		true
-BlockVisibility		true
-MoveCost			0.400000
-SoftEdged			-1
-Price				-120
-ObjectRequired		Concrete
-SpriteType			Connected
-IndoorOutdoor		1
-NumSprites			1
-BEGIN Sprite0		x 35  y 56  END
-DLC_Replace_Type	ConcreteWall
-END
-#-
-
-#+牢笼栅栏 $20
-BEGIN Material   
-Name                 CageFence
-ConstructionTime     5.00000  
-BlockMovement        true    
-MoveCost             0.400000  
-SoftEdged            -1
-Price                -20  
-SpriteType           Connected  
-NumSprites           1
-BEGIN Sprite0		 x 34  y 32  END
-DLC_Replace_Type	 ConcreteWall
-MadeOf               Metal
-Properties           HeatWaveAffected
-IndoorOutdoor       1
-END
-#-
-
-#+玻璃墙 $90
-BEGIN Material
-Name				GlassWall
-ConstructionTime	5.00000
-BlockMovement		true
-BlockVisibility		false
-MoveCost			0.400000
-SoftEdged			-1
-Price				-90
-ObjectRequired		Steel
-SpriteType			Connected
-Properties			IsFoundationWall
-IndoorOutdoor		0
-NumSprites			1
-BEGIN Sprite0		x 35  y 52  END
-DLC_Replace_Type	ConcreteWall
-BEGIN	DecreasesRoom	Room	Cell		END
-BEGIN	DecreasesRoom	Room	Dormitory	END
-BEGIN	ImprovesRoom	Room	Classroom	END
-BEGIN	ImprovesRoom	Room	Canteen		END
-BEGIN	ImprovesRoom	Room	Gymnasium	END
-BEGIN	ImprovesRoom	Room	CommonRoom	END
-END
-#-
-
-#+电栅栏 $165
-BEGIN Material
-Name				ElectrifiedFence
-ConstructionTime	5.00000
-BlockMovement		true
-BlockVisibility		false
-MoveCost			0.400000
-SoftEdged			-1
-Price				-165
-ObjectRequired		Concrete
-SpriteType			Connected
-IndoorOutdoor		1
-NumSprites			1
-BEGIN Sprite0		x 35  y 44  END
-DLC_Replace_Type	ConcreteWall
-END
-#-
-
-#-==
-
-#+==美观
+#+==混凝土-装饰
 
 #+墙壁（红砖） $100
 BEGIN Material   
@@ -14491,8 +14466,7 @@ END
 #-
 
 
-
-#+高级墙壁（蓝色条纹） $100
+#+墙壁（蓝色条纹） $100
 BEGIN Material   
 Name                 BlueWall 
 ConstructionTime     5.00000  
@@ -14511,7 +14485,7 @@ DLC_Replace_Type	 ConcreteWall
 END
 #-
 
-#+高级墙壁（勃艮第色） $100
+#+墙壁（勃艮第色） $100
 BEGIN Material   
 Name                 BurgundyWall 
 ConstructionTime     5.00000  
@@ -14571,105 +14545,135 @@ END
 
 #-==
 
-#+==劣质
 
-#+墙壁（生锈） $20 
+#+==其他
+
+#+监狱围墙 $200
 BEGIN Material   
-Name                 RustyWall 
-ConstructionTime     5.00000  
+Name                 PerimeterWall  
+ConstructionTime     25.00000
 BlockMovement        true  
 BlockVisibility      true  
-MoveCost             0.400000  
-SoftEdged            -1
-Price                -20 
+MoveCost             0.100000
+SoftEdged            -1  
+ObjectRequired       Brick  
+Price                -150
+IndoorOutdoor        1  
 SpriteType           Connected  
 NumSprites           1
-Properties			 AffectsGrading
-Properties			 IsFoundationWall
-VersionAdded		 3000
-BEGIN Sprite0		 x 0  y 56  END
-DLC					 PrisonWingPriviledges
+BEGIN Sprite0    x 8  y 16  END
 END
 #-
 
-#+墙壁（贫民窟） $20 
-BEGIN Material   
-Name                 SlumWall 
-ConstructionTime     5.00000  
-BlockMovement        true  
-BlockVisibility      true  
-MoveCost             0.400000  
-SoftEdged            -1
-Price                -20 
-SpriteType           Connected  
-NumSprites           1
-Properties			 AffectsGrading
-Properties			 IsFoundationWall
-VersionAdded		 3000
-BEGIN Sprite0		 x 7  y 56  END
-DLC					 PrisonWingPriviledges
+#+悬崖 $250
+BEGIN Material
+Name				CliffEdge		
+ConstructionTime	25.00000
+BlockMovement       true  
+BlockVisibility     false  
+MoveCost            0.400000  
+SoftEdged           0  
+BlendIntoScale      0.7
+IndoorOutdoor       1    
+SpecialRestriction	NoShadow
+Price               -250
+SpriteType          ChoosableSingle 
+NumSprites          12  
+BEGIN Sprite0    	x 62  y 60  END
+BEGIN Sprite1    	x 62  y 61  END
+BEGIN Sprite2    	x 63  y 60  END
+BEGIN Sprite3    	x 63  y 61  END
+BEGIN Sprite4		x 62  y 62  END
+BEGIN Sprite5    	x 62  y 63  END
+BEGIN Sprite6    	x 63  y 62  END
+BEGIN Sprite7   	x 63  y 63  END
+BEGIN Sprite8    	x 62  y 58  END
+BEGIN Sprite9    	x 62  y 59  END
+BEGIN Sprite10   	x 63  y 58  END
+BEGIN Sprite11   	x 63  y 59  END 
+VersionAdded		3000
+DLC					SeaAirLand
 END
 #-
 
-#+墙壁（破旧） $20 
-BEGIN Material   
-Name                 DerelictWall 
-ConstructionTime     5.00000  
-BlockMovement        true  
-BlockVisibility      true  
-MoveCost             0.400000  
-SoftEdged            -1
-Price                -20
-SpriteType           Connected  
-NumSprites           1
-Properties			 AffectsGrading
-Properties			 IsFoundationWall
-VersionAdded		 3000
-BEGIN Sprite0		 x 0  y 52  END
-DLC					 PrisonWingPriviledges
+#+栅栏围墙 $120
+BEGIN Material
+Name				FenceWall
+ConstructionTime	5.00000
+BlockMovement		true
+BlockVisibility		true
+MoveCost			0.400000
+SoftEdged			-1
+Price				-120
+ObjectRequired		Concrete
+SpriteType			Connected
+IndoorOutdoor		1
+NumSprites			1
+BEGIN Sprite0		x 35  y 56  END
+DLC_Replace_Type	ConcreteWall
 END
 #-
 
-#+墙壁（藤蔓） $20 
+#+牢笼栅栏 $20
 BEGIN Material   
-Name                 OvergrownWall 
+Name                 CageFence
 ConstructionTime     5.00000  
-BlockMovement        true
-BlockVisibility      true  
+BlockMovement        true    
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -20 
+Price                -20  
 SpriteType           Connected  
 NumSprites           1
-Properties			 AffectsGrading
-Properties			 IsFoundationWall
+BEGIN Sprite0		 x 34  y 32  END
+DLC_Replace_Type	 ConcreteWall
+MadeOf               Metal
 Properties           HeatWaveAffected
-VersionAdded		 3000
-BEGIN Sprite0		 x 7  y 52  END
-DLC					 PrisonWingPriviledges
+IndoorOutdoor       1
 END
 #-
 
-#+墙壁（腐朽） $20 
-BEGIN Material   
-Name                 DecayedWall
-ConstructionTime     5.00000  
-BlockMovement        true  
-BlockVisibility      true  
-MoveCost             0.400000  
-SoftEdged            -1
-Price                -20 
-SpriteType           Connected  
-NumSprites           1
-Properties			 AffectsGrading
-Properties			 IsFoundationWall
-VersionAdded		 3000
-BEGIN Sprite0		 x 14  y 36  END
-DLC					 PrisonWingPriviledges
+#+玻璃墙 $90
+BEGIN Material
+Name				GlassWall
+ConstructionTime	5.00000
+BlockMovement		true
+BlockVisibility		false
+MoveCost			0.400000
+SoftEdged			-1
+Price				-90
+ObjectRequired		Steel
+SpriteType			Connected
+Properties			IsFoundationWall
+IndoorOutdoor		0
+NumSprites			1
+BEGIN Sprite0		x 35  y 52  END
+DLC_Replace_Type	ConcreteWall
+BEGIN	DecreasesRoom	Room	Cell		END
+BEGIN	DecreasesRoom	Room	Dormitory	END
+BEGIN	ImprovesRoom	Room	Classroom	END
+BEGIN	ImprovesRoom	Room	Canteen		END
+BEGIN	ImprovesRoom	Room	Gymnasium	END
+BEGIN	ImprovesRoom	Room	CommonRoom	END
 END
 #-
 
-
+#+电栅栏 $165
+BEGIN Material
+Name				ElectrifiedFence
+ConstructionTime	5.00000
+BlockMovement		true
+BlockVisibility		false
+MoveCost			0.400000
+SoftEdged			-1
+Price				-165
+ObjectRequired		Concrete
+SpriteType			Connected
+IndoorOutdoor		1
+NumSprites			1
+BEGIN Sprite0		x 35  y 44  END
+DLC_Replace_Type	ConcreteWall
+END
+#-
 
 #+烧焦的墙
 BEGIN Material   
@@ -14723,6 +14727,12 @@ END
 #-
 
 #-==
+
+
+
+
+
+
 
 #-=====
 

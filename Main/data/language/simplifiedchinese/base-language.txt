@@ -3388,7 +3388,7 @@ buildtoobar_PsychConItemImproveGrace	- 咨询结束后，在其压抑和某些�
 # Interface Mode
 # =============================================================================
 
-interfacedeployment_insaneseczone	精神病设防区
+interfacedeployment_insaneseczone	精神病专区
 interfacetopbar_PrisonerCells_insaneSecOnly	犯罪精神病人容量：*X
 
 roomgrading_PsychiatristOffice_info	在精神科医生办公室解锁并放置额外物品，以提高对于精神病囚犯的治疗效果。\n
@@ -3635,7 +3635,7 @@ buildtoolbar_deployment_VisitorDirection	点击并拖动指明楼层标识。\n\
 
 guard_program_requirements	- 每名警卫需要*X
 
-schedule_zone_insaneSecOnly	精神病设防区
+schedule_zone_insaneSecOnly	精神病专区
 
 # =============================================================================
 # Codex
@@ -3834,8 +3834,8 @@ buildtoolbar_popup_obj_ArcadeCabinet	先进的复古游戏机可供囚犯消遣�
 buildtoolbar_popup_obj_PASystem	定期提醒囚犯他们实际还在监狱中，从而压制他们。\n- 增加囚犯身处牢房或庭院时感受到的压迫感。
 buildtoolbar_popup_obj_StoneWaterSpout	哥特式石质水龙头，与供水系统相连时，会从嘴里喷水。
 
-buildtoolbar_popup_obj_JailDoorWhite	彩色监狱门，有助于标记精神病人囚犯牢房。
-buildtoolbar_popup_obj_JailDoorLargeWhite	彩色监狱门，有助于标记精神病人囚犯牢房。
+buildtoolbar_popup_obj_JailDoorWhite	彩色监狱门，有助于标记精神病囚犯牢房。
+buildtoolbar_popup_obj_JailDoorLargeWhite	彩色监狱门，有助于标记精神病囚犯牢房。
 
 buildtoolbar_popup_obj_signNumber0	一个带有数字 0 标识的墙标。排列标识可创建词语或标记，如“4 号牢房”。
 buildtoolbar_popup_obj_signNumber1	一个带有数字 1 标识的墙标。排列标识可创建词语或标记，如“4 号牢房”。
@@ -3912,7 +3912,7 @@ customsectorwindow_maxseccaption	高戒备囚犯
 customsectorwindow_supermaxcaption	超高戒备囚犯
 customsectorwindow_deathrowcaption	死刑犯
 customsectorwindow_protectivecaption	重点保护
-customsectorwindow_insanecaption	精神病人囚犯
+customsectorwindow_insanecaption	精神病囚犯
 
 customSector_title	自定义安全区域
 customSector_subtitle	此安全区域允许下列行为：
@@ -3929,10 +3929,10 @@ buildtoolbar_planning_autofoundation	自动地基
 # Security Sector Grading
 # =============================================================================
 
-interfaceLogistics_MinSecGrading	最低设防区评级
-interfaceLogistics_MedSecGrading	普通设防区评级
-interfaceLogistics_MaxSecGrading	最高设防区评级
-interfaceLogistics_SuperMaxGrading	超高设防区评级
+interfaceLogistics_MinSecGrading	评级\n低戒备区
+interfaceLogistics_MedSecGrading	评级\n中戒备区
+interfaceLogistics_MaxSecGrading	评级\n高戒备区
+interfaceLogistics_SuperMaxGrading	评级\n超高戒备区
 
 sectorGrading_title	*X 区域
 sectorGrading_housed	*X 囚犯住在 *Y
@@ -3948,14 +3948,14 @@ sectorGrading_privilegesTitle	囚犯特权
 sectorGrading_visitation	[+*X] 探视
 sectorGrading_mail	[+*X] 邮件
 sectorGrading_work	[+*X] 工作机会（现金）
-sectorGrading_education	[+*X] 教育 / 方案访问权限
+sectorGrading_education	[+*X] 教育 / 方案使用许可
 sectorGrading_meals	[+*X] 每天 2 餐以上
 sectorGrading_freeTime	[+*X] 充足的自由时间 (20%)
-sectorGrading_extraFreeTime	[+*X] 额外的自由时间 (30%)
-sectorGrading_yard	[+*X] 进入庭院的次数
-sectorGrading_gym	[+*X] 进入健身房的次数
-sectorGrading_shop	[+*X] 进入商店的次数
-sectorGrading_commonRoom	[+*X] 进入休息室的次数
+sectorGrading_extraFreeTime	[+*X] 更多的自由时间 (30%)
+sectorGrading_yard	[+*X] 使用许可：庭院
+sectorGrading_gym	[+*X] 使用许可：健身房
+sectorGrading_shop	[+*X] 使用许可：商店
+sectorGrading_commonRoom	[+*X] 使用许可：公共活动室
 sectorGrading_showers	[+*X] 热水淋浴
 sectorGrading_sleep	[+*X] 10 小时以上的睡眠时间
 
@@ -4008,7 +4008,7 @@ report_policy_categoryTooltip_MaxSec	高戒备囚犯
 report_policy_categoryTooltip_Protected	重点保护
 report_policy_categoryTooltip_SuperMax	超高戒备囚犯
 report_policy_categoryTooltip_DeathRow	死刑犯
-report_policy_categoryTooltip_Insane	精神病人囚犯
+report_policy_categoryTooltip_Insane	精神病囚犯
 
 report_policy_misconductConflict_tooltip	可选择多种具有不同策略值的安保人员类型。选择单个囚犯种类即可查看其不当行为政策。
 
@@ -4167,18 +4167,18 @@ report_policy_match_tooltip	将 *X 不当行为政策与另一个安全区域相
 report_intake_cat_PrisonerTransfer	传奇囚犯！
 
 
-buildtoolbar_popup_help_Orderly_1	护理人员经过特别训练，专门看护精神病人囚犯。\n
+buildtoolbar_popup_help_Orderly_1	护理人员经过特别训练，专门看护精神病囚犯。\n
 buildtoolbar_popup_help_Orderly_2	护理人员具有与警卫和医生类似的特征，但无法像普通警卫一样对囚犯产生镇压效果。\n\n
-buildtoolbar_popup_help_Orderly_3	雇佣护理人员看护精神病人囚犯。护理人员将：
-buildtoolbar_popup_help_Orderly_4	- 协助接收精神病人囚犯。
-buildtoolbar_popup_help_Orderly_5	- 护送精神病人囚犯接受心理咨询（课程）。
-buildtoolbar_popup_help_Orderly_6	- 治疗受伤的精神病人囚犯。
-buildtoolbar_popup_help_Orderly_7	- 为暴怒的精神病人囚犯注射镇定剂。
-buildtoolbar_popup_help_Orderly_8	- 在夜间为精神错乱的精神病人囚犯穿上约束衣。
+buildtoolbar_popup_help_Orderly_3	雇佣护理人员看护精神病囚犯。护理人员将：
+buildtoolbar_popup_help_Orderly_4	- 协助接收精神病囚犯。
+buildtoolbar_popup_help_Orderly_5	- 护送精神病囚犯接受心理咨询（课程）。
+buildtoolbar_popup_help_Orderly_6	- 治疗受伤的精神病囚犯。
+buildtoolbar_popup_help_Orderly_7	- 为暴怒的精神病囚犯注射镇定剂。
+buildtoolbar_popup_help_Orderly_8	- 在夜间为精神错乱的精神病囚犯穿上约束衣。
 
-buildtoolbar_popup_help_Psychiatrist_1	精神科医生定期对精神病人囚犯进行一对一咨询。\n\n
+buildtoolbar_popup_help_Psychiatrist_1	精神科医生定期对精神病囚犯进行一对一咨询。\n\n
 buildtoolbar_popup_help_Psychiatrist_2	每位医生都需要专门的精神科医生办公室。
-buildtoolbar_popup_help_Psychiatrist_3	需制定心理咨询方案，然后精神科医生才能治疗精神病人囚犯。
+buildtoolbar_popup_help_Psychiatrist_3	需制定心理咨询方案，然后精神科医生才能治疗精神病囚犯。
 buildtoolbar_popup_help_Psychiatrist_4	可使用新物品升级精神科医生办公室，以改善精神科医生的治疗效果。
 
 rapsheet_action	处置
@@ -7774,14 +7774,17 @@ buildtoolbar_tooltip_DrugBust	命令训犬员搜查监狱中藏匿的毒品
 crisisToolbarQuestion	 - 选择哪些区域？
 crisisSector_AllSectors	所有区域
 crisisSector_StopAll	停止所有
+
 crisisSector_SharedOnly	公共区域
-crisisSector_MinSecOnly	最低设防区
-crisisSector_MedSecOnly	普通设防区
-crisisSector_MaxSecOnly	最高设防区
-crisisSector_InsaneOnly	精神病人专区
+crisisSector_MinSecOnly	低戒备区
+crisisSector_MedSecOnly	中戒备区
+crisisSector_MaxSecOnly	高戒备区
+crisisSector_SuperMaxOnly	超高戒备区
+
 crisisSector_ProtectedOnly	重点保护区
-crisisSector_SuperMaxOnly	超高设防区
 crisisSector_DeathRowOnly	死刑犯专区
+crisisSector_InsaneOnly	精神病专区
+
 #-
 
 #-========================
@@ -7857,7 +7860,7 @@ buildtoolbar_popup_room_canteen	囚犯的进餐区域。\n\n由于“吃饭”�
 room_shower	淋浴间
 buildtoolbar_popup_room_shower	囚犯可在此保持卫生。\n\n可强制囚犯在”淋浴“时间来此。\n囚犯也会在空闲时间依据自身需求使用淋浴设备。\n记得在门口或花洒下方铺设排水渠。\n\n需求：\n+ 卫生
 
-room_commonroom	公共房间
+room_commonroom	公共活动室
 buildtoolbar_popup_room_commonroom	给囚犯一些自由时间让其放松。\n\n可以安装各种物品来满不同需求。
 
 room_gymnasium	健身房
@@ -7975,7 +7978,7 @@ room_PaddedSolitary	软垫禁闭室
 buildtoolbar_popup_room_paddedsolitary	专门针对穷凶极恶的精神病囚犯的隔离惩戒牢房。
 
 room_PsychiatristOffice	精神科医生办公室
-buildtoolbar_popup_room_psychiatristoffice	供精神科医生诊断精神病人囚犯的区域。解锁额外物品并将其放置在精神科医生办公室，从而提升对精神病人囚犯的治疗效果。通过让精神病人囚犯参加心理咨询计划来解锁物品。
+buildtoolbar_popup_room_psychiatristoffice	供精神科医生诊断精神病囚犯的区域。解锁额外物品并将其放置在精神科医生办公室，从而提升对精神病囚犯的治疗效果。通过让精神病囚犯参加心理咨询计划来解锁物品。
 #-
 #+帮派
 room_TheCage	牢笼
