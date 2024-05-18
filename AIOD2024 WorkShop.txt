@@ -1,4 +1,4 @@
-[h1][B]　　　　　　当前版本:V1.9.2 | 更新日期:2024.05.08[/B][/h1][hr][/hr]
+[h1][B]　　　　　　当前版本:V1.9.3 | 更新日期:2024.05.19[/B][/h1][hr][/hr]
 [H1]本模组是对 [中文豪华版] 基于 < 原始模组 > 与 < 二次开发模组 >
 进行的修复与更新[/H1]
 [H1][b]Module now supports "Chinese/English" version!!![/b][/H1]
@@ -22,10 +22,10 @@
 
 [b]感谢两位开发者对 PA 社区做出的巨大贡献！[/b]
 [i]如果有任何需要完善的地方、希望更改或添加的功能。
-欢迎大家反馈与讨论。[/i]
+[u]欢迎大家反馈与讨论。[/u][/i]
 
 [hr][/hr][h1][b]　　　　　　　　　　重要！修复在大型游戏中，
-　大幅降低运算性能、2~5 秒一次严重卡顿、内存泄漏等严重 Bug！[/b][/h1]
+　运算性能大幅降低、2~5 秒一次严重卡顿、内存泄漏等严重 Bug！[/b][/h1]
 [hr][/hr]
 [h1][b]更新概况：[/b][/h1]
 
@@ -110,4 +110,4 @@
 <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2978340955]Ozone's Fixes & Qol All-In-One[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3009547076]Restyling UI (Continued)[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=227085867]Prison Population Grants[/url]>
 ------------------------------------------------------------------------------------------------------
 [h3]感谢以下玩家提交的反馈与建议！[/h3]
- @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Muziyami @Vulcan-H @fluoswy @Mr1996
+ @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Muziyami @Vulcan-H @fluoswy @Mr1996 @小白七
