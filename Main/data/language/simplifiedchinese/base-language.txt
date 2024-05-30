@@ -1579,6 +1579,7 @@ action_destroying	毁坏
 action_spoiling	发飙
 action_fighting	打斗！
 action_rioting	暴动！
+
 action_hostagetaking	挟持人质
 action_reformprogram	改造方案
 action_changeclothes	换衣服
@@ -9066,7 +9067,7 @@ objective_grant_prison_population_400_description        恭喜：你建造了�
 
 #+===============================模组===============================
 
-#+
+#+其他
 #作弊组件 
 Start
 object_CheatWorkman						工人(作弊组件)
@@ -9153,8 +9154,14 @@ medcab__calling [已呼叫]
 
 doctor__tt \n今日已治疗 *X 分钟\n花费 *Y 元
 
-object_CheatPrisonerMisbehavior [作弊]囚犯闹事
-buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个特殊物品可以让囚犯们立即闹事。\n\n“安装”它后，点击它，在菜单中操作。
+object_CheatPrisonerMisbehavior [作弊]囚犯暴动
+buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个功能可以让囚犯们立即暴动。\n\n“安装”它后，点击它，在菜单中操作。
+cpm__range 影响囚犯范围半径: *R 米
+cpm__destroy 毁坏物品
+cpm__escape 越狱
+cpm__riot 暴动
+cpm__fight 打斗
+cpm__tt \n点击打开菜单。\n让囚犯集体暴动，对监狱进行压力测试。\n\n警告：请确保已经存档。
 
 # 隐藏的对象
 equipment_SubmachineGun 冲锋枪
@@ -9220,6 +9227,7 @@ ab__accountant_tt__dead 死人显然是无法工作的。
 ab__accountant_tt__unconscious 先赶紧救治她吧。
 
 #- =============================================================================
+
 #+==========================杀手开始
 
 object_Avatar 代号48

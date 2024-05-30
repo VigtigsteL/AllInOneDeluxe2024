@@ -300,6 +300,16 @@ doctor__tt \nTreated today *X minute\nSpend *Y $
 
 object_CheatPrisonerMisbehavior [Cheat] Prisoner Misbehavior
 buildtoolbar_popup_obj_CheatPrisonerMisbehavior This special item can cause prisoners to cause trouble in no time. \n\nAfter "installing" it, click on it and work in the menu.
+cpm__range Affects the radius of prisoners: *R 米
+cpm__destroy destroy
+cpm__escape escape
+cpm__riot riot
+cpm__fight fight
+cpm__tt \nClick to open the menu. \nLet the prisoners riot en masse to stress test the prison. \n\nWarning: Make sure you have saved the game.
+
+
+
+
 
 # 隐藏的对象
 equipment_SubmachineGun Submachine gun

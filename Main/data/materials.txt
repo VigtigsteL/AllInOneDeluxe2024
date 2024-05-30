@@ -1065,7 +1065,7 @@ Properties           NoImport
 END
 #-
 
-#+步枪
+#+狙击步枪
 BEGIN Equipment  
 Name                 Rifle  
 Sprite               Rifle  
@@ -1089,7 +1089,7 @@ BEGIN Equipment
 Name                 AssaultRifle  
 Sprite               AssaultRifle  
 Scale                1.10000  
-AttackPower          4.00000  
+AttackPower          15.00000  
 RechargeTime         0.1000
 Range                20.0
 Ammo                 30
