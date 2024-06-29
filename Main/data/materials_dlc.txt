@@ -17209,7 +17209,7 @@ BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 4  y 4  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet  END
 BEGIN Requirement Type Object  Id Bench Alt SmallBench  END
 #-	
@@ -17263,7 +17263,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet  END
 BEGIN Requirement Type Object  Id Bed Alt Mattress,OldBed,BunkBed,ComfyBed,CampBed,NettedBed,CoffinBed END
 #-
@@ -17353,7 +17353,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 2  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet  END
 BEGIN Requirement Type Object  Id Bed Alt Mattress,ComfyBed,CoffinBed,OldBed,CampBed,NettedBed END	
 #-
@@ -17441,7 +17441,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 4  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id ElectricChair  END
 #-
 
@@ -17473,7 +17473,7 @@ WorkExperienceRate	0.05
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Cooker                END
 BEGIN Requirement Type Object  Id Sink                END
 BEGIN Requirement Type Object  Id Fridge Alt TallFridge END
@@ -17535,7 +17535,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id LaundryMachine  END
 BEGIN Requirement Type Object  Id LaundryBasket  END
 BEGIN Requirement Type Object  Id IroningBoard Alt IroningBoardShort END
@@ -17586,7 +17586,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 1  y 4  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 
 
 BEGIN Requirement Type Object  Id BathroomHandDryer END
@@ -17646,7 +17646,7 @@ BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 5  y 4  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object   Id WorkshopSaw Alt WorkshopPress,CarpenterTable Multi true END
 BEGIN Requirement Type Object   Id Table Alt SmallTable END
 #-
@@ -17706,7 +17706,7 @@ WorkExperienceRate	0.01
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id LibraryBookshelf Alt ShortBookcase END
 BEGIN Requirement Type Object Id SortingTable END
 BEGIN Requirement Type Object  Id Bin  Alt RecyclingBin END
@@ -17785,7 +17785,7 @@ BEGIN Requirement Type Indoor END
 BEGIN Requirement Type MinimumSize x 3 y 3 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object Id SortingTable END
 BEGIN Requirement Type Object Id Table Alt SmallTable END
 #-
@@ -17830,7 +17830,7 @@ BEGIN Requirement Type Indoor END
 BEGIN Requirement Type MinimumSize x 3 y 3 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object Id ShopShelf END
 BEGIN Requirement Type Object Id SnackMachine END
 BEGIN Requirement Type AdjacentObject Id ShopFront END
@@ -17942,7 +17942,7 @@ WorkExperienceRate	0.03
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id AccountingTable END
 BEGIN Requirement Type Object  Id Table Alt SmallTable END
 #-
@@ -17977,7 +17977,7 @@ Properties           CanAssignGangSegregation
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id ServingTable Alt SmallServingTable,JungleServingTable END
 BEGIN Requirement Type Object  Id Table Alt SmallTable,OakTable,DiningTableLarge,DiningTableSmall,DinerBooth,JungleTable END
 BEGIN Requirement Type Object  Id Bench Alt SmallBench,JungleBench,OakBench,DiningChair,DinerBooth END
@@ -18084,7 +18084,7 @@ Properties           CanAssignGangSegregation
 BEGIN Requirement Type MinimumSize  x 2  y 2  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id ShowerHead  END
 #-
 
@@ -18117,7 +18117,7 @@ Properties           PrisonerRelax
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 #-
 
 #+推荐物品
@@ -18244,7 +18244,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+物品要求
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 #-
 
 #+推荐物品
@@ -18446,7 +18446,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 4  y 5  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id VisitorTable  END
 #-
 #+推荐物品
@@ -18488,11 +18488,11 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 4  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Blackboard END
 BEGIN Requirement Type Object  Id SchoolDesk END
 BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
-BEGIN Requirement Type Object  Id SwivelChair Alt OfficeChair END
+BEGIN Requirement Type Object  Id SwivelChair Alt Chair,ChairYellow,OfficeChair END
 #-
 
 #+推荐物品
@@ -18576,7 +18576,7 @@ BEGIN Requirement Type Indoor END
 BEGIN Requirement Type MinimumSize x 4 y 4 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object Id Altar END
 BEGIN Requirement Type Object Id Pews END
 BEGIN Requirement Type Object Id PrayerMat END
@@ -18605,7 +18605,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize x 2 y 3 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id MedicalBed  END
 BEGIN Requirement Type Object  Id MedicineCabinet  END
 BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink,SinkMirror Multi true END
@@ -18677,7 +18677,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize x 2 y 3 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id VisitorTable  Alt VisitorTableSecure END
 #-
 
@@ -18718,10 +18718,10 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 
 BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
-BEGIN Requirement Type Object  Id SwivelChair Alt OfficeChair END
+BEGIN Requirement Type Object  Id SwivelChair Alt Chair,ChairYellow,OfficeChair END
 BEGIN Requirement Type Object  Id FilingCabinet Alt FilingCabinetFancy END
 #-
 
@@ -18799,7 +18799,7 @@ BEGIN Requirement Type Indoor END
 BEGIN Requirement Type MinimumSize  x 4  y 4  END
 
 #+必要物品	
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id SofaChairDouble Alt SofaChairBrown,SofaChairDoubleBrown,SofaChairSingle END
 #-
 
@@ -18926,7 +18926,7 @@ Properties          StaffCanUseFacilities
 BEGIN Requirement Type MinimumSize  x 2  y 2  END
 
 #+必要物品	
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 #-
 
 #+推荐物品
@@ -18983,7 +18983,7 @@ Properties           StaffCanUseFacilities
 BEGIN Requirement Type Indoor END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id GuardLocker END
 #-
 
@@ -19035,7 +19035,7 @@ BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品	
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id DogCrate  END
 BEGIN Requirement Type Object  Id DogBowl  END
 #-
@@ -19083,7 +19083,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品	
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Table Alt SmallTable END
 #-
 
@@ -19265,7 +19265,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet  END
 BEGIN Requirement Type Object  Id Bed Alt Mattress,ComfyBed,CoffinBed,OldBed,CampBed,NettedBed  END
 
@@ -19329,7 +19329,7 @@ Properties          MothersOnly
 Properties          DiningArea
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id ServingTable Alt SmallServingTable,JungleServingTable  END
 BEGIN Requirement Type Object  Id Table Alt SmallTable,OakTable,JungleTable END
 BEGIN Requirement Type Object  Id Bench Alt SmallBench,JungleBench END
@@ -19652,7 +19652,7 @@ Research             Farming
 BEGIN Requirement Type 		Enclosed 		END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 #-
 
 #+推荐物品
@@ -19691,7 +19691,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize x 5 y 5 END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id DoughMixer	END
 BEGIN Requirement Type Object  Id Oven	END
 BEGIN Requirement Type Object  Id ShopCounter	END
@@ -19765,7 +19765,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type Enclosed END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 
 BEGIN Requirement Type Object  Id Cooker  END
 BEGIN Requirement Type Object  Id Fridge  Alt	TallFridge	END
@@ -19843,7 +19843,7 @@ BEGIN Requirement Type Indoor                    END
 BEGIN Requirement Type MinimumSize  x 5  y 5     END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Chair Alt ChairYellow,SwivelChair         END
 #-
 
@@ -19880,7 +19880,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 2  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id WeatherMachine END
 #-
 
@@ -19908,7 +19908,7 @@ BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 4  y 5  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
 BEGIN Requirement Type Object  Id Chair Alt ChairYellow,SwivelChair 	 END
 BEGIN Requirement Type Object  Id RatTrap    	 END
@@ -19958,7 +19958,7 @@ BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 2  y 3  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet     END
 BEGIN Requirement Type Object  Id Bed Alt Mattress,ComfyBed,OldBed,CoffinBed,CampBed,NettedBed  END
 #-
@@ -20050,7 +20050,7 @@ BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 5  y 5  END
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id Toilet  END
 BEGIN Requirement Type Object  Id Bench Alt SmallBench,JungleBench,OakBench END
 #-	
@@ -20123,7 +20123,7 @@ BEGIN Requirement Type MinimumSize  x 4  y 4  END
 
 
 #+必要物品
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 
 BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
 BEGIN Requirement Type Object  Id Chair Alt OfficeChair END
@@ -20263,7 +20263,7 @@ VersionAdded	7000
 BEGIN Requirement Type Indoor					END
 BEGIN Requirement Type MinimumSize  x 3  y 4    END
 
-BEGIN Requirement Type Object  Id Light  Alt WallLight,SolarLight,SolarWallLight,Chandelier,OrnateLantern END
+BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 BEGIN Requirement Type Object  Id TattooRemovalMachine	END
 
 BEGIN LikelyObject  Id    Light             END
