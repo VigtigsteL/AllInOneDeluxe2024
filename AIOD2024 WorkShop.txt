@@ -1,4 +1,6 @@
-[h1][B]　　　　　　当前版本:V1.9.4 | 更新日期:2024.05.31[/B][/h1][hr][/hr]
+[h1][B]　　　　　　当前版本:V1.10.0 | 更新日期:2024.09.11[/B][/h1][hr][/hr][H2]　　　　　　　　　！　感　谢　大　家　的　支　持　！
+本模组已达到：2024年热门模组第1名、"有史以来"热门模组前60名！
+[/H2][hr][/hr]
 [H1]本模组是对 [中文豪华版] 基于 < 原始模组 > 与 < 二次开发模组 >
 进行的修复与更新[/H1]
 [H1][b]Module now supports "Chinese/English" version!!![/b][/H1]
@@ -30,9 +32,11 @@
 [h1][b]更新概况：[/b][/h1]
 
 [h3]一、界面[/h3]
-　[b][i]重新绘制所有图标，修复贴图与界面[/i][/b][olist]
+　[b][i]重新绘制所有图标，修复贴图与界面，优化物品检索[/i][/b][olist]
 [*][b][V1.3.0] 重新绘制所有"图标"，并以颜色区分功能。 [/b]
 [i]红色-囚犯专用，橙色-狱中劳役，黄色-囚犯活动，蓝色-员工专用，青色-交通运输，绿色-农业[/i]
+[*][b][V1.10.0] 重新编写所有项目排序逻辑，在大量物品界面下更直观清晰。 [/b]
+[i]以"物品名称A-Z排序"即可使用[/i]
 [*]修复和重绘 “餐盘、农作物、监控警告、白色栅栏门"等贴图
 [*]修复：”接收囚犯”界面中按钮消失
 [/olist]
@@ -106,8 +110,5 @@
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=821415114]原始模组 | 作者 @GrandSong[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895128242]二次开发 | 作者 @yuanze31[/url][/list]
 ------------------------------------------------------------------------------------------------------
-[h3]本模组使用或参考了以下模组的内容，感谢这些作者的辛勤付出！[/h3]
-<[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2978340955]Ozone's Fixes & Qol All-In-One[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3009547076]Restyling UI (Continued)[/url]> <[url=https://steamcommunity.com/sharedfiles/filedetails/?id=227085867]Prison Population Grants[/url]>
-------------------------------------------------------------------------------------------------------
 [h3]感谢以下玩家提交的反馈与建议！[/h3]
- @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Muziyami @Vulcan-H @fluoswy @Mr1996 @小白七
+ @军刃血梦 @绘心 @TheHZDev @1466079333 @小馨 @mezese @Wilson @Muziyami @Vulcan-H @fluoswy @Mr1996 @小白七 @Teruan @Dake Bot @PUP - 柯基
