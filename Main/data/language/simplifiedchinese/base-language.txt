@@ -306,7 +306,7 @@ buildtoolbar_popup_staff_warden	监狱总管，在你研究并雇用高级员工
 buildtoolbar_popup_staff_chief	安保主管使可以访问“部署”、“监控”和高级警卫\n等研究项。\n\n【新增】标记不端行为的囚犯\n每1分钟检查一次所有囚犯。\n如果刚刚发生不端行为，那么会给该囚犯一个醒目的标记。\n该标记在15分钟后会自动消失。\n\n【新增玩法】\n在主管的菜单中，可以启用“腐败斗争”玩法。\n你的警卫当中，有概率会产生腐败分子。\n在白天，他们会勒索囚犯，从而引发负面情绪甚至打斗。\n勒索零用钱的比例、囚犯的爆发点和再犯罪可能性三者\n影响其反抗的概率。\n\n如果放任腐败的家伙肆意妄为，那么他们会越发贪婪。\n囚犯会更难忍受；其他警卫更容易出现效仿者。\n可以在主管的悬停提示中看到整体腐败水平。\n\n如果某个警卫经常“拜访”不同囚犯，且很容易疲劳，\n说明他把精力大都用在了以权谋私的“副业”上。\n让他到主管的办公室走一趟，接受调查。\n在那里，腐败的警卫会被解雇，而你会得到奖励。
 buildtoolbar_popup_staff_foreman	工头使可以访问“清洁工”和“园丁”以以及负责培训。\n\n【新增功能】如果你启用工具和作弊，那么点击他，可以\n批量地改变很多格子的地面种类。包括：\n · 边界：正常情况下你无法编辑它们\n · 主体：除了边界、室内和房间之外的所有格子\n · 网格：每10米“画”一条参考线
 buildtoolbar_popup_staff_psychologist	心理医生使可以洞察囚犯们的心理活动以及负责培训。\n此外，有些改造项目需要他们。
-buildtoolbar_popup_staff_accountant	会计使可以查看财务报告。\n\n【新增玩法】会计可以强制培训囚犯，以便进行记账工作。\n\n此外，囚犯的正确率终究有限。其错误还需正式员工来修正。\n错误的账本会被送到会计的办公室。会计每10分钟修正一本。\n相当于支持囚犯记账10人时。\n但仅限白天时段（从早上9点到晚上9点）。\n而且，会计还肩负培训的重担。\n所以当工作量上升后，你也许应该考虑多雇佣一个。
+buildtoolbar_popup_staff_accountant	会计可以查看财务报告。\n\n【新增玩法】会计可以强制培训囚犯，以便进行记账工作。\n\n此外，囚犯的正确率终究有限。其错误还需正式员工来修正。\n错误的账本会被送到会计的办公室。会计每10分钟修正一本。\n相当于支持囚犯记账10人时。\n但仅限白天时段（从早上9点到晚上9点）。\n而且，会计还肩负培训的重担。\n所以当工作量上升后，你也许应该考虑多雇佣一个。
 buildtoolbar_popup_staff_lawyer	律师可帮助你打破规则，获得监狱的更大控制权。\n\n虽然没有上限，但雇用1个就足够了。\n除非你特别急于加速完成相关研究……\n\n【新增玩法】律师可以到探监室提供咨询服务。\n详情见改造项目“探监者服务”
 buildtoolbar_popup_staff_sniper	一个受过严格培训的狙击手。\n他们会自动占据空置的警戒塔。
 
@@ -447,7 +447,7 @@ buildtoolbar_popup_help_doctor_2	~可以选中他们并右键点击目的地，�
 
 buildtoolbar_popup_help_janitor_1	最基本的工作是清洁室内的各种脏东西。\n此外，也负责协助洗衣并运送囚服。\n\n
 buildtoolbar_popup_help_janitor_2	^小技巧\n\n
-buildtoolbar_popup_help_janitor_3	用囚犯打工并代替清洁工，可以省钱。\n你需要足够尺寸的洗衣房和清洁用品间。\n不过，为了杜绝违禁品，你最好把清洁用品间只交给清洁工。\n\n
+buildtoolbar_popup_help_janitor_3	用囚犯打工并代替清洁工，可以省钱。\n你需要足够尺寸的洗衣房和清洁间。\n不过，为了杜绝违禁品，你最好把清洁间只交给清洁工。\n\n
 buildtoolbar_popup_help_janitor_4	当没有活儿时，他们在垃圾场或仓库待命。\n\n如果在白天也有不少清洁工在待命，那么你应该解雇一些了。
 
 buildtoolbar_popup_help_gardener_1	室外的主要清理对象是藤蔓和杂草。\n\n
@@ -478,7 +478,7 @@ buildtoolbar_popup_help_foreman_3	如果培训需求很大，你可能希望再�
 buildtoolbar_popup_help_psychologist_1	[报告/需求]需要你雇佣至少一名心理医师。\n\n
 buildtoolbar_popup_help_psychologist_2	两种改造项目需要用到心理医师。在采用这个模组之前，\n心理医师是唯一需要雇佣多名的高级员工。\n\n
 buildtoolbar_popup_help_psychologist_3	使用"对调办公室"来给心理医师们合适位置上的办公室。\n\n
-buildtoolbar_popup_help_psychologist_4	如果你开设“行为疗法”方案，那么要确保囚犯可以\n走到心理医师的办公室。
+buildtoolbar_popup_help_psychologist_4	如果你开设“暴力行为疗法”方案，那么要确保囚犯可以\n走到心理医师的办公室。
 
 buildtoolbar_popup_help_accountant_1	[行政系统]的一些研究需要此高级员工。
 
@@ -1896,9 +1896,12 @@ material_gravel	_ 碎石路
 material_stone	_ 石板路
 material_RunningTrack	_ 跑道
 material_road	_ 马路
-material_roadmarkings	_ 马路标识线
-material_roadmarkingsleft	_ 马路标识线(左)
-material_roadmarkingsright	_ 马路标识线(右)
+material_roadmarkings	_ 公路中心线
+material_roadmarkingsleft	_ 公路标识线(左)
+material_roadmarkingsright	_ 公路标识线(右)
+material_roadcrossing	_ 公路人行横道线
+material_roadcrossingleft	_ 公路人行横道线(右)
+material_roadcrossingright	_ 公路人行横道线(右)
 
 material_Snow	_ 雪地
 material_lunarfloor	_ 月球
@@ -2084,11 +2087,11 @@ equipment_bookclosed	书本
 
 research_requires_short	需要 *X
 reformprogram_workshopinduction	[制造Ⅰ]工坊安全入门
-reformprogram_foundationeducation	[学术Ⅰ]基础教育项目
-reformprogram_generaleducation	[学术Ⅱ]普通教育资格
+reformprogram_foundationeducation	[学术Ⅰ]基础教育课程
+reformprogram_generaleducation	[学术Ⅱ]普通教育课程
 reformprogram_carpentry	[制造Ⅱ]木工学徒
 reformprogram_kitcheninduction	[后勤]厨房安全与卫生
-reformprogram_therapy	[治疗]行为疗法
+reformprogram_therapy	[治疗]暴力行为疗法
 reformprogram_methadone	[治疗]毒瘾的药物治疗
 reformprogram_alcoholicsmeeting	[治疗]酗酒者团体治疗
 reformprogram_tazertraining	[员工]警卫电击枪认证
@@ -2103,7 +2106,7 @@ reformprogram_foundationeducation_text	许多囚犯甚至缺乏基本的阅读�
 reformprogram_generaleducation_text		很少囚犯会感兴趣。
 reformprogram_carpentry_text			需要较强实践能力的一项复杂技能。\n合格的囚犯可用此技能在木匠桌制作出高价木制品。\n难度为60。
 reformprogram_kitcheninduction_text		在为数百人提供伙食时，食物标准十分重要。\n在去厨房工作之前，囚犯必须完成此课程。
-reformprogram_therapy_text				囚犯通常较难控制他们的暴力天性。与监狱心理医师的一对一谈话，\n旨在帮助囚犯克服暴力行为问题。\n\n只有暴力倾向的囚犯会来参加，而且全凭自愿。\n如果改造成功，那么囚犯会变得更有忍耐力，不容易闹事。\n\n警卫巡逻会压制囚犯，导致其成功率下降。\n注意：不要因为“员工专区”导致囚犯无法前往办公室。
+reformprogram_therapy_text				囚犯通常较难控制他们的暴力天性。与监狱心理医师的谈话，\n能帮助囚犯克服暴力行为问题。\n\n只有暴力倾向的囚犯会来参加，而且全凭自愿。\n如果改造成功，那么囚犯会变得更有忍耐力，不容易闹事。\n\n警卫巡逻会压制囚犯，导致其成功率下降。\n注意：不要因为“员工专区”导致囚犯无法前往办公室。
 reformprogram_methadone_text			一套包括5种药物替代品的课程，用以治疗囚犯的毒品成瘾症状。\n每次治疗都将帮助囚犯缓解毒瘾，完成课程还有几率完全消除毒瘾。\n\n大约每20个囚犯中有一人需要这个项目。
 reformprogram_alcoholicsmeeting_text	酗酒者团体治疗能够帮助囚犯减少对酒精的欲望。\n无法完全消除需求。\n\n大约每20个囚犯中有一人需要这个项目。
 reformprogram_parolehearing_text		确定囚犯是否符合提前释放资格的听证会。\n如果囚犯被提前释放后不再犯罪，那么可以获得可观的奖励。\n如果你积极改造囚犯，那么这是让你的努力开花结果的好途径。\n\n如果有资格的囚犯得不到听证机会，会增加状态“焦躁”。
@@ -2148,10 +2151,10 @@ reform_program_intake_parole	在度过50%或70%的刑期后
 reform_program_intake_needrequired	囚犯有特定需要才能参加
 reform_program_intake_deathrow	囚犯被判死刑
 
-reform_program_properties_canhireexternally	教师从外部雇用
-reform_program_properties_studentssit	学生 要有座位
-reform_program_properties_academic	学术性的
-reform_program_properties_practical	实践性的
+reform_program_properties_canhireexternally	教师自动从外部雇用
+reform_program_properties_studentssit	囚犯 需要座位
+reform_program_properties_academic	学术性的方案
+reform_program_properties_practical	实践性的方案
 reform_program_properties_repeatable	可重复
 reform_program_properties_passive	被动的(无需专心和理解)
 reform_program_properties_staffonly	仅限 员工
@@ -2353,7 +2356,7 @@ staff_pissedoff	愤怒
 staff_onstrike	罢工了
 staff_needsrest	员工更喜欢在 员工休息室 里休息
 
-dog_needskennel	警犬需要 狗舍 和 狗笼 来睡觉
+dog_needskennel	警犬需要 警犬休息室 和 狗笼 来睡觉
 
 doctor_requireinfirmary	需要 医务室
 
@@ -2435,7 +2438,7 @@ roomerror_noprisoners	没有指派 牢房区域 的囚犯到此食堂吃饭。
 roomerror_nocanteen_cells	从此牢房无法抵达任何食堂。\n此牢房中的囚犯没有吃饭的地方。
 roomerror_nocanteen_kitchen	从此厨房无法抵达任何食堂。\n厨房在吃饭时间不会烹制任何食物。
 
-ceos_letter	\n\n亲爱的先生/女士：\n\n恭喜你完成基本入门。你现在是完全合格的监狱建筑师了！很快你就会从\n空置地块和几堆砖块开始设计、建造并经营你自己的监狱。在开始之前，\n我想我或许可以给你分享一些重要的经验教训。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n附赠小提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按1、2、3、4可以设定时钟速度为1、2、5、10倍。\n  (界面上的三个按钮，则是更快的2、4、10倍。)\n · 经常存档是个好习惯。(我偶尔会遇到程序崩溃的情况。)\n\n{中文豪华版} 祝你游戏愉快！\nyuanze3131@gmail.com
+ceos_letter	\n\n亲爱的玩家：\n\n恭喜你完成基本入门。你现在是合格的监狱建筑师了！很快你就会\n开始设计、建造并经营你自己的监狱。在开始之前，\n我可以给你分享一些重要的经验。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n<中文豪华版>友情提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按主键盘1、2、3、4可以设定时钟速度为1、2、5、10倍。\n由于游戏本身缺陷，可能偶现崩溃闪退的情况，请及时存档。\n · \n\n 祝你游戏愉快！
 
 
 
@@ -3036,7 +3039,7 @@ Object_SearchToilets	搜查厕所
 Object_SwapOffice	交换办公室
 
 # =============================================================================
-# {All-in-One Deluxe Edition}-yuanze31
+# {All-in-One Deluxe Edition}-Vigtigste
 # =============================================================================
 
 # June27th Update
@@ -3169,10 +3172,10 @@ buildtoolbar_popup_help_ArmedGuards_6
 interfacedeployment_PrioritizeArea	优先区域\n (*X)
 buildtoolbar_deployment_PrioritizeGuard	使用此选项，可以优先安排指定的警卫监视你监狱周围的特定区域。如果你人手紧缺，警卫会优先监视你设置的优先区域。有两个优先级别可选，“高”(>>) 和“超高”(>>>)。
 
-interfacedeployment_BluePatrol	蓝色巡逻
+interfacedeployment_BluePatrol	巡逻路线\n(蓝色)
 buildtoolbar_deployment_BluePatrol	有颜色的巡逻路线允许重叠，可以为这些线路单独安排警卫。点击拖拽可创建一条蓝色巡逻路线。右击拖拽可清除蓝色巡逻路线。使用“分配警卫”按钮添加警卫至巡逻路线。
 
-interfacedeployment_MagentaPatrol	红色巡逻
+interfacedeployment_MagentaPatrol	巡逻路线\n(红色)
 buildtoolbar_deployment_MagentaPatrol	有颜色的巡逻路线允许重叠，可以为这些线路单独安排警卫。点击拖拽可创建一条红色巡逻路线。右击拖拽可清除红色巡逻路线。使用“分配警卫”按钮添加警卫至巡逻路线。
 
 interfacedeployment_PrioritizePatrol	优先巡逻
@@ -4000,7 +4003,7 @@ reports_policy_tooltip_all	选择/取消选择所有监狱安全等级
 reports_privilegesPolicy_tooltip_all	修改除假释听证会、死刑犯上诉和心理咨询以外的所有方案。
 reports_privilegesPolicy_tooltip	选择后可参与这些改造方案，以进行更多的狱中工作：
 reports_privilegesPolicy_tooltip_EducationPrograms	\n- 基础教育\n- 通识教育
-reports_privilegesPolicy_tooltip_WellnessPrograms	\n- 行为疗法\n- 酗酒者集体理疗\n- 精神指导
+reports_privilegesPolicy_tooltip_WellnessPrograms	\n- 暴力行为疗法\n- 酗酒者集体理疗\n- 精神指导
 reports_privilegesPolicy_tooltip_WorkPrograms	\n- 厨房安全与卫生\n- 工坊安全导语\n- 木工学徒
 
 report_policy_categoryTooltip_Minsec	低戒备囚犯
@@ -4991,8 +4994,8 @@ d11_staffalert_details_NEEDS04c	雇佣更多厨师。
 d11_staffalert_details_NEEDS04d	为您的管理制度新增更多「用餐时间」空当。
 d11_staffalert_details_NEEDS05	*A 名囚犯非常渴望与家人取得联系。
 d11_staffalert_details_NEEDS06a	雇佣更多清洁工。
-d11_staffalert_details_NEEDS06b	构建更多清洁用品间。
-d11_staffalert_details_NEEDS06c	指派囚犯在清洁用品间挑选材料后工作。
+d11_staffalert_details_NEEDS06b	构建更多清洁间。
+d11_staffalert_details_NEEDS06c	指派囚犯在清洁间挑选材料后工作。
 d11_staffalert_details_NEEDS07	*A 名囚犯为自己的生命安全担忧。
 d11_staffalert_details_NEEDS08	*A 名囚犯需要提高自身的清洁程度。
 d11_staffalert_details_NEEDS09	*A 名囚犯需要提高自身的身体素质。
@@ -5176,7 +5179,7 @@ d11_staffalert_tooltip_WATER01	构建水管[[ButtonCross]]
 d11_staffalert_urgentsummary_CELLS01	监狱拥有许多空闲的牢房，可收监更多囚犯！
 d11_staffalert_urgentsummary_CONTRABAND01	监狱內的工具和武器供应情況非常危险！
 d11_staffalert_urgentsummary_CONTRABAND02	监狱內的毒品供应情況非常危险！
-d11_staffalert_urgentsummary_CONTRABAND03	监狱內的违禁品持有水准已經失控！
+d11_staffalert_urgentsummary_CONTRABAND03	监狱內的违禁品已经失控！
 d11_staffalert_urgentsummary_DEATHROW01	如果为监狱新增死囚区，监狱就可以快速赚取大量资金。
 d11_staffalert_urgentsummary_DOCTOR01	需要雇佣医生在医务室內工作！
 d11_staffalert_urgentsummary_HOLDINGCELL01	必须减少關押在拘留室內的囚犯人数！
@@ -7289,7 +7292,7 @@ objective_grant_Referralreformprogram [Mod] 针对性改造
 objective_grant_Referralreformprogram_description 一些囚犯有着严重的生理或心理症状，需要专门治疗。\n政府希望你有效地提供针对性的服务。\n让你的医生和心理医师忙起来吧。
 objective_grant_Referralreformprogram_Methadone 令3个囚犯通过 毒瘾的药物治疗
 objective_grant_Referralreformprogram_alcoholicsmeeting 令5个囚犯通过 酗酒者团体治疗
-objective_grant_Referralreformprogram_Therapy 令1个囚犯通过 行为疗法
+objective_grant_Referralreformprogram_Therapy 令1个囚犯通过 暴力行为疗法
 
 objective_grant_Release1 [Mod] 出狱 Ⅰ
 objective_grant_Release1_description 恭喜！这是从你的监狱释放的第一个犯人。
@@ -7548,7 +7551,7 @@ research_health	健康
 researchtooltip_health	解锁“医生”以及“医务室”和“停尸房”。\n伤员会被带到医务室，由医生为其包扎治疗。
 
 research_education	教育
-researchtooltip_education	可以为囚犯提供教育性的改造方案，教师会从外部雇用。
+researchtooltip_education	可以为囚犯提供教育性的改造方案，教师会自动从外部雇用。
 
 research_mentalhealth	心理研究
 researchtooltip_MentalHealth	解锁“心理医师”。\n可为你提供囚犯的心理状态分析。\n\n需要配备办公室。
@@ -7831,7 +7834,7 @@ buildtoolbar_popup_room_kitchen	厨师为囚犯烹制食物的区域。\n\n厨�
 room_laundry	洗衣房
 buildtoolbar_popup_room_laundry	脏衣服在此处清洗和熨烫，然后重新分发出去。\n\n每个牢房区域最好有各自的洗衣房。\n1台洗衣机+2个熨衣板+4个洗衣篮+5个囚犯，\n可满足64个囚犯的衣物需求。\n\n相关需求：衣服\n工作空间：4平米/每名囚犯
 
-room_cleaningcupboard	清洁用品间
+room_cleaningcupboard	清洁间
 buildtoolbar_popup_room_cleaningcupboard	存放清洁用具的地方，囚犯会使用房间内的漂白剂打扫监狱。\n\n若能快速进入各个牢房，打扫效率将大大提高。\n\n相关需求：环境\n工作空间：4平米/每名囚犯
 
 room_workshop	工坊
@@ -7900,7 +7903,7 @@ buildtoolbar_popup_room_security	警卫、武装警卫和狙击手会在这里�
 room_armoury	枪械库
 buildtoolbar_popup_room_armoury	所有枪械均存放于此处，武装警卫和狙击手在此休息。\n\n武装警卫的枪柜对应其人数上限。\n武装警卫不会替清洁工开门，推荐安装遥控门和门禁控制器。\n越狱时，囚犯们有可能试图攻入这里，以抢夺武器。\n\n[推荐区划：员工专区]
 
-room_kennel	狗舍
+room_kennel	警犬休息室
 buildtoolbar_popup_room_kennel	警犬在这里休息。\n\n警犬需要狗笼才能睡觉。
 
 room_canteen_staff	员工餐厅
@@ -8080,7 +8083,7 @@ buildtoolbar_quickbuild_TattooRemovalRoom	囚犯在这里经历痛苦、漫长�
 quickbuild_FightClubRoom	搏击俱乐部
 buildtoolbar_quickbuild_FightClubRoom	无论谁问起，都不要承认此房间的存在。\n\n需求：\n+ 自由 3.00\n- 饮水 0.50
 
-quickbuild_Security	安保室
+quickbuild_Security	警备室
 quickbuild_Parole	假释室
 quickbuild_Kennel	警犬休息室
 
@@ -8518,7 +8521,7 @@ buildtoolbar_popup_obj_CinemaProjector	每个放映室都需要一台投影仪�
 
 object_DumbbellRack	哑铃架
 buildtoolbar_popup_obj_DumbbellRack	为了志趣相投的囚犯。\n\n需求：\n+ 锻炼 3.00\n+ 员工娱乐 3.00
-object_WeightsBench				举重凳
+object_WeightsBench				举重床
 buildtoolbar_popup_obj_WeightsBench	让囚犯们锻炼，令他们保持愉悦。\n\n【豪华版】\n囚犯举重时，每小时减少疾病点数9点。\n当肥胖和瘦小的囚犯的疾病点数降低到100后，\n他们的体型会变成“一般”，同时会得到一些奖金。\n\n需求：\n+ 锻炼 3.00\n+ 员工娱乐 3.00
 object_GymMat	健身垫
 buildtoolbar_popup_obj_GymMat	为了舒展身体从而缓解疼痛。\n\n需求：\n+ 锻炼 1.50\n+ 员工娱乐 1.50
@@ -9071,7 +9074,7 @@ objective_grant_prison_population_400_description        恭喜：你建造了�
 #作弊组件 
 Start
 object_CheatWorkman						工人(作弊组件)
-buildtoolbar_popup_staff_CheatWorkman	一个作弊用的工人，被yuanze31用于调试组件时使用，非常不推荐正常游玩时使用
+buildtoolbar_popup_staff_CheatWorkman	一个作弊用的工人，用于调试组件时使用，非常不推荐正常游玩时使用
 #作弊组件 End
 
 # 劳工 Start
@@ -9212,7 +9215,7 @@ attention_marker__virusdeadly 致命病毒
 
 
 reformprogram_Bookkeeping [制造]记账
-reformprogram_Bookkeeping_text 在会计外包业务中最简单的一种。单调、累人。\n非常适合尚且看得懂数字的囚犯们，不是吗？\n\n由于有资格的囚犯少，感兴趣的更少，所以本项目是强制性的。\n只有通过的囚犯才能进行“记账外包”打工。\n\n这让“[学术Ⅰ]基础教育项目”有了更大的价值。\n也让你在混乱的“工坊”制造之外多了一种挣钱的选择。\n并且，会计不会在平时闲着没事干了。
+reformprogram_Bookkeeping_text 在会计外包业务中最简单的一种。单调、累人。\n非常适合尚且看得懂数字的囚犯们，不是吗？\n\n由于有资格的囚犯少，感兴趣的更少，所以本项目是强制性的。\n只有通过的囚犯才能进行“记账外包”打工。\n\n这让“[学术Ⅰ]基础教育课程”有了更大的价值。\n也让你在混乱的“工坊”制造之外多了一种挣钱的选择。\n并且，会计不会在平时闲着没事干了。
 object_AccountingBookUnfinished 账本(未处理)
 object_AccountingBookFinished 账本($85)
 object_AccountingBookFailed 账本(有错误)

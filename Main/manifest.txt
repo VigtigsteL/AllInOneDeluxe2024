@@ -3,8 +3,8 @@ Name                 "[中文豪华版2024]AllInOne2024 - Vigtigste"
 Author               Vigtigste  
 Description          "本次模组是对[中文豪华版]基于<原始模组>与<二次开发>\r\n进行的修复与更新。\r\n感谢原作者 @GrandSong 对此次更新的肯定。\r\n已获得二次开发作者 @Yuanze31 许可。\r\n\r\n本模组正在以原版游戏为核心，对所有内容进行修复、优化、重新设计，力争成为 PA原版模组最优解。\r\n\r\n目前工作量已高达 500+小时，已重制内容包括且不限于：\r\n图标、房间评级、需求数据、人物数值、行政研究、各类说明。\r\n\r\n[更多详细信息请查阅模组页面]"  
 IsTranslation        true  
-Version              V1.9.5  
-Date                 2024/06/29  
+Version              V1.9.6  
+Date                 2024/09/10  
 URL                  https://github.com/VigtigsteL/AllInOneDeluxe2024  
 FileID               F3151283978  
 SteamAuthor          A76561198151725088  

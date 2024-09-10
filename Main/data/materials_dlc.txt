@@ -13213,7 +13213,7 @@ END
 #+马路标识线（共6个） $200
 BEGIN Material   
 Name                 RoadMarkings  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -13224,7 +13224,7 @@ BEGIN Sprite1    x 1  y 2  END
 END
 BEGIN Material   
 Name                 RoadMarkingsLeft  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -13235,7 +13235,7 @@ BEGIN Sprite1    x 1  y 2  END
 END
 BEGIN Material   
 Name                 RoadMarkingsRight  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -13246,7 +13246,7 @@ BEGIN Sprite1    x 1  y 2  END
 END
 BEGIN Material   
 Name                 RoadCrossing  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -13257,7 +13257,7 @@ BEGIN Sprite0    x 15  y 16  END
 END
 BEGIN Material   
 Name                 RoadCrossingLeft  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -13268,7 +13268,7 @@ BEGIN Sprite0    x 17  y 16  END
 END
 BEGIN Material   
 Name                 RoadCrossingRight  
-ConstructionTime     -1
+ConstructionTime     1
 IndoorOutdoor        1  
 Price                -190
 ObjectRequired       Concrete  
@@ -17588,7 +17588,7 @@ BEGIN Requirement Type MinimumSize  x 1  y 4  END
 #+必要物品
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
 
-
+BEGIN Requirement Type Object  Id PersonalSink  Alt BathroomSink,SinkMirror END
 BEGIN Requirement Type Object  Id BathroomHandDryer END
 #-
 
