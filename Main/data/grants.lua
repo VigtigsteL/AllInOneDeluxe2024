@@ -260,13 +260,17 @@ function CreateEducationReformGrant()
     Objective.SetParent("Grant_EducationReformProgram")
     Objective.RequireObjects("SchoolDesk", 10)
 
+    Objective.CreateGrant("Grant_EducationReformProgram_Bookshelf", 0, 1000)
+    Objective.SetParent("Grant_EducationReformProgram")
+    Objective.RequireObjects("Bookshelf", 5)
+
     Objective.CreateGrant("Grant_EducationReformProgram_FoundationEd", 2000, 3000)
     Objective.SetParent("Grant_EducationReformProgram")
     Objective.Requires("ReformPassed", "FoundationEducation", 10)
 
-    Objective.CreateGrant("Grant_EducationReformProgram_GeneralEd", 0, 1000)
+    Objective.CreateGrant("Grant_EducationReformProgram_GeneralEd", 2000, 3000)
     Objective.SetParent("Grant_EducationReformProgram")
-    Objective.RequireObjects("Bookshelf", 5)
+    Objective.RequireObjects("ReformPassed","FoundationEducation", 5)
 end
 
 function CreateReferralReformGrant()

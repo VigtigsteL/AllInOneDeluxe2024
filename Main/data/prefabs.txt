@@ -33,20 +33,22 @@ BEGIN Prefab
     w           8
     h           8
     RoomType    Dormitory
-    BEGIN Object    Type    BunkBed         x   1   y   1   orX 4   orY 1   END
-    BEGIN Object    Type    BunkBed         x   1   y   2   orX 4   orY 1   END
-    BEGIN Object    Type    BunkBed         x   1   y   3   orX 4   orY 1   END
-    BEGIN Object    Type    BunkBed         x   1   y   4   orX 4   orY 1   END
+    BEGIN Object    Type    BunkBed         x   1   y   1   orX 1   orY 0   END
+    BEGIN Object    Type    BunkBed         x   1   y   2   orX 1   orY 0   END
+    BEGIN Object    Type    BunkBed         x   1   y   3   orX 1   orY 0   END
+    BEGIN Object    Type    BunkBed         x   1   y   4   orX 1   orY 0   END
+	
 	BEGIN Material	Type	ConcreteWall	x	1	y	5	w	2	h	1	END
     BEGIN Object    Type    Light		    x   3   y   5   orX 0   orY 1   END
-    BEGIN Object    Type    Toilet          x   1   y   6   orX 0   orY -1   END
-	BEGIN Object    Type    ShowerHead  	x   1   y   6   orX 0   orY -1   END       
-	BEGIN Object    Type    Drain 			x   1   y   6   orX 0   orY -1   END  
+    BEGIN Object    Type    Toilet          x   1   y   6   orX 1   orY 0   END
+	BEGIN Object    Type    ShowerHead  	x   1   y   6   orX 1   orY 0   END
+	BEGIN Object    Type    Drain 			x   1   y   6   orX 1   orY 0   END
+	
     BEGIN Object    Type    JailDoor        x   3   y   7   orX 0   orY 1   END 
 END
 #-
 
-#+办公室（微型）
+#+办公室（小型）
 BEGIN Prefab
     Name        OfficeSmall
     w           5
@@ -76,6 +78,74 @@ BEGIN Prefab
     BEGIN Object    Type    JailDoor  			 x   0   y   6   orX -1   orY 0   END  
 END
 #-
+
+#+行刑室
+BEGIN Prefab
+    Name    Execution
+    w       7
+    h       7
+    RoomType    Execution
+
+	BEGIN Object    Type    ElectricChair   x   2   y   1   orX 0   orY -1   END
+
+	BEGIN Object    Type    Light   x   3   y   3   orX 0   orY 0   END
+
+	BEGIN Object    Type    Chair   x   1   y   4   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   2   y   4   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   3   y   4   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   4   y   4   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   1   y   5   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   2   y   5   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   3   y   5   orX 0   orY -1   END
+	BEGIN Object    Type    Chair   x   4   y   5   orX 0   orY -1   END
+
+    BEGIN Object    Type    Door    x   5   y   6   orX 0   orY 1   END  
+END
+#-
+
+#+教堂
+BEGIN Prefab
+    Name    Chapel
+    w       7
+    h       11
+    RoomType    Chapel
+
+	BEGIN Object    Type    Altar       x   1   y   2   orX 0   orY -1   END
+
+	BEGIN Object    Type    Light       x   3   y   3   orX 0   orY 0   END
+	BEGIN Object    Type    Light       x   3   y   7   orX 0   orY 0   END
+
+	BEGIN Object    Type    Pews        x   1   y   5   orX 0   orY -1   END
+	BEGIN Object    Type    Pews        x   1   y   7   orX 0   orY -1   END
+	BEGIN Object    Type    Pews        x   1   y   9   orX 0   orY -1   END
+
+	BEGIN Object    Type    PrayerMat   x   5   y   1   orX -1   orY 0   END
+	BEGIN Object    Type    PrayerMat   x   5   y   2   orX -1   orY 0   END
+	BEGIN Object    Type    PrayerMat   x   5   y   3   orX -1   orY 0   END
+
+    BEGIN Object    Type    Door        x   5   y   10   orX 0   orY 1   END  
+END
+#-
+
+#+会计工作间
+BEGIN Prefab
+    Name    Accounting
+    w       7
+    h       7
+    RoomType    Accounting
+
+	BEGIN Object    Type    SmallTable        x   1   y   1   orX 0   orY 1    END
+	BEGIN Object    Type    AccountingTable   x   1   y   2   orX 1   orY 0    END
+	BEGIN Object    Type    SmallTable        x   1   y   5   orX 0   orY -1   END
+	
+	BEGIN Object    Type    SmallTable        x   4   y   1   orX 0   orY 1    END
+	BEGIN Object    Type    AccountingTable   x   5   y   2   orX -1  orY 0    END
+	BEGIN Object    Type    SmallTable        x   4   y   5   orX 0   orY -1   END
+
+    BEGIN Object    Type    Door              x   5   y   10  orX 0   orY 1    END  
+END
+#-
+
 
 
 #+
