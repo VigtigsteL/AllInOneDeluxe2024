@@ -10036,8 +10036,8 @@ RotateType 0
 TopAligned false
 END
 MadeOf               Composite
-Properties           Utility
-Properties           Wired
+Properties           Entity
+Properties           Staff
 Properties           DontAvoid
 Properties           Scripted
 Research             PrisonerSorting
@@ -10063,8 +10063,8 @@ RotateType 0
 TopAligned false
 END
 MadeOf               Composite
-Properties           Utility
-Properties           Wired
+Properties           Entity
+Properties           Staff
 Properties           DontAvoid
 Properties           Scripted
 Research             PrisonerSorting

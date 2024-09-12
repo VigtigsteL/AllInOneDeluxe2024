@@ -124,9 +124,9 @@ buildtoolbar_popup_staff_janitor	保持监狱室内干净整洁以及负责培�
 buildtoolbar_popup_staff_warden	监狱总管，在你研究并雇用高级员工之前必须拥有此职位。\n\n【调整】管理人员不会疲劳。\n\n【新增玩法】\n典狱长会自动评估周围囚犯的改造程度，并产生相应奖金。\n半径10米。每3分钟一个人次。\n但为了让他走出办公室，你需要开设“近距离接触”方案。\n\n在典狱长悬停提示为统计信息。可以切换其大类。\n疾病点数玩法的难度也通过他来调整。\n\n我还增加了“睡眠加速”功能。\n\n详情见“？”的更多帮助。
 buildtoolbar_popup_staff_chief	安保主管使可以访问“部署”、“监控”和高级警卫\n等研究项。\n\n【新增】标记不端行为的囚犯\n每1分钟检查一次所有囚犯。\n如果刚刚发生不端行为，那么会给该囚犯一个醒目的标记。\n该标记在15分钟后会自动消失。\n\n【新增玩法】\n在主管的菜单中，可以启用“腐败斗争”玩法。\n你的警卫当中，有概率会产生腐败分子。\n在白天，他们会勒索囚犯，从而引发负面情绪甚至打斗。\n勒索零用钱的比例、囚犯的爆发点和再犯罪可能性三者\n影响其反抗的概率。\n\n如果放任腐败的家伙肆意妄为，那么他们会越发贪婪。\n囚犯会更难忍受；其他警卫更容易出现效仿者。\n可以在主管的悬停提示中看到整体腐败水平。\n\n如果某个警卫经常“拜访”不同囚犯，且很容易疲劳，\n说明他把精力大都用在了以权谋私的“副业”上。\n让他到主管的办公室走一趟，接受调查。\n在那里，腐败的警卫会被解雇，而你会得到奖励。
 buildtoolbar_popup_staff_foreman	工头使可以访问“清洁工”和“园丁”以以及负责培训。\n\n【新增功能】如果你启用工具和作弊，那么点击他，可以\n批量地改变很多格子的地面种类。包括：\n · 边界：正常情况下你无法编辑它们\n · 主体：除了边界、室内和房间之外的所有格子\n · 网格：每10米“画”一条参考线
-buildtoolbar_popup_staff_psychologist	心理医生使可以洞察囚犯们的心理活动以及负责培训。\n此外，有些改造项目需要他们。
+buildtoolbar_popup_staff_psychologist	心理医生使可以洞察囚犯们的心理活动以及负责培训。\n此外，有些改造方案需要他们。
 buildtoolbar_popup_staff_accountant	会计可以查看财务报告。\n\n【新增玩法】会计可以强制培训囚犯，以便进行记账工作。\n\n此外，囚犯的正确率终究有限。其错误还需正式员工来修正。\n错误的账本会被送到会计的办公室。会计每10分钟修正一本。\n相当于支持囚犯记账10人时。\n但仅限白天时段（从早上9点到晚上9点）。\n而且，会计还肩负培训的重担。\n所以当工作量上升后，你也许应该考虑多雇佣一个。
-buildtoolbar_popup_staff_lawyer	律师可帮助你打破规则，获得监狱的更大控制权。\n\n虽然没有上限，但雇用1个就足够了。\n除非你特别急于加速完成相关研究……\n\n【新增玩法】律师可以到探监室提供咨询服务。\n详情见改造项目“探监者服务”
+buildtoolbar_popup_staff_lawyer	律师可帮助你打破规则，获得监狱的更大控制权。\n\n虽然没有上限，但雇用1个就足够了。\n除非你特别急于加速完成相关研究……\n\n【新增玩法】律师可以到探监室提供咨询服务。\n详情见改造方案“法律咨询服务”
 buildtoolbar_popup_staff_sniper	一个受过严格培训的狙击手。\n他们会自动占据空置的警戒塔。
 buildtoolbar_popup_uts_powerstation	产生监狱所需的电力。\n非常依赖电容器。\n\n两个发电站不能共用电缆，会冲突。\n是唯一会遇水爆炸的东西。
 buildtoolbar_popup_uts_capacitor	放置在发电站旁边，可以提高发电量。\n\n随着监狱规模的扩大，请记得及时追加电容器。
@@ -235,7 +235,7 @@ buildtoolbar_popup_help_utilities_8		\n若你的监狱有多个发电站，每�
 buildtoolbar_popup_help_guard_1			警卫是监狱工作人员的主体，处理形形色色的事项，包括：\n押送囚犯、处理打架斗殴、搜查违禁品等。\n\n
 buildtoolbar_popup_help_guard_2			~你还可以左键点击或按住左键拖动鼠标，以选定一个或一群警卫，\n然后右键点击某个地方，命令他们立即移动到那里。\n\n
 buildtoolbar_popup_help_guard_3			有“压制”影响，让周围的囚犯更加安分一些。\n影响力的直径为17米（8+1+8）。\n可以越过墙壁。但室内和户外互相独立。\n（你在作弊模式下，按F9，启用 Influence 可查看。）\n\n
-buildtoolbar_popup_help_guard_4			注意：压制的好处很明显，但同时会让囚犯变得消极：\n · 囚犯走路变慢。\n · 对工作和改造项目缺乏兴趣。\n · 即使参加培训项目，也容易失败。\n所以，你应当只对必要的人和地方进行压制。\n\n
+buildtoolbar_popup_help_guard_4			注意：压制的好处很明显，但同时会让囚犯变得消极：\n · 囚犯走路变慢。\n · 对工作和改造方案缺乏兴趣。\n · 即使参加培训项目，也容易失败。\n所以，你应当只对必要的人和地方进行压制。\n\n
 buildtoolbar_popup_help_guard_5			在屏幕顶部显示，可以查看有多少警卫在待命。\n保留适当比例的警卫待命，可以让轮岗更顺畅。
 buildtoolbar_popup_help_guard_6			搜查有概率会失败。\n唯一的例外是搜查有地道的马桶。
 
@@ -248,7 +248,7 @@ buildtoolbar_popup_help_cook_2	当你有多个厨房时，你不能直接指定�
 buildtoolbar_popup_help_cook_3	厨师的忙碌时间从饭前4小时开始，到餐盘洗完和垃圾清完结束。
 buildtoolbar_popup_help_cook_4	大体上，你需要厨师的数量=炊具数×1.5\n或者，=囚犯数÷12\n\n当然，伙食政策会显著影响厨师的工作量。\n\n即使有囚犯打工，你仍然需要这么多厨师，\n以便确保早餐可以及时完成。
 
-buildtoolbar_popup_help_warden_1	“悬停提示”\n点击典狱长，在其菜单中可以设置统计的大类。\n这同时也决定所有囚犯的信息。\n\n不过，当囚犯刚刚被典狱长评估后，会暂时优先显示\n“再犯罪可能性”；在举重后，暂时显示“疾病点数”；\n“危险座谈”，暂时显示“不满爆发点”。
+buildtoolbar_popup_help_warden_1	\n点击典狱长，在其菜单中可以设置统计的大类。\n这同时也决定所有囚犯的信息。\n\n不过，当囚犯刚刚被典狱长评估后，会暂时优先显示\n“再犯罪可能性”；在举重后，暂时显示“疾病点数”；\n“危险座谈”，暂时显示“不满爆发点”。
 buildtoolbar_popup_help_warden_2	\n“疾病”（或者说，不健康）\n可以调整疾病难度系数，但不可以关闭该机制。\n每个囚犯根据其疾病点数，会生病受伤。\n受伤的频率与整体的难度系数和个人的点数成正比。\n受伤程度与疾病点数相关。\n这些非暴力的受伤者们需要你更加重视医疗和伙食。
 buildtoolbar_popup_help_warden_3	\n“睡眠加速”\n每天有近一半的时间，你会觉得傻傻地等待很无聊。\n点击典狱长，在其菜单中可以设置。\n到了你定义的时间段，时钟会加快5倍。于是早晨很快就会到来。\n\n注意：由于技术限制，无法针对囚犯睡眠的行为。\n定义的“睡眠时间段”应该确保绝大多数囚犯真的会在其间睡觉。\n否则，即使没有睡觉，只要囚犯在他们的牢房，一律会被当做睡觉，\n而加速改变其多种需求。见特殊物品“睡眠加速需求调整”。\n\n由于技术上的重重限制，它仅当你“启用工具和作弊”时才生效。\n确切地说，按F1后可以看到，"ImmediateObjects"一项必须启用。
 buildtoolbar_popup_help_warden_4	\n\n“睡眠加速”功能需要作弊模式。
@@ -293,7 +293,7 @@ buildtoolbar_popup_help_foreman_2	如果你大力发展工坊的生产，那么�
 buildtoolbar_popup_help_foreman_3	如果培训需求很大，你可能希望再多雇佣一个工头。\n可惜有名额限制。所以你只能优化培训和生产。\n比如：设法提高培训的通过率；工作的囚犯们的刑期不应太短。
 
 buildtoolbar_popup_help_psychologist_1	[报告/需求]需要你雇佣至少一名心理医师。\n\n
-buildtoolbar_popup_help_psychologist_2	两种改造项目需要用到心理医师。在采用这个模组之前，\n心理医师是唯一需要雇佣多名的高级员工。\n\n
+buildtoolbar_popup_help_psychologist_2	两种改造方案需要用到心理医师。在采用这个模组之前，\n心理医师是唯一需要雇佣多名的高级员工。\n\n
 buildtoolbar_popup_help_psychologist_3	使用"对调办公室"来给心理医师们合适位置上的办公室。\n\n
 buildtoolbar_popup_help_psychologist_4	如果你开设“暴力行为疗法”方案，那么要确保囚犯可以\n走到心理医师的办公室。
 
@@ -382,7 +382,7 @@ object_riotguard				防暴警察
 object_prisoner					囚犯
 object_paramedic				救护人员
 object_fireman					消防员
-object_avatar					头像
+object_avatar					杀手
 object_actor					演员\n(剧情用)
 object_visitor					探监者
 object_executionwitness			死刑见证人
@@ -631,9 +631,9 @@ regimetooltip_sleep	囚犯被关在牢房里，灯也熄了。所有人都上床
 regimetooltip_eat	囚犯们前往指定的食堂，就坐吃饭。\n\n囚犯可以使用食堂内的一切设施，但在时间结束前不得离开。\n\n厨师会提前4小时开始准备伙食。
 regimetooltip_shower	囚犯们脱掉衣服进入淋浴间。每日的淋浴对囚犯的卫生很重要。\n但有些囚犯懒得去，除非被强迫。\n\n注意：强制的淋浴时间，很少是个好主意。\n哪怕牢房里就有花洒，他们也只能去淋浴间。\n不用淋浴而有其它需求的囚犯，也无法提前离开。
 regimetooltip_yard	囚犯可以到庭院中进行必要的锻炼、晒太阳、呼吸新鲜空气。\n\n这段时间内，囚犯可以使用庭院里的任何设施，比如\n用举重床健身、打电话给所爱之人、淋浴等。\n\n囚犯被限制在庭院。不过可以在庭院安装多种功能物品。\n该作息可以用来错开不同的囚犯群体，以防发生冲突。\n特别是帮派之间的冲突。\n\n对于高戒备群体，“庭院放风”+警戒塔可以压制其嚣张气焰。
-regimetooltip_work	囚犯可在监狱四处工作。\n任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。\n(可以在[部署>狱中劳役]设立职位空缺。)\n\n“劳役”期间，所有的改造项目也会进行。它们算是一回事。\n\n注意：工作中的囚犯无法处理自己的需求。\n\n至于目前没有工作或参加改造项目的囚犯，则如同“自由活动”。
-regimetooltip_freetime	囚犯们可以使用监狱中的所有设施，只要区划允许其进入。\n囚犯最喜欢这段时间，会开展社交，并尽可能好地打理其需求。\n\n较长的自由活动可以缓解监狱中的压力和紧张情绪，\n但很多人认为这算不上什么刑罚。(降低[评级]中改造指标的评分)\n\n自由活动时，囚犯可以按其需要，最大自由地行动。\n不过，狱中劳役和囚犯参加的改造项目，无法进行。\n\n此外不会做的事情，只有一个：开始吃饭。不过如果\n上一个作息是吃饭，那么没吃完的囚犯可以在这时继续。
-regimetooltip_worklockdown	关于“劳役”部分，见“工作或自由活动”。\n\n目前没有工作或参加改造项目的囚犯，会被“监禁”在牢房里。
+regimetooltip_work	囚犯可在监狱四处工作。\n任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。\n(可以在[部署>狱中劳役]设立职位空缺。)\n\n“劳役”期间，所有的改造方案也会进行。它们算是一回事。\n\n注意：工作中的囚犯无法处理自己的需求。\n\n至于目前没有工作或参加改造方案的囚犯，则如同“自由活动”。
+regimetooltip_freetime	囚犯们可以使用监狱中的所有设施，只要区划允许其进入。\n囚犯最喜欢这段时间，会开展社交，并尽可能好地打理其需求。\n\n较长的自由活动可以缓解监狱中的压力和紧张情绪，\n但很多人认为这算不上什么刑罚。(降低[评级]中改造指标的评分)\n\n自由活动时，囚犯可以按其需要，最大自由地行动。\n不过，狱中劳役和囚犯参加的改造方案，无法进行。\n\n此外不会做的事情，只有一个：开始吃饭。不过如果\n上一个作息是吃饭，那么没吃完的囚犯可以在这时继续。
+regimetooltip_worklockdown	关于“劳役”部分，见“工作或自由活动”。\n\n目前没有工作或参加改造方案的囚犯，会被“监禁”在牢房里。
 
 regime_clear	清除这类囚犯的作息，\n而采用中威胁的作息。
 
@@ -984,8 +984,8 @@ interfacecallout_Truck                  供给车
 interfacecallout_Hearse                  灵车
 
 ###############################
-Object_SearchToilets	搜查厕所
-Object_SwapOffice	交换办公室
+Object_SearchToilets	[功能]\n搜查厕所
+Object_SwapOffice	[功能]\n交换办公室
 #-
 
 
@@ -2915,7 +2915,7 @@ d11_work_experience	工作经验
 
 d11_cleaner	清洁工
 d11_craftsman	工匠
-d11_labourer	劳工
+d11_labourer	[模组]\n劳工
 d11_RACS	顾客服务
 experiencefactor_FactorWorkExperience	有 *X% 总工作经验
 d11_reform_average_reoffending_rate_x_days	平均再犯罪率（-*X 天）
@@ -4429,7 +4429,7 @@ codex_disabled	[已禁用]
 codex_option_intake						持续接收新囚犯
 codex_tooltip_intake					若启用，你每天都会收到随机数目的新囚犯...一直如此\n\n若禁用，可以前往报告、点击囚犯栏来选择何时接收囚犯。
 codex_option_fogofwar					战争迷雾
-codex_tooltip_fogofwar					【额外挑战】\n除非有警卫在此区域巡逻，或区域内有监控摄像头，\n否则你将无法看见监狱内部的情况。\n如果迷雾中发生了事端，没有警卫会知道，自然无法响应。
+codex_tooltip_fogofwar					【额外挑战】\n除非有警卫在此区域巡逻，或区域内有监控摄像机，\n否则你将无法看见监狱内部的情况。\n如果迷雾中发生了事端，没有警卫会知道，自然无法响应。
 codex_option_lakes						生成湖泊
 codex_tooltip_lakes						【额外挑战】\n随机产生的湖泊会阻隔你的土地。\n无法移除它们。
 codex_option_forests					生成树林
@@ -4932,7 +4932,7 @@ interfacetopbar_budget	现金流 *C
 interfacetopbar_income	收入 *I
 interfacetopbar_expenses	支出 *C
 interfacetopbar_PrisonerCells_insaneSecOnly	犯罪精神病人容量：*X
-interfacetopbar_tooltip_cctv	你当前拥有的监控摄像头和监视器的数量
+interfacetopbar_tooltip_cctv	你当前拥有的监控摄像机和监视器的数量
 interfacetopbar_title_cctv	监控
 interfacetopbar_tooltip_recenttransactions	最近的交易
 interfacetopbar_cctv_current	目前运作 *C 个摄像头
@@ -5107,7 +5107,7 @@ rapsheet_activity	活动
 rapsheet_condition	状况
 rapsheet_program	方案
 rapsheet_passchance	成功几率
-rapsheet_reformhistory	改造项目历史
+rapsheet_reformhistory	改造方案历史
 
 rapsheet_reform_success	成功
 rapsheet_reform_successcount	完成了 *X 次
@@ -6069,7 +6069,7 @@ objective_grant_SecurityOffice_PhoneMonitor 在警卫室，安装1台 电话窃�
 objective_grant_securityoffice3 [Mod] 警卫室 Ⅲ
 objective_grant_securityoffice3_description 我们不希望忽视在监狱这种地方里留下监视的死角。\n在缺少警卫巡逻的角落，安装一些摄像头。
 objective_grant_SecurityOffice_cctvmonitor 在警卫室，安装1台 监控监视器
-objective_grant_SecurityOffice_cctvcameras 在监狱各处，安装4台 监控摄像头
+objective_grant_SecurityOffice_cctvcameras 在监狱各处，安装4台 监控摄像机
 
 objective_grant_prisonerworkforce	囚犯的适应和劳役
 objective_grant_prisonerworkforce_description	让囚犯在监狱中工作，是个一石二鸟的好办法：\n既能削减费用，同时又能使他们融入环境。\n完成必要的研究，建造必需的设施，然后将囚犯投入工作。
@@ -6162,17 +6162,17 @@ objective_grant_Release1_description 恭喜！这是从你的监狱释放的第�
 objective_grant_Release1_JustTakeIt 领取这份额外的奖励吧。
 
 objective_grant_Release2 [Mod] 出狱 Ⅱ
-objective_grant_Release2_description 除了到期放人，你更重要的职责是让他们有效地回归社会。\n政府希望从你监狱出来的囚犯的整体的再犯罪率足够低。\n(可以在屏幕左上角打开[监狱评级]来查看)\n\n除了压制和惩罚，也给囚犯们提供一些积极的改造项目。
+objective_grant_Release2_description 除了到期放人，你更重要的职责是让他们有效地回归社会。\n政府希望从你监狱出来的囚犯的整体的再犯罪率足够低。\n(可以在屏幕左上角打开[监狱评级]来查看)\n\n除了压制和惩罚，也给囚犯们提供一些积极的改造方案。
 objective_grant_Release2_Population 释放10个囚犯
 objective_grant_Release2_ReoffendingRate 令整体的再犯罪率低于30%
 
 objective_grant_Release3 [Mod] 出狱 Ⅲ
-objective_grant_Release3_description 再接再厉。\n保持你对监狱秩序的控制力。\n并且提供更多改造项目，让囚犯们改头换面。
+objective_grant_Release3_description 再接再厉。\n保持你对监狱秩序的控制力。\n并且提供更多改造方案，让囚犯们改头换面。
 objective_grant_Release3_Population 释放50个囚犯
 objective_grant_Release3_ReoffendingRate 令整体的再犯罪率低于25%
 
 objective_grant_Release4 [Mod] 出狱 Ⅳ
-objective_grant_Release4_description 你的监狱对社会有重要意义。\n政府期待你更上一层楼。\n补充并优化你监狱里的方方面面。\n用无懈可击的秩序和丰富多样的改造项目，让囚犯们洗心革面。
+objective_grant_Release4_description 你的监狱对社会有重要意义。\n政府期待你更上一层楼。\n补充并优化你监狱里的方方面面。\n用无懈可击的秩序和丰富多样的改造方案，让囚犯们洗心革面。
 objective_grant_Release4_Population 释放200个囚犯
 objective_grant_Release4_ReoffendingRate 令整体的再犯罪率低于20%
 
@@ -6364,12 +6364,12 @@ research_remoteaccess	门禁系统
 researchtooltip_remoteaccess	能够远程控制门禁，降低警卫的工作量。\n安装“门禁控制器”或“门禁定时器”后，警卫就能在门禁系统中遥控开门。
 
 research_cctv	监控摄像机
-researchtooltip_cctv	解锁“监控摄像头”与“监视器”，能够远程观察监狱。\n老旧的设备使得画面模糊，警卫无法在监控中清晰地观察囚犯。\n解锁“电话窃听”系统，能够监听囚犯打出的电话以获取情报。
+researchtooltip_cctv	解锁“监控摄像机”与“监视器”，能够远程观察监狱。\n老旧的设备使得画面模糊，警卫无法在监控中清晰地观察囚犯。\n解锁“电话窃听”系统，能够监听囚犯打出的电话以获取情报。
 
 research_CCTVImprovement	警报程序
 researchtooltip_CCTVImprovement	监控系统安装了警报程序，警卫能够在监控系统中识别违规的囚犯，并发出警报。
 research_PrisonerSorting 高级监控系统
-researchtooltip_PrisonerSorting 升级高端设备后，警卫终于能够能够清晰地观察囚犯。\n现在警卫可以在监控中识别出特定人群，并重新指定其戒备类别。
+researchtooltip_PrisonerSorting 升级高端设备后，警卫终于能够清晰地观察囚犯。\n现在警卫可以在监控中识别出特定人群，并重新指定其戒备类别。
 #-
 
 #+==分支B
@@ -6591,7 +6591,7 @@ finance_cost_sharesale	出售股份
 finance_cost_sharepurchase	购买股份
 finance_cost_grantadvance	补助预付款
 finance_cost_grantcompletion	补助完成奖励
-finance_cost_reformprogram	改造项目的课程
+finance_cost_reformprogram	改造方案的课程
 finance_cost_repair	修理
 finance_cost_sellobject	卖掉物品
 finance_cost_landpurchase	购买土地
@@ -7180,7 +7180,7 @@ buildtoolbar_popup_room_accounting 接受中型企业的会计外包业务。\n�
 #+==交通运输
 
 room_intake	  入狱搜查室
-buildtoolbar_popup_room_intake	囚犯抵达监狱时，会先被带到这里搜身。\n\n推荐在此安装”监控-囚犯分类器“
+buildtoolbar_popup_room_intake	囚犯抵达监狱时，会先被带到这里搜身。\n\n推荐在此安装”监控-囚犯分类系统“
 
 room_morgue	 ᠎停尸房
 buildtoolbar_popup_room_morgue	等待灵车时临时安放尸体的区域。\n\n[推荐区划：目的地专区]
@@ -7519,7 +7519,7 @@ object_meal						伙食
 object_foodtray					餐盘
 object_foodtraydirty			餐盘(脏)
 object_grassturf				草坪
-object_ImmediatePrisonerUniform [购买]囚服*1
+object_ImmediatePrisonerUniform [购买]\n 囚服*1 
 object_prisoneruniform			囚服(干净)
 object_dirtyprisoneruniform		囚服(脏)
 object_crumpledprisoneruniform	囚服(皱)
@@ -7530,7 +7530,7 @@ object_licenseplate				车牌($25)
 object_log						原木($85)
 object_wood						木板($85)
 
-object_ImmediateShopGoods		[购买]商店货物*10
+object_ImmediateShopGoods		[购买]\n商店货物*10
 #-===========================================================
 
 #+===============================物品===============================
@@ -7544,7 +7544,7 @@ buildtoolbar_popup_obj_ServoProxy 安装在你想要遥控的门上。\n\n请确
 object_servo					门禁控制器
 buildtoolbar_popup_uts_Servo	安装在你想要遥控的门上。\n\n请确保齿轮在门的正上方；另一端则在墙壁上。\n一旦安装好，门禁控制器在被触发时就会自动开门——\n通常由‘门禁控制系统’或‘门禁定时器’触发。\n\n门禁控制器可以串连，当第一个伺服器开启时，\n会触发后面的伺服器。
 object_cctvmonitor				安保系统\n （监控） 
-buildtoolbar_popup_uts_cctvmonitor	警卫可远程监控监狱各处的摄像头。\n\n使用“连接”工具，将监视器与‘监控摄像头’相连。\n最多同时监视8个摄像头。如果连接了超过8个摄像头，\n监视器会轮流切换显示，只能提供不完整的监控覆盖度。
+buildtoolbar_popup_uts_cctvmonitor	警卫可远程监控监狱各处的摄像头。\n\n使用“连接”工具，将监视器与‘监控摄像机’相连。\n最多同时监视8个摄像头。如果连接了超过8个摄像头，\n监视器会轮流切换显示，只能提供不完整的监控覆盖度。
 object_doorcontrolsystem		安保系统\n （门禁） 
 buildtoolbar_popup_uts_DoorControlSystem	警卫可遥控打开监狱各处的门，减轻大量工作量。\n每秒最多打开两扇门。\n\n使用“连接”工具，将此系统与‘门禁控制器’相连。
 object_phonemonitor				安保系统\n （窃听） 
@@ -7553,7 +7553,7 @@ buildtoolbar_popup_uts_phonemonitor	监听囚犯们打出的电话，以提前�
 object_Sprinkler	 喷水灭火器
 buildtoolbar_popup_obj_sprinkler	发生火灾时，自动向此区域喷水。\n\n感应的直径为7米。\n如果管道被烧毁，那么会失去供水。
 object_cctv						 监控摄像机
-buildtoolbar_popup_uts_cctv	不用到处安排警卫，也可以监视囚犯。\n\n迷雾中发生事端时，附近的警卫不会知晓，所以不会前去处理。\n必须用‘监控监视器’连接才能工作。\n\n【豪华版】增加了“囚犯分类器”研究可以升级摄像头，\n从而把特定的囚犯群体，自动设置为合适的戒备类别。\n\n需求：\n+ 安全 0.05\n- 隐私 0.05
+buildtoolbar_popup_uts_cctv	不用到处安排警卫，也可以监视囚犯。\n\n迷雾中发生事端时，附近的警卫不会知晓，所以不会前去处理。\n必须用‘监控监视器’连接才能工作。\n\n[模组] 增加了“囚犯分类系统”研究可以升级摄像头，\n从而把特定的囚犯群体，自动设置为合适的戒备类别。\n\n需求：\n+ 安全 0.05\n- 隐私 0.05
 object_CameraPillar	 监控机柱
 buildtoolbar_popup_obj_camerapillar	放置在开放区域，然后将摄像头安装在两侧。\n装饰性
 object_weaponrack				᠎武器架
@@ -8060,7 +8060,7 @@ buildtoolbar_popup_obj_GrassBridge	一座铺满草的桥，可以安全地通过
 
 #+=============================﻿其他
 
-object_CheatPrisonerMisbehavior ﻿[作弊]囚犯暴动
+object_CheatPrisonerMisbehavior ﻿[作弊]\n囚犯暴动
 buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个功能可以让囚犯们立即暴动。\n\n“安装”它后，点击它，在菜单中操作。
 
 object_TimedCaller 				﻿定时呼叫器
@@ -8590,10 +8590,10 @@ score_convictionstrength	国家批准的定罪力度
 score_prisonersexecuted	处决囚犯数 | 无辜者
 score_prisonersexecuted_info	*E | *I
 score_tooltip_punishment	这是（公众感受到的）囚犯为其罪行是否受到足够惩罚的评级。\n长期在监狱中服刑，是强力惩罚的基础，但独自监禁的难熬日子也算数。\n\n切记，过多的改造或自由活动会被视为“对犯罪软弱”，不利于惩罚评级。\n\n强有力的惩罚分数可以使囚犯出狱后不敢再犯罪。
-score_tooltip_reform		对你通过改造项目改造囚犯的尝试的评级。\n\n较高的改造分数可以使囚犯出狱后更有可能找到工作，\n从而降低其再犯罪的几率。\n\n注意：让囚犯在监狱各处工作也计入其中。
+score_tooltip_reform		对你通过改造方案改造囚犯的的评级。\n\n较高的改造分数可以使囚犯出狱后更有可能找到工作，\n从而降低其再犯罪的几率。\n\n注意：让囚犯在监狱各处工作也计入其中。
 score_tooltip_health		囚犯在服刑期间的健康与福利的记录。\n户外锻炼以及美食会增加此项评分。\n未得到医治的伤病、吸食毒品及饮酒均会降低此项评分。\n\n此项得分过低，会提高囚犯再犯罪的几率，\n尤其是那些在出狱时尚未戒掉对毒品或酒精依赖的囚犯。
 score_tooltip_security		对你是否安全地关住囚犯的评级。\n将犯人监禁在有武装警卫看守的牢房里，会大幅提高此项得分。\n如果囚犯参与斗殴、谋杀或越狱，你会被扣分。\n\n低的得分表明，囚犯在入狱后仍然继续其犯罪的生存方式，\n因此出狱后再犯罪的几率极高。
-score_tooltip_reoffendingchance	对囚犯出狱后再犯罪的几率的估计。\n其数值考虑了许多因素：\n\n- [减少]严厉/强力的惩罚\n- [减少]成功的改造项目\n- [增加]健康或安全状况不佳\n- [增加]未得到治疗的毒瘾或酒瘾\n- [增加]帮派身份\n\n- 囚犯年龄是一个主要因素。\n- 前科数量是一项重要指标。\n- 来自大家庭的支持很有帮助。
+score_tooltip_reoffendingchance	对囚犯出狱后再犯罪的几率的估计。\n其数值考虑了许多因素：\n\n- [减少]严厉/强力的惩罚\n- [减少]成功的改造方案\n- [增加]健康或安全状况不佳\n- [增加]未得到治疗的毒瘾或酒瘾\n- [增加]帮派身份\n\n- 囚犯年龄是一个主要因素。\n- 前科数量是一项重要指标。\n- 来自大家庭的支持很有帮助。
 score_tooltip_clemencychance_title	宽大处理的可能性
 score_tooltip_clemencychance	上诉委员会对被判处死刑的囚犯进行宽大处理和减刑的可能性。\n每次上诉失败会降低此值，直到数值低于国家批准的定罪力度，\n这时会全权授权继续流程。\n如果你在此之前安排行刑、而后发现囚犯的上诉本来可能成功，\n那么你会遭到严厉的惩罚。\n\n如果囚犯获得宽大处理，会被立即释放（被发现是无辜的），\n或被转为高戒备囚犯（仍然判定其有罪）。
 score_tooltip_currentchance	国家批准的定罪力度为 *X%
@@ -8829,15 +8829,10 @@ objective_grant_prison_population_400_description        恭喜！你建造了�
 #+===============================模组===============================
 
 #+其他
-#作弊组件 
-Start
-object_CheatWorkman						工人(作弊组件)
-buildtoolbar_popup_staff_CheatWorkman	一个作弊用的工人，用于调试组件时使用，非常不推荐正常游玩时使用
-#作弊组件 End
 
 # 劳工 Start
-object_Laborer							劳工
-buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。\n\n- 略微带有作弊之意，可以按照自身喜好选择是否使用
+object_Laborer							[模组]\n  劳工  
+buildtoolbar_popup_staff_Laborer		劳工能够在工坊工作，为监狱创造更多收入。\n\n- 可能影响游戏平衡，可按自身喜好选择是否使用。
 # 劳工 End
 
 
@@ -8934,7 +8929,7 @@ mc__current_grid_type 当前网格: *N
 mc__change_grid 改变网格为 *N
 
 # Chief: Fight Corruption
-Object_MusterGuards 召集警卫
+Object_MusterGuards [功能]\n召集警卫
 fc__toggle_corruption 腐败斗争: *B
 fc__add_corrupt_guard [作弊]增加腐败的警卫
 fc__muster_corrupt_guards [作弊]调查所有腐败的警卫
@@ -8945,7 +8940,7 @@ fc__tt__bonus \n【腐败报告】\n腐败水平: *L\n勒索 *X 次\n殴打 *B �
 fc__tt__p \n【不满爆发点】\n · 最低: *A\n · 最新: *B\n\n被警卫勒索了 *X 次\n反击 *F 次\n损失金额 $*M\n\n最近被勒索于 *L 分钟前
 object_DiciplineBonus 腐败警卫\n整顿奖励($2000)
 
-object_AttentionToPrisoner 关注囚犯
+object_AttentionToPrisoner [功能]\n关注囚犯
 object_AttentionMarker 关注标记
 buildtoolbar_popup_staff_AttentionToPrisoner 如果你需要长期对一个囚犯保持关注，那么你\n可以标记此人。\n\n本“员工”被放置后，会搜索附近0.8米内的囚犯。\n如果找到一个，那么会对其标记。\n\n如果启用作弊模式，那么你还可以点击本标记，\n在其菜单里，——\n · 让被标记的囚犯彼此攻击。\n   该囚犯一旦在5米内遭遇其他标记者，就会攻击。\n · 把囚犯变成死刑犯。\n   注意：此行为不可撤销。\n · 给囚犯增加多种特殊的状态效果。
 
@@ -9191,42 +9186,42 @@ object_A48Clothes 杀手留言
 #+==========================杀手结束
 
 
-object_TargetSorter 囚犯分类器
-buildtoolbar_popup_uts_TargetSorter 告密者和前执法者都是其他犯人的眼中钉，会被当做袭击目标。\n(如果你开启了“事件”，那么一种事件是保护联邦证人。)\n最好的对策是把他们分类为“重点保护”，以便远离威胁。\n\n本“设施”可以升级一台‘监控摄像头’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n最需要它的地方是“入狱搜查室”。
+object_TargetSorter [功能]\n囚犯分类系统
+buildtoolbar_popup_uts_TargetSorter 告密者和前执法者都是其他犯人的眼中钉，会被当做袭击目标。\n(如果你开启了“事件”，那么一种事件是保护联邦证人。)\n最好的对策是把他们分类为“重点保护”，以便远离威胁。\n\n本“设施”可以升级一台‘监控摄像机’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n最需要它的地方是“入狱搜查室”。
 
-object_GangSorter 分类帮派成员
-buildtoolbar_popup_uts_GangSorter 你开启了“帮派”，那么三个帮派之间会不断地发生冲突。\n最好的对策是把他们分类为“中、高、低戒备”。\n\n本“设施”可以升级一台‘监控摄像头’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n死刑犯和超高戒备的囚犯不受此影响。\n告密者等目标(分类为“重点保护”)优先于帮派。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n除了新接收的囚犯，帮派还会慢慢地在监狱中招募新人。\n所以你也许需要不止一个本工具。
+object_GangSorter [功能]\n帮派分区系统
+buildtoolbar_popup_uts_GangSorter 你开启了“帮派”，那么三个帮派之间会不断地发生冲突。\n最好的对策是把他们分类为“中、高、低戒备”。\n\n本“设施”可以升级一台‘监控摄像机’，让它能够自动检测\n这些囚犯，并把他们分类到相应的戒备类别。\n摄像头的检测范围半径为7米。\n\n死刑犯和超高戒备的囚犯不受此影响。\n告密者等目标(分类为“重点保护”)优先于帮派。\n\n把本升级包“安装”到摄像头的位置上，就会自动完成升级。\n\n除了新接收的囚犯，帮派还会慢慢地在监狱中招募新人。\n所以你也许需要不止一个本工具。
 
-PrisonerSorter_NeedUpgrade \n(尚未升级“囚犯分类器”的功能)
-PrisonerSorter_TargetFound \n已分类受袭击目标 *X 人
-PrisonerSorter_GangFound \n已分类帮派成员 *X 人
-PrisonerSorter_TargetNGangFound \n已分类袭击目标 *X 人\n已分类帮派成员 *Y 人
+PrisonerSorter_NeedUpgrade \n(尚未升级“囚犯分类系统”的功能)
+PrisonerSorter_TargetFound \n已分类重点保护囚犯 *X 人
+PrisonerSorter_GangFound \n已分区帮派成员 *X 人
+PrisonerSorter_TargetNGangFound \n已分类袭击目标 *X 人\n已分区帮派成员 *Y 人
 PrisonerSorter_NotEnabledGangs \n你需要在[主菜单/附加功能/本监狱的额外玩法]中，“启用 帮派”。否则这个毫无用处。
-PrisonerSorter_DidNotUpgrade \n本升级包没有发挥作用。原因可能是：\n · 当前位置上没有‘监控摄像头’\n · 摄像头已经被升级过了\n可以拆除本升级包，再“安装”到别的摄像头。
+PrisonerSorter_DidNotUpgrade \n本升级包没有发挥作用。原因可能是：\n · 当前位置上没有‘监控摄像机’\n · 摄像头已经被升级过了\n可以拆除本升级包，再“安装”到别的摄像头。
 
 lawyer__tt \n已为探监者提供服务 *S 人次\n产生奖金 *B 次
-reformprogram_VisitorService [特殊]探监者服务
-reformprogram_VisitorService_text 囚犯的家属或多或少总有对法律咨询的需求。\n你的律师除了偶尔搞搞行政研究，还可以作出更大贡献。\n\n让律师到探监室为所有探监者提供服务。\n每4人次会得到政府提供的100元奖金。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n因为如果没有任何“学生”，项目就根本无法进行。\n“学生”囚犯会得到“平静”状态作为补偿。\n\n建议你[编辑时刻表]，以合理安排时间。
+reformprogram_VisitorService [模组]法律咨询服务
+reformprogram_VisitorService_text 囚犯的家属总有对法律咨询的需求。\n\n让律师到探监室为探监者提供服务。\n每4人次会得到政府提供的100元奖金。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n因为如果没有任何“学生”，项目就根本无法进行。\n“学生”囚犯会得到“平静”状态作为补偿。\n\n建议你[编辑时刻表]，以合理安排时间。
 
 
-reformprogram_CloseContact [特殊]近距离接触
+reformprogram_CloseContact [模组]近距离接触
 reformprogram_CloseContact_text 让你的典狱长走出被行政文件包围的办公室。\n他会观察周围的囚犯们，评估并记录其再犯罪可能性。\n每当一个囚犯有阶段性的进步，你会收到政府的奖金。\n\n典狱长会每3分钟评估一个人次。\n被评估的囚犯需要在10米之内。\n同一个囚犯的评估间隔至少为12小时。\n\n囚犯的“再犯罪可能性”的最低值会被记录。\n每当这个值下降经过5%的整数倍，会产生100元奖金。\n当典狱长接触囚犯时，其积累的奖金会被生成。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n\n建议你[编辑时刻表]，以合理安排时间和地点。
 
 object_MoneyBag1000 奖金($1000)
 object_MoneyBag100 奖金($100)
 object_MoneyBag10 奖金($10)
 
-reformprogram_DangerousMeeting [特殊]危险座谈
+reformprogram_DangerousMeeting [模组]危险座谈
 reformprogram_DangerousMeeting_text 一个电视节目以大胆著称。\n现在，其主持人常驻于此，想要挖掘罪犯们的故事。\n不仅如此，他还会试图激怒这些身陷囹圄的野兽，\n把他们的面貌和言行用摄影机捕捉下来。\n显然，这是很冒险的举动。\n但你会不会为了钱而放宽原则呢？\n\n该项目的过程则会逐渐“激怒”每个犯人。\n主持人会根据各个囚犯的“再犯罪可能性”(主要)\n以及“不满爆发点”(次要)，计算并产生奖金。\n这个风险越高，则奖金越多，但也越容易导致囚犯“发飙”，\n其中一定概率会攻击主持人或摄影师。\n所以，准备好应对失控的局面吧。
 
 dangerous_meeting__not_at_office \n不在办公室
 dangerous_meeting__need_cameraman \n需要在身边配有一名摄影师
 dangerous_meeting__stats \n座谈 *X 轮\n产生奖金 *Y 元\n\n引起囚犯发飙 *Z 次
 
-object_BoldHost 大胆主持人
+object_BoldHost [模组]\n大胆主持人
 buildtoolbar_popup_staff_BoldHost 以冒犯别人为卖点的娱乐圈人士，却自诩为真相斗士。\n在职业生涯的危险期，他决定再搏一把。\n\n通过“危险座谈”方案，他会给你带来可观的金钱回报。\n但风险也同样高。\n\n如果你对过于平和而乏味的日常感到无聊，那么这个\n充满刺激的项目会很适合你。\n\n他的办公室里需要较多的椅子。\n\n座谈还需要从外部自动过来的摄影师。\n他非常脆弱。一旦被攻击，很容易死亡，并产生罚款。\n\n主持人或摄影师受伤后，会自动呼叫医生。\n你无法控制他们，所以只能等医生过来。
 
-object_CameraMan 摄影师
+object_CameraMan [模组]\n摄影师
 # buildtoolbar_popup_staff_CameraMan 主持人的必要协助者。\n\n需要放置在主持人办公室里。\n你也可以选中他并右击以移动。\n\n摄影师非常脆弱。一旦被攻击，就很容易死亡。
 
 dangerous_meeting__cameraman_sees_host__No \n没有对应的主持人
@@ -9237,7 +9232,7 @@ dangerous_meeting__cameraman_LeavingMap \n正在离开
 dangerous_meeting__p_tt \n再犯罪可能性: *R\n不满爆发点: *B
 
 
-object_RoomSelector 房间选择器
+object_RoomSelector [克隆]\n房间选择器
 buildtoolbar_popup_staff_RoomSelector 克隆的第一步。\n点击一个房间中的任意一格，就会自动检测并选中\n该房间的所有格子，包括四周的墙壁和门。\n\n检测时，假定房间为长方形。\n出于性能考虑，向四周探测最远到10米为止。\n\n每次新的选择都会替代旧的选择。\n\n点击选择器对象，在菜单里你还可以调整选中区域。
 
 rs__adjust_t_d 顶部下移↓
@@ -9250,22 +9245,22 @@ rs__adjust_r_l 右边左移←
 rs__adjust_r_r 右边右移→
 
 
-object_ClearSelector 清除选择器
+object_ClearSelector [克隆]\n清除选择器
 buildtoolbar_popup_staff_ClearSelector 克隆的最后一步。\n点击任意地方，即可清除当前的房间选择器。
 
-object_CloneSimple 简单克隆
+object_CloneSimple [克隆]\n简单模式
 buildtoolbar_popup_staff_CloneSimple 以目标地点为左上角，克隆选中的房间。\n所有固定对象(亦即除了洗衣篮)(包括灯)都会被复制。\n地面建材也会被复制。\n重复本操作并不会导致同一位置上出现多个同类型物品。\n\n由于技术限制无法修改地基，亦即无法克隆室内与否。\n这会影响灯、战争迷雾和温度。\n你必须用常规方法建造地基，无法克隆房间类型。\n\n如果没有启用作弊，那么墙壁和物品都会由工人来建造。\n虽然你在员工菜单时看不到墙壁，但它们确实已经被安排建造了。
 
-object_CloneSpreadAligned 对齐铺开克隆
+object_CloneSpreadAligned [克隆]\n对齐铺开
 buildtoolbar_popup_staff_CloneSpreadAligned 从选中的房间开始，向目标地点连续克隆，\n得到多个副本。\n\n特别适合克隆一行或一列牢房。\n新房间会与选中的房间水平或垂直对齐。\n\n使用前，建议你先存一下档。
 
-object_CloneSpreadAngled 斜角铺开克隆
+object_CloneSpreadAngled [克隆]\n斜角铺开
 buildtoolbar_popup_staff_CloneSpreadAngled 从选中的房间开始，向目标地点连续克隆，\n得到多个副本。\n\n新房间的排列会呈现斜角。倾斜程度取决于\n目标地点相对于选择器对象的相对坐标。\n房间之间的错位必须为相同的整数(米)。\n这个限制是为了避免让人意外的不整齐。\n\n有些喜欢不规则形状监狱的玩家会需要此功能。\n\n使用前，建议你先存一下档。
 
-object_CloneFlipX 水平翻转克隆
+object_CloneFlipX [克隆]\n水平翻转
 buildtoolbar_popup_staff_CloneFlipX 以目标地点为左上角，克隆选中的房间。\n克隆的房间里，每个对象的X坐标被镜像翻转。\n但为了对称，不改变开门方向。
 
-object_CloneFlipY 垂直翻转克隆
+object_CloneFlipY [克隆]\n垂直翻转
 buildtoolbar_popup_staff_CloneFlipY 以目标地点为左上角，克隆选中的房间。\n克隆的房间里，每个对象的Y坐标被镜像翻转。\n但为了对称，不改变开门方向。
 
 
@@ -9273,17 +9268,17 @@ object_RoomCellMarker 房间格子标记
 object_Anchor 锚点
 anchor_tt 为了绕开某些技术限制而需要这个特殊的对象。\n等雇佣了典狱长之后，再加载地图时，\n这个“锚点”会消失。因为典狱长扮演了它的角色。\n\n总之，请你不要管它。
 
-object_MoveObject 移动物品
+object_MoveObject [功能]\n移动物品
 object_MoveObjectMarker 移动物品标记
 buildtoolbar_popup_staff_MoveObject 立即从一个格子移动其所有物品到另一个格子。\n\n首先，用本“员工”定位要移动其物品的格子。\n然后，再用本“员工”定位移动目的地。\n‘发电站’、‘电容器’、‘水泵站’的地下部分无法移动。\n尤其是水泵站，会导致漏水。所以排除了它们。\n\n在转动或移动物品后，它可能会出现奇怪的问题。\n比如：炊具、冰柜会时而闪烁“缺少供电”图标。\n这时，你只需要常规地先拆除再重新安装即可。
 
-object_RotateObject 转动物品
+object_RotateObject [功能]\n转动物品
 buildtoolbar_popup_staff_RotateObject 让物品顺时针旋转90°。\n\n个别物品的靠墙状态可能会不太对。\n\n偶尔还会遇到：旋转实际上发生了，但图片并没有随之改变。\n这个问题只能等游戏开发者修复。\n暂时的对策是：你用“移动物品”来把它移到别处再移动回来。\n\n现在这个功能事实上也被自带移动功能取代了
 
-object_MoveRoom 移动房间
+object_MoveRoom [功能]\n移动房间
 buildtoolbar_popup_staff_MoveRoom 立即从选中的房间移动其所有对象和建材到另一个位置。\n操作和“简单克隆”一样。\n\n一个区别是：新位置可以在来源房间内部。
 
-object_LightHere 灯在这儿
+object_LightHere [功能]\n灯在这儿
 buildtoolbar_popup_staff_LightHere 由于种种原因，你有时会想要移除多余的灯，\n或者移动灯的位置。\n\n由于灯经常与其它物品重叠，所以选择它们比较麻烦。\n现在，你用这个“员工”，可以——\n · 删除周围的灯\n · 在当前位置生成新的灯\n\n删除的范围为2.2米，且仅限当前房间。\n删除的灯会回收其价格30元到银行余额。\n所以相当于免费移动一盏灯，并消除多余的灯。
 
 object_PCommand 安装物品指令
