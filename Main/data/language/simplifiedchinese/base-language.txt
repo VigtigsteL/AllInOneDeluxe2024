@@ -933,8 +933,8 @@ objective_tvremovaldemand	从 公共活动室 移除 电视
 objective_tvremovaldemand_child	确保 公共活动室 没有 电视
 objective_weightsremovaldemand	从 庭院 移除 举重床
 objective_weightsremovaldemand_child	确保 庭院 中没有 举重床
-objective_lessfooddemand	将伙食的 份量 和 花样 设定为 低
-objective_lessfooddemand_child	将伙食的 份量 和 花样 政策，都设定为 低
+objective_lessfooddemand	将伙食的 份量 和 种类 设定为 低
+objective_lessfooddemand_child	将伙食的 份量 和 种类 政策，都设定为 低
 objective_removevisitationdemand	移除所有 探监室
 objective_removevisitationdemand_child	确保在安全审查完成之前，监狱中没有 探监室
 objective_virus	病毒爆发
@@ -1547,7 +1547,7 @@ report_policy_categoryTooltip_Insane	精神病囚犯
 
 report_policy_misconductConflict_tooltip	可选择多种具有不同策略值的安保人员类型。选择单个囚犯种类即可查看其不当行为政策。
 
-report_policy_match	搭配：
+report_policy_match	复制：
 #-
 
 
@@ -1673,8 +1673,8 @@ prisoner_roomquality_low	低
 prisoner_roomquality_high	高
 prisoner_roomquality_veryHigh	非常高
 prisoner_roomquality_supreme	极高
-report_policy_matchTitle	匹配安全区域
-report_policy_match_tooltip	将 *X 不当行为政策与另一个安全区域相匹配。
+report_policy_matchTitle	复制戒备政策
+report_policy_match_tooltip	将其他戒备政策复制到 *X 
 report_intake_cat_PrisonerTransfer	传奇囚犯！
 
 buildtoolbar_popup_help_Orderly_1	护理人员经过特别训练，专门看护精神病囚犯。\n
@@ -1939,9 +1939,9 @@ equipment_Kicker	发酵水果
 equipment_Drink		罐装饮料
 equipment_BoozeBag	酒袋
 equipment_Orange	橙子
-equipment_ProducedDrugs	毒品成品
-equipment_ProducedBooze	酒类成品
-equipment_ProducedNarcotics	麻醉品成品
+equipment_ProducedDrugs	生产毒品
+equipment_ProducedBooze	生产酒精
+equipment_ProducedNarcotics	生产麻醉剂
 #-
 
 
@@ -2025,8 +2025,8 @@ d11_battery_charge_text	当前电量：*X%
 d11_battery_charging	充电中
 d11_battery_discharging	耗电中
 
-misconduct_reporttype_ProducedNarcotics	麻醉品成品
-contraband_Produced	麻醉品成品
+misconduct_reporttype_ProducedNarcotics	生成麻醉剂
+contraband_Produced	生产麻醉剂
 
 d11_researchhint_l_RecyclingIncentive	根据政府“迈向绿色”计划内容，正确丢弃垃圾的机构可获得现金奖励。因此，每收集一袋垃圾，你的监狱可获得 $10。
 
@@ -5654,7 +5654,7 @@ event_weightsremovaldemand_fine	你未能按照现行法律要求，移除庭院
 event_weightsremovaldemand_complete	媒体注意力转移到一些别的事情上了。\n禁止在监狱庭院放置健身设施的法案已被废除。\n如果你愿意，随时可以重新安装。
 
 event_lessfooddemand_1	董事会决定在我们的所有设施里试行多项节省资金的设施。\n你的监狱也包括在内。
-event_lessfooddemand_2	你需要将伙食的份量和花样政策，都调节至“低”，\n这样我们就能看到它对总体预算有何影响。
+event_lessfooddemand_2	你需要将伙食的份量和种类政策，都调节至“低”，\n这样我们就能看到它对总体预算有何影响。
 event_lessfooddemand_fine	由于你没有实施我们所要求的新伙食政策，我们将直接\n从你的资金中扣掉原本有望节省下来的金额。\n这会一直持续，直到你按我要求的做。
 event_lessfooddemand_complete	食物预算试验结束了，结果是没有定论。\n你又可以按你的意愿设定伙食政策了。
 
@@ -6139,8 +6139,8 @@ objective_grant_cellblock500_cells	将监狱囚犯容量提高到 500 人
 
 objective_grant_nutritionresearch	囚犯营养调查
 objective_grant_nutritionresearch_description	有个独立研究小组出钱，以参与一项试验，考察犯人的\n饮食习惯发生变动的影响。
-objective_grant_nutritionresearch_poor	持续2天，每日提供： \n1顿饭，低份量、低花样
-objective_grant_nutritionresearch_good	持续2天，每日提供： \n3顿饭，高份量、高花样
+objective_grant_nutritionresearch_poor	持续2天，每日提供： \n1顿饭，低份量、低种类
+objective_grant_nutritionresearch_good	持续2天，每日提供： \n3顿饭，高份量、高种类
 
 objective_grant_drugsearch	取缔毒品
 objective_grant_drugsearch_description	大型监狱中的毒品现象，近来越发引人关注。\n采取主动立场，展现出你在应对这个问题。
@@ -7353,10 +7353,10 @@ roomgrading_Canteen_MealQuality	[*E] 伙食份量：中
 roomgrading_Canteen_MealQuality_High	[*E] 伙食份量：高
 roomgrading_Canteen_MealQuality_Low	[*E] 伙食份量：低
 roomgrading_Canteen_MealQuality_None	[*E] 伙食份量：无
-roomgrading_Canteen_MealVariety	[*E] 伙食花样：中
+roomgrading_Canteen_MealVariety	[*E] 伙食种类：中
 roomgrading_Canteen_MealVariety_High	[*E] 伙食种类：高
 roomgrading_Canteen_MealVariety_Low	[*E] 伙食种类：低
-roomgrading_Canteen_MealVariety_None	[*E] 伙食花样：无
+roomgrading_Canteen_MealVariety_None	[*E] 伙食种类：无
 roomgrading_Canteen_HasWindow_None	[*E] 无窗户
 roomgrading_Canteen_HasGlassWalls	[*E] 四周装有玻璃墙
 roomgrading_Canteen_OutsideWindow_Large	[*E] *Y 大型窗户
@@ -8500,7 +8500,7 @@ job_delivermail	递送邮件
 
 reports_foodtitle	营养政策
 meal_quantity	伙食份量
-meal_variety	伙食花样
+meal_variety	伙食种类
 meal_cost	每个囚犯花费
 
 reports_otherpolicytitle	其他政策
