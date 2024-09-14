@@ -1,12 +1,13 @@
 # 若要覆盖原计划，需要放置在 “游戏根目录\Data\”中才能生效
 
+#[制造Ⅰ]工坊安全入门
 BEGIN Program
     Name            WorkshopInduction
     SessionCost     -80
     Places          15
     SessionLength   120
     NumSessions     2
-    Difficulty      5
+    Difficulty      10
     Research        PrisonLabour
     Room            Workshop
     Teacher         Foreman
@@ -16,13 +17,14 @@ BEGIN Program
     Intake          Voluntary
 END
 
+#[后勤]厨房安全与卫生
 BEGIN Program
     Name            KitchenInduction
     SessionCost     -80
-    Places          5
+    Places          10
     SessionLength   120
     NumSessions     2
-    Difficulty      5
+    Difficulty      10
     Research        PrisonLabour
     Room            Kitchen
     Teacher         Cook
@@ -30,13 +32,14 @@ BEGIN Program
     Intake          Voluntary
 END
 
+[制造Ⅱ]木工学徒
 BEGIN Program
     Name            Carpentry
     SessionCost     -300
     Places          5
     SessionLength   120
     NumSessions     4
-    Difficulty      10
+    Difficulty      30
     Teacher         Foreman
     Room            Workshop
     Equipment       CarpenterTable
@@ -47,13 +50,14 @@ BEGIN Program
     Qualification   WorkshopInduction
 END
 
+#[学术Ⅰ]基础教育课程
 BEGIN Program
     Name            FoundationEducation
     SessionCost     -150
     Places          20
     SessionLength   120
-    NumSessions     4
-    Difficulty      10
+    NumSessions     3
+    Difficulty      20
     Room            Classroom
     Teacher         Teacher
     Equipment       SchoolDesk
@@ -63,13 +67,14 @@ BEGIN Program
     Properties      StudentsSit
 END
 
+#[学术Ⅱ]普通教育课程
 BEGIN Program
     Name            GeneralEducation
     SessionCost     -300
     Places          10
     SessionLength   120
-    NumSessions     4
-    Difficulty      20
+    NumSessions     6
+    Difficulty      30
     Room            Classroom
     Equipment       SchoolDesk
     Teacher         Teacher
@@ -80,13 +85,14 @@ BEGIN Program
     Properties      StudentsSit
 END
 
+#[其它]精神引导
 BEGIN Program
     Name            SpiritualGuidance
     SessionCost     -150
     Places          20
     SessionLength   120
     NumSessions     1
-    Difficulty      1
+    Difficulty      5
     Room            Chapel
     Equipment       Pews
     EquipmentAlt    PrayerMat
@@ -102,13 +108,14 @@ BEGIN Program
     DischargeNeed   Spirituality
 END
 
+#[治疗]暴力行为疗法
 BEGIN Program
     Name            Therapy
     SessionCost     -100
     Places          6
-    SessionLength   60
+    SessionLength   120
     NumSessions     3
-    Difficulty      1
+    Difficulty      20
     Teacher         Psychologist
     Room            Office
     Equipment       sofachairdouble
@@ -120,14 +127,15 @@ BEGIN Program
     Properties      CanHireExternally
 END
 
+#[治疗]酗酒者团体治疗
 BEGIN Program
     Name            AlcoholicsMeeting
     SessionCost     -100
     Places          20
     SessionLength   120
     NumSessions     5
-    Difficulty      1
-    Teacher         Teacher
+    Difficulty      0
+    Teacher         Psychologist
     Room            CommonRoom
     Equipment       sofachairdouble
     EquipmentAlt    sofachairsingle
@@ -139,13 +147,14 @@ BEGIN Program
     Properties      CanHireExternally
 END
 
+#[治疗]毒瘾的药物治疗
 BEGIN Program
     Name            Methadone
     SessionCost     -100
     Places          10
     SessionLength   60
-    NumSessions     2
-    Difficulty      1
+    NumSessions     3
+    Difficulty      0
     Teacher         Doctor
     Room            MedicalWard
     Equipment       MedicalBed
@@ -156,6 +165,7 @@ BEGIN Program
     Properties      Passive
 END
 
+#[其它]假释听证会
 BEGIN Program
     Name            ParoleHearing
     SessionCost     0
@@ -177,6 +187,7 @@ BEGIN Program
     Properties      CanHireExternally
 END
 
+#[其它]死刑上诉
 BEGIN Program
     Name            DeathRowAppeal
     SessionCost     0
@@ -200,13 +211,14 @@ BEGIN Program
     WaitTime        3
 END
 
+#[员工]警卫电击枪认证
 BEGIN Program
     Name            TazerTraining
     SessionCost     -80
-    Places          20
+    Places          15
     SessionLength   60
     NumSessions     1
-    Difficulty      1
+    Difficulty      10
     Equipment       SchoolDesk
     Research        TazersForEveryone
     Room            Classroom
@@ -216,7 +228,7 @@ BEGIN Program
     Properties      OutsideOfWork
 END
 
-
+#[模组]近距离接触
 BEGIN Program
     Name            CloseContact
     Research        PrisonerEvaluation
@@ -236,7 +248,7 @@ BEGIN Program
     WaitTime        1
 END
 
-
+#[模组]法律咨询服务
 BEGIN Program
     Name            VisitorService
     Research        Legal
@@ -256,7 +268,7 @@ BEGIN Program
     WaitTime        1
 END
 
-
+#[制造]记账
 BEGIN Program
     Name            Bookkeeping
     Research        Finance
@@ -276,15 +288,15 @@ BEGIN Program
     Properties      Practical
 END
 
-
+#[特殊]集体健身
 BEGIN Program
     Name            GroupFitness
     Research        Health
-    SessionCost     0
+    SessionCost     -50
     Places          20
     SessionLength   60
     NumSessions     1
-    Difficulty      0
+    Difficulty      1
     Room            Yard
     Equipment       WeightsBench
     Equipment	    DumbbellRack
@@ -302,7 +314,7 @@ BEGIN Program
 END
 
 
-
+#[模组]危险座谈
 BEGIN Program
     Name            DangerousMeeting
     Research        PrisonerEvaluation

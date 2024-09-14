@@ -40,7 +40,7 @@ BEGIN Research
     Type                 Ability
     Requires             Warden
     Admin                Warden
-    Cost                 -1000
+    Cost                 -5000
     Time                 360
     X                    630
     Y                    160
@@ -55,7 +55,7 @@ BEGIN Research
     Type                 Ability
     Requires             Policy
     Admin                Warden
-    Cost                 -2000
+    Cost                 -10000
     Time                 720
     X                    630
     Y                    100
@@ -108,7 +108,7 @@ BEGIN Research
     Type                 Ability
     Requires             Finance
     Admin                Finance
-    Cost                 -1000
+    Cost                 -2000
     Time                 360
     X                    240
     Y                    100
@@ -123,7 +123,7 @@ BEGIN Research
     Type                 Ability
     Requires             Finance
     Admin                Finance
-    Cost                 -2000
+    Cost                 -5000
     Time                 720
     X                    100
     Y                    100

@@ -2166,6 +2166,7 @@ MadeOf               HollowMetal
 ToolbarSprite        ShowerHeadToolbar
 Properties           StaticObject
 Properties           DontAvoid
+Properties		 	 RoomSpecific
 Filter				 RequiresWater
 END
 #-
@@ -2209,6 +2210,7 @@ Sprite               Drain
 MadeOf               HollowMetal
 Properties           StaticObject
 Properties           DontAvoid
+Properties		 	 RoomSpecific
 Submersible		 true
 SpecialRestriction	 NoShadow
 END
@@ -2234,6 +2236,7 @@ END
 MadeOf               Wood
 Properties           StaticObject
 Properties           DontAvoid
+Properties		 	 RoomSpecific
 Submersible		 true
 SpecialRestriction	 NoShadow
 END
@@ -2536,13 +2539,13 @@ END
 
 #+===============================照明
 
-#+灯 $30
+#+灯 $15
 BEGIN Object     
 Name                 Light  
 ConstructionTime     1.00000  
 Toughness            1.00000  
 Teleportable         true  
-Price                -30  
+Price                -15  
 Filter		 RequiresElectricity
 RenderDepth          5
 BlockedBy            Wall
@@ -2556,13 +2559,13 @@ Properties           DontAvoid
 END
 #-
 
-#+壁灯 $30
+#+壁灯 $15
 BEGIN Object     
 Name                 WallLight  
 ConstructionTime     3.00000  
 Toughness            5.00000  
 MoveSpeedFactor      0.500000
-Price                -30  
+Price                -15  
 Filter		 RequiresElectricity
 Group                StaticObject  
 BlockedBy            StaticObject
@@ -2652,6 +2655,7 @@ BlockedBy            UtilityStation
 Sprite               d_StreetLamp
 ToolbarSprite        d_StreetLampToolbar
 Properties           StaticObject
+Properties		 	 RoomSpecific
 VersionAdded		 1000
 END
 #-
@@ -2673,6 +2677,7 @@ BlockedBy            UtilityStation
 Sprite               d_FloodLight
 ToolbarSprite        d_FloodLightToolbar
 Properties           StaticObject
+Properties		 	 RoomSpecific
 VersionAdded		 1000
 END
 #-
@@ -2690,6 +2695,7 @@ IndoorOutdoor        OutdoorOnly
 MadeOf               Composite
 Properties           StaticObject
 Properties           Electrical
+Properties		 	 RoomSpecific
 Group                StaticObject 
 BlockedBy            Wall
 BlockedBy            StaticObject  
@@ -2718,6 +2724,7 @@ Properties           StaticObject
 Properties           Electrical
 Properties           Wired
 Properties           DontAvoid
+Properties		 	 RoomSpecific
 Research             Cctv
 Group                StaticObject 
 BlockedBy            Wall
@@ -3218,6 +3225,7 @@ BEGIN Object
 	Sprite               PhoneBooth
 	MadeOf               Composite
 	Properties           StaticObject
+	Properties		 	 RoomSpecific
 	Properties           Wired
 	BEGIN ImprovesRoom	 Room	CommonRoom END
 END
@@ -4446,14 +4454,14 @@ VersionAdded		5000
 END
 #-
 
-#+豪华床 $1500
+#+豪华床 $1000
 BEGIN Object
 Name                 ComfyBed
 Height               2
 ConstructionTime     3.00000
 MoveSpeedFactor      0.500000
 Toughness            20.0000
-Price                -1500
+Price                -1000
 NumSlots             2
 AttachToWall         true
 Filter               Rest
@@ -4606,12 +4614,12 @@ Sprite               d_WoodenStool
 END
 #-
 
-#+木桌 $100
+#+木桌 $80
 BEGIN Object
 Name                 WoodenTable  
 ConstructionTime     1.00000  
 MoveCost             1  
-Price                -100
+Price                -80
 Filter               Rest
 MoveSpeedFactor      0.500000 
 GroundBaseOveride		 1
@@ -4822,6 +4830,7 @@ MadeOf               Composite
 Sprite               d_SmallTable  
 ToolbarSprite        TableToolbar
 Properties           StaticObject
+Properties		 	 RoomSpecific
 VersionAdded		 1000
 END
 #-
@@ -4850,6 +4859,7 @@ BEGIN SpriteBank
 	END
 MadeOf               Composite
 Properties           StaticObject
+Properties		 	 RoomSpecific
 VersionAdded		 1000
 DLC					 FreeContentPack_1
 END
@@ -5146,6 +5156,8 @@ BlockedBy            UtilityStation
 MadeOf               Composite
 Sprite               d_OutdoorPicnicTable  
 Properties           StaticObject
+Properties           RoomSpecific
+RoomSpecific
 IndoorOutdoor        OutdoorOnly
 VersionAdded		 2000
 END
@@ -5441,6 +5453,8 @@ Sprite               d_ParkBench
 MadeOf               Composite
 ToolbarSprite        d_ParkBenchToolbar
 Properties           StaticObject
+Properties           RoomSpecific
+RoomSpecific
 VersionAdded		 2000
 END
 #-
@@ -9730,6 +9744,7 @@ END
 MadeOf				Composite
 Group				StaticObject
 Properties			StaticObject
+Properties		 	RoomSpecific
 BlockedBy			Wall
 BlockedBy			StaticObject
 BlockedBy			UtilityStation
@@ -10235,6 +10250,7 @@ BlockedBy           UtilityStation
 MadeOf              Wood
 Properties          StaticObject
 Properties          Scripted
+Properties		 	RoomSpecific
 AttachToWall        true
 Research            Health
 Filter 				Security
@@ -17555,6 +17571,7 @@ END
 BEGIN Room
 Name                 Execution
 
+BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 4  END
 
@@ -17821,6 +17838,7 @@ WorkGroup            Library
 WorkExperience		WorkLabourer
 WorkExperienceRate	0.01
 
+BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
@@ -18058,6 +18076,8 @@ WorkExperience		WorkCraftsman
 WorkExperienceRate	0.03
 
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
+BEGIN Requirement Type Indoor END
+BEGIN Requirement Type Enclosed END
 
 #+必要物品
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
@@ -18232,6 +18252,7 @@ Name                 CommonRoom
 Properties           QualityGraded
 Properties           PrisonerRelax
 
+BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品
@@ -18248,8 +18269,8 @@ BEGIN LikelyObject  Id    OakTable             END
 BEGIN LikelyObject  Id    OakBench             END
 BEGIN LikelyObject  Id    Chair             END
 BEGIN LikelyObject  Id    ChairYellow             END
-BEGIN LikelyObject  Id    SofaChairsingle             END
-BEGIN LikelyObject  Id    SofaChairdouble             END
+BEGIN LikelyObject  Id    SofaChairSingle             END
+BEGIN LikelyObject  Id    SofaChairDouble             END
 BEGIN LikelyObject  Id    SofaChairBrown             END
 BEGIN LikelyObject  Id    SofaChairDoubleBrown             END
 BEGIN LikelyObject  Id    SchoolDesk             END
@@ -18311,8 +18332,6 @@ BEGIN LikelyObject  Id    Treadmill             END
 BEGIN LikelyObject  Id    BoxingRing             END
 
 BEGIN LikelyObject  Id    Bookshelf             END
-BEGIN LikelyObject  Id    LibraryBookshelf             END
-BEGIN LikelyObject  Id    ShortBookcase             END
 BEGIN LikelyObject  Id    ComputerStation             END
 
 BEGIN LikelyObject  Id    PhoneBooth             END
@@ -18379,15 +18398,6 @@ BEGIN LikelyObject  Id    StainGlassWindow             END
 BEGIN LikelyObject  Id    WindowClassy             END
 BEGIN LikelyObject  Id    WindowClassyLarge             END
 
-BEGIN LikelyObject  Id    Toilet             END
-BEGIN LikelyObject  Id    ShowerHead             END
-BEGIN LikelyObject  Id    ShowerPillar             END
-BEGIN LikelyObject  Id    Drain             END
-BEGIN LikelyObject  Id    PersonalSink             END
-BEGIN LikelyObject  Id    BathroomSink             END
-BEGIN LikelyObject  Id    SinkMirror             END
-BEGIN LikelyObject  Id    BathroomHandDryer             END
-
 BEGIN LikelyObject  Id    SnackMachine             END
 BEGIN LikelyObject  Id    DrinkMachine             END
 BEGIN LikelyObject  Id    WaterCooler             END
@@ -18403,8 +18413,6 @@ BEGIN LikelyObject  Id    BoxingRing             END
 
 BEGIN LikelyObject	Id		TableTennis			 END
 
-BEGIN LikelyObject  Id    Bin             END
-BEGIN LikelyObject  Id    RecyclingBin             END
 BEGIN LikelyObject  Id    Fan             END
 BEGIN LikelyObject  Id    Plant             END
 BEGIN LikelyObject  Id    PlantCactus             END
@@ -18473,17 +18481,12 @@ BEGIN LikelyObject  Id    OakBench     END
 BEGIN LikelyObject  Id    OutdoorTable     END
 BEGIN LikelyObject  Id    ParkBench     END
 BEGIN LikelyObject  Id    DeckChair     END
+BEGIN LikelyObject  Id    Bleachers     END
 
 BEGIN LikelyObject  Id    SnackMachine     END
 BEGIN LikelyObject  Id    DrinkMachine     END
 
 BEGIN LikelyObject  Id    Toilet     END
-BEGIN LikelyObject  Id    ShowerHead     END
-BEGIN LikelyObject  Id    Drain     END
-BEGIN LikelyObject  Id    PersonalSink     END
-BEGIN LikelyObject  Id    BathroomSink     END
-BEGIN LikelyObject  Id    SinkMirror     END
-BEGIN LikelyObject  Id    BathroomHandDryer     END
 
 BEGIN LikelyObject  Id    Bin     END
 BEGIN LikelyObject  Id    RecyclingBin     END
@@ -18515,7 +18518,7 @@ BEGIN LikelyObject  Id    WeightsBench             END
 BEGIN LikelyObject  Id    GymMat             END
 BEGIN LikelyObject  Id    TrainingDummy             END
 BEGIN LikelyObject  Id    PunchBag             END
-BEGIN LikelyObject  Id    BoxingRing             END
+BEGIN LikelyObject  Id    TyreApparatus             END
 
 BEGIN LikelyObject  Id    PhoneBooth             END
 BEGIN LikelyObject  Id    VideoCallBooth             END
@@ -18541,7 +18544,7 @@ BEGIN Grading       Type    Item    Id      TableTennis Alt PoolTable,TableFootb
 
 BEGIN Grading      Type    Item    Id  DumbbellRack Alt WeightsBench,GymMat Quantity 10  Multi true  END
 BEGIN Grading      Type    Item    Id  PunchBag Alt TrainingDummy Quantity 4 Multi true          END
-BEGIN Grading      Type    Item    Id  BoxingRing          END
+BEGIN Grading       Type    Item    Id      Tree Alt SnowyConiferTree,PalmTree,PalmTree,WillowTree,WillowTree,SakuraTree Multi true END
 BEGIN Grading       Type    Item    Id      PhoneBooth Quantity 4 END
 BEGIN Grading       Type    Item    Id      SnackMachine  END
 
@@ -18560,6 +18563,7 @@ BEGIN Room
 Name                 ParoleRoom
 Research             Legal
 
+BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize  x 4  y 5  END
 
@@ -18708,6 +18712,9 @@ BEGIN LikelyObject  Id      Altar         END
 BEGIN LikelyObject  Id      Pews         END
 BEGIN LikelyObject  Id      PrayerMat         END
 
+BEGIN LikelyObject  Id    Plant             END
+BEGIN LikelyObject  Id    PlantCactus             END
+
 BEGIN LikelyObject  Id    ServoProxy             END
 END
 #-
@@ -18793,6 +18800,7 @@ Properties           CanAssignGangSegregation
 
 BEGIN Requirement Type Indoor  END
 BEGIN Requirement Type MinimumSize x 2 y 3 END
+BEGIN Requirement Type Enclosed END
 
 #+必要物品
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
@@ -18944,6 +18952,7 @@ BEGIN LikelyObject  Id    OfficeChair             END
 BEGIN LikelyObject  Id    ChestOfDrawers             END
 BEGIN LikelyObject  Id    FilingCabinet             END
 BEGIN LikelyObject  Id    FilingCabinetFancy             END
+BEGIN LikelyObject  Id    OvalStaffTable             END
 
 BEGIN LikelyObject  Id    Window             END
 BEGIN LikelyObject  Id    WindowLarge             END
@@ -19042,6 +19051,8 @@ Research             Security
 Properties          StaffCanUseFacilities
 
 BEGIN Requirement Type MinimumSize  x 2  y 2  END
+BEGIN Requirement Type Indoor END
+BEGIN Requirement Type Enclosed END
 
 #+必要物品	
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
@@ -19099,6 +19110,7 @@ BEGIN Requirement Type Object  Id WeaponRack  END
 Properties           StaffCanUseFacilities
 
 BEGIN Requirement Type Indoor END
+BEGIN Requirement Type Enclosed END
 
 #+必要物品
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END
@@ -19197,7 +19209,7 @@ Name                 Intake
 Research             Security
 Properties       RequiresSector
 
-BEGIN Requirement Type Indoor  END
+BEGIN Requirement Type Enclosed END
 BEGIN Requirement Type MinimumSize  x 3  y 3  END
 
 #+必要物品	
@@ -19768,6 +19780,7 @@ Name                 Pantry
 Research             Farming
 
 BEGIN Requirement Type 		Enclosed 		END
+BEGIN Requirement Type Indoor END
 
 #+必要物品
 BEGIN Requirement Type Object  Id Light  Alt SolarLight,Chandelier,OrnateLantern END

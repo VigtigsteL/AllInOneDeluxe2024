@@ -7033,17 +7033,16 @@ material_lunarfloor					᠎(户外)\n    月球
 #+==两者皆可
 
 material_ReclaimedRubberFloor		 [均可]\n翻新橡胶
-material_woodenfloor				 [均可]\n 木板
+material_woodenfloor				 [均可]\n    木板    
 material_DarkWoodFloor				 [均可]\n 木板(深色)
 material_LaminateFlooringFR			 [均可]\n 木板(防火)
 material_BambooFloor				 [均可]\n 竹地板
-material_ReclaimedBrickFloor		 [均可]\n 红砖
+material_ReclaimedBrickFloor		 [均可]\n    红砖   
 
-material_NewIronFloor				 [均可]\n᠎铁板
+material_NewIronFloor				 [均可]\n᠎    铁板    
 material_metalfloor					 [均可]\n 金属地板
 material_NewCargoFloor				 [均可]\n 货箱底板
-material_solacofloor				 [均可]\n 科技地板
-material_gratefloor					 [均可]\n 金属格柵
+
 
 
 
@@ -7058,7 +7057,8 @@ material_whitetiles					 <室内>\n 白色瓷砖
 material_mosaicfloor				 <室内>\n 拼花地板
 material_fancytiles					 <室内>\n᠎花式瓷砖
 material_NewCheckeredFloor			 <室内>\n᠎黑白格瓷砖
-
+material_solacofloor				 <室内>\n 科技地板
+material_gratefloor					 <室内>\n 金属格柵
 material_marbletiles				 <室内>\n 大理石瓷砖
 material_limestonefloor				 <室内>\n 石灰岩
 material_CarpetFR					 <室内>\n 防火地毯
@@ -7375,6 +7375,7 @@ roomgrading_CommonRoom_HasGlassWalls	[*E] 四周装有玻璃墙
 roomgrading_CommonRoom_OutsideWindow_Large	[*E] *Y 大型窗户
 roomgrading_CommonRoom_HasWindow_None	[*E] 无窗户
 roomgrading_CommonRoom_MultiItems	[*E] 包含 *X 个上述物品
+roomgrading_CommonRoom_BadWalls	[*E] 半数墙壁摇摇欲坠
 
 roomgrading_Gymnasium_BadWalls	[*E] 半数墙壁摇摇欲坠
 roomgrading_Gymnasium_RoomSize	[*E] 房间面积至少 *X ㎡
@@ -7391,6 +7392,7 @@ roomgrading_Classroom_OutsideWindow	[*E] 户外窗户至少 *Y 个
 roomgrading_Classroom_HasGlassWalls	[*E]四周装有玻璃墙
 roomgrading_Classroom_OutsideWindow_Large	[*E] *Y 大型窗户
 roomgrading_Classroom_HasWindow_None	[*E] 无窗户
+roomgrading_Classroom_BadWalls	[*E] 半数墙壁摇摇欲坠
 
 roomgrading_PsychiatristOffice_Item	物品: *X
 roomgrading_PsychiatristOffice_Quality	精神科医生能力：*Q
@@ -7577,7 +7579,7 @@ buildtoolbar_popup_obj_WardenStatue	高大的石像象征着典狱长对监狱�
 object_electricChair			 死刑电椅
 buildtoolbar_popup_obj_electricChair	实施两千伏特的正义。\n\n【豪华版】\n把见证人直接瞬移过来！\n点击电椅，在菜单中开关该功能。\n注意：不要让多部电椅同时开启。
 object_barBedwire	 防爬铁丝网
-buildtoolbar_popup_obj_BarBedWire	一种安放在墙壁的尖刺状物品，可以让墙壁看起来更加气派和安全。
+buildtoolbar_popup_obj_BarBedWire	安放在监狱围墙或栅栏上的尖刺铁丝网，可以让墙壁看起来更加气派和安全。
 object_WindSock	 风向标
 buildtoolbar_popup_obj_WindSock	风向标可显示风向和速度，并预警未来 1 小时内的灾难。
 
@@ -7637,7 +7639,7 @@ buildtoolbar_popup_obj_StreetLamp	照亮大道和小径。
 #+=============================᠎卫生
 
 object_Toilet					᠎*厕所
-buildtoolbar_popup_obj_Yoilet	如果你相信那些疯子的话，这是一项基本人权。\n\n除了牢房，在淋浴间、庭院或者工作场所等地方，也可以适当安装一些。\n越狱地道的入口会藏在马桶下，搜查马桶可以找到它。\n大范围搜查虽然包含马桶，但警卫不会那么仔细，必要时可以手动搜查单个马桶。\n\n需求：\n+ 小便 10.00 / 5.00\n+ 大便 5.00 / 10.00
+buildtoolbar_popup_obj_Toilet	如果你相信那些疯子的话，这是一项基本人权。\n\n除了牢房，在淋浴间、庭院或者工作场所等地方，也可以适当安装一些。\n越狱地道的入口会藏在马桶下，搜查马桶可以找到它。\n大范围搜查虽然包含马桶，但警卫不会那么仔细，必要时可以手动搜查单个马桶。\n\n需求：\n+ 小便 10.00 / 5.00\n+ 大便 5.00 / 10.00
 object_Drain					᠎*排水渠
 buildtoolbar_popup_obj_Drain	清除地板上的积水，防止洗澡水漫延到淋浴间外面。\n\n适合安装在淋浴间的出入口。\n或者直接位于每个花洒的正下方。
 object_ShowerHead				᠎*淋浴花洒
@@ -8063,7 +8065,7 @@ buildtoolbar_popup_obj_GrassBridge	一座铺满草的桥，可以安全地通过
 object_CheatPrisonerMisbehavior ﻿[作弊]\n囚犯暴动
 buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个功能可以让囚犯们立即暴动。\n\n“安装”它后，点击它，在菜单中操作。
 
-object_TimedCaller 				﻿定时呼叫器
+object_TimedCaller 				﻿[模组]\n定时呼叫器
 buildtoolbar_popup_obj_TimedCaller 每天指定的时刻，呼叫一名警卫过来。\n确保在最容易发生事端的时间和地点，有警卫在场。\n\n主要用于教室等地方。\n\n只会选择活着且没有忙碌中的警卫。\n呼叫的范围为从15米到30米。\n如果没有找到警卫，会逐渐放大搜索范围。
 
 object_TimeWarpNeedModifier 	﻿睡眠加速\n需求调整
@@ -8736,10 +8738,10 @@ warden_WardenAlexisLin_name	亚历克西斯·林
 warden_WardenAlexisLin_desc	相信科技就是未来。同事敬重，囚犯敬畏。\n\n- 镇压衰减速率减缓 60%。\n- 教唆犯不会增加周围囚犯惹事的概率。\n- 极其易怒囚犯出现不当行为的频率降低 50%。
 warden_WardenAlexisLin_desc_short	- 镇压衰减速率比正常情况减缓 60%。\n- 教唆犯不会增加周围囚犯惹事的概率。\n- 极其易怒囚犯出现不当行为的频率降低 50%。
 #-==========
-object_warden					典狱长
-object_chief					安保主管
-object_accountant				会计
-object_lawyer					律师
+object_warden					  典狱长
+object_chief					  安保主管
+object_accountant				  会计
+object_lawyer					  律师
 
 object_foreman					 工头
 object_psychologist				 心理医生
