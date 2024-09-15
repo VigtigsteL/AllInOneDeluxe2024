@@ -26,9 +26,9 @@ END
 BEGIN Custom
     NAME        Title
     XPOS        Scaled          1125
-    YPOS        Scaled          496
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
-    HEIGHT      Scaled          833
+    HEIGHT      Scaled          800
 END
 
 BEGIN Button

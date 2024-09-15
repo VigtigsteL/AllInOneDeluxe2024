@@ -1,0 +1,188 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          500
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        TransferDescription
+	CAPTION transfer_description
+    XPOS        Scaled          1125
+    YPOS        Scaled          1000
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        PrisonerCategorySelect
+    CAPTION     codex_new_selectCategory
+    XPOS        Scaled          1000
+    YPOS        Scaled          2000
+    WIDTH       Scaled          3350
+    HEIGHT      Scaled          461
+END
+
+BEGIN IconBox
+    NAME        PrisonerCategoryRow
+    XPOS        Scaled        1000
+    YPOS        Scaled        1800
+    WIDTH       Scaled        4900
+    HEIGHT      Scaled        2000
+END
+
+BEGIN Custom
+    NAME        TransferUseCaption
+    CAPTION     transfer_use
+    XPOS        Scaled          3300
+    YPOS        Scaled          1900
+    WIDTH       Scaled          5000
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        TransferUse
+    XPOS        Scaled          8500
+    YPOS        Scaled          1900
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN SelectionList
+	NAME        HeadingsList
+	XPOS        Scaled          1000
+	YPOS        Scaled          2500
+  	WIDTH       Scaled          8000
+   	HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        BehaviourTitle
+    CAPTION     transfer_behaviourtitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          3000
+    WIDTH       Scaled          2100
+    HEIGHT      Scaled          332
+END
+
+BEGIN SelectionList
+    NAME        BehaviourList
+    XPOS        Scaled          1300
+    YPOS        Scaled          3400
+    WIDTH       Scaled          7500
+    HEIGHT      Scaled          2700
+END
+
+BEGIN DropDownMenu
+    NAME        GangDropDown
+    XPOS        Absolute        45
+    YPOS        Absolute        90
+    WIDTH       Absolute        125
+    HEIGHT      Absolute        20
+END
+
+BEGIN SelectionList
+	NAME	PastCrimesList
+	XPOS	Scaled		1250
+	YPOS	Scaled		5700
+	WIDTH	Scaled		7500
+	HEIGHT	Scaled		2000
+END
+
+BEGIN Custom
+    NAME        ReformTitle
+    CAPTION     transfer_reformtile
+    XPOS        Scaled          1221
+    YPOS        Scaled          5800
+    WIDTH       Scaled          2100
+    HEIGHT      Scaled          332
+END
+
+BEGIN SelectionList
+    NAME        ReformList
+    XPOS        Scaled          1300
+    YPOS        Scaled          6200
+    WIDTH       Scaled          7500
+    HEIGHT      Scaled          1400
+END
+
+BEGIN Custom
+    NAME        RequiedTitle
+    CAPTION     transfer_requiredtitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          7200
+    WIDTH       Scaled          1150
+    HEIGHT      Scaled          332
+END
+
+BEGIN SelectionList
+    NAME        RequiredList
+    XPOS        Scaled          1300
+    YPOS        Scaled          7600
+    WIDTH       Scaled          7500
+    HEIGHT      Scaled          800
+END
+
+
+BEGIN Custom
+    NAME        HopingCaption
+    CAPTION     transfer_hopingcaption
+    XPOS        Scaled          5000
+    YPOS        Scaled          8500
+    WIDTH       Scaled          5000
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        HopingPrisonersCaption
+    CAPTION     transfer_numPrisoners
+    XPOS        Scaled          7300
+    YPOS        Scaled          8500
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        QualifiedCaption
+    CAPTION     transfer_qualifiedcaption
+    XPOS        Scaled          5000
+    YPOS        Scaled          8800
+    WIDTH       Scaled          4500
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        QualifiedPrisonersCaption
+    CAPTION     transfer_numPrisoners
+    XPOS        Scaled          7300
+    YPOS        Scaled          8800
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+    NAME        ApproveTransfer
+    CAPTION	transfer_review
+    XPOS        Scaled          6400
+    YPOS        Scaled          9250
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          350
+END

@@ -18,41 +18,43 @@ END
 BEGIN Custom
     NAME        Title
     XPOS        Scaled          1125
-    YPOS        Scaled          580
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
-    HEIGHT      Scaled          833
-END
-
-BEGIN SelectionList
-    NAME        List
-    XPOS        Scaled          1664
-    YPOS        Scaled          2249
-    WIDTH       Scaled          6800
-    HEIGHT      Scaled          6750
-END
-
-BEGIN IconBox
-    NAME        Tools
-    XPOS        Scaled          1490
-    YPOS        Scaled          8750
-    WIDTH       Scaled          7666
-    HEIGHT      Scaled          2583
+    HEIGHT      Scaled          400
 END
 
 BEGIN Custom
     NAME        ColumnTitles
     XPOS        Scaled          1666
-    YPOS        Scaled          1749
+    YPOS        Scaled          1100
     WIDTH       Scaled          6800
-    HEIGHT      Scaled          332
+    HEIGHT      Scaled          350
 END
 
 BEGIN Button
     NAME        Next
     CAPTION     >>>
     XPOS        Scaled          8550
-    YPOS        Scaled          1750
+    YPOS        Scaled          1100
     WIDTH       Scaled          800
-    HEIGHT      Scaled          332
+    HEIGHT      Scaled          350
 END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1664
+    YPOS        Scaled          1550
+    WIDTH       Scaled          6800
+    HEIGHT      Scaled          7450
+END
+
+BEGIN IconBox
+    NAME        Tools
+    XPOS        Scaled          1490
+    YPOS        Scaled          8700
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          2600
+END
+
+
 

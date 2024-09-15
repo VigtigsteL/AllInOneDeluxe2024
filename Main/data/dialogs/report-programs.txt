@@ -17,8 +17,8 @@ END
 
 BEGIN Custom
     NAME        Title
-    XPOS        Scaled          1124
-    YPOS        Scaled          580
+    XPOS        Scaled          1125
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
     HEIGHT      Scaled          400
 END
@@ -26,8 +26,8 @@ END
 BEGIN Button
 	NAME	PrisonerProgramsButton
 	Caption	d11_prisoner_programs
-	XPOS	Scaled		1125
-	YPOS	Scaled		1100
+	XPOS	Scaled		1200
+	YPOS	Scaled		1000
 	WIDTH	Scaled		3700
 	HEIGHT	Scaled		300
 END
@@ -35,8 +35,8 @@ END
 BEGIN Button
 	NAME	StaffProgramsButton
 	Caption	d11_staff_programs
-	XPOS	Scaled		5091
-	YPOS	Scaled		1100
+	XPOS	Scaled		5055
+	YPOS	Scaled		1000
 	WIDTH	Scaled		3700
 	HEIGHT	Scaled		300
 END

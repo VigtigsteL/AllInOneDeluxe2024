@@ -17,8 +17,8 @@ END
 
 BEGIN Custom
     NAME        Title
-    XPOS        Scaled          1124
-    YPOS        Scaled          500
+    XPOS        Scaled          1125
+    YPOS        Scaled          400
     WIDTH       Scaled          7666
     HEIGHT      Scaled          400
 END
@@ -26,9 +26,9 @@ END
 BEGIN SelectionList
     NAME        List
     XPOS        Scaled          1109
-    YPOS        Scaled          2150
+    YPOS        Scaled          2050
     WIDTH       Scaled          7777
-    HEIGHT      Scaled          6850
+    HEIGHT      Scaled          6950
 END
 
 BEGIN Custom
@@ -74,7 +74,7 @@ END
 BEGIN Custom
     NAME        MaxCaption
     XPOS        Scaled          1221
-    YPOS        Scaled          1650
+    YPOS        Scaled          1500
     WIDTH       Scaled          7444
     HEIGHT      Scaled          500
 END
@@ -83,16 +83,16 @@ BEGIN Button
     Name	GrantHeaderButton_0
     Caption	GrantHeaderButton_0
     XPOS        Scaled          1200
-    YPOS        Scaled          1150
+    YPOS        Scaled          1000
     WIDTH       Scaled          3700
-    HEIGHT      Scaled          400
+    HEIGHT      Scaled          300
 END
 
 BEGIN Button
     Name	GrantHeaderButton_1
     Caption	GrantHeaderButton_1
     XPOS        Scaled          5055
-    YPOS        Scaled          1150
+    YPOS        Scaled          1000
     WIDTH       Scaled          3700
-    HEIGHT      Scaled          400
+    HEIGHT      Scaled          300
 END

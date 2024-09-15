@@ -1,0 +1,77 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          580
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          833
+END
+
+# Swap page buttons
+
+BEGIN Button
+	NAME	PageFinanceButton
+	Caption	report_finance
+	XPOS	Scaled		1125
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END
+
+BEGIN Button
+	NAME	PageWageRatesButton
+	Caption	finance_cost_prisonerwages
+	XPOS	Scaled		5091
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END
+
+BEGIN Custom
+    NAME        Content
+	XPOS	Scaled		4800
+	YPOS	Scaled		1300
+	WIDTH	Scaled		2000
+	HEIGHT	Scaled		8500
+END
+
+
+BEGIN Button
+	NAME	PayCut
+	Caption	reports_decreaseloan
+	XPOS	Scaled		4800
+	YPOS	Scaled		9000
+	WIDTH	Scaled		2000
+	HEIGHT	Scaled		400
+	
+END
+
+BEGIN Button
+	NAME	PayRaise
+	Caption	reports_increaseloan
+	XPOS	Scaled		7000
+	YPOS	Scaled		9000
+	WIDTH	Scaled		2000
+	HEIGHT	Scaled		400
+END
+
+# wage stuff
+
+
+

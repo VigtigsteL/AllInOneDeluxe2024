@@ -18,16 +18,16 @@ END
 BEGIN Custom
     NAME        Title
     XPOS        Scaled          1125
-    YPOS        Scaled          580
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
     HEIGHT      Scaled          400
 END
 
 BEGIN SelectionList
     NAME        List
-    XPOS        Scaled          1150
-    YPOS        Scaled          1200
-    WIDTH       Scaled          7555
-    HEIGHT      Scaled          8250
+    XPOS        Scaled          1200
+    YPOS        Scaled          1000
+    WIDTH       Scaled          7600
+    HEIGHT      Scaled          8500
 END
 

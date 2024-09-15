@@ -18,17 +18,17 @@ END
 BEGIN Custom
     NAME        Title
     XPOS        Scaled          1125
-    YPOS        Scaled          580
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
-    HEIGHT      Scaled          833
+    HEIGHT      Scaled          400
 END
 
 BEGIN Canvas
     NAME        Canvas
     XPOS        Scaled          1221
-    YPOS        Scaled          1500
+    YPOS        Scaled          1000
     WIDTH       Scaled          7555
-    HEIGHT      Scaled          7000
+    HEIGHT      Scaled          7300
 END
 
 
@@ -52,10 +52,10 @@ END
 
 BEGIN Custom
     NAME        StaffPayTitle
-    XPOS        Scaled          1221
-    YPOS        Scaled          8383
+    XPOS        Scaled          1700
+    YPOS        Scaled          8600
     WIDTH       Scaled          2110
-    HEIGHT      Scaled          332
+    HEIGHT      Scaled          500
 END
 
 BEGIN Button

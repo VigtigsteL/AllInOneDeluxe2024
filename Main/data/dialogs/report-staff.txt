@@ -18,7 +18,7 @@ END
 BEGIN Custom
     NAME        Title
     XPOS        Scaled          1125
-    YPOS        Scaled          496
+    YPOS        Scaled          500
     WIDTH       Scaled          7666
     HEIGHT      Scaled          400
 END
@@ -33,8 +33,8 @@ END
 
 BEGIN Canvas
     NAME        Canvas
-    XPOS        Scaled          1057
+    XPOS        Scaled          1200
     YPOS        Scaled          1700
-    WIDTH       Scaled          8000
+    WIDTH       Scaled          7600
     HEIGHT      Scaled          7740
 END

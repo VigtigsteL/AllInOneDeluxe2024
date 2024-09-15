@@ -1634,7 +1634,7 @@ transfer_reform_programsPassed	通过的改造方案
 
 transfer_required	需要符合的数量
 
-transfer_criteriaTime	*X 天
+transfer_criteriaTime	 持续*X天
 
 gangNone	无
 gang_transfer_None	无
@@ -5831,7 +5831,7 @@ interfacetopbar_budget_othermoneyout	其他支出：$*M/天
 interfacetopbar_title_guards	警备
 interfacetopbar_tooltip_guards	点击查看[员工]\n\n待命的/总共的警卫数量\n
 #+人员情况
-interfacetopbar_tooltip_totalguards			共计 *X 名警卫
+interfacetopbar_tooltip_totalguards			共计 *X 名警备人员
 interfacetopbar_tooltip_guardincapacitated	*X 名 丧失工作能力
 interfacetopbar_tooltip_guardstationed		*X 名 在驻守
 interfacetopbar_tooltip_guardpatrolling		*X 名 在巡逻
