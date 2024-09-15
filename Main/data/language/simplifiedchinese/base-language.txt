@@ -182,12 +182,12 @@ buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一�
 # The ~ and ^ characters in front of some of the lines in the buildtoolbar_popup_help section are colour codes and should be preserved during translation
 
 buildtoolbar_Logistics_TargettingFood		食物分配
-buildtoolbar_popup_help_targettingfood_1	“食物分配”视图为你展示：哪些食堂为哪些牢房供应食物，\n哪些厨房为哪些食堂供应食物。\n你还可以看到处于活动状态的厨房和食堂当前的供需状态。\n(烹饪在下一次“吃饭”作息的4小时前开始)\n\n
+buildtoolbar_popup_help_targettingfood_1	“食物分配”视图为你展示：哪些食堂为哪些牢房供应食物，\n哪些厨房为哪些食堂供应食物。\n你还可以看到处于活动状态的厨房和食堂当前的供需状态。\n(烹饪在下一次“用餐”作息的4小时前开始)\n\n
 buildtoolbar_popup_help_targettingfood_2	~左键点击一间牢房，然后点击食堂，可强行让该牢房使用该食堂。\n你也可以用同样的方式来改变哪些厨房为哪些食堂供应食物。\n右键点击一个区域，可将该区域的目标配对重置为默认。
 buildtoolbar_popup_help_targettingfood_3	~按住Shift键并左键点击，可设置多个牢房的食堂配对。
 buildtoolbar_popup_help_targettingfood_4	^\n小技巧
 buildtoolbar_popup_help_targettingfood_5	\n如果你发现某个牢房或厨房没有与你预想的食堂配对，\n请尝试右键点击该牢房或厨房，强行重置。
-buildtoolbar_popup_help_targettingfood_6	\n如果你发现在吃饭期间对食堂的供应不足，这表明厨房超负荷了，\n你需要设法烹制更多的食物。
+buildtoolbar_popup_help_targettingfood_6	\n如果你发现在用餐期间对食堂的供应不足，这表明厨房超负荷了，\n你需要设法烹制更多的食物。
 
 buildtoolbar_Logistics_TargettingLaundry 	衣物分配
 buildtoolbar_popup_help_targettinglaundry_1	“衣物分配”视图为你展示哪些牢房、宿舍和入狱搜查室\n与哪些洗衣房配对。\n\n
@@ -216,7 +216,7 @@ buildtoolbar_popup_help_contraband_4	\n如果你发现很多违禁品来自一�
 buildtoolbar_popup_help_contraband_5	\n不同的违禁品的检测方式也不相同。\n比如说，警犬非常擅长探测对它们来说有强烈气味的东西。
 
 buildtoolbar_popup_help_informants_1	“线人”视图为你展示目前的秘密线人列表。\n此外，“潜在的线人”被标为黄色，通常在禁闭室里。\n\n
-buildtoolbar_popup_help_informants_2	~如何招募秘密线人？\n在本视图中，如果你运气好的话，从关禁闭的囚犯当中，\n会遇到潜在的线人，\n在其[犯罪档案>经历]，点击[招募为线人]按钮。\n\n
+buildtoolbar_popup_help_informants_2	~在本视图中，可能会在关禁闭的囚犯当中，\n遇到潜在的线人，\n在其[犯罪档案>经历]，点击[招募为线人]按钮。\n\n
 buildtoolbar_popup_help_informants_3	~每一次要想启用线人，都要点击显示为“[闲置]”的按钮\n(悬停时会闪烁“激活”)。线人被押送到警卫室后被激活。\n\n
 buildtoolbar_popup_help_informants_4	基于各自的覆盖范围，激活的线人会向你展示：\n藏匿的违禁品、囚犯特征和潜在的刺杀目标。\n\n无论你用了多少‘电话窃听器’，你依然需要几名线人\n以查看上述情报。\n\n
 buildtoolbar_popup_help_informants_5	^\n小技巧
@@ -326,8 +326,8 @@ buildtoolbar_popup_help_zoning_5	基本上，有了好的区划设置，你就�
 buildtoolbar_popup_help_guards_1	“部署”工具可以让你在区域里驻守警卫。\n\n这些警卫会在所指派的区域里随意走动，也会在该区域执行\n任何警卫的职务，例如帮人开门。
 buildtoolbar_popup_help_guards_2	~左键点击以增加区域内驻守的警卫人数。\n右键点击以移除警卫。
 buildtoolbar_popup_help_guards_3	^\n小技巧
-buildtoolbar_popup_help_guards_4	\n若你解锁了“微观管理”，你可使用[部署时刻盘]。\n这可以让你制定出警卫指派至特定区域的时刻表。\n\n例如，如果你只想要在吃饭时间部署警卫在食堂，可以——\n\n
-buildtoolbar_popup_help_guards_5	~点击时刻表上所有与吃饭作息一致的时间槽位(原本白色)，\n标记为同一个数字(以及颜色)，令它们组成一个时间段。\n然后，点击上方刻度，移动时刻指针到该时间段中的任一一格。\n最后，点击食堂以指派警卫去驻守。\n\n
+buildtoolbar_popup_help_guards_4	\n若你解锁了“微观管理”，你可使用[部署时刻盘]。\n这可以让你制定出警卫指派至特定区域的时刻表。\n\n例如，如果你只想要在用餐时间部署警卫在食堂，可以——\n\n
+buildtoolbar_popup_help_guards_5	~点击时刻表上所有与用餐作息一致的时间槽位(原本白色)，\n标记为同一个数字(以及颜色)，令它们组成一个时间段。\n然后，点击上方刻度，移动时刻指针到该时间段中的任一一格。\n最后，点击食堂以指派警卫去驻守。\n\n
 buildtoolbar_popup_help_guards_6	当你移动指针到别的时间段，你会发现食堂没有此警卫；\n因而，那时他们可以去做别的事情。\n\n默认时间段为白色的，表示全天24小时不间断。\n\n注意：若你在指派警卫时，没有手动选择某一时间槽位，\n那么时刻表会使用当前的时刻(指针为白色三角)。\n所以，在改变部署时，请确保你选择了正确的时刻！
 
 buildtoolbar_popup_help_patrols_title	巡逻
@@ -616,23 +616,23 @@ reform_program_difficulty_expert	- 难度：专家级
 
 regime_nothing	监禁
 regime_sleep	睡觉
-regime_eat	吃饭
+regime_eat	用餐
 regime_shower	淋浴
 regime_yard	庭院放风
-regime_work	工作或自由活动
+regime_work	工作/自由活动
 regime_lockdown	禁足
 regime_freetime	自由活动
 regime_currenttime	现在时刻
 regime_unspecified	未指明
-regime_worklockdown	工作或监禁
+regime_worklockdown	工作/监禁
 
 regimetooltip_nothing	囚犯被关在其牢房中。他们无事可做，只能反思以往作出\n的选择，是怎样令自己走到这步田地。\n\n即使对于最强硬的囚犯，长期监禁也是一种态度坚决的惩罚。\n对于需要严惩的囚犯，可以适当增加这个作息。\n相应地，会产生“自由”需求。\n\n其实还是可以做点事的，比如淋浴、娱乐、睡觉。\n但囚犯会感到被压制，而情绪会不太好。\n\n一般用在“睡觉”作息前后的一个小时。\n\n而如果用“监禁”完全替代“睡觉”，囚犯虽然会照常入睡，\n但会早早醒来，而得不到充分睡眠。
 regimetooltip_sleep	囚犯被关在牢房里，灯也熄了。所有人都上床睡觉。\n除了正在异常兴奋的那些家伙，以及挖越狱地道的……\n\n正常情况下，囚犯会尽可能待在被窝里。\n这样可以充分睡眠。但注意不要过度睡眠。\n\n一觉醒来后，很多人会积攒不少生理需求。比如吃喝拉撒和卫生。
-regimetooltip_eat	囚犯们前往指定的食堂，就坐吃饭。\n\n囚犯可以使用食堂内的一切设施，但在时间结束前不得离开。\n\n厨师会提前4小时开始准备伙食。
+regimetooltip_eat	囚犯们前往指定的食堂，就坐用餐。\n\n囚犯可以使用食堂内的一切设施，但在时间结束前不得离开。\n\n厨师会提前4小时开始准备伙食。
 regimetooltip_shower	囚犯们脱掉衣服进入淋浴间。每日的淋浴对囚犯的卫生很重要。\n但有些囚犯懒得去，除非被强迫。\n\n注意：强制的淋浴时间，很少是个好主意。\n哪怕牢房里就有花洒，他们也只能去淋浴间。\n不用淋浴而有其它需求的囚犯，也无法提前离开。
 regimetooltip_yard	囚犯可以到庭院中进行必要的锻炼、晒太阳、呼吸新鲜空气。\n\n这段时间内，囚犯可以使用庭院里的任何设施，比如\n用举重床健身、打电话给所爱之人、淋浴等。\n\n囚犯被限制在庭院。不过可以在庭院安装多种功能物品。\n该作息可以用来错开不同的囚犯群体，以防发生冲突。\n特别是帮派之间的冲突。\n\n对于高戒备群体，“庭院放风”+警戒塔可以压制其嚣张气焰。
 regimetooltip_work	囚犯可在监狱四处工作。\n任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。\n(可以在[部署>狱中劳役]设立职位空缺。)\n\n“劳役”期间，所有的改造方案也会进行。它们算是一回事。\n\n注意：工作中的囚犯无法处理自己的需求。\n\n至于目前没有工作或参加改造方案的囚犯，则如同“自由活动”。
-regimetooltip_freetime	囚犯们可以使用监狱中的所有设施，只要区划允许其进入。\n囚犯最喜欢这段时间，会开展社交，并尽可能好地打理其需求。\n\n较长的自由活动可以缓解监狱中的压力和紧张情绪，\n但很多人认为这算不上什么刑罚。(降低[评级]中改造指标的评分)\n\n自由活动时，囚犯可以按其需要，最大自由地行动。\n不过，狱中劳役和囚犯参加的改造方案，无法进行。\n\n此外不会做的事情，只有一个：开始吃饭。不过如果\n上一个作息是吃饭，那么没吃完的囚犯可以在这时继续。
+regimetooltip_freetime	囚犯们可以使用监狱中的所有设施，只要区划允许其进入。\n囚犯最喜欢这段时间，会开展社交，并尽可能好地打理其需求。\n\n较长的自由活动可以缓解监狱中的压力和紧张情绪，\n但很多人认为这算不上什么刑罚。(降低[评级]中改造指标的评分)\n\n自由活动时，囚犯可以按其需要，最大自由地行动。\n不过，狱中劳役和囚犯参加的改造方案，无法进行。\n\n此外不会做的事情，只有一个：用餐。不过如果\n上一个作息是用餐，那么没吃完的囚犯可以在这时继续。
 regimetooltip_worklockdown	关于“劳役”部分，见“工作或自由活动”。\n\n目前没有工作或参加改造方案的囚犯，会被“监禁”在牢房里。
 
 regime_clear	清除这类囚犯的作息，\n而采用中威胁的作息。
@@ -689,7 +689,7 @@ execution_error_NoSpaceInRoom	错误：空间不足\n行刑室没有足够的空
 execution_error_NoRoom	在行刑前你需要一间行刑室
 
 roomerror_deathrow_sharedcell	死刑犯需要单独的牢房；他们不能被指派到多人牢房中。
-roomerror_nonursery	从此牢房无法抵达任何托儿所。\n家庭牢房需要 托儿所 以供吃饭。
+roomerror_nonursery	从此牢房无法抵达任何托儿所。\n家庭牢房需要 托儿所 以供用餐。
 roomerror_laundryoverloaded	无法卸下洗衣篮。洗衣房可能太小，无法满足需求。
 #-
 
@@ -762,7 +762,7 @@ informant_dead	死亡！
 informant_released	被释放
 informant_coverblown	身份曝光！
 informant_activate	激活
-informant_deactivate	反激活
+informant_deactivate	[取消激活]
 informant_idle	[闲置]
 informant_onroute	[待押送]
 informant_active	[已激活]
@@ -862,9 +862,9 @@ weathermap_temperature_c	*C℃
 weathermap_temperature_f	*F℉
 
 roomerror_nokitchen	没有指派 厨房 向此食堂提供食物。
-roomerror_noprisoners	没有指派 牢房区域 的囚犯到此食堂吃饭。
-roomerror_nocanteen_cells	从此牢房无法抵达任何食堂。\n此牢房中的囚犯没有吃饭的地方。
-roomerror_nocanteen_kitchen	从此厨房无法抵达任何食堂。\n厨房在吃饭时间不会烹制任何食物。
+roomerror_noprisoners	没有指派 牢房区域 的囚犯到此食堂用餐。
+roomerror_nocanteen_cells	从此牢房无法抵达任何食堂。\n此牢房中的囚犯没有用餐的地方。
+roomerror_nocanteen_kitchen	从此厨房无法抵达任何食堂。\n厨房在用餐时间不会烹制任何食物。
 
 ceos_letter	\n\n亲爱的玩家：\n\n恭喜你完成基本入门。你现在是合格的监狱建筑师了！很快你就会\n开始设计、建造并经营你自己的监狱。在开始之前，\n我可以给你分享一些重要的经验。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n<中文豪华版>友情提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按主键盘1、2、3、4可以设定时钟速度为1、2、5、10倍。\n由于游戏本身缺陷，可能偶现崩溃闪退的情况，请及时存档。\n · \n\n 祝你游戏愉快！
 
@@ -1020,14 +1020,14 @@ buildtoolbar_popup_help_Guards_6	- 如果你在分配训犬员时，没有手动
 buildtoolbar_popup_help_Dogs_1	训犬员工具可以让你在每个区域驻扎训犬员。驻扎警卫会在所分配的区域随意走动，也会执行该区域的所有警卫工作，例如开门。\n\n
 buildtoolbar_popup_help_Dogs_2	~按左键增加区域内驻扎的训犬员人数。按右键移除训犬员。\n\n
 buildtoolbar_popup_help_Dogs_3	^提示
-buildtoolbar_popup_help_Dogs_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定训犬员分配至特定区域的时间表。例如，若你只想要在吃饭时间部署训犬员在餐厅，可以选取调度器上每一个与吃饭时间一致的时间区域，然后移动时间横条至该区域，再点击餐厅以分配训犬员。
+buildtoolbar_popup_help_Dogs_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定训犬员分配至特定区域的时间表。例如，若你只想要在用餐时间部署训犬员在餐厅，可以选取调度器上每一个与用餐时间一致的时间区域，然后移动时间横条至该区域，再点击餐厅以分配训犬员。
 buildtoolbar_popup_help_Dogs_5	
 buildtoolbar_popup_help_Dogs_6	
 
 buildtoolbar_popup_help_ArmedGuards_1	武装警卫工具可以让你在每个区域驻扎武装警卫。驻扎警卫会在所分配的区域随意走动，也会执行该区域的所有警卫工作，例如开门。\n\n
 buildtoolbar_popup_help_ArmedGuards_2	~按左键增加区域内驻扎的警卫人数。按右键移除警卫。\n\n
 buildtoolbar_popup_help_ArmedGuards_3	^提示
-buildtoolbar_popup_help_ArmedGuards_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定武装警卫分配至特定区域的时间表。例如，若你只想要在吃饭时间部署武装警卫在餐厅，可以选取调度器上每一个与吃饭时间一致的时间区域，然后移动时间横条至该区域，再点击餐厅以分配武装警卫。
+buildtoolbar_popup_help_ArmedGuards_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定武装警卫分配至特定区域的时间表。例如，若你只想要在用餐时间部署武装警卫在餐厅，可以选取调度器上每一个与用餐时间一致的时间区域，然后移动时间横条至该区域，再点击餐厅以分配武装警卫。
 buildtoolbar_popup_help_ArmedGuards_5	
 buildtoolbar_popup_help_ArmedGuards_6	 
 
@@ -1447,16 +1447,16 @@ interface_action_snackbought	零食购买
 # Custom Sector Window
 #+
 customSector_message	请选择可进入此自定义区域的安全等级。
-customsectorwindow_minseccaption	低戒备囚犯
-customsectorwindow_medseccaption	中戒备囚犯
-customsectorwindow_maxseccaption	高戒备囚犯
-customsectorwindow_supermaxcaption	超高戒备囚犯
+customsectorwindow_minseccaption	低戒备
+customsectorwindow_medseccaption	中戒备
+customsectorwindow_maxseccaption	高戒备
+customsectorwindow_supermaxcaption	超高戒备
 customsectorwindow_deathrowcaption	死刑犯
 customsectorwindow_protectivecaption	重点保护
-customsectorwindow_insanecaption	精神病囚犯
+customsectorwindow_insanecaption	精神病犯
 
-customSector_title	自定义安全区域
-customSector_subtitle	此安全区域允许下列行为：
+customSector_title	自定义戒备区域
+customSector_subtitle	此区域允许以下戒备等级
 #-
 
 
@@ -1675,7 +1675,7 @@ prisoner_roomquality_veryHigh	非常高
 prisoner_roomquality_supreme	极高
 report_policy_matchTitle	复制戒备政策
 report_policy_match_tooltip	将其他戒备政策复制到 *X 
-report_intake_cat_PrisonerTransfer	传奇囚犯！
+report_intake_cat_PrisonerTransfer	！传奇囚犯！
 
 buildtoolbar_popup_help_Orderly_1	护理人员经过特别训练，专门看护精神病囚犯。\n
 buildtoolbar_popup_help_Orderly_2	护理人员具有与警卫和医生类似的特征，但无法像普通警卫一样对囚犯产生镇压效果。\n\n
@@ -2025,7 +2025,7 @@ d11_battery_charge_text	当前电量：*X%
 d11_battery_charging	充电中
 d11_battery_discharging	耗电中
 
-misconduct_reporttype_ProducedNarcotics	生成麻醉剂
+misconduct_reporttype_ProducedNarcotics	生产麻醉剂
 contraband_Produced	生产麻醉剂
 
 d11_researchhint_l_RecyclingIncentive	根据政府“迈向绿色”计划内容，正确丢弃垃圾的机构可获得现金奖励。因此，每收集一袋垃圾，你的监狱可获得 $10。
@@ -2645,7 +2645,7 @@ d11_tooltip_HelpEnvironmentallyFriendly_child_1_SectionTitle	执行“选择”�
 objective_HelpEnvironmentallyFriendly_child_2	园艺
 objective_HelpEnvironmentallyFriendly_child_2_description	研究“园艺”行政系统任务后，囚犯就可以在新建的花园房中照料植物。与农作物不同的是，鲜花无法收获和外销，不过它们可以美化监狱并使负责照料的囚犯得到安抚。
 d11_tooltip_HelpEnvironmentallyFriendly_child_2_SectionTitle	执行“选择”操作，即可显示高亮主题的相关信息。
-equipment_WateringCan	"洒水壶	"
+equipment_WateringCan	洒水壶
 d11_Crop_Placement_Error_01	农作物只能放置在各自的农业房间内。
 d11_Crop_Placement_Error_02	农作物只能放置在尘土地、泥地、草坪、草坪拐角或花田上。
 
@@ -3928,8 +3928,8 @@ material_HexagonalTiles	六边形瓷砖
 buildtoolbar_popup_mat_HexagonalTiles	见方设计已经是过去式了，欢迎选择六边形的未来设计理念。
 material_TriangularTiles	三角形瓷砖
 buildtoolbar_popup_mat_TriangularTiles	见方设计已经是过去式了，欢迎选择三角形的未来设计理念。
-schedule_zone_visitoronly	仅限访客
-interfacedeployment_visitoronlyzone	仅限访客
+schedule_zone_visitoronly	访客区域
+interfacedeployment_visitoronlyzone	[区域]\n  访客  
 buildtoolbar_deployment_visitoronlyzone	访客及民众优先使用的区域，只有访客、民众和员工可以进入该区域。
 
 prisonerTracking_Title	追踪清单
@@ -4868,24 +4868,24 @@ interfacedeployment_targetting	后勤
 interfacedeployment_targettingfood	食物后勤
 interfacedeployment_targettinglaundry	衣物后勤
 interfacedeployment_securearea	安全区域
-interfacedeployment_sharedzone	公共区域
-interfacedeployment_staffonlyzone	员工专区
-interfacedeployment_minseczone	低戒备专区
-interfacedeployment_medseczone	中戒备专区
-interfacedeployment_maxseczone	高戒备专区
-interfacedeployment_protectedzone	重点保护专区
-interfacedeployment_supermaxzone	超高戒备专区
-interfacedeployment_deathrowzone	死刑犯专区
-interfacedeployment_unlockedzone	解锁区域
+interfacedeployment_sharedzone	[区域]\n   公共   
+interfacedeployment_staffonlyzone	[区域]\n  员工  
+interfacedeployment_minseczone	[区域]\n 低戒备 
+interfacedeployment_medseczone	[区域]\n 中戒备 
+interfacedeployment_maxseczone	[区域]\n 高戒备 
+interfacedeployment_protectedzone	[区域]\n 重点保护 
+interfacedeployment_supermaxzone	[区域]\n 超高戒备 
+interfacedeployment_deathrowzone	[区域]\n 死刑犯 
+interfacedeployment_unlockedzone	[区域]\n   解锁   
 interfacedeployment_zonered		红色区域
 interfacedeployment_zonegreen	绿色区域
 interfacedeployment_zoneblue	蓝色区域
 interfacedeployment_zoneyellow	黄色区域
 interfacedeployment_zoning	区划
-interfacedeployment_accessonly	目的地专区
+interfacedeployment_accessonly	[区域]\n 目的地 
 interfacedeployment_prisonerdirection	引导标识\n(囚犯)
 interfacedeployment_staffdirection	引导标识\n(非囚犯)
-interfacedeployment_insaneseczone	精神病专区
+interfacedeployment_insaneseczone	[区域]\n 精神病 
 
 interfacelogistics_jobs	狱中劳役
 interfacelogistics_removejobs	移除劳动名额
@@ -5314,7 +5314,7 @@ action_stealknife	行为可疑
 action_stealspoon	行为可疑
 action_urinate	小便
 action_soilsuit	弄脏囚服
-action_eat	吃饭
+action_eat	用餐
 action_complain	抱怨
 action_work	劳役
 action_visitation	接受探监
@@ -6263,7 +6263,7 @@ researchtooltip_landexpansion	能够购买临近的地块，从而拓展监狱�
 research_policy	监狱政策
 researchtooltip_policy	解锁“政策”报告，能够规定违规行为的处罚量，并自动对违规囚犯或其牢房进行搜查。\n\n能够控制伙食政策，改变囚犯伙食的份量和种类。
 research_advancedmanagement	微观管理
-researchtooltip_advancedmanagement	提供对监狱进行微观管理的工具，满足你的细致需求。\n\n解锁“食物后勤”，能够为食堂指定厨房以及吃饭的囚犯。\n解锁“洗衣后勤”，能够规划牢房区域对应的洗衣房。\n\n解锁“部署时间区块”，能够定制警卫在不同时间段的部署安排。\n\n解锁“改造方案时刻表”，能够手动更改项目的时间安排。
+researchtooltip_advancedmanagement	提供对监狱进行微观管理的工具，满足你的细致需求。\n\n解锁“食物后勤”，能够为食堂指定厨房以及用餐的囚犯。\n解锁“洗衣后勤”，能够规划牢房区域对应的洗衣房。\n\n解锁“部署时间区块”，能够定制警卫在不同时间段的部署安排。\n\n解锁“改造方案时刻表”，能够手动更改项目的时间安排。
 
 research_Hitman 杀手
 researchtooltip_Hitman 监狱有机会与杀手组织秘密合作，把监狱变成绝佳的演练舞台。\n\n能够玩到几个风格各异的小游戏，从全新的角度感受你的监狱。\n关键词：钢琴线、变装、偷取、下毒、爆炸、越狱。\n\n在员工菜单雇佣“代号48”以开始一个任务。
@@ -6545,7 +6545,7 @@ needs_total_active_staff		♫ *X名 员工正在解决此需求
 needs_help_bladder		人人皆需上厕所，囚犯也一样。\n\n监狱的体制非常严格，例如他们应在淋浴间，他们就无法使用牢房内的马桶。\n\n睡觉时间之后，最好给囚犯上厕所的机会。\n牢房之外也可以考虑添加一些厕所。\n\n- 时间\n+ 厕所\n\n失败后果: 愤怒+囚服变脏
 needs_help_bowels		人人皆需上厕所，囚犯也一样。\n\n周期是小便的两倍。\n\n- 时间\n+ 厕所\n\n失败后果: 愤怒+囚服变脏
 needs_help_sleep		囚犯只能在牢房的床铺上睡觉。\n有些囚犯会为了挖掘地道而放弃睡觉。\n\n- 时间\n+ 睡觉\n失败后果: 愤怒
-needs_help_food			人人皆需吃饭。。\n\n若你发现厨房无法应付需求，试着多雇用或安排几个厨师。\n你也可以在[报告]窗口中的[政策]标签页，调整你的伙食政策。\n\n- 时间\n+ 吃饭\n+ 零食贩卖机\n\n失败后果: 愤怒+挨饿(长期挨饿会死亡)
+needs_help_food			人人皆需食物。\n\n若你发现厨房无法应付需求，试着多雇用或安排几个厨师。\n你也可以在[报告]窗口中的[政策]标签页，调整你的伙食政策。\n\n- 时间\n+ 用餐\n+ 零食贩卖机\n\n失败后果: 愤怒+挨饿(长期挨饿会死亡)
 needs_help_safety		即使在监狱，囚犯也需要安全感。\n\n如果你的监狱有太多斗殴事件或整体危险水平过高，\n囚犯会感到不安全，进而考虑武装自己。\n\n若这渐渐变成一个问题，可以试着雇用更多警卫、建立更多巡逻路线或者满足囚犯的其它需求，以此提高监狱的安全。\n\n监狱的“危险等级”影响本需求。\n+ 监控\n\n失败后果: 为自保而想方设法得到武器
 needs_help_hygiene		大部分的囚犯会想要定期洗澡，尤其是早上起床后。\n\n“淋浴”作息会强迫那些牢房里没有淋浴物品的囚犯前往淋浴间。\n或者增加自由活动时间，让囚犯依自己的需求洗澡。\n\n- 时间\n+ 淋浴\n+ 相关物品\n\n失败后果: 愤怒
 needs_help_exercise		很多囚犯会想要保持锻炼。\n\n可以建设一个庭院或健身房，让他们散步或锻炼。\n\n- 时间\n+ 庭院放风\n+ 相关物品\n\n失败后果: 愤怒
@@ -6554,7 +6554,7 @@ needs_help_comfort		囚犯想要感到舒适，生理上和心理上皆如此。
 needs_help_environment	囚犯讨厌居住在脏乱的环境。\n\n雇用一些清洁工或安排囚犯打扫，以保持环境整洁。\n\n周围环境的清洁度影响本需求。\n+ 植物盆栽\n+ 垃圾桶\n\n失败后果: 愤怒
 needs_help_privacy		有时候，囚犯会想要有独处的时间。\n\n通常待在自己牢房可以满足这个需求。\n如果住在宿舍与拘留室，他们会觉得隐私不足。\n女性囚犯的概率远高于男性囚犯\n该需求可能会导致更多的地道。\n\n- 与他人共用牢房的时间\n+ 牢房独处的时间\n+ 与婴儿一起的时间\n\n不端行为: 发飙
 needs_help_freedom		就算在监狱里，囚犯还是会想要感到某种程度上的自由。\n\n增加“自由活动”或“庭院放风”到作息有助于此。\n\n- 被监禁的时间\n+ 自由活动的时间\n+ (树)接触自然\n+ 相关物品\n不端行为: 越狱
-needs_help_clothing		就算总是一样颜色的连裤衫，囚犯还是会想要干净衣服。\n\n增加洗衣房，并雇用清洁工或安排囚犯工作，以让他们美梦成真。\n\n- 时间\n- 淋雨\n+ 获得 干净的囚服
+needs_help_clothing		就算总是一样的囚服，囚犯也还是会想要干净衣服。\n\n可以增加洗衣房，并雇用清洁工或安排囚犯工作。\n\n- 时间\n- 淋雨\n+ 获得 干净的囚服
 needs_help_drugs		不少囚犯都有毒瘾问题，这可能也是他们入狱的原因。\n\n让囚犯参与改造方案，有助于解决这个问题。\n\n如果囚犯偷偷使用了麻醉剂，他们会异常亢奋。\n有时会因为过量而导致生命危险。\n\n- 时间\n+ 通过相关改造方案\n+ 长时间戒断\n+ 使用相关违禁品\n+ 相关物品\n\n失败后果: 戒断\n不端行为: 发飙
 needs_help_alcohol		不少囚犯饱受酒瘾的困扰，会竭尽全力把酒弄到手。\n\n让囚犯参与改造方案，有助于解决这个问题。\n\n- 时间\n+ 通过相关改造方案\n+ 长时间戒断\n+ 使用相关违禁品\n+ 相关物品\n\n失败后果: 戒断\n不端行为: 发飙
 needs_help_spirituality	囚犯有各种不同的宗教信仰。\n\n在监狱内增加教堂长凳或祈祷垫，可以让囚犯满足宗教需求。\n建立(教堂)并实施相关改造方案的成效最佳，并且还能普遍安抚囚犯。\n\n- 时间\n+ 教堂长凳/祈祷垫\n+ 通过相关改造方案
@@ -6569,7 +6569,7 @@ needs_help_babyplay		婴儿需要活动和娱乐。\n\n若你的囚犯有婴儿�
 
 needs_help_staffbladder			员工也需要上厕所。\n在“员工休息室”或“员工专区”的房间里安装厕所，\n当轮休时员工会使用。\n\n- 时间\n+ 相关物品
 needs_help_staffbowels			员工也需要上厕所。\n在“员工休息室”或“员工专区”的房间里安装厕所，\n当轮休时员工会使用。\n\n- 时间\n+ 相关物品
-needs_help_stafffood			员工需要在“员工专区”的“食堂”里用餐。\n你也可以在任何“员工专区”房间里摆些‘配餐桌’和座位。\n食物会从外部订购，所以不需要给员工‘厨房’。\n但餐盘仍然需要在‘厨房水槽’清洗。\n\n- 时间\n+ 吃饭\n+ 零食贩卖机
+needs_help_stafffood			员工需要在“员工专区”的“食堂”里用餐。\n你也可以在任何“员工专区”房间里摆些‘配餐桌’和座位。\n食物会从外部订购，所以不需要给员工‘厨房’。\n但餐盘仍然需要在‘厨房水槽’清洗。\n\n- 时间\n+ 用餐\n+ 零食贩卖机
 needs_help_staffsafety			员工也需要安全感。\n高的危险等级或不断的打斗会让你的员工感到不安。\n更多的警卫彼此照应、配有更好的装备，可以缓解这个问题。\n\n监狱的“危险等级”影响本需求。
 needs_help_staffrecreation		监狱对谁来说都是超级无聊的地方，\n给你的员工们更丰富的娱乐吧。\n\n- 时间\n+ 相关物品
 needs_help_staffcomfort			给员工一些放松的地方，比如沙发。\n\n- 时间\n+ 相关物品
@@ -7132,7 +7132,7 @@ buildtoolbar_popup_room_execution	处决死刑犯的区域。\n\n见证人大约
 #+==囚犯活动
 
 room_canteen	 ᠎食堂
-buildtoolbar_popup_room_canteen	囚犯的进餐区域。\n\n由于“吃饭”作息让囚犯无法提前离开，可以添加一些满足其它需求的物品。\n由于人员密度形成高峰，囚犯很容易在此发生冲突，所以安保需要特别加强。\n\n如果启用“员工需求”，需要将一个食堂设为员工专区，以让员工轮休时来用餐。\n\n需求：\n+ 食物
+buildtoolbar_popup_room_canteen	囚犯的进餐区域。\n\n由于“用餐”作息让囚犯无法提前离开，可以添加一些满足其它需求的物品。\n由于人员密度形成高峰，囚犯很容易在此发生冲突，所以安保需要特别加强。\n\n如果启用“员工需求”，需要将一个食堂设为员工专区，以让员工轮休时来用餐。\n\n需求：\n+ 食物
 room_shower	  淋浴间
 buildtoolbar_popup_room_shower	囚犯可在此保持卫生。\n\n可强制囚犯在”淋浴“时间来此。\n囚犯也会在空闲时间依据自身需求使用淋浴设备。\n记得在门口或花洒下方铺设排水渠。\n\n需求：\n+ 卫生
 room_gymnasium	  健身房
@@ -7726,7 +7726,7 @@ buildtoolbar_popup_obj_SmallTable	长桌的缩小版。
 object_SmallBench				 板凳\n  （短）  
 buildtoolbar_popup_obj_SmallBench	长凳的缩小版，可以坐2个人。\n\n需求：\n+ 舒适 0.20
 object_OakTable					 橡木桌
-buildtoolbar_popup_obj_OakTable	搭配橡木板凳会很棒，可以在这里吃饭。
+buildtoolbar_popup_obj_OakTable	搭配橡木板凳会很棒，可以在这里用餐。
 
 object_SofaChairsingle			  沙发\n（蓝）
 buildtoolbar_popup_obj_SofaChairsingle 可以让人舒舒服服地坐一会儿。\n\n需求：\n+ 舒适 0.70\n+ 奢侈品 0.09
@@ -7922,7 +7922,7 @@ buildtoolbar_popup_obj_ironingBoardShort	较短的熨衣板，用于熨烫干净
 #+==============================‌厨房食物饮水
 
 object_Cooker					‌*炊具
-buildtoolbar_popup_obj_Cooker	提供热腾腾的饭菜让囚犯们享受一下。\n\n如果启用“天气与温度”，炊具会产生可观的热量。\n在天冷时，这是好事。但天热时……\n\n如果要在开饭前4小时内准备好食物，建议：\n   炊具数=囚犯数×每顿份量÷25\n如果“吃饭”作息为2小时，那么除数最大可以为40。
+buildtoolbar_popup_obj_Cooker	提供热腾腾的饭菜让囚犯们享受一下。\n\n如果启用“天气与温度”，炊具会产生可观的热量。\n在天冷时，这是好事。但天热时……\n\n如果要在开饭前4小时内准备好食物，建议：\n   炊具数=囚犯数×每顿份量÷25\n如果“用餐”作息为2小时，那么除数最大可以为40。
 object_Sink						‌ *厨房水槽
 buildtoolbar_popup_obj_Sink 用过的餐盘必须在这里清洗。\n\n速率为：5分钟/餐盘=12盘/小时\n\n如果启用“天气与温度”，那么用热水的话会洗得更快。\n\n大体上，每30个囚犯需要1个水槽。\n除非你一天提供3顿伙食，否则厨师有充裕的时间洗盘子。
 object_Fridge					‌ 冰柜
@@ -7930,7 +7930,7 @@ buildtoolbar_popup_obj_Fridge	用于存放食材。\n\n1台冰柜可以盛放2�
 object_TallFridge				‌ 立式冰箱
 buildtoolbar_popup_obj_TallFridge	现在食材可堆叠至一人高！
 object_ServingTable				‌ 配餐桌
-buildtoolbar_popup_obj_ServingTable	用于为囚犯分发食物。\n\n有效的用餐时间越短，需要配餐桌越多。请把它们合理地分布在食堂里，以助于分流人群。\n\n容量为20×4份食物。不过，考虑人与物的流动性，\n如果“吃饭”作息为2小时，可以当做容量为120份。\n例如：如果人均2份食物，那么每60个囚犯需要1张配餐桌。\n\n【豪华版】\n伙食数量与种类会影响所有囚犯的疾病点数。
+buildtoolbar_popup_obj_ServingTable	用于为囚犯分发食物。\n\n有效的用餐时间越短，需要配餐桌越多。请把它们合理地分布在食堂里，以助于分流人群。\n\n容量为20×4份食物。不过，考虑人与物的流动性，\n如果“用餐”作息为2小时，可以当做容量为120份。\n例如：如果人均2份食物，那么每60个囚犯需要1张配餐桌。\n\n【豪华版】\n伙食数量与种类会影响所有囚犯的疾病点数。
 
 object_SmallServingTable		‌᠎配餐桌（小）
 buildtoolbar_popup_obj_SmallServingTable	配餐桌的缩小版，用于为囚犯分发食物。
@@ -8666,15 +8666,15 @@ gangs_soldiers 喽啰: 最多 *Y 人，当前 *X 人
 gangs_evict 驱逐
 gangs_status 成员 *X 人。杀死 *Y 人。 保护费 $*Z
 
-schedule_zone_shared	公共
+schedule_zone_shared	公共区域
 schedule_zone_minseconly	低戒备
 schedule_zone_medseconly	中戒备
 schedule_zone_maxseconly	高戒备
 schedule_zone_protectedonly	重点保护
 schedule_zone_supermaxonly	超高戒备
 schedule_zone_deathrowonly	死刑犯
-schedule_zone_staffonly	【仅员工】
-schedule_zone_unlocked	不上锁
+schedule_zone_staffonly	员工专区
+schedule_zone_unlocked	解锁区域
 #-
 
 
@@ -9089,12 +9089,12 @@ a48__am__target_bleeding [√目标已经昏迷并流血]
 a48__am__more_scuffle 鼓动更多囚犯
 a48__am__damage 目标受伤: *X%
 
-a48__at__desc_food_1 到食堂，等目标坐下来吃饭时，\n以灵活的手法给他的食物添加点“佐料”。
+a48__at__desc_food_1 到食堂，等目标坐下用餐时，\n以灵活的手法给他的食物添加点“佐料”。
 a48__at__desc_food_3 目标对这顿饭的特殊之处一无所知。
 a48__at__desc_food_4 目标已经中毒。\n欣赏他最后的呕吐吧。
 
 a48__am__need_meal [需要目标先打饭]
-a48__am__need_eating [需要目标坐下吃饭]
+a48__am__need_eating [需要目标坐下用餐]
 a48__am__action_food 给食物下毒
 a48__am__wait_target_eat [等目标吃掉食物]
 a48__am__target_poisoned [√目标已经中毒]
@@ -9223,7 +9223,7 @@ dangerous_meeting__stats \n座谈 *X 轮\n产生奖金 *Y 元\n\n引起囚犯发
 object_BoldHost [模组]\n大胆主持人
 buildtoolbar_popup_staff_BoldHost 以冒犯别人为卖点的娱乐圈人士，却自诩为真相斗士。\n在职业生涯的危险期，他决定再搏一把。\n\n通过“危险座谈”方案，他会给你带来可观的金钱回报。\n但风险也同样高。\n\n如果你对过于平和而乏味的日常感到无聊，那么这个\n充满刺激的项目会很适合你。\n\n他的办公室里需要较多的椅子。\n\n座谈还需要从外部自动过来的摄影师。\n他非常脆弱。一旦被攻击，很容易死亡，并产生罚款。\n\n主持人或摄影师受伤后，会自动呼叫医生。\n你无法控制他们，所以只能等医生过来。
 
-object_CameraMan [模组]\n摄影师
+object_CameraMan [模组]\n 摄影师 
 # buildtoolbar_popup_staff_CameraMan 主持人的必要协助者。\n\n需要放置在主持人办公室里。\n你也可以选中他并右击以移动。\n\n摄影师非常脆弱。一旦被攻击，就很容易死亡。
 
 dangerous_meeting__cameraman_sees_host__No \n没有对应的主持人

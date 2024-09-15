@@ -57,7 +57,7 @@ BEGIN Program
     Places          20
     SessionLength   120
     NumSessions     3
-    Difficulty      20
+    Difficulty      15
     Room            Classroom
     Teacher         Teacher
     Equipment       SchoolDesk
@@ -73,8 +73,8 @@ BEGIN Program
     SessionCost     -300
     Places          10
     SessionLength   120
-    NumSessions     6
-    Difficulty      30
+    NumSessions     5
+    Difficulty      25
     Room            Classroom
     Equipment       SchoolDesk
     Teacher         Teacher

@@ -1,0 +1,67 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1124
+    YPOS        Scaled          580
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          400
+END
+
+BEGIN Button
+	NAME	PrisonerProgramsButton
+	Caption	d11_prisoner_programs
+	XPOS	Scaled		1125
+	YPOS	Scaled		1100
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		300
+END
+
+BEGIN Button
+	NAME	StaffProgramsButton
+	Caption	d11_staff_programs
+	XPOS	Scaled		5091
+	YPOS	Scaled		1100
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		300
+END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1100
+    YPOS        Scaled          1500
+    WIDTH       Scaled          7800
+    HEIGHT      Scaled          7500
+END
+
+BEGIN Button
+    NAME        Schedule
+    XPOS        Scaled          5111
+    YPOS        Scaled          9150
+    WIDTH       Scaled          3777
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+    NAME        Edit
+    XPOS        Scaled          1111
+    YPOS        Scaled          9150
+    WIDTH       Scaled          3777
+    HEIGHT      Scaled          333
+END
+

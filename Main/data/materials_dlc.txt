@@ -16379,7 +16379,7 @@ Price                -1000
 Upkeep               -250
 RenderDepth          2
 ViewRange            3
-Toughness            20
+Toughness            30
 BlockedBy            Wall
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
@@ -18192,11 +18192,11 @@ BEGIN Grading       Type    OutsideWindow   Large true      END
 BEGIN Grading       Type    MealQuality         END
 BEGIN Grading       Type    MealVariety         END
 
+BEGIN Grading       Type    Item    Id      Sprinkler  END
 BEGIN Grading       Type    Item    Id      Fan        END
 BEGIN Grading       Type    Item    Id      SnackMachine  END
-BEGIN Grading       Type    Item    Id      Sprinkler  END
 BEGIN Grading       Type    Item    Id      WaterCooler Alt DrinkingFountain   END
-BEGIN Grading       Type    Item    Id      Plant Alt PlantCactus Multi true Quantity 4 END
+BEGIN Grading       Type    Item    Id      RecyclingBin Alt Bin Multi true END
 
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
 BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END

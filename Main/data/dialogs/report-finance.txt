@@ -1,0 +1,108 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          580
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          833
+END
+
+BEGIN Canvas
+    NAME        Canvas
+    XPOS        Scaled          1221
+    YPOS        Scaled          1500
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          7000
+END
+
+
+BEGIN Button
+	NAME	PageFinanceButton
+	Caption	report_finance
+	XPOS	Scaled		1125
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END
+
+BEGIN Button
+	NAME	PageWageRatesButton
+	Caption	finance_cost_prisonerwages
+	XPOS	Scaled		5091
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END	
+
+BEGIN Custom
+    NAME        StaffPayTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          8383
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+    NAME        PayDown
+    XPOS        Scaled          3777
+    YPOS        Scaled          8500
+    WIDTH       Scaled          2111
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+    NAME        PayUp
+    XPOS        Scaled          3777
+    YPOS        Scaled          8900
+    WIDTH       Scaled          2111
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Pay
+    XPOS        Scaled          6664
+    YPOS        Scaled          8549
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          583
+END
+
+BEGIN Custom
+    NAME        PayPercentage
+    XPOS        Scaled          6665
+    YPOS        Scaled          8400
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        PerDay
+    XPOS        Scaled          6665
+    YPOS        Scaled          9049
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          249
+END
+
+BEGIN ScrollBar
+	NAME	Scroll
+	XPOS        Scaled          9250
+    	YPOS        Scaled          2050
+    	WIDTH       Scaled          250
+    	HEIGHT      Scaled          7350
+END
+

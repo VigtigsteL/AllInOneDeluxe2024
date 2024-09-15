@@ -1,0 +1,620 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN ScrollBar
+	NAME	Scroll
+	XPOS        Scaled          9000
+    	YPOS        Scaled          1300
+    	WIDTH       Scaled          200
+    	HEIGHT      Scaled          8250
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          400
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        PrivilegeTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          1000
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN SelectionList
+	NAME        PrivilegesList
+	XPOS        Scaled          1221
+	YPOS        Scaled          1500
+  	WIDTH       Scaled          7555
+   	HEIGHT      Scaled          2800
+END
+
+BEGIN Custom
+    NAME        MisconductTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          4400
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+	NAME	MisconductButton
+	Caption	reports_policy_defaults
+	XPOS	Scaled		6700
+	YPOS	Scaled		4800
+	WIDTH	Scaled		2100
+	HEIGHT	Scaled		332
+END
+
+BEGIN DropDownMenu
+	NAME	MatchDropDown
+	Caption	report_policy_match
+	XPOS	Scaled		6700
+	YPOS	Scaled		5200
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+	NAME	MisconductTabInsane
+	XPOS    Scaled          5200
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabProtected
+	XPOS    Scaled          4500
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabDeathRow
+	XPOS    Scaled          3800
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabSuperMax
+	XPOS    Scaled          3100
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabMaxSec
+	XPOS    Scaled          2350
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabNormal
+	XPOS    Scaled          1650
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabMinSec
+	XPOS    Scaled          950
+    	YPOS    Scaled          5050
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1000
+END
+
+BEGIN Custom
+	NAME	MisconductTabPage
+	XPOS    Scaled          1000
+    	YPOS    Scaled          5600
+    	WIDTH   Scaled          7555
+    	HEIGHT  Scaled          4300
+END
+
+BEGIN Custom
+	NAME	MisconductTabSelected
+	XPOS    Scaled          950
+    	YPOS    Scaled          4900
+    	WIDTH   Scaled          1000
+    	HEIGHT  Scaled          1200
+END
+
+BEGIN Custom
+    NAME        PrisonerCategorySelect
+    CAPTION     codex_new_selectCategory
+    XPOS        Scaled          1100
+    YPOS        Scaled          5100
+    WIDTH       Scaled          3350
+    HEIGHT      Scaled          461
+END
+
+BEGIN IconBox
+    NAME        PrisonerCategoryRow
+    XPOS        Scaled        1000
+    YPOS        Scaled        5050
+    WIDTH       Scaled        6000
+    HEIGHT      Scaled        2000
+END
+
+BEGIN SelectionList
+    NAME        MisconductList
+    XPOS        Scaled          1221
+    YPOS        Scaled          5800
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          4600
+END
+
+BEGIN DropDownMenu
+    NAME        SecurityDropDown
+    XPOS        Absolute        45
+    YPOS        Absolute        90
+    WIDTH       Absolute        125
+    HEIGHT      Absolute        20
+END
+
+BEGIN Custom
+    NAME        FoodTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          10200
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+	NAME	MealsButton
+	Caption	reports_policy_defaults
+	XPOS	Scaled		6700
+	YPOS	Scaled		10600
+	WIDTH	Scaled		2100
+	HEIGHT	Scaled		500
+END
+
+BEGIN Button
+	NAME	AllButtonNutrition
+	Caption	reports_policy_all
+	XPOS	Scaled		5900
+	YPOS	Scaled		10600
+	WIDTH	Scaled		700
+	HEIGHT	Scaled		500
+END
+
+BEGIN Custom
+    NAME        PrisonerCategorySelectSecond
+    CAPTION     codex_new_selectCategory
+    XPOS        Scaled          1100
+    YPOS        Scaled          10600
+    WIDTH       Scaled          3350
+    HEIGHT      Scaled          461
+END
+
+BEGIN IconBox
+    NAME        PrisonerCategoryRowSecond
+    XPOS        Scaled        1100
+    YPOS        Scaled        10600
+    WIDTH       Scaled        4900
+    HEIGHT      Scaled        2000
+END
+
+BEGIN DropDownMenu
+    NAME        MealQuantity
+    XPOS        Scaled          3442
+    YPOS        Scaled          11250
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN DropDownMenu
+    NAME        MealVariety
+    XPOS        Scaled          3442
+    YPOS        Scaled          11650
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealQuantityCaption
+    CAPTION     meal_quantity
+    XPOS        Scaled          1219
+    YPOS        Scaled          11200
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealVarietyCaption
+    CAPTION     meal_variety
+    XPOS        Scaled          1219
+    YPOS        Scaled          11600
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealCost1
+    XPOS        Scaled          5900
+    YPOS        Scaled          11100
+    WIDTH       Scaled          2874
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealCost2
+    XPOS        Scaled          5900
+    YPOS        Scaled          11400
+    WIDTH       Scaled          2874
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealCost3
+    XPOS        Scaled          5900
+    YPOS        Scaled          11700
+    WIDTH       Scaled          2874
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        ParoleTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          12100
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Button
+	NAME	ParoleButton
+	Caption	reports_policy_defaults
+	XPOS	Scaled		6700
+	YPOS	Scaled		12500
+	WIDTH	Scaled		2100
+	HEIGHT	Scaled		500
+END
+
+BEGIN Button
+	NAME	AllButtonParole
+	Caption	reports_policy_all
+	XPOS	Scaled		5900
+	YPOS	Scaled		12500
+	WIDTH	Scaled		700
+	HEIGHT	Scaled		500
+END
+
+BEGIN Custom
+    NAME        PrisonerCategorySelectThird
+    CAPTION     codex_new_selectCategory
+    XPOS        Scaled          1100
+    YPOS        Scaled          12500
+    WIDTH       Scaled          3350
+    HEIGHT      Scaled          461
+END
+
+BEGIN IconBox
+    NAME        PrisonerCategoryRowThird
+    XPOS        Scaled        1100
+    YPOS        Scaled        12500
+    WIDTH       Scaled        4900
+    HEIGHT      Scaled        2000
+END
+
+BEGIN Custom
+	NAME	ParoleCutoffs
+	CAPTION	reports_parole_Cutoff
+	XPOS	Scaled		1100
+	YPOS	Scaled		13000
+	WIDTH	Scaled		4800
+	HEIGHT	Scaled		400
+END
+
+BEGIN Custom
+    NAME        Reports_Parole_Info
+    XPOS        Scaled          1221
+    YPOS        Scaled          13500
+    WIDTH       Scaled          3444
+    HEIGHT      Scaled          500
+END
+
+BEGIN MultiInputSlider
+    NAME        ParoleSlider
+    XPOS        Scaled          4666
+    YPOS        Scaled          13200
+    WIDTH       Scaled          4111
+    HEIGHT      Scaled          700
+END
+
+BEGIN Custom
+    NAME        FarmingPolicyTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          14000
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        OtherPolicyTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          18500
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        CellQualityCaption
+    CAPTION     policy_cell_quality
+    XPOS        Scaled          1221
+    YPOS        Scaled          19000
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        UseCellQuality
+    XPOS        Scaled          4950
+    YPOS        Scaled          19000
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        StaffKeysCaption
+    XPOS        Scaled          5500
+    YPOS        Scaled          19000
+    WIDTH       Scaled          2555
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        EnableStaffKeys
+    XPOS        Scaled          8500
+    YPOS        Scaled          19000
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+
+BEGIN Custom
+    NAME        EventLogCaption
+    XPOS        Scaled          1221
+    YPOS        Scaled          19500
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        EnableEventLog
+    XPOS        Scaled          4950
+    YPOS        Scaled          19500
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        GuardPriorityCaption
+    XPOS        Scaled          5500
+    YPOS        Scaled          19500
+    WIDTH       Scaled          2555
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        EnableGuardPriority
+    XPOS        Scaled          8500
+    YPOS        Scaled          19500
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        StunBatonCaption
+    XPOS        Scaled          1221
+    YPOS        Scaled          20000
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        EnableStunBaton
+    XPOS        Scaled          4950
+    YPOS        Scaled          20000
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        ContinuousPlantingCaption
+    CAPTION     d11_continuous_planting
+    XPOS        Scaled          1221
+    YPOS        Scaled          14400
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        ContinuousPlanting
+    XPOS        Scaled          4665
+    YPOS        Scaled          14400
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME	CropTypeCaption
+    CAPTION	d11_crop_types_caption
+    XPOS        Scaled          1221
+    YPOS        Scaled          14800
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          333
+END
+
+BEGIN DropDownMenu
+    NAME	CropType
+    XPOS        Scaled          4665
+    YPOS        Scaled          14800
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          333
+END
+
+BEGIN DropDownMenu
+    NAME        FarmSearchFrequency
+    XPOS        Scaled          4665
+    YPOS        Scaled          15600
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        FarmSearchFrequencyCaption
+    CAPTION    	d11_farm_search_freq_caption
+    XPOS        Scaled          1221
+    YPOS        Scaled          15600
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          332
+END
+
+BEGIN DropDownMenu
+    NAME        FarmSearchTargets
+    XPOS        Scaled          4665
+    YPOS        Scaled          16000
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        FarmSearchTargetsCaption
+    CAPTION     d11_farm_search_target_caption
+    XPOS        Scaled          1221
+    YPOS        Scaled          16000
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          332
+END
+
+BEGIN DropDownMenu
+    NAME        ContinuousFertilizer
+    XPOS        Scaled          4665
+    YPOS        Scaled          15200
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        ContinuousFertilizerCaption
+    CAPTION     d11_continuous_fertilizer_caption
+    XPOS        Scaled          1221
+    YPOS        Scaled          15200
+    WIDTH       Scaled          3000
+    HEIGHT      Scaled          332
+END
+
+# Visitation policy
+
+BEGIN Custom
+    NAME        VisitationPolicyTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          16500
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Reports_Visitation_Info
+    XPOS        Scaled          1221
+    YPOS        Scaled          17800
+	WIDTH       Scaled          3000
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        Reports_Visitation_Error
+    XPOS        Scaled          1221
+    YPOS        Scaled          17450
+	WIDTH       Scaled          3000
+    HEIGHT      Scaled          150
+END
+
+BEGIN Custom
+    NAME        PrisonerCategorySelectFourth
+    CAPTION     codex_new_selectCategory
+    XPOS        Scaled          1100
+    YPOS        Scaled          16900
+    WIDTH       Scaled          3350
+    HEIGHT      Scaled          461
+END
+
+BEGIN IconBox
+    NAME        PrisonerCategoryRowFourth
+    XPOS        Scaled        1100
+    YPOS        Scaled        16900
+    WIDTH       Scaled        4900
+    HEIGHT      Scaled        600
+END
+
+BEGIN Button
+	NAME	VisitationButton
+	Caption	reports_policy_defaults
+	XPOS	Scaled		6700
+	YPOS	Scaled		16900
+	WIDTH	Scaled		2100
+	HEIGHT	Scaled		500
+END
+
+BEGIN Button
+	NAME	AllButtonVisitation
+	Caption	reports_policy_all
+	XPOS	Scaled		5900
+	YPOS	Scaled		16900
+	WIDTH	Scaled		700
+	HEIGHT	Scaled		500
+END
+
+BEGIN MultiInputSlider
+    NAME        VisitationSlider
+    XPOS        Scaled          4666
+    YPOS        Scaled          17500
+	WIDTH       Scaled          4111
+    HEIGHT      Scaled          700
+END
+
+# Ingredients stuff
+
+BEGIN Button
+	NAME	PagePolicyButton
+	Caption	report_policy
+	XPOS	Scaled		1125
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END
+
+BEGIN Button
+	NAME	PageIngredientsButton
+	Caption	object_ingredients
+	XPOS	Scaled		5091
+	YPOS	Scaled		400
+	WIDTH	Scaled		3700
+	HEIGHT	Scaled		833
+END

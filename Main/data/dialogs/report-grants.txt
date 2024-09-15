@@ -1,0 +1,98 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1124
+    YPOS        Scaled          500
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          400
+END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1109
+    YPOS        Scaled          2150
+    WIDTH       Scaled          7777
+    HEIGHT      Scaled          6850
+END
+
+BEGIN Custom
+    NAME        BankLoanBox
+    XPOS        Scaled          1110
+    YPOS        Scaled          9000
+    WIDTH       Scaled          7777
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        BankLoan
+    XPOS        Scaled          2886
+    YPOS        Scaled          8950
+    WIDTH       Scaled          4222
+    HEIGHT      Scaled          400
+END
+
+BEGIN Button
+    NAME        IncreaseLoan
+    XPOS        Scaled          7332
+    YPOS        Scaled          9070
+    WIDTH       Scaled          1444
+    HEIGHT      Scaled          400
+END
+
+BEGIN Button
+    NAME        DecreaseLoan
+    XPOS        Scaled          1221
+    YPOS        Scaled          9070
+    WIDTH       Scaled          1444
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        BankInterest
+    XPOS        Scaled          2886
+    YPOS        Scaled          9200
+    WIDTH       Scaled          4222
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MaxCaption
+    XPOS        Scaled          1221
+    YPOS        Scaled          1650
+    WIDTH       Scaled          7444
+    HEIGHT      Scaled          500
+END
+
+BEGIN Button
+    Name	GrantHeaderButton_0
+    Caption	GrantHeaderButton_0
+    XPOS        Scaled          1200
+    YPOS        Scaled          1150
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          400
+END
+
+BEGIN Button
+    Name	GrantHeaderButton_1
+    Caption	GrantHeaderButton_1
+    XPOS        Scaled          5055
+    YPOS        Scaled          1150
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          400
+END

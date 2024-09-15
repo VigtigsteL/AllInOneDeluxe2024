@@ -1,0 +1,67 @@
+BEGIN Window
+    NAME         ScheduleEditor
+    BACKGROUND   clipboard.png
+    WIDTH        1000
+    HEIGHT       750
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          587
+    YPOS        Scaled          515
+    WIDTH       Scaled          8850
+    HEIGHT      Scaled          400
+END
+
+BEGIN Canvas
+    NAME        Canvas
+    XPOS        Scaled          500
+    YPOS        Scaled          1500
+    WIDTH       Scaled          9100
+    HEIGHT      Scaled          8000
+END
+
+BEGIN Button
+    NAME        DialogWindowClose
+    CAPTION     X
+    XPOS        Scaled          9650
+    YPOS        Scaled          265
+    WIDTH       Scaled          250
+    HEIGHT      Scaled          320
+END
+
+BEGIN DropDownMenu
+    NAME        Dropdown
+    XPOS        Scaled          150
+    YPOS        Scaled          133
+    WIDTH       Scaled          1400
+    HEIGHT      Scaled          333
+END
+
+
+BEGIN DropDownMenu
+    NAME        RoomType
+    XPOS        Scaled        2000
+    YPOS        Scaled       1100
+    WIDTH       Scaled        1800
+    HEIGHT      Scaled        300
+END
+
+BEGIN DropDownMenu
+    NAME        EntityType
+    CAPTION	EntityType
+    XPOS        Scaled        4100
+    YPOS        Scaled       1100
+    WIDTH       Scaled        1800
+    HEIGHT      Scaled        300
+END
+
+BEGIN DropDownMenu
+    NAME        SecurityLevel
+    CAPTION	Security
+    XPOS        Scaled        6200
+    YPOS        Scaled       1100
+    WIDTH       Scaled        1800
+    HEIGHT      Scaled        300
+END
