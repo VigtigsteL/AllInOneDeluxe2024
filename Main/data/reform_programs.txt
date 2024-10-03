@@ -32,7 +32,7 @@ BEGIN Program
     Intake          Voluntary
 END
 
-[制造Ⅱ]木工学徒
+#[制造Ⅱ]木工学徒
 BEGIN Program
     Name            Carpentry
     SessionCost     -300

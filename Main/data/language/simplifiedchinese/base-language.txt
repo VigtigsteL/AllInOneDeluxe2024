@@ -4550,7 +4550,7 @@ codex_mod_published_good_msg	已成功发布模组。
 codex_mod_published_bad	发布模组失败
 codex_mod_published_bad_msg	模组发布失败。
 codex_mod_modsupdated	模组已更新
-codex_mod_modsupdated_msg	某些你的已激活模组已经更新，点击[确定]\n以应用新的变更。游戏会自动存档。
+codex_mod_modsupdated_msg	部分已激活模组等待更新！\n\n请在"模组菜单"点击[应用]重新加载模组。\n\n游戏将会自动存档。
 codex_mod_translationcaption	这是非英语的翻译吗？
 codex_language	语言
 codex_language_englishdefault	英语(默认)
@@ -5325,7 +5325,7 @@ action_destroying	毁坏
 action_spoiling	发飙
 action_fighting	打斗！
 action_rioting	暴动！
-action_fight	斗殴
+action_fight	拳击
 
 action_hostagetaking	挟持人质
 action_reformprogram	改造方案
@@ -5354,7 +5354,7 @@ action_PassiveCanvas	绘画
 action_ListenToBird	聆听鸟叫
 action_ListenToBirdTwo	聆听鸟叫
 action_PlayTableTennis	玩乒乓球
-action_PlayTableFootball	玩桌上足球球
+action_PlayTableFootball	玩桌上足球
 action_UseDummy	练习木人桩
 
 

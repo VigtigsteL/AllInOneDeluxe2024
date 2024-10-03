@@ -3782,7 +3782,7 @@ END
 
 #+===============================医疗与其他===============================
 
-#+风扇 范围 5 舒适 0.05 奢侈品 0.02
+#+风扇 范围 5 舒适 0.05 奢侈品 0.03
 BEGIN Provider
 	Action	        UseFan
 	ProviderType	Object
@@ -3798,7 +3798,7 @@ BEGIN Provider
   ProviderType    Object
   Object          Canvas
   PrimaryNeed     Luxuries
-  PrimaryRate     -0.02000
+  PrimaryRate     -0.03000
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
@@ -3817,7 +3817,7 @@ BEGIN Provider
 END
 #-
 
-#+画布 舒适 0.3 娱乐 0.3 奢侈品 0.01
+#+画布 舒适 0.3 娱乐 0.3 奢侈品 0.02
 BEGIN Provider
 	Action	        PassiveCanvas
 	ProviderType	Object
@@ -3835,7 +3835,7 @@ BEGIN Provider
   ProviderType    Object
   Object          Canvas
   PrimaryNeed     Luxuries
-  PrimaryRate     -0.01000
+  PrimaryRate     -0.02000
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
@@ -3926,13 +3926,13 @@ BEGIN Provider
 END
 #-
 
-#+医药箱 范围 3 酒精 0.05 毒品 0.02
+#+医药箱 范围 3 酒精 0.08 毒品 0.04
 BEGIN Provider
 	Action	        Detox
 	ProviderType	Object
 	Object	        MedicineCabinet
 	PrimaryNeed	    Drugs
-	PrimaryRate	    -0.02
+	PrimaryRate	    -0.4
 	ActionType	    Use
 	Flags           Passive
 	BroadcastRange  3.0
@@ -3942,20 +3942,20 @@ BEGIN Provider
 	ProviderType	Object
 	Object	        MedicineCabinet
 	PrimaryNeed	    Alcohol
-	PrimaryRate	    -0.05
+	PrimaryRate	    -0.08
 	ActionType	    Use
     Flags           Passive
     BroadcastRange  3.0
 END
 #-
 
-#+监控 范围 15 安全 0.05 隐私 0.05
+#+监控 范围 15 安全 0.05 隐私 0.1
 BEGIN Provider
   Action          Cctv
   ProviderType    Object
   Object          Cctv
   PrimaryNeed     Safety
-  PrimaryRate     -0.05
+  PrimaryRate     -0.1
   SecondaryNeed	  Privacy
   SecondaryRate	  0.05
   ActionType      Use
@@ -3963,13 +3963,13 @@ BEGIN Provider
   BroadcastRange  15.0
 END
 #-
-#+监控 范围 15 员工安全 0.05
+#+监控 范围 15 员工安全 0.1
 BEGIN Provider
   Action          Cctv
   ProviderType    Object
   Object          Cctv
   PrimaryNeed     Safety
-  PrimaryRate     -0.05
+  PrimaryRate     -0.1
   ActionType      Use
   Flags           Passive
   BroadcastRange  15

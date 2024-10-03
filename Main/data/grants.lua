@@ -270,7 +270,8 @@ function CreateEducationReformGrant()
 
     Objective.CreateGrant("Grant_EducationReformProgram_GeneralEd", 2000, 3000)
     Objective.SetParent("Grant_EducationReformProgram")
-    Objective.RequireObjects("ReformPassed","FoundationEducation", 5)
+    Objective.Requires("ReformPassed", "GeneralEducation", 5)
+
 end
 
 function CreateReferralReformGrant()

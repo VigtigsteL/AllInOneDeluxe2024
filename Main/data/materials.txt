@@ -5157,7 +5157,6 @@ MadeOf               Composite
 Sprite               d_OutdoorPicnicTable  
 Properties           StaticObject
 Properties           RoomSpecific
-RoomSpecific
 IndoorOutdoor        OutdoorOnly
 VersionAdded		 2000
 END
@@ -5454,7 +5453,6 @@ MadeOf               Composite
 ToolbarSprite        d_ParkBenchToolbar
 Properties           StaticObject
 Properties           RoomSpecific
-RoomSpecific
 VersionAdded		 2000
 END
 #-
@@ -5662,7 +5660,6 @@ MadeOf               HollowMetal
 Properties           StaticObject
 Properties           Window
 Properties           BuiltOnWall
-Properties		 RoomSpecific
 Properties           RoomSpecific
 BEGIN ImprovesRoom	 Room	Cell END
 BEGIN ImprovesRoom	 Room	Classroom END
