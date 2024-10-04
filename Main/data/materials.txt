@@ -10048,7 +10048,7 @@ RotateType 0
 TopAligned false
 END
 MadeOf               Composite
-Properties           Entity
+Properties           StaticObject
 Properties           Staff
 Properties           DontAvoid
 Properties           Scripted
@@ -10075,7 +10075,7 @@ RotateType 0
 TopAligned false
 END
 MadeOf               Composite
-Properties           Entity
+Properties           StaticObject
 Properties           Staff
 Properties           DontAvoid
 Properties           Scripted
