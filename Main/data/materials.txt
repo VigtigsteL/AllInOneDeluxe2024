@@ -7073,7 +7073,6 @@ MoveCost			1.00000
 IndoorOutdoor       1
 Filter				Decoration
 Price				-40
-Properties           RoomSpecific
 SpriteType			AlignedArea
 SoftEdged           -1
 VersionAdded		3000
@@ -17284,7 +17283,6 @@ Name                 Truck
 Cost                 -100
 MaxNumber            100
 Vehicle              SupplyTruck
-Sprite               TruckDriver
 Entity               TruckDriver
 END
 #-
@@ -17295,7 +17293,6 @@ Name                 Hearse
 Cost                 -100
 MaxNumber            100 
 Vehicle              Hearse
-Sprite               Paramedic
 Entity               Paramedic
 END
 #-
