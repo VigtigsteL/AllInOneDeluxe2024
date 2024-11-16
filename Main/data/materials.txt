@@ -14262,7 +14262,7 @@ END
 BEGIN Material   
 Name                 ConcreteWall  
 ConstructionTime     5.00000  
-Price                -30
+Price                -80
 BlockMovement        true  
 BlockVisibility      true  
 MoveCost             0.400000  
@@ -14301,7 +14301,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected
 Properties			 IsFoundationWall	
 NumSprites           1
@@ -14321,7 +14321,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected  
 Properties			 IsFoundationWall
 NumSprites           1
@@ -14341,7 +14341,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected  
 Properties			 IsFoundationWall
 NumSprites           1
@@ -14361,7 +14361,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected
 Properties			 IsFoundationWall	
 NumSprites           1
@@ -14379,7 +14379,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected
 Properties			 IsFoundationWall	
 NumSprites           1
@@ -14397,7 +14397,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected  
 Properties			 IsFoundationWall
 NumSprites           1
@@ -14417,7 +14417,7 @@ ObjectRequired       Brick
 MoveCost             0.400000  
 SoftEdged            -1  
 IndoorOutdoor        0
-Price                -40
+Price                -90
 SpriteType           Connected  
 Properties			 IsFoundationWall
 NumSprites           1
@@ -14435,7 +14435,7 @@ END
 BEGIN Material   
 Name                 BrickWall  
 ConstructionTime     5.00000  
-Price                -50
+Price                -100
 BlockMovement        true  
 BlockVisibility      true  
 MoveCost             0.400000  
@@ -14447,11 +14447,11 @@ BEGIN Sprite0    x 8  y 8  END
 END
 #-
 
-#+墙壁（白色）  $100=90+10
+#+墙壁（白色）  $100
 BEGIN Material   
 Name                 NewBBlockWall  
 ConstructionTime     5.00000  
-Price                -90
+Price                -100
 BlockMovement        true  
 BlockVisibility      true  
 MoveCost             0.400000  
@@ -14465,7 +14465,7 @@ BEGIN Sprite0		 x 0  y 32  END
 END
 #-
 
-#+墙壁（瓷砖） $100=90+10
+#+墙壁（瓷砖） $100
 BEGIN Material   
 Name                 NewTiledWall  
 ConstructionTime     5.00000  
@@ -14473,7 +14473,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected  
 Properties			 IsFoundationWall
@@ -14483,7 +14483,7 @@ BEGIN Sprite0        x 0  y 44  END
 END
 #-
 
-#+墙壁（艺术）  $100=90+10
+#+墙壁（艺术）  $100
 BEGIN Material   
 Name                 ArtDecoWall 
 ConstructionTime     5.00000  
@@ -14491,7 +14491,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected  
 NumSprites           1
@@ -14501,7 +14501,7 @@ BEGIN Sprite0		 x 0  y 48  END
 END
 #-
 
-#+墙壁（日式）  $100=90+10
+#+墙壁（日式）  $100
 BEGIN Material   
 Name                 OrientalWall 
 ConstructionTime     5.00000  
@@ -14509,7 +14509,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected  
 NumSprites           1
@@ -14519,7 +14519,7 @@ BEGIN Sprite0		 x 7  y 60  END
 END
 #-
 
-#+墙壁（科技）  $100=90+10
+#+墙壁（科技）  $100
 BEGIN Material   
 Name                 YutaniWall 
 ConstructionTime     5.00000  
@@ -14527,7 +14527,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected  
 NumSprites           1
@@ -14537,7 +14537,7 @@ BEGIN Sprite0		 x 7  y 44  END
 END
 #-
 
-#+墙壁（木制）  $100=90+10
+#+墙壁（木制）  $100
 BEGIN Material   
 Name                 ReclaimedWoodWall
 ConstructionTime     5.00000  
@@ -14545,7 +14545,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected
 Properties			 IsFoundationWall  
@@ -14557,7 +14557,7 @@ DLC_Replace_Type	 ConcreteWall
 END
 #-
 
-#+墙壁（回收） $100=90+10
+#+墙壁（回收） $100
 BEGIN Material   
 Name                 BottleWall 
 ConstructionTime     5.00000  
@@ -14565,7 +14565,7 @@ BlockMovement        true
 BlockVisibility      true  
 MoveCost             0.400000  
 SoftEdged            -1
-Price                -90
+Price                -100
 ObjectRequired       Concrete  
 SpriteType           Connected  
 Properties			 IsFoundationWall  
@@ -14687,7 +14687,7 @@ BlockVisibility      true
 MoveCost             0.100000
 SoftEdged            -1  
 ObjectRequired       Brick  
-Price                -150
+Price                -200
 IndoorOutdoor        1  
 SpriteType           Connected  
 NumSprites           1
@@ -17799,6 +17799,7 @@ BEGIN LikelyObject  Id    WindowClassyLarge             END
 BEGIN LikelyObject  Id    WorkshopSaw             END
 BEGIN LikelyObject  Id    WorkshopPress             END
 BEGIN LikelyObject  Id    CarpenterTable             END
+BEGIN LikelyObject  Id    PracticeSolarPanel             END
 
 BEGIN LikelyObject  Id    Bin             END
 BEGIN LikelyObject  Id    RecyclingBin             END
