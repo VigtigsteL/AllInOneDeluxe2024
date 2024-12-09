@@ -1,30 +1,26 @@
-[h1][B]　　　　　　当前版本:V2.0.0 | 更新日期:2024.09.12[/B][/h1][hr][/hr][H2]　　　　　　　　　！　感　谢　大　家　的　支　持　！
+[h1][B]　　　　　　当前版本:V2.2.0 | 更新日期:2024.12.10[/B][/h1][hr][/hr][H2]　　　　　　　　　！　感　谢　大　家　的　支　持　！
 本模组已达到：2024年热门模组[B]第1名[/B]、"有史以来"热门模组前[B]60[/B]名！
 [/H2][hr][/hr]
 [H1]本模组是对 [中文豪华版] 基于 <原始模组> 与 <二次开发>
 进行的修复与更新[/H1]
+已获得开发许可，感谢原作者@GrandSong对本模组的肯定
+
 [H1][b]Module now supports "Chinese/English" version!!![/b][/H1]
 [url=steamcommunity.com/workshop/filedetails/discussion/3151283978/4349988265831134188/]Please see the discussion forum for details.[/url]
 
 [H3]本模组已对游戏所有可修改内容，进行全方位的修复与优化，并重新设计与开发诸多功能
-目前工作量已高达 [B]600+小时[/B]，力争成为 [B][U]PA模组最优解[/U][/B][/H3]
+目前工作量已高达 [B]700+小时[/B]，力争成为 [B][U]PA模组最优解[/U][/B][/H3]
 
-[HR][/HR]
-[b][h1]　　　　　　鼓励请点赞，好用请收藏，感谢大家的支持！　　　　　　[/h1][/b]　　　　　　　　　　　[img]https://steamuserimages-a.akamaihd.net/ugc/1814394089131313920/D3E88542AC38D66B46C5A5AEEA936BB5C7A40694/[/img]
-[HR][/HR]
-[h3][b]　　模组概况[/b] 请查看<本模组介绍页面>[b]　　　|　　　更新详情[/b] 请查看<改动说明>[/h3]
-[list]
-[*]已获得开发许可，感谢原作者@GrandSong对本模组的肯定。
-[/list]
-
-[b]感谢@GrandSong和@Yuanze31两位开发者对 PA 社区做出的巨大贡献！[/b]
 [i]如果有任何需要完善的地方、希望更改或添加的功能。
 [u]欢迎大家反馈与讨论。[/u][/i]
-
+[HR][/HR]
+[b][h1]　　　　　　鼓励请点赞，好用请收藏，感谢大家的支持！　　　　　　[/h1][/b]　　　　　　　　　　　[img]https://steamuserimages-a.akamaihd.net/ugc/1814394089131313920/D3E88542AC38D66B46C5A5AEEA936BB5C7A40694/[/img]
 [hr][/hr][h1][b]　　　　　　　　　　重要！修复在大型游戏中，
 　运算性能大幅降低、2~5 秒一次严重卡顿、内存泄漏等严重 Bug！[/b][/h1]
 [hr][/hr]
-[h1][b]　　　　　　　　　　　　　模组概况[/b][/h1]
+[h3][b]　　　模组概况[/b] 请查看<下方介绍>[b]　　　　|　　　更新详情[/b] 请查看<改动说明>[/h3]
+
+[h1][b]　　　　　　　　　　　　　《模组概况》[/b][/h1]
 
 [h2]界面与交互[/h2]
 
@@ -123,10 +119,10 @@
 
 [h3]　改造方案与补助金任务[/h3][list]
 
-[*]优化所有"改造方案"，减少"费用、时间、席位、参加次数"等。
+[*]优化所有"改造方案"的"费用、时间、席位、次数、难度"等。
 [i]　部分课程稍微增加了参与席位，如：行为疗法[/i]
 [i]　　(若要对游戏自带方案进行修改，需要手动放置文件才能生效)[/i]
-[i]　　(使用方法请查看模组Steam页面中的教程)[/i]
+[i]　　(使用方法请查看Steam页面中"改造方案使用说明")[/i]
 
 [*]新增"集体健身、危险座谈"等改造方案。
 
@@ -178,11 +174,12 @@
 [i]　详情查看<员工-工头>[/i]
 [/list]
 
-[hr][/hr][h2][b]再次感谢两位开发者对 PA 社区做出的巨大贡献！[/b][/h2]
+[hr][/hr][h2][b]感谢两位开发者对 PA 社区做出的巨大贡献！[/b][/h2]
 [i]本模组 Github：[u]github.com/VigtigsteL/AllInOneDeluxe2024[/u][/i]
 [list]
 [*][url=steamcommunity.com/sharedfiles/filedetails/?id=821415114]原始模组 | 作者 GrandSong[/url]
 [*][url=steamcommunity.com/sharedfiles/filedetails/?id=2895128242]二次开发 | 作者 yuanze31[/url][/list]
 [hr][/hr][h3]感谢以下玩家提交的反馈与建议！[/h3]
- 军刃血梦|绘心|TheHZDev|1466079333|小馨|mezese|Wilson|Muziyami
- Vulcan-H|fluoswy|Mr1996|小白七|Teruan|DakeBot|PUP-柯基
+ 军刃血梦 | 绘心 | TheHZDev | 1466079333 | 小馨 | mezese | Wilson | Muziyami | Vulcan-H
+ fluoswy | Mr1996 | 小白七 | Teruan | DakeBot | PUP-柯基 | QWQ2023 | Gigadead | 519875800
+ 古月 | 元夜星雨 | Seayi

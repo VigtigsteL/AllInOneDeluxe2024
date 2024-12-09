@@ -1,12 +1,12 @@
-# ==<需求数据>
+# ==<囚犯需求数据>
 # ==已优化格式
-# ==已整合 needs.txt/needs-staff.txt/needs_dlc.txt
+# ==已整合 needs.txt/needs_dlc.txt
+# ==员工需求单独写入needs-staff.txt不可混用
+# ==若将needs-staff.txt内容写入needs.txt，将导致员工需求远程满足
 # ==游戏加载顺序为 needs.txt > needs-staff.txt > needs_dlc.txt > 系统预设
 
 
 #+===============================需求===============================
-
-#+==囚犯
 
 #+膀胱
 BEGIN Need       
@@ -331,172 +331,6 @@ BEGIN Need
     Properties           AutoCharge
 END
 #-
-
-#-==
-
-#+==员工
-
-#+员工小便
-BEGIN Need       
-    Name                 StaffBladder   
-    Priority             9  
-    FailureAction        Urinate 
-    TimeToAction         1200.000  
-    TimeToFailure        1500.000  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               1.00000  
-    Visibility           Visible
-    Properties           AutoCharge
-    Properties           Involuntary
-    Properties           RaisesTemp
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工大便
-BEGIN Need       
-    Name                 StaffBowels  
-    Priority             9   
-    FailureAction        SoilSuit 
-    TimeToAction         1200.000  
-    TimeToFailure        2800.00  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               1.00000  
-    Visibility           Visible
-    Properties           AutoCharge
-    Properties           Involuntary
-    Properties           RaisesTemp
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工食物
-BEGIN Need       
-    Name                 StaffFood  
-    Priority             8   
-    TimeToAction         960.000  
-    TimeToFailure        1440.00  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               1.00000  
-    Visibility           Visible
-    Properties           AutoCharge
-    Properties           RaisesTemp
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工安全
-BEGIN Need       
-    Name                 StaffSafety  
-    Priority             7   
-    TimeToAction         -360.000  
-    TimeToFailure        -360.000  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               0.900000  
-    Visibility           Visible
-    Properties           AutoCharge
-	Properties           RaisesTemp
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工娱乐
-BEGIN Need       
-    Name                 StaffRecreation   
-    Priority             3   
-    TimeToAction         2880.00  
-    TimeToFailure        2880.00  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               0.700000  
-    Visibility           Visible
-    Properties           AutoCharge
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工舒适
-BEGIN Need       
-    Name                 StaffComfort  
-    Priority             5   
-    TimeToAction         1400.000  
-    TimeToFailure        2880.00  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               0.700000  
-    Visibility           Visible
-    Properties           AutoCharge
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工环境
-BEGIN Need       
-    Name                 StaffEnvironment  
-    Priority             5   
-    TimeToAction         1440.000  
-    TimeToFailure        1440.000  
-    StartingActionPoints 33  
-    RandomActionPoints   33  
-    Chance               0.700000  
-    Visibility           Visible
-	GenerationRules		 StaffOnly
-END
-#-
-
-#+员工休息
-BEGIN Need
-    Name                 StaffRest
-    Priority             6
-    TimeToAction         1440.000
-    TimeToFailure        1440.000
-    StartingActionPoints 33
-    RandomActionPoints   33
-    Chance               1.000000
-    Visibility           Visible
-    GenerationRules		 StaffOnly
-    Properties           RaisesTemp
-END
-#-
-
-#+员工温暖
-BEGIN Need
-    Name                    StaffWarmth
-    Priority                4
-    Chance                  1.0
-    TimeToAction            1800.00
-    TimeToFailure           3600.00
-    StartingActionPoints    33
-    RandomActionPoints      33
-    Visibility              Visible
-    Properties              Involuntary
-    Properties              RaisesTemp
-    GenerationRules		    StaffOnly
-END
-#-
-
-#+员工饮水
-BEGIN Need
-	Name                    StaffHydration
-	Priority             	11
-	TimeToAction         	960.000  
-	TimeToFailure        	1440.00  
-	StartingActionPoints 	33  
-	RandomActionPoints   	33  
-	Chance               	1.00000  
-	Visibility           	Visible
-	Properties          	AutoCharge
-	Properties           	RaisesTemp
-	GenerationRules	        StaffRequired
-	GenerationRules	        StaffOnly
-END
-#-
-
-#-==
 
 #-==============================================================
 
@@ -911,18 +745,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+木凳 舒适 0.15
-BEGIN Provider
-  Action          Sit
-  ProviderType  Object
-  Object          WoodenStool
-  Slot          0
-  PrimaryNeed     StaffComfort
-  PrimaryRate     -0.15
-  ActionType      Use
-  Priority        1.5
-END
-#-
 
 #+长凳 舒适 0.2
 BEGIN Provider
@@ -936,44 +758,6 @@ BEGIN Provider
   Priority        1.5
 END
 #-
-#+长凳 员工舒适 0.2
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        Bench
-	Slot	        0
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        Bench
-	Slot	        1
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        Bench
-	Slot	        2
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        Bench
-	Slot	        3
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
 
 #+短凳 舒适 0.2
 BEGIN Provider
@@ -985,26 +769,6 @@ BEGIN Provider
   PrimaryRate     -0.2
   ActionType      Use
   Priority        1.5
-END
-#-
-#+短凳 员工舒适 0.2
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SmallBench
-	Slot	        0
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.200000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SmallBench
-	Slot	        1
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.200000
-	ActionType	    Use
 END
 #-
 
@@ -1028,18 +792,6 @@ BEGIN Provider
   SecondaryNeed   Freedom
   SecondaryRate   -0.1
   ActionType      Use
-END
-#-
-#+课桌 员工舒适 0.2
-BEGIN Provider
-  Action          Sit
-  ProviderType  Object
-  Object          SchoolDesk
-  Slot          0
-  PrimaryNeed     StaffComfort
-  PrimaryRate     -0.2
-  ActionType      Use
-  Priority        0.8
 END
 #-
 
@@ -1068,35 +820,6 @@ BEGIN Provider
 	Object	        OakBench
 	Slot	        2
 	PrimaryNeed	    Comfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
-#+橡木板凳 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        OakBench
-	Slot	        0
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        OakBench
-	Slot	        1
-    PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        OakBench
-	Slot	        2
-    PrimaryNeed	    StaffComfort
 	PrimaryRate	    -0.300000
 	ActionType	    Use
 END
@@ -1197,44 +920,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+餐厅卡座 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DinerBooth
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DinerBooth
-	Slot	        1
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DinerBooth
-	Slot	        2
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DinerBooth
-	Slot	        3
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
 
 #+餐椅 舒适 0.3
 BEGIN Provider
@@ -1243,17 +928,6 @@ BEGIN Provider
 	Object	        DiningChair
 	Slot	        0
 	PrimaryNeed	    Comfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
-#+餐椅 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DiningChair
-	Slot	        0
-	PrimaryNeed	    StaffComfort
 	PrimaryRate	    -0.300000
 	ActionType	    Use
 END
@@ -1316,17 +990,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+办公椅 员工舒适 0.6
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        OfficeChair
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.600000
-	ActionType	    Use
-END
-#-
 
 #+豪华办公桌 奢侈品 0.10
 BEGIN Provider
@@ -1373,17 +1036,7 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+豪华办公椅 员工舒适 0.8
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        OfficeChair
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.800000
-	ActionType	    Use
-END
-#-
+
 #+豪华落地灯 奢侈品 0.06
 BEGIN Provider
   Action          Luxuries
@@ -1436,17 +1089,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+金属凳 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        MetalStool
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
 
 #+竹凳 舒适 0.3
 BEGIN Provider
@@ -1486,44 +1128,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+竹凳 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        JungleBench
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        JungleBench
-	Slot	        1
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        JungleBench
-	Slot	        2
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        JungleBench
-	Slot	        3
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
 
 #+皮革椅 舒适 0.5
 BEGIN Provider
@@ -1536,17 +1140,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+皮革椅 舒适 0.5
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        LeatherChair
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.500000
-	ActionType	    Use
-END
-#-
 
 #+折叠躺椅 舒适 0.5
 BEGIN Provider
@@ -1555,17 +1148,6 @@ BEGIN Provider
 	Object	        DeckChair
 	Slot	        0
 	PrimaryNeed	    Comfort
-	PrimaryRate	    -0.500000
-	ActionType	    Use
-END
-#-
-#+折叠躺椅 舒适 0.5
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        DeckChair
-	Slot	        0
-	PrimaryNeed	    StaffComfort
 	PrimaryRate	    -0.500000
 	ActionType	    Use
 END
@@ -1699,17 +1281,6 @@ BEGIN Provider
 	Priority        1.5
 END
 #-
-#+椅子（蓝） 员工舒适 0.3
-BEGIN Provider
-  Action          Sit
-  ProviderType	  Object
-  Object          Chair
-  Slot      	  0
-  PrimaryNeed     StaffComfort
-  PrimaryRate     -0.3
-  ActionType      Use
-END
-#-
 
 #+椅子（黄） 舒适 0.3
 BEGIN Provider
@@ -1718,17 +1289,6 @@ BEGIN Provider
 	Object	        ChairYellow
 	Slot	        0
 	PrimaryNeed	    Comfort
-	PrimaryRate	    -0.300000
-	ActionType	    Use
-END
-#-
-#+椅子（黄） 员工舒适 0.3
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        ChairYellow
-	Slot	        0
-	PrimaryNeed	    StaffComfort
 	PrimaryRate	    -0.300000
 	ActionType	    Use
 END
@@ -1753,17 +1313,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+沙发蓝短 员工舒适 0.7
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairSingle
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
 END
 #-
 
@@ -1797,26 +1346,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+沙发蓝长 员工舒适 0.7
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairDouble
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairDouble
-	Slot	        1
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
-END
-#-
 
 #+沙发棕短 舒适 0.7 奢侈品 0.09
 BEGIN Provider
@@ -1837,17 +1366,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+沙发棕短 员工舒适 0.7
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairBrown
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
 END
 #-
 
@@ -1879,26 +1397,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+沙发棕长 员工舒适 0.7
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairDoubleBrown
-	Slot	        0
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        Sit
-	ProviderType	Object
-	Object	        SofaChairDoubleBrown
-	Slot	        1
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.700000
-	ActionType	    Use
 END
 #-
 
@@ -1943,29 +1441,6 @@ BEGIN Provider
 	Flags	        UsesEntireObject
 END
 #-
-#+厕所 员工大便 5.0 / 10.0 | 员工小便 10.0 / 5.0
-BEGIN Provider
-	Action          Poo
-	ProviderType	Object
-	Object	        Toilet
-	PrimaryNeed	    StaffBowels
-	PrimaryRate	    -5.00000
-	SecondaryNeed	StaffBladder
-	SecondaryRate	-10.0000
-	ActionType	    Use
-END
-
-BEGIN Provider
-	Action	        Wee
-	ProviderType	Object
-	Object	        Toilet
-	PrimaryNeed	    StaffBladder
-	PrimaryRate	    -10.0000
-	SecondaryNeed	StaffBowels
-	SecondaryRate	-5.00000
-	ActionType	    Use
-END
-#-
 
 #+花洒喷头 卫生 5.0
 BEGIN Provider
@@ -1999,17 +1474,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+干手机 优先级 0.8 员工环境 0.1
-BEGIN Provider
-	Action	        WashSmall
-	ProviderType	Object
-	Object	        BathroomHandDryer
-	PrimaryNeed	    StaffEnvironment
-	PrimaryRate	    -0.1
-	ActionType	    Use
-	Priority        0.8
-END
-#-
 
 #+洗手池 优先级 0.9 卫生 0.3
 BEGIN Provider
@@ -2019,18 +1483,6 @@ BEGIN Provider
   Slot            0
   PrimaryNeed     Hygiene
   PrimaryRate     -0.4
-  ActionType      Use
-  Priority        0.9
-END
-#-
-#+洗手池 优先级 0.9 员工环境 0.15
-BEGIN Provider
-  Action          WashingHand
-  ProviderType    Object
-  Object          PersonalSink
-  Slot            0
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.2
   ActionType      Use
   Priority        0.9
 END
@@ -2049,19 +1501,6 @@ BEGIN Provider
 END
 
 #-
-#+洗手池大 优先级 0.9 员工环境 0.2
-BEGIN Provider
-  Action          WashingHand
-  ProviderType    Object
-  Object          BathroomSink
-  Slot            0
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.15
-  ActionType      Use
-  Priority        0.9
-END
-
-#-
 
 #+洗手池和镜子 优先级 0.9 卫生 0.5
 BEGIN Provider
@@ -2071,18 +1510,6 @@ BEGIN Provider
   Slot            0
   PrimaryNeed     Hygiene
   PrimaryRate     -0.5
-  ActionType      Use
-  Priority        0.9
-END
-#-
-#+洗手池和镜子 优先级 0.9 员工环境 0.25
-BEGIN Provider
-  Action          WashingHand
-  ProviderType    Object
-  Object          SinkMirror
-  Slot            0
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.25
   ActionType      Use
   Priority        0.9
 END
@@ -2104,18 +1531,6 @@ BEGIN Provider
   BroadcastRange  6
 END
 #-
-#+垃圾桶 范围 6 员工环境 0.05
-BEGIN Provider
-  Action          KeepTidy
-  ProviderType    Object
-  Object          Bin
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.05000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
 
 #+可回收垃圾桶 范围 6 环境 0.05
 BEGIN Provider
@@ -2123,18 +1538,6 @@ BEGIN Provider
   ProviderType    Object
   Object          RecyclingBin
   PrimaryNeed     Environment
-  PrimaryRate     -0.05000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
-#+可回收垃圾桶 范围 6 员工环境 0.05
-BEGIN Provider
-  Action          KeepTidy
-  ProviderType    Object
-  Object          RecyclingBin
-  PrimaryNeed     StaffEnvironment
   PrimaryRate     -0.05000
   ActionType      Use
   Flags           Passive
@@ -2154,18 +1557,6 @@ BEGIN Provider
   BroadcastRange  5
 END
 #-
-#+植物 范围 5 员工环境 0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          Plant
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.02000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  5
-END
-#-
 
 #+仙人掌 范围 5 环境 0.02
 BEGIN Provider
@@ -2173,18 +1564,6 @@ BEGIN Provider
   ProviderType    Object
   Object          Plantcactus
   PrimaryNeed     Environment
-  PrimaryRate     -0.02000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  5
-END
-#-
-#+仙人掌 范围 5 员工环境 0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          Plantcactus
-  PrimaryNeed     StaffEnvironment
   PrimaryRate     -0.02000
   ActionType      Use
   Flags           Passive
@@ -2204,18 +1583,6 @@ BEGIN Provider
   BroadcastRange  5
 END
 #-
-#+灌木 范围 5 员工环境 0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          Bush
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.02000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  5
-END
-#-
 
 #+灌木树篱 范围 5 环境 0.02
 BEGIN Provider
@@ -2229,18 +1596,6 @@ BEGIN Provider
   BroadcastRange  5
 END
 #-
-#+灌木树篱 范围 5 员工环境 0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          Ivy
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.02000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  5
-END
-#-
 
 #+常春藤 范围 5 环境 0.02
 BEGIN Provider
@@ -2248,18 +1603,6 @@ BEGIN Provider
   ProviderType    Object
   Object          Bush
   PrimaryNeed     Environment
-  PrimaryRate     -0.02000
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  5
-END
-#-
-#+常春藤 范围 5 环境 0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          Bush
-  PrimaryNeed     StaffEnvironment
   PrimaryRate     -0.02000
   ActionType      Use
   Flags           Passive
@@ -2281,18 +1624,6 @@ BEGIN Provider
   BroadcastRange  6
 END
 #-
-#+树 员工环境 0.02
-BEGIN Provider
-  Action          TouchNature
-  ProviderType    Object
-  Object          Tree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.02
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
 
 #+雪松树 自由 0.15 环境 0.03
 BEGIN Provider
@@ -2303,18 +1634,6 @@ BEGIN Provider
   PrimaryRate     -0.15
   SecondaryNeed   Environment
   SecondaryRate   -0.03
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
-#+雪松树 员工环境 0.03
-BEGIN Provider
-  Action          TouchNature
-  ProviderType    Object
-  Object          SnowyConiferTree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.03
   ActionType      Use
   Flags           Passive
   BroadcastRange  6
@@ -2335,18 +1654,6 @@ BEGIN Provider
   BroadcastRange  6
 END
 #-
-#+棕榈树 员工环境 0.03
-BEGIN Provider
-  Action          TouchNature
-  ProviderType    Object
-  Object          PalmTree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.03
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
 
 #+柳树 自由 0.2 环境 0.04
 BEGIN Provider
@@ -2357,18 +1664,6 @@ BEGIN Provider
   PrimaryRate     -0.2
   SecondaryNeed   Environment
   SecondaryRate   -0.04
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
-#+柳树 员工环境 0.04
-BEGIN Provider
-  Action          TouchNature
-  ProviderType    Object
-  Object          WillowTree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.04
   ActionType      Use
   Flags           Passive
   BroadcastRange  6
@@ -2389,18 +1684,6 @@ BEGIN Provider
   BroadcastRange  6
 END
 #-
-#+樱花树 员工环境 0.04
-BEGIN Provider
-  Action          TouchNature
-  ProviderType    Object
-  Object          SakuraTree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     -0.04
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
 
 #+阴森树 自由 -0.1 环境 -0.02
 BEGIN Provider
@@ -2411,18 +1694,6 @@ BEGIN Provider
   PrimaryRate     0.1
   SecondaryNeed   Environment
   SecondaryRate   0.02
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  6
-END
-#-
-#+阴森树 员工环境 -0.02
-BEGIN Provider
-  Action          Plant
-  ProviderType    Object
-  Object          spookytree
-  PrimaryNeed     StaffEnvironment
-  PrimaryRate     0.02
   ActionType      Use
   Flags           Passive
   BroadcastRange  6
@@ -2490,53 +1761,6 @@ BEGIN Provider
 	ActionType	    Eat
 END
 #-
-#+配餐桌 员工食物*
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        ServingTable
-	Slot	        0
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        ServingTable
-	Slot	        1
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        ServingTable
-	Slot	        2
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        ServingTable
-	Slot	        3
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        ServingTable
-	Slot	        4
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-#-
 
 #+配餐桌（小） 食物*
 BEGIN Provider
@@ -2573,35 +1797,6 @@ BEGIN Provider
 	ActionType	    Eat
 END
 #-
-#+配餐桌（小） 员工食物 20.0
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        SmallServingTable
-	Slot	        0
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        SmallServingTable
-	Slot	        1
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        SmallServingTable
-	Slot	        2
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -20.000000
-	ActionType	    Eat
-END
-#-
 
 #+竹制配餐桌 食物*
 BEGIN Provider
@@ -2656,63 +1851,6 @@ BEGIN Provider
 	Regime	        Eat
 	Regime	        EatLockdown
 	PrimaryNeed	    Food
-	PrimaryRate	    0.000000
-	ActionType	    Eat
-END
-#-
-#+竹制配餐桌 食物*
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        JungleServingTable
-	Slot	        0
-	Regime	        Eat
-	Regime	        EatLockdown
-	PrimaryNeed	    StaffFood
-	PrimaryRate	    0.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        JungleServingTable
-	Slot	        1
-	Regime	        Eat
-	Regime	        EatLockdown
-	PrimaryNeed	    StaffFood
-	PrimaryRate	    0.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        JungleServingTable
-	Slot	        2
-	Regime	        Eat
-	Regime	        EatLockdown
-	PrimaryNeed	    StaffFood
-	PrimaryRate	    0.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        JungleServingTable
-	Slot	        3
-	Regime	        Eat
-	Regime	        EatLockdown
-	PrimaryNeed	    StaffFood
-	PrimaryRate	    0.000000
-	ActionType	    Eat
-END
-BEGIN Provider
-	Action	        GetMeal
-	ProviderType	Object
-	Object	        JungleServingTable
-	Slot	        4
-	Regime	        Eat
-	Regime	        EatLockdown
-	PrimaryNeed	    StaffFood
 	PrimaryRate	    0.000000
 	ActionType	    Eat
 END
@@ -2729,17 +1867,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+零食贩卖机 员工食物 10.0
-BEGIN Provider
-	Action	        GetSnack
-	ProviderType	Object
-	Object	        SnackMachine
-    PrimaryNeed	    StaffFood
-	PrimaryRate	    -10.000000
-	ActionType	    Use
-	Flags	        Shareable
-END
-#-
 
 #+饮水机 饮水 20.0 小便 -7.0
 BEGIN Provider
@@ -2750,20 +1877,6 @@ BEGIN Provider
 	PrimaryNeed	    Hydration
 	PrimaryRate	    -20.00000
 	SecondaryNeed	Bladder
-	SecondaryRate	7.00000
-	ActionType	    Use
-	Flags           NoRoomRequired
-END
-#-
-#+饮水机 员工饮水 20.0 员工小便 -7.0
-BEGIN Provider
-	Action	        Drink
-	ProviderType	Object
-	Object	        WaterCooler
-	Slot	        -1
-	PrimaryNeed	    StaffHydration
-	PrimaryRate	    -20.00000
-	SecondaryNeed	StaffBladder
 	SecondaryRate	7.00000
 	ActionType	    Use
 	Flags           NoRoomRequired
@@ -2784,20 +1897,6 @@ BEGIN Provider
 	Flags           NoRoomRequired
 END
 #-
-#+壁挂饮水机 员工饮水 20.0 员工小便 -7.0
-BEGIN Provider
-	Action	        Drink
-	ProviderType	Object
-	Object	        DrinkingFountain
-	Slot	        -1
-	PrimaryNeed	    StaffHydration
-	PrimaryRate	    -20.00000
-	SecondaryNeed	StaffBladder
-	SecondaryRate	7.00000
-	ActionType	    Use
-	Flags           NoRoomRequired
-END
-#-
 
 #+饮料贩卖机 饮水 15.0 小便 -5.0
 BEGIN Provider
@@ -2811,34 +1910,6 @@ BEGIN Provider
 	SecondaryRate	5.00000
 	ActionType	    Use
 	Flags           NoRoomRequired
-END
-#-
-#+饮料贩卖机 员工饮水 15.0 员工小便 -5.0
-BEGIN Provider
-	Action	        Drink
-	ProviderType	Object
-	Object	        DrinkMachine
-	Slot	        -1
-	PrimaryNeed	    StaffHydration
-	PrimaryRate	    -15.00000
-	SecondaryNeed	StaffBladder
-	SecondaryRate	5.00000
-	ActionType	    Use
-	Flags           NoRoomRequired
-END
-#-
-
-#+咖啡机 员工饮水 10.0 员工休息 3.0
-BEGIN Provider
-	Action	        Drink
-	ProviderType	Object
-	Object	        CoffeeMachine
-	Slot	        -1
-	PrimaryNeed	    StaffHydration
-	PrimaryRate	    -10.00000
-	SecondaryNeed	StaffRest
-	SecondaryRate	3.00000
-	ActionType	    Use
 END
 #-
 
@@ -2858,17 +1929,6 @@ BEGIN Provider
 	Flags	        RequireNotShackled
 END
 #-
-#+举重床 员工娱乐 3.0
-BEGIN Provider
-	Action	        LiftWeights
-	ProviderType	Object
-	Object	        WeightsBench
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
-	ActionType	    Use
-END
-#-
 
 #+哑铃架 锻炼 3.0
 BEGIN Provider
@@ -2881,17 +1941,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+哑铃架 员工娱乐 3.0
-BEGIN Provider
-	Action	        LiftWeights
-	ProviderType	Object
-	Object	        DumbbellRack
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
-	ActionType	    Use
-END
-#-
 
 #+健身垫 锻炼 1.5
 BEGIN Provider
@@ -2900,17 +1949,6 @@ BEGIN Provider
 	Object	        GymMat
 	Slot	        0
 	PrimaryNeed	    Exercise
-	PrimaryRate	    -1.50000
-	ActionType	    Use
-END
-#-
-#+健身垫 员工娱乐 1.5
-BEGIN Provider
-	Action	        Stretching
-	ProviderType	Object
-	Object	        GymMat
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
 	PrimaryRate	    -1.50000
 	ActionType	    Use
 END
@@ -2937,17 +1975,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+跑步机 员工娱乐 3.0
-BEGIN Provider
-	Action	        RunTreadmill
-	ProviderType	Object
-	Object	        Treadmill
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
-	ActionType	    Use
-END
-#-
 
 #+沙袋 锻炼 2.0
 BEGIN Provider
@@ -2969,26 +1996,6 @@ BEGIN Provider
 	ActionType	    Use
 END
 #-
-#+沙袋 员工娱乐 2.0
-BEGIN Provider
-	Action	        PunchingBag
-	ProviderType	Object
-	Object	        PunchBag
-	Slot            0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        PunchingBag
-	ProviderType	Object
-	Object	        PunchBag
-	Slot            1
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	ActionType	    Use
-END
-#-
 
 #+木人桩 锻炼 2.0
 BEGIN Provider
@@ -2997,17 +2004,6 @@ BEGIN Provider
 	Object	        TrainingDummy
 	Slot	        0
 	PrimaryNeed	    Exercise
-	PrimaryRate	    -2.00000
-	ActionType	    Use
-END
-#-
-#+木人桩 员工娱乐 2.0
-BEGIN Provider
-	Action	        UseDummy
-	ProviderType	Object
-	Object	        TrainingDummy
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
 	PrimaryRate	    -2.00000
 	ActionType	    Use
 END
@@ -3034,17 +2030,6 @@ BEGIN Provider
 	PrimaryRate	    -4.00000
 	SecondaryNeed    Recreation
 	SecondaryRate    -3.00000
-	ActionType	    Use
-END
-#-
-#+拳击台 员工娱乐 3.0
-BEGIN Provider
-	Action	        Fight
-	ProviderType	Object
-	Object	        BoxingRing
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
 	ActionType	    Use
 END
 #-
@@ -3177,18 +2162,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+收音机 范围 20 员工娱乐 0.1
-BEGIN Provider
-  Action          ListenToRadio_Modified
-  ProviderType    Object
-  Object          Radio
-  PrimaryNeed     StaffRecreation
-  PrimaryRate     -0.1
-  ActionType      Use
-  Flags           Passive
-  BroadcastRange  20
-END
-#-
 
 #+扬声器 范围 25 娱乐 0.08 奢侈品 0.02
 BEGIN Provider
@@ -3210,18 +2183,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+扬声器 范围 25 员工娱乐 0.08
-BEGIN Provider
-	Action	        ListenToRadio
-	ProviderType	Object
-	Object	        BoomBoxRoundhouse
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -0.08000	
-	ActionType	    Use
-    Flags           Passive
-    BroadcastRange  25.0
 END
 #-
 
@@ -3263,34 +2224,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+电视 广播 3 员工娱乐 2.0 员工舒适 0.2
-BEGIN Provider
-	Action	        WatchTv
-	ProviderType	Object
-	Object	        Tv
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.200000
-	ActionType	    Use
-    BroadcastType   Sit
-    BroadcastRange  3.0
-    Flags           Broadcaster
-END
-BEGIN Provider
-	Action	        WatchTv
-	ProviderType	Object
-	Object	        Tv
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.200000
-	ActionType	    Use
-    BroadcastType   Relax
-    BroadcastRange  3.0
-    Flags           Broadcaster
-END
-#-
 
 #+大电视 广播 7 娱乐 2.0 舒适 0.25 奢侈品 0.06
 BEGIN Provider
@@ -3330,34 +2263,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+大电视 广播 7 员工娱乐 2.0 员工舒适 0.25
-BEGIN Provider
-	Action	        WatchTv
-	ProviderType	Object
-	Object	        LargeTv
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.250000
-	ActionType	    Use
-    BroadcastType   Sit
-    BroadcastRange  7.0
-    Flags           Broadcaster
-END
-BEGIN Provider
-	Action	        WatchTv
-	ProviderType	Object
-	Object	        LargeTv
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.250000
-	ActionType	    Use
-    BroadcastType   Relax
-    BroadcastRange  7.0
-    Flags           Broadcaster
-END
-#-
 
 #+国际象棋 娱乐 2.5	奢侈品 0.01
 BEGIN Provider
@@ -3387,26 +2292,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+国际象棋 员工娱乐 2.5
-BEGIN Provider
-	Action	        PlayChess
-	ProviderType	Object
-	Object	        ChessTable
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.50000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        PlayChess
-	ProviderType	Object
-	Object	        ChessTable
-	Slot	        1
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -2.50000
-	ActionType	    Use
 END
 #-
 
@@ -3444,30 +2329,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+街机 员工娱乐 3.0 员工舒适 0.2
-BEGIN Provider
-	Action	        PlayingGame
-	ProviderType	Object
-	Object	        ArcadeCabinet
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.200000
-	ActionType	    Use
-    Slot            0
-END
-BEGIN Provider
-	Action	        PlayingGame
-	ProviderType	Object
-	Object	        ArcadeCabinet
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.200000
-	ActionType	    Use
-    Slot            1
-END
-#-
 
 #+台球桌 娱乐 3.5 奢侈品 0.05
 BEGIN Provider
@@ -3497,26 +2358,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+台球桌 员工娱乐 3.5
-BEGIN Provider
-	Action	        PlayPool
-	ProviderType	Object
-	Object	        PoolTable
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        PlayPool
-	ProviderType	Object
-	Object	        PoolTable
-	Slot	        1
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
 END
 #-
 
@@ -3550,26 +2391,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+乒乓球 员工娱乐 3.5
-BEGIN Provider
-	Action	        PlayTableTennis
-	ProviderType	Object
-	Object	        TableTennis
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        PlayTableTennis
-	ProviderType	Object
-	Object	        TableTennis
-	Slot	        1
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
-END
-#-
 
 #+桌上足球 娱乐 3.5 奢侈品 0.05
 BEGIN Provider
@@ -3599,26 +2420,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+桌上足球 员工娱乐 3.5
-BEGIN Provider
-	Action	        PlayTableFootball
-	ProviderType	Object
-	Object	        TableFootball
-	Slot	        0
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
-END
-BEGIN Provider
-	Action	        PlayTableFootball
-	ProviderType	Object
-	Object	        TableFootball
-	Slot	        1
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -3.50000
-	ActionType	    Use
 END
 #-
 
@@ -3712,18 +2513,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+计算机 员工娱乐 1.0 舒适 0.2
-BEGIN Provider
-	Action	        UseComputer
-	ProviderType	Object
-	Object	        ComputerStation
-	PrimaryNeed	    StaffRecreation
-	PrimaryRate	    -1.00000
-	SecondaryNeed	StaffComfort
-	SecondaryRate	-0.200000
-	ActionType	    Use
-END
-#-
 
 #+教堂长凳 宗教 0.3
 BEGIN Provider
@@ -3804,18 +2593,6 @@ BEGIN Provider
   BroadcastRange  1
 END
 #-
-#+风扇 范围 5 员工舒适 0.05
-BEGIN Provider
-	Action	        UseFan
-	ProviderType	Object
-	Object	        Fan
-	PrimaryNeed	    StaffComfort
-	PrimaryRate	    -0.05000
-	ActionType	    Use
-    Flags           Passive
-    BroadcastRange  5.0
-END
-#-
 
 #+画布 舒适 0.3 娱乐 0.3 奢侈品 0.02
 BEGIN Provider
@@ -3839,67 +2616,6 @@ BEGIN Provider
   ActionType      Use
   Flags           Passive
   BroadcastRange  1
-END
-#-
-#+画布 员工舒适 0.3 员工娱乐 0.3
-BEGIN Provider
-	Action	        PassiveCanvas
-	ProviderType	Object
-	Object	        Canvas
-	PrimaryNeed		StaffComfort
-	PrimaryRate		-0.300000
-	SecondaryNeed	StaffRecreation
-	SecondaryRate	-0.300000
-	ActionType		Use
-   	Flags           Passive
-    BroadcastRange  3.0
-END
-#-
-
-#+宠物鸟 范围 5 家庭 0.15 舒适 0.10 / 范围 3 奢侈品 0.15
-BEGIN Provider
-	Action			ListenToBird
-	ProviderType	Object
-	Object			PetBird
-	PrimaryNeed		Family
-	PrimaryRate	    -0.15000
-	SecondaryNeed	Comfort
-	SecondaryRate	-0.10000
-	ActionType		Use
-	Flags           Passive
-	BroadcastRange  5.0
-END
-BEGIN Provider
-	Action			ListenToBird
-	ProviderType	Object
-	Object			PetBird
-	PrimaryNeed		StaffComfort
-	PrimaryRate	    -0.10000
-	ActionType		Use
-	Flags           Passive
-	BroadcastRange  5.0
-END
-BEGIN Provider
-	Action			ListenToBirdTwo
-	ProviderType	Object
-	Object			PetBird
-	PrimaryNeed		Luxuries
-	PrimaryRate	    -0.15000
-	ActionType		Use
-	Flags           Passive
-	BroadcastRange  3.0
-END
-#-
-#+宠物鸟 范围 5 员工舒适 0.1
-BEGIN Provider
-	Action			ListenToBird
-	ProviderType	Object
-	Object			PetBird
-	PrimaryNeed		StaffComfort
-	PrimaryRate	    -0.1
-	ActionType		Use
-	Flags           Passive
-	BroadcastRange  5.0
 END
 #-
 

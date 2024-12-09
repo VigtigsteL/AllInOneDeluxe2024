@@ -3,8 +3,8 @@ Name                 "[中文豪华版2024]AllInOne2024 - Vigtigste"
 Author               Vigtigste  
 Description          "本次模组是对[中文豪华版]基于<原始模组>与<二次开发>\r\n\r进行的修复与更新。\r\n\r\n本模组已对游戏所有可修改内容，进行全方位的修复与优化，并重新设计与开发诸多功能。\r\n\r\n目前工作量已高达 600 + 小时，力争成为 PA 模组最优解！\r\n\r\n本模组已达到：\r\n<2024 年热门模组>第 1 名！\r\n<有史以来 热门模组>前 60 名！\r\n\r\n\r\n\r\n[更多详细信息请查阅模组页面]"  
 IsTranslation        true  
-Version              V2.1.6  
-Date                 2024/11/16 
+Version              V2.2.0  
+Date                 2024/12/10  
 URL                  https://github.com/VigtigsteL/AllInOneDeluxe2024  
 FileID               F3151283978  
 SteamAuthor          A76561198151725088  
