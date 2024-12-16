@@ -8487,7 +8487,7 @@ job_searchobject	搜查 *X
 job_searchentity	搜查囚犯
 job_searchingentity	正在搜查囚犯
 job_searchcell	搜查牢房
-job_searchcellblock	搜查牢房区域
+job_searchcellblock	搜查当前区域
 job_searchtoilets	搜查马桶
 job_improvecellindoor	清理室内区域
 job_improvecelloutdoor	照料户外植物

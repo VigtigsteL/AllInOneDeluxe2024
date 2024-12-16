@@ -31,16 +31,6 @@ BEGIN Canvas
     HEIGHT      Scaled          2125
 END
 
-
-
-BEGIN Custom
-    NAME        Age
-    XPOS        Scaled          4109
-    YPOS        Scaled          1410
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          250
-END
-
 BEGIN Custom
     NAME        Insanity
     XPOS        Scaled          4109
@@ -56,64 +46,6 @@ BEGIN Custom
     WIDTH       Scaled          2333
     HEIGHT      Scaled          250
 END
-
-
-BEGIN DropDownMenu
-    NAME        CategoryDropDown
-    XPOS        Scaled          4109
-    YPOS        Scaled          2334
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-
-
-BEGIN DropDownMenu
-    NAME        Action
-    XPOS        Scaled          4109
-    YPOS        Scaled          3200
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-
-BEGIN Button
-    NAME        EndPunishment
-    CAPTION     punish_end
-    XPOS        Scaled          4109
-    YPOS        Scaled          2767
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-BEGIN Button
-    NAME        Search
-    CAPTION     job_searchentity
-    XPOS        Scaled          6568
-    YPOS        Scaled          2334
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-BEGIN Button
-    NAME        SearchCell
-    CAPTION     job_searchcell
-    XPOS        Scaled          6568
-    YPOS        Scaled          2767
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-BEGIN Button
-    NAME        SearchCellBlock
-    CAPTION     job_searchcellblock
-    XPOS        Scaled          6568
-    YPOS        Scaled          3200
-    WIDTH       Scaled          2333
-    HEIGHT      Scaled          333
-END
-
-
 
 BEGIN Custom
     NAME        BioTitle
@@ -148,10 +80,6 @@ BEGIN Canvas
     HEIGHT      Scaled          1800
 END
 
-
-
-
-
 BEGIN Custom
     NAME        ConvictionTitle
     CAPTION     rapsheet_convictions
@@ -185,18 +113,97 @@ BEGIN Button
     HEIGHT      Scaled          380
 END
 
-
-
-
-
-
-
-
-
 BEGIN Custom
     NAME        Traits
     XPOS        Scaled          1108
     YPOS        Scaled          5000
     WIDTH       Scaled          8000
     HEIGHT      Scaled          250
+END
+
+#年龄
+BEGIN Custom
+    NAME        Age
+    XPOS        Scaled          4300
+    YPOS        Scaled          1400
+    WIDTH       Scaled          2300
+    HEIGHT      Scaled          320
+END
+
+#囚犯类别
+BEGIN DropDownMenu
+    NAME        CategoryDropDown
+    XPOS        Scaled          6700
+    YPOS        Scaled          1400
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#分配警卫
+BEGIN Button
+    NAME        AssignGuard
+    CAPTION     rapsheet_assignguard
+    XPOS        Scaled          4200
+    YPOS        Scaled          2300
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#处置
+BEGIN DropDownMenu
+    NAME        Action
+    XPOS        Scaled          4200
+    YPOS        Scaled          2750
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#结束惩罚
+BEGIN Button
+    NAME        EndPunishment
+    CAPTION     punish_end
+    XPOS        Scaled          4200
+    YPOS        Scaled          3200
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#更换牢房
+BEGIN DropDownMenu
+    NAME        ChangeCell
+    CAPTION     rapsheet_ChangeCell
+    XPOS        Scaled          4200
+    YPOS        Scaled          3200
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#搜索囚犯
+BEGIN Button
+    NAME        Search
+    CAPTION     job_searchentity
+    XPOS        Scaled          6700
+    YPOS        Scaled          2300
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#搜查牢房
+BEGIN Button
+    NAME        SearchCell
+    CAPTION     job_searchcell
+    XPOS        Scaled          6700
+    YPOS        Scaled          2750
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
+END
+
+#搜搜查分区
+BEGIN Button
+    NAME        SearchCellBlock
+    CAPTION     job_searchcellblock
+    XPOS        Scaled          6700
+    YPOS        Scaled          3200
+    WIDTH       Scaled          2200
+    HEIGHT      Scaled          350
 END
