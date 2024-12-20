@@ -177,7 +177,7 @@ buildtoolbar_deployment_accessonly	囚犯和员工会尽可能地避开此区域
 buildtoolbar_deployment_prisonerdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示你的囚犯们朝哪个方向走。\n有助于控制监狱中的人流。
 buildtoolbar_deployment_staffdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示非囚犯人员朝哪个方向走。\n有助于控制监狱中的人流。
 
-buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。
+buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。\n\n可使用右键旋转或按F翻转。
 
 # The ~ and ^ characters in front of some of the lines in the buildtoolbar_popup_help section are colour codes and should be preserved during translation
 
@@ -457,7 +457,7 @@ object_playmat					玩耍垫
 object_waterboiler				锅炉
 object_pipehotwater				热水管
 object_stafffood				员工餐
-object_stafffoodboxed			员工餐
+object_stafffoodboxed			员工餐(箱)
 object_newspaper				报纸
 object_strikefire				抗议之火
 object_Limo						轿车\n(剧情用)
@@ -6883,23 +6883,29 @@ object_jaildoor					᠎监狱门-᠎小
 object_jaildoorlarge			᠎监狱门-中
 object_jaildoorXL 				᠎监狱门-大
 
-object_jaildoorgrey				 监狱门-小\n   （低戒备）   
-object_jaildoororange			 监狱门-小\n  （中戒备）  
-object_jaildoorred				 监狱门-小\n （高戒备） 
-object_jaildoorYellow			 监狱门-小\n（黄色）
-object_JailDoorWhite			 监狱门-小\n（白色）
+object_jaildoorgrey				 监狱门-小\n    （低戒备）    
+object_jaildoororange			 监狱门-小\n   （中戒备）   
+object_jaildoorred				 监狱门-小\n  （高戒备）  
+object_JailDoorDarkRed			 监狱门-小\n （超高戒备） 
+object_jaildoorYellow			 监狱门-小\n（重点保护）
+object_JailDoorWhite			 监狱门-小\n（精神病犯）
+object_JailDoorBlack			 监狱门-小\n（死刑犯）
 
-object_jaildoorlargegrey		 监狱门-中\n   （低戒备）   
-object_jaildoorlargeorange		 监狱门-中\n  （中戒备）  
-object_jaildoorlargered			 监狱门-中\n （高戒备） 
-object_jaildoorlargeyellow		 监狱门-中\n（黄色）
-object_JailDoorLargeWhite		 监狱门-中\n（白色）
+object_jaildoorlargegrey		 监狱门-中\n    （低戒备）    
+object_jaildoorlargeorange		 监狱门-中\n   （中戒备）   
+object_jaildoorlargered			 监狱门-中\n  （高戒备）  
+object_JailDoorLargeDarkRed		 监狱门-中\n （超高戒备） 
+object_jaildoorlargeyellow		 监狱门-中\n（重点保护）
+object_JailDoorLargeWhite		 监狱门-中\n（精神病犯）
+object_JailDoorLargeBlack		 监狱门-中\n（死刑犯）
 
-object_jaildoorgreyXL			 监狱门-大\n   （低戒备）   
-object_jaildoororangeXL			 监狱门-大\n  （中戒备）  
-object_jaildoorredXL			 监狱门-大\n （高戒备） 
-object_jaildoorYellowXL			 监狱门-大\n（黄色）
-object_JailDoorWhiteXL			 监狱门-大\n（白色）
+object_jaildoorgreyXL			 监狱门-大\n    （低戒备）    
+object_jaildoororangeXL			 监狱门-大\n   （中戒备）   
+object_jaildoorredXL			 监狱门-大\n  （高戒备）  
+object_JailDoorDarkRedXL		 监狱门-大\n  （超高戒备） 
+object_jaildoorYellowXL			 监狱门-大\n（重点保护）
+object_JailDoorWhiteXL			 监狱门-大\n（精神病犯）
+object_JailDoorBlackXL			 监狱门-大\n（死刑犯）
 
 object_solitarydoor				 安全门
 object_securedoor				 禁闭安全门
@@ -6939,18 +6945,25 @@ buildtoolbar_popup_obj_jaildoorXL				大型监狱门，把囚犯关在他们该�
 buildtoolbar_popup_obj_jaildoorgrey				小型彩色监狱门，有助于标记低戒备囚犯牢房。
 buildtoolbar_popup_obj_jaildoororange			小型彩色监狱门，有助于标记中戒备囚犯牢房。
 buildtoolbar_popup_obj_jaildoorred				小型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoordarkred			小型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorblack			小型彩色监狱门，有助于标记死刑犯牢房。
 buildtoolbar_popup_obj_jaildooryellow			小型彩色监狱门，有助于标记重点保护牢房。
 buildtoolbar_popup_obj_JailDoorWhite			小型彩色监狱门，有助于标记精神病囚犯牢房。
 
-buildtoolbar_popup_obj_jaildoorlargered			中型彩色监狱门，有助于标记高戒备囚犯牢房。
+
 buildtoolbar_popup_obj_jaildoorlargegrey		中型彩色监狱门，有助于标记低戒备囚犯牢房。
 buildtoolbar_popup_obj_jaildoorlargeorange		中型彩色监狱门，有助于标记中戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargered			中型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargedarkred		中型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargeblack		中型彩色监狱门，有助于标记死刑犯牢房。
 buildtoolbar_popup_obj_jaildoorlargeYellow		中型彩色监狱门，有助于标记重点保护牢房。
 buildtoolbar_popup_obj_JailDoorLargeWhite		中型彩色监狱门，有助于标记精神病囚犯牢房。
 
-buildtoolbar_popup_obj_jaildoorredXL			大型彩色监狱门，有助于标记高戒备囚犯牢房。
 buildtoolbar_popup_obj_jaildoorgreyXL			大型彩色监狱门，有助于标记低戒备囚犯牢房。
 buildtoolbar_popup_obj_jaildoororangeXL			大型彩色监狱门，有助于标记中戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorredXL			大型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoordarkredXL		大型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorblackXL			大型彩色监狱门，有助于标记死刑犯牢房。
 buildtoolbar_popup_obj_jaildoorYellowXL			大型彩色监狱门，有助于标记重点保护牢房。
 buildtoolbar_popup_obj_JailDoorWhiteXL			大型彩色监狱门，有助于标记精神病囚犯牢房。
 
@@ -7367,7 +7380,7 @@ roomgrading_Yard_RoomSizeLess	[*E] 房间面积不到 *X ㎡
 roomgrading_Yard_Item	[*E] 物品: *X
 roomgrading_Yard_Floor	[*E] 地板: *X（*Y% 以上）
 roomgrading_Yard_MultiItems	[*E] 包含 *X 个上述物品
-roomgrading_Yard_Floor_Quantity	[*E] 地板数量至少 *X
+roomgrading_Yard_Floor_Quantity	[*E] *X至少 *Y ㎡
 
 roomgrading_CommonRoom_RoomSize	[*E] 房间面积至少 *X ㎡
 roomgrading_CommonRoom_Item	[*E] 物品: *X

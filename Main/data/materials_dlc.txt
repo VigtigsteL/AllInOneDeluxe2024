@@ -15567,6 +15567,58 @@ VersionAdded		 2000
 END
 #-
 
+#+监狱门-深红 $200
+BEGIN Object
+Name                 JailDoorDarkRed
+Width                1
+ConstructionTime     7
+Toughness            100
+Teleportable         true
+Price                -200
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+BEGIN Sprite
+x 0
+y 46
+w 2
+h 2
+RotateType 1
+END
+ToolbarSprite        d_JailDoorDarkRed
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
+#+监狱门-黑 $200
+BEGIN Object
+Name                 JailDoorBlack
+Width                1
+ConstructionTime     7
+Toughness            100
+Teleportable         true
+Price                -200
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+BEGIN Sprite
+x 0
+y 50
+w 2
+h 2
+RotateType 1
+END
+ToolbarSprite        d_JailDoorBlack
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
 #+监狱门（白色） $200
 BEGIN Object     
 Name                 JailDoorWhite
@@ -15721,6 +15773,70 @@ VersionAdded		 2000
 END
 #-
 
+#+大型监狱门-深红 $400
+BEGIN Object
+Name                 JailDoorLargeDarkRed
+Width                2
+ConstructionTime     7
+Toughness            100
+Teleportable         true
+Price                -400
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+
+BEGIN Sprite
+x 0
+y 48
+w 4
+h 2
+RotateType 1
+END
+
+BEGIN SpriteBank	
+Name			objects_d11_2
+ToolbarSprite	d_JailDoorDarkRed
+END
+
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
+#+大型监狱门-黑 $400
+BEGIN Object
+Name                 JailDoorLargeBlack
+Width                2
+ConstructionTime     7
+Toughness            100
+Teleportable         true
+Price                -400
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+
+BEGIN Sprite
+x 0
+y 52
+w 4
+h 2
+RotateType 1
+END
+
+BEGIN SpriteBank	
+Name			objects_d11_2
+ToolbarSprite	d_JailDoorBlack
+END
+
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
 #+大型监狱门（白色） $400
 BEGIN Object     
 Name                 JailDoorLargeWhite
@@ -15863,6 +15979,71 @@ h 2
 RotateType 1
 END
 ToolbarSprite        d_JailDoorLargeRedToolbar
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
+#+特大监狱门-深红 $800
+BEGIN Object
+Name                 JailDoorDarkRedXL
+Width                3
+ConstructionTime     7
+Toughness            150
+Teleportable         true
+Price                -800
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+BEGIN Sprite
+x 12
+y 46
+w 6
+h 2
+RotateType 1
+END
+
+BEGIN SpriteBank	
+Name			objects_d11_2
+ToolbarSprite	d_JailDoorDarkRed
+END
+
+MadeOf               SolidMetal
+Properties           StaticObject
+Properties           Door
+END
+#-
+
+#+特大监狱门-黑 $800
+BEGIN Object
+Name                 JailDoorBlackXL
+Width                3
+ConstructionTime     7
+Toughness            150
+Teleportable         true
+Price                -800
+RenderDepth          2
+Group                StaticObject
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+
+BEGIN Sprite
+x 14
+y 48
+w 6
+h 2
+RotateType 1
+END
+
+BEGIN SpriteBank	
+Name			objects_d11_2
+ToolbarSprite	d_JailDoorBlack
+END
+
+
+
 MadeOf               SolidMetal
 Properties           StaticObject
 Properties           Door
@@ -17446,12 +17627,12 @@ BEGIN Grading       Type    Item    Id      ComfyBed Alt SoftPillow Multi true Q
 BEGIN Grading       Type    Item    Id      WoodenTable Alt OakTable,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      WoodenStool Alt OakBench,Chair,ChairYellow,MetalStool,SchoolDesk Multi true Quantity 2 END
 BEGIN Grading       Type    Item    Id      ShowerHead Alt PersonalSink,BathroomSink,SinkMirror Multi true END
-BEGIN Grading       Type    Item    Id      Bin Alt RecyclingBin,Plant,PlantCactus Multi true END
+BEGIN Grading       Type    Item    Id      Plant Alt PlantCactus Multi true END
 BEGIN Grading       Type    Item    Id      Fan END
 BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse,Tv,LargeTv,Canvas,PetBird,ChessTable Multi true END
 BEGIN Grading       Type    Item    Id      DumbbellRack Alt WeightsBench,GymMat,TrainingDummy,PunchBag,Treadmill Multi true END
-BEGIN Grading       Type    Item    Id      Bookshelf Alt PrayerMat Multi true END
-BEGIN Grading       Type    Item    Id      Sprinkler END
+BEGIN Grading       Type    Item    Id      Bookshelf END
+BEGIN Grading       Type    Item    Id      PrayerMat END
 
 BEGIN Grading       Type    MultiItems  Quantity 10 END
 BEGIN Grading		Type	Item    Id		OldBed Alt Mattress Multi true Quantity 1 GradeEffect -1	 END
@@ -17538,12 +17719,12 @@ BEGIN Grading       Type    OutsideWindow   Large true      END
 BEGIN Grading       Type    Item    Id      WoodenTable Alt OakTable,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      WoodenStool Alt OakBench,Chair,ChairYellow,MetalStool,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      ShowerHead Alt PersonalSink,BathroomSink,SinkMirror Multi true END
-BEGIN Grading       Type    Item    Id      Bin Alt RecyclingBin,Plant,PlantCactus Multi true END
+BEGIN Grading       Type    Item    Id      Plant Alt PlantCactus Multi true END
 BEGIN Grading       Type    Item    Id      Fan END
 BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse,Tv,LargeTv,Canvas,PetBird,ChessTable Multi true END
 BEGIN Grading       Type    Item    Id      DumbbellRack Alt WeightsBench,GymMat,TrainingDummy,PunchBag,Treadmill Multi true END
-BEGIN Grading       Type    Item    Id      Bookshelf Alt PrayerMat Multi true END
-BEGIN Grading       Type    Item    Id      Sprinkler END
+BEGIN Grading       Type    Item    Id      Bookshelf END
+BEGIN Grading       Type    Item    Id      PrayerMat END
 
 BEGIN Grading       Type    MultiItems  Quantity 5 END
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
@@ -18191,7 +18372,7 @@ BEGIN Grading       Type    Item    Id      Sprinkler  END
 BEGIN Grading       Type    Item    Id      Fan        END
 BEGIN Grading       Type    Item    Id      SnackMachine  END
 BEGIN Grading       Type    Item    Id      WaterCooler Alt DrinkingFountain   END
-BEGIN Grading       Type    Item    Id      RecyclingBin Alt Bin Multi true END
+BEGIN Grading       Type    Item    Id      PersonalSink Alt BathroomSink,SinkMirror Multi true END
 
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
 BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
@@ -18240,7 +18421,7 @@ END
 #-
 #-==
 
-#+==公共房间
+#+==公共活动室
 
 BEGIN Room
 Name                 CommonRoom
@@ -18346,12 +18527,12 @@ BEGIN Grading       Type    OutsideWindow   Large true      END
 
 BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse Multi true END
 BEGIN Grading       Type    Item    Id      Tv Alt LargeTv Multi true END
-BEGIN Grading       Type    Item    Id      Canvas  END
-BEGIN Grading       Type    Item    Id      PetBird END
+BEGIN Grading       Type    Item    Id      TableTennis Alt PoolTable,TableFootball Multi true END
 BEGIN Grading       Type    Item    Id      ChessTable END
 BEGIN Grading       Type    Item    Id      ArcadeCabinet END
-BEGIN Grading       Type    Item    Id      TableTennis Alt PoolTable,TableFootball Multi true END
-BEGIN Grading       Type    Item    Id      PhoneBooth  END
+BEGIN Grading       Type    Item    Id      ComputerStation  END
+BEGIN Grading       Type    Item    Id      Fan  END
+BEGIN Grading       Type    Item    Id      Plant Alt PlantCactus Multi true END
 
 BEGIN Grading       Type    MultiItems  Quantity 10 END
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
@@ -18532,17 +18713,16 @@ BEGIN LikelyObject  Id    PASystem             END
 BEGIN Grading       Type    RoomSize    Size    100  END
 
 BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse Multi true END
+BEGIN Grading       Type    Item    Id      PhoneBooth Quantity 4 END
 BEGIN Grading       Type    Item    Id      Canvas  END
 BEGIN Grading       Type    Item    Id      PetBird END
-BEGIN Grading       Type    Item    Id      ChessTable END
-BEGIN Grading       Type    Item    Id      TableTennis Alt PoolTable,TableFootball Multi true END
-
-BEGIN Grading      Type    Item    Id  DumbbellRack Alt WeightsBench,GymMat Quantity 10  Multi true  END
-BEGIN Grading      Type    Item    Id  PunchBag Alt TrainingDummy Quantity 4 Multi true          END
 BEGIN Grading       Type    Item    Id      Tree Alt SnowyConiferTree,PalmTree,PalmTree,WillowTree,WillowTree,SakuraTree Multi true END
-BEGIN Grading       Type    Item    Id      PhoneBooth Quantity 4 END
-BEGIN Grading       Type    Item    Id      SnackMachine  END
+BEGIN Grading       Type    Item    Id      OutdoorTable Alt ParkBench,DeckChair Multi true END
+BEGIN Grading       Type    Item    Id      Bleachers END
+BEGIN Grading       Type    Item    Id      DumbbellRack Alt WeightsBench,GymMat,PunchBag,TrainingDummy Quantity 10  Multi true  END
+BEGIN Grading       Type    Item    Id      TyreApparatus  END
 
+BEGIN Grading       Type    Floor   Id      RunningTrack Quantity 20 END
 BEGIN Grading       Type    MultiItems  Quantity 16 END
 BEGIN Grading       Type    RoomSizeLess Size   25 GradeEffect -1 END
 BEGIN Grading       Type    RoomSizeLess Size   50 GradeEffect -1   END
@@ -20143,12 +20323,12 @@ BEGIN Grading       Type    Item    Id      ComfyBed Alt SoftPillow Multi true E
 BEGIN Grading       Type    Item    Id      WoodenTable Alt OakTable,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      WoodenStool Alt OakBench,Chair,ChairYellow,MetalStool,SchoolDesk Multi true END
 BEGIN Grading       Type    Item    Id      ShowerHead Alt PersonalSink,BathroomSink,SinkMirror Multi true END
-BEGIN Grading       Type    Item    Id      Bin Alt RecyclingBin,Plant,PlantCactus Multi true END
+BEGIN Grading       Type    Item    Id      Plant Alt PlantCactus Multi true END
 BEGIN Grading       Type    Item    Id      Fan END
 BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse,Tv,LargeTv,Canvas,PetBird,ChessTable Multi true END
 BEGIN Grading       Type    Item    Id      DumbbellRack Alt WeightsBench,GymMat,TrainingDummy,PunchBag,Treadmill Multi true END
-BEGIN Grading       Type    Item    Id      Bookshelf Alt PrayerMat Multi true END
-BEGIN Grading       Type    Item    Id      Sprinkler END
+BEGIN Grading       Type    Item    Id      Bookshelf END
+BEGIN Grading       Type    Item    Id      PrayerMat END
 
 BEGIN Grading       Type    MultiItems  Quantity 5 END
 BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END

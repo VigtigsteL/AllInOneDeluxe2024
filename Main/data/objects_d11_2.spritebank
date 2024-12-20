@@ -1,6 +1,6 @@
 
 BEGIN Sprites
-    Size                 701
+    Size                 703
     BEGIN "[i 0]"      Name d_AdvancedAutoGatherer  x 24  y 66  w 2  h 3  RotateType 4  TopAligned false  END
     BEGIN "[i 1]"      Name d_AdvancedAutoGathererToolbar  x 24  y 67  w 2  h 2  RotateType 4  TopAligned false  END
     BEGIN "[i 2]"      Name d_AdvancedSearchLightCamera  x 88  y 108  w 2  h 2  RotateType 6  TopAligned false  END
@@ -702,6 +702,8 @@ BEGIN Sprites
     BEGIN "[i 698]"    Name d_cinemaProjector  x 96  y 97  w 2  h 3  RotateType 3  TopAligned false  END
     BEGIN "[i 699]"    Name d_cinemaScreenBottom  x 82  y 106  w 6  h 2  RotateType 1  TopAligned false  END
     BEGIN "[i 700]"    Name d_cinemaScreenIcon  x 82  y 102  w 6  h 6  RotateType 0  TopAligned false  END
+	BEGIN "[i 701]"    Name d_JailDoorDarkRed  x 48  y 111  w 2  h 2  RotateType 11  TopAligned false  END
+    BEGIN "[i 702]"    Name d_JailDoorBlack  x 48  y 113  w 2  h 2  RotateType 11  TopAligned false  END
 END
 BEGIN Markers
     Size                 448

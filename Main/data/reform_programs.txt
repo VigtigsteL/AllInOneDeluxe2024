@@ -302,7 +302,7 @@ BEGIN Program
     Equipment	    DumbbellRack
     Equipment	    PunchBag
     Equipment	    TrainingDummy
-    Equipment	    Treadmill
+    Equipment	    GymMat
     Teacher         Janitor
     Intake          NeedRequired
     RequiredNeed    Exercise
