@@ -2887,12 +2887,12 @@ reformProgram_socialtraining	三振出局培训
 reformProgram_socialtraining_text	允许囚犯与无关的平民进行交流可能会让很多人担忧，但这个计划会教导囚犯哪些行为是允许的，哪些是不允许的；同时也增加了囚犯的顾客服务经验。
 reformProgram_RehabilitatedPrisoner_text	这名已出狱的囚犯已经改过自新，成为了一名模范公民。除了目前的职业，他还是一名监狱顾问，利用自己的时间来帮助那些正在努力改造的囚犯。
 reformProgram_Occupation	工作场所：
-report_Sentences	刑期调整
+report_Sentences	刑期调整\n(7天内调整并有7天冷静期)
 sentences_tooltip_onOff	切换此选项以启用或禁用刑期调整开/关。
 sentences_tooltip_resetCriteria	将调整标准重置为监狱的建议值。
 sentences_tooltip_extensionValue	一旦囚犯满足刑期延长的标准，选择刑期将被延长的时间。
 sentences_tooltip_reductionValue	一旦囚犯满足减刑的标准，选择减刑的时间。
-sentences_description	设定调整囚犯刑期的标准，无论是因表现良好而减刑，还是因表现不良而延长刑期。\n延期和减刑都可以在一周内进行，但两种类型的调整之后都有 7 天的冷静期。
+sentences_description	延期和减刑都可以在一周内进行，但两种类型的调整之后都有 7 天的冷静期。
 sentences_unavailable	不可用
 reduction_caption	减刑值
 extension_caption	刑期延长值

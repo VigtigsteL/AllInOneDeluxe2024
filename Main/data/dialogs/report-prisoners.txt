@@ -62,17 +62,17 @@ END
 
 BEGIN Custom
     NAME        PagePrisonersButton
-    XPOS        Scaled          1000
-    YPOS        Scaled          496
-    WIDTH       Scaled          7666
+    XPOS        Scaled          1100
+    YPOS        Scaled          500
+    WIDTH       Scaled          3700
     HEIGHT      Scaled          600
 END
 
 BEGIN Custom
     NAME        PageSentencesButton
     CAPTION     report_Sentences
-    XPOS        Scaled          5091
-    YPOS        Scaled          496
+    XPOS        Scaled          4900
+    YPOS        Scaled          500
     WIDTH       Scaled          3700
-    HEIGHT      Scaled          833
+    HEIGHT      Scaled          600
 END
