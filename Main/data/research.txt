@@ -668,9 +668,26 @@ BEGIN Research
     Cost                 -1000
     Time                 360
     X                    520
-    Y                    560 
+    Y                    525 
     NonWideX             260
     NonWideY             280
+END
+#-
+
+#+护工
+BEGIN Research
+    Name                 Orderly
+    Type                 Entity
+    Requires             Health
+    Admin                Warden
+    Sprite               Orderly
+    Cost                 -1000
+    Time                 720
+    X                    520
+    Y                    635
+    NonWideX             440
+    NonWideY             280
+
 END
 #-
 
@@ -684,7 +701,7 @@ BEGIN Research
     Cost                 -2000
     Time                 720
     X                    740
-    Y                    560 
+    Y                    525 
     NonWideX             370
     NonWideY             280
 END
@@ -700,7 +717,7 @@ BEGIN Research
     Cost                 -1500
     Time                 360
     X                    630
-    Y                    560 
+    Y                    525 
     NonWideX             315
     NonWideY             280
 END
@@ -715,26 +732,9 @@ BEGIN Research
     Cost                 -5000
     Time                 1440
     X                    630
-    Y                    680 
+    Y                    635 
     NonWideX             315
     NonWideY             340
-END
-#-
-
-#+护工
-BEGIN Research
-    Name                 Orderly
-    Type                 Entity
-    Requires             Health
-    Admin                Warden
-    Sprite               Orderly
-    Cost                 -1000
-    Time                 720
-    X                    880
-    Y                    560
-    NonWideX             440
-    NonWideY             280
-
 END
 #-
 #-

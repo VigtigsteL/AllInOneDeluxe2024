@@ -8739,6 +8739,7 @@ warden_wardengreenpower_desc_short	将所有绿色电源的电能输出量提高
 warden_wardengangsjlocks_name	J·洛克斯队长
 warden_wardengangsjlocks_desc	在 洛克斯 的管理下，工作人员能够突破极限，而囚犯各个都堪称模范。\n\n-员工耐力增加 30%（休息时间增加 10%）。\n-囚犯再犯罪几率 -10%。
 warden_wardengangsjlocks_desc_short	-员工耐力增加。\n-囚犯再犯罪几率降低 10%。
+
 warden_wardengangscook_name	狄兰·库克
 warden_wardengangscook_desc	这位先生能言善辩，任何人都会被他说动，他会设法为你的监狱争取到最好的价格。你最好相信他会在超市用优惠券！\n\n-食品成本降低 25%。\n-需要外部教师的计划成本降低 20%。
 warden_wardengangscook_desc_short	-食品成本降低 25%。\n-需要外部教师的计划成本降低 20%。
