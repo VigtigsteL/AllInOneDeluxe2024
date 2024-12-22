@@ -1,0 +1,18 @@
+占位符
+01（）制表符（Tab，Unicode 编号：U+0009）有符号慎用
+02（ ）不换行空格（Non-breaking Space, Unicode 编号：U+00A0）
+03（᠎）宽空格（Mongolian Vowel Separator, U+180E）
+04（ ）四分之一空格（En Space, U+2002）
+05（ ）三分之一空格（Em Space, U+2004）
+06（ ）四分之三空格（Three-Quarter Em Space, U+2005）
+07（ ）六分之一空格（Six-Per-Em Space, U+2006）
+08（ ）图形分隔符（Figure Space, U+2007）
+09（ ）弹性空格（Punctuation Space, U+2008）
+00（ ）细空格（Thin Space, Unicode 编号：U+2009）
+11（​）零宽空格（Zero Width Space, Unicode 编号：U+200B）
+12（‌）零宽不连字（Zero Width Non-Joiner, Unicode 编号：U+200C）
+13（‍）零宽连字（Zero Width Joiner, U+200D）
+14（ ）窄无断空格（U+202F）
+15（ ）中等数学空格（Medium Mathematical Space, U+205F）
+16（　）全角空格（Ideographic Space, Unicode 编号：U+3000）
+17（﻿）零宽非断连字符（Zero Width Non-Breaking Space, U+FEFF）

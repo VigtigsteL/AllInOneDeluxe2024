@@ -1,0 +1,49 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        ContentBox
+    XPOS        Scaled          1124
+    YPOS        Scaled          1200
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          7200
+END
+
+BEGIN Custom
+    NAME        GrandTotal
+    XPOS        Scaled          1124
+    YPOS        Scaled          8850
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          400
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          400
+END
+
+BEGIN Scrollbar
+    NAME        Scroll
+    XPOS        Scaled          9138
+    YPOS        Scaled          1550
+    WIDTH       Scaled          250
+    HEIGHT      Scaled          7350
+END
+

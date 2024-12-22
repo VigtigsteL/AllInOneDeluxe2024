@@ -5339,7 +5339,7 @@ MoveSpeedFactor      0.300000
 Toughness            10.0000 
 Price                -600
 Filter		 Rest
-Filter		 Work  
+Filter		 Security  
 NumSlots             2  
 Width				 2
 Group                StaticObject  
@@ -7807,6 +7807,38 @@ VersionAdded		 1000
 END
 #-
 
+#+黑檀木
+BEGIN Object     
+    Name                 KayuMalamTree 
+    Width                3
+    Height               3  
+    ConstructionTime     30.00000  
+    Toughness            10.0000  
+	GroundBaseOveride	 0.33
+    RenderDepth          2
+    Price                -200
+    Filter               Foliage
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation 
+    BEGIN SpriteBank	
+        Name             objects_d11_2
+		Sprite           d_KayuMalamTreeSapling
+        ToolbarSprite    d_KayuMalamTree
+    END
+    StackSprite          StackTrees
+    SpriteScale          0.5
+    MadeOf               Wood
+    MaxStackSize         10  
+    Research             GroundsKeeping
+    Properties           StaticObject
+    Properties           SlowDelivery
+    Properties		 	 RoomSpecific
+    Properties           HeatWaveAffected
+END
+#-
+
 #+雪松树 $200
 BEGIN Object     
 Name                 SnowyConiferTree 
@@ -9367,7 +9399,6 @@ BlockedBy				UtilityStation
 MadeOf					HollowMetal
 Properties				StaticObject
 IndoorOutdoor			Either
-Filter               	Work
 END
 #-
 
@@ -10138,7 +10169,6 @@ END
 ConstructionTime    3.0
 Price               -1000
 Filter 					Security
-Filter		RequiresElectricity
 MoveCost			0.70000
 Group               StaticObject
 BlockedBy           StaticObject
@@ -10174,7 +10204,6 @@ BlockedBy           Wall
 MadeOf              Composite
 Properties          StaticObject
 RenderDepth         0
-Filter              Work
 END
 #-
 
@@ -10198,6 +10227,95 @@ MadeOf				Composite
 ToolbarSprite		Boombox
 Properties			StaticObject
 Properties			RequiresUndead
+END
+#-
+
+
+
+#+停机坪
+BEGIN Object
+Name                 Helipad
+Height		 7
+Width 		 7
+GroundBaseOveride		 1
+RenderDepth			 0
+ConstructionTime     8  
+RenderDepth			 -10
+Toughness            1000.0000  
+Price                -5000
+Filter		 Security
+Group                StaticObject  
+BlockedBy	 	 Wall
+BlockedBy            StaticObject
+BlockedBy            UtilityStation  
+BEGIN SpriteBank	
+Name			objects_d11_2
+Sprite				d_Helipad
+ToolbarSprite       d_Helipad
+END
+MadeOf               Composite
+Properties	 	 StaticObject
+IndoorOutdoor	 OutdoorOnly
+Inaccessible		true
+DLC              SeaAirLand
+END
+#-
+
+#+船只码头
+BEGIN Object
+Name				BoatDock
+Width				10
+Height				5
+GroundBaseOveride		 1.155
+RenderDepth			-10
+BEGIN SpriteBank
+Name			objects_d11_2
+Sprite	    	 	        d_BoatDock
+ToolbarSprite        		d_BoatDock
+END
+ConstructionTime		20.00000
+Toughness			1000
+Price				-5000
+Filter				Security
+BlockedBy	 	 	Wall
+BlockedBy            		StaticObject  
+BlockedBy            		UtilityStation 
+NumSlots			1
+Group				StaticObject  
+MadeOf				Composite
+Properties			StaticObject
+IndoorOutdoor		OutdoorOnly
+Inaccessible		true
+DLC                  		SeaAirLand
+END
+#-
+
+#+渡轮码头
+BEGIN Object
+Name				FerryDock
+Width				10
+Height				5
+GroundBaseOveride	1.2
+RenderDepth			-10
+BEGIN SpriteBank
+Name			objects_d11_2
+Sprite	    	 	        d_FerryDock
+ToolbarSprite        		d_FerryDock
+END
+ConstructionTime		20.00000
+Toughness			1000
+Price				-5000
+Filter				Security
+BlockedBy	 	 	Wall
+BlockedBy            		StaticObject  
+BlockedBy            		UtilityStation 
+NumSlots			1
+Group				StaticObject  
+MadeOf				Composite
+Properties			StaticObject
+IndoorOutdoor		OutdoorOnly
+Inaccessible		true
+DLC                  		SeaAirLand
 END
 #-
 
@@ -10470,7 +10588,6 @@ END
 BEGIN Object
 Name				HealthMonitor
 Filter 				Security
-Filter              RequiresElectricity
 ConstructionTime	7.00000
 Toughness			100.000
 Price				-400
@@ -10489,6 +10606,33 @@ BEGIN SpriteBank
 	Name			objects_d11_2
 	Sprite			d_HealthMonitor
 END
+END
+#-
+
+#+路由器
+BEGIN Object
+Name				Router
+SpriteScale			 1.4
+ConstructionTime	7.00000
+Price				-250
+Filter				Security
+RenderDepth         2
+AttachToWall        true
+Group				StaticObject
+BlockedBy           Wall 
+BlockedBy           StaticObject  
+BlockedBy           UtilityStation
+Research             Cctv
+BEGIN SpriteBank
+Name			objects_d11_2
+Sprite			d_Router
+END
+Properties          StaticObject
+Properties          Electrical
+Properties          Wired
+SpecialRestriction   AgainstWall
+SpecialRestriction	 NoShadow
+IndoorOutdoor		0
 END
 #-
 
@@ -13292,13 +13436,13 @@ BEGIN Sprite1    x 5  y 2  END
 END
 #-
 
-#+丛林小径 $10
+#+丛林道路 $30
 BEGIN Material   
 Name                 JunglePath 
 ConstructionTime     1.00000  
 MoveCost             1.30000  
 IndoorOutdoor        1 
-Price                -10
+Price                -30
 SoftEdged            1  
 SpriteType           AlignedArea
 NumSprites           2
@@ -13306,6 +13450,21 @@ BEGIN Sprite0    	 x 52 y 42  END
 BEGIN Sprite1    	 x 5  y 2  END
 END
 #-
+
+#+污染地板
+BEGIN Material
+Name				TaintedFloor
+ConstructionTime	1.00000
+MoveCost			0.50000
+Price				-5
+SoftEdged			-1
+Properties			NoGrowTrees
+SpriteType			AlignedArea
+IndoorOutdoor		1
+NumSprites			2
+BEGIN Sprite0		x 42 y 46  END
+BEGIN Sprite1		x 5  y 2  END
+END
 
 #+跑道 $150
 BEGIN Material   
@@ -13845,7 +14004,7 @@ BEGIN Material
 Name                 HexagonalTiles  
 ConstructionTime     1.00000  
 MoveCost             1.50000  
-Price                -50
+Price                -70
 SoftEdged            -1  
 SpriteType           AlignedArea
 IndoorOutdoor        2
@@ -13860,7 +14019,7 @@ BEGIN Material
 Name                 TriangularTiles  
 ConstructionTime     1.00000  
 MoveCost             1.50000  
-Price                -50
+Price                -70
 SoftEdged            -1  
 SpriteType           AlignedArea
 IndoorOutdoor        2
@@ -13876,7 +14035,7 @@ BEGIN Material
 	Name                 LimestoneFloor  
 	ConstructionTime     1.00000  
 	MoveCost             1.30000  
-	Price                -40
+	Price                -60
 	SoftEdged            -1  
 	IndoorOutdoor        2 
 	ObjectRequired       Concrete  
@@ -13894,7 +14053,7 @@ Name                 WeatheredStoneFlooring
 ConstructionTime     1.00000  
 MoveCost             1.00000  
 IndoorOutdoor        2 
-	Price                -40
+	Price                -60
 SoftEdged            -1  
 SpriteType           AlignedArea
 NumSprites           2
@@ -13904,7 +14063,7 @@ END
 #-
 
 
-#+地毯 $50
+#+地毯蓝色 $50
 BEGIN Material
 Name                 BlueCarpet  
 ConstructionTime     1.00000  
@@ -13973,7 +14132,7 @@ Name                 ColouredStoneTiles
 ConstructionTime     1.00000  
 MoveCost             1.30000  
 IndoorOutdoor        2 
-Price                -50
+Price                -70
 SoftEdged            -1  
 SpriteType           AlignedArea
 NumSprites           2
@@ -14102,7 +14261,7 @@ END
 
 #+==简易
 
-#+铁网围栏 $20
+#+铁网围栏（混凝土） $20
 BEGIN Material
 Name                 Fence
 ConstructionTime     10.0000
@@ -14154,6 +14313,56 @@ BEGIN Sprite0		 x 0  y 36  END
 END
 #-
 
+#+生锈栅栏（混凝土） $15
+BEGIN Material   
+Name                 RustyFenceConcrete 
+BlockMovement        true  
+ConstructionTime     10.00000  
+MoveCost             1.00000  
+IndoorOutdoor        1 
+Price                -15
+SoftEdged            -1  
+SpriteType           Connected
+NumSprites           1
+BEGIN Sprite0    	 x 52 y 60  END
+DLC_Replace_Type	 ConcreteWall
+MadeOf               Metal
+END
+
+#-
+
+#+生锈栅栏（草坪） $15
+BEGIN Material   
+Name                 RustyFenceGrass 
+BlockMovement        true
+ConstructionTime     10.00000  
+MoveCost             1.00000  
+IndoorOutdoor        1 
+Price                -15
+SoftEdged            -1  
+SpriteType           Connected
+NumSprites           1
+BEGIN Sprite0    	 x 35 y 40  END
+DLC_Replace_Type	 ConcreteWall
+MadeOf               Metal
+END
+#-
+
+#+生锈栅栏（茂密草丛） $15
+BEGIN Material   
+Name                 RustyFenceLongGrass 
+BlockMovement        true
+ConstructionTime     10.00000  
+MoveCost             1.00000  
+IndoorOutdoor        1 
+Price                -15
+SoftEdged            -1  
+SpriteType           Connected
+NumSprites           1
+BEGIN Sprite0    	 x 34 y 36  END
+DLC_Replace_Type	 ConcreteWall
+MadeOf               Metal
+END
 #-
 
 #+==混凝土-劣质
@@ -14654,7 +14863,7 @@ DLC_Replace_Type	 ConcreteWall
 END
 #-
 
-#+高级墙壁（绿色） $100
+#+墙壁（绿色） $100
 BEGIN Material   
 Name                 GreenWall 
 ConstructionTime     5.00000  
@@ -14670,6 +14879,24 @@ Properties			 IsFoundationWall
 VersionAdded		 2000
 BEGIN Sprite0		 x 7  y 36  END
 DLC_Replace_Type	 ConcreteWall
+END
+#-
+
+#+墙壁（阴森） $100
+BEGIN Material
+Name				FenceWall
+ConstructionTime	5.00000
+BlockMovement		true
+BlockVisibility		true
+MoveCost			0.400000
+SoftEdged			-1
+Price				-100
+ObjectRequired		Concrete
+SpriteType			Connected
+IndoorOutdoor		1
+NumSprites			1
+BEGIN Sprite0		x 35  y 56  END
+DLC_Replace_Type	ConcreteWall
 END
 #-
 
@@ -14726,23 +14953,6 @@ DLC					SeaAirLand
 END
 #-
 
-#+栅栏围墙 $120
-BEGIN Material
-Name				FenceWall
-ConstructionTime	5.00000
-BlockMovement		true
-BlockVisibility		true
-MoveCost			0.400000
-SoftEdged			-1
-Price				-120
-ObjectRequired		Concrete
-SpriteType			Connected
-IndoorOutdoor		1
-NumSprites			1
-BEGIN Sprite0		x 35  y 56  END
-DLC_Replace_Type	ConcreteWall
-END
-#-
 
 #+牢笼栅栏 $20
 BEGIN Material   
@@ -14770,7 +14980,7 @@ BlockMovement		true
 BlockVisibility		false
 MoveCost			0.400000
 SoftEdged			-1
-Price				-90
+Price				-100
 ObjectRequired		Steel
 SpriteType			Connected
 Properties			IsFoundationWall
@@ -14787,7 +14997,7 @@ BEGIN	ImprovesRoom	Room	CommonRoom	END
 END
 #-
 
-#+电栅栏 $165
+#+高压电墙 $165
 BEGIN Material
 Name				ElectrifiedFence
 ConstructionTime	5.00000
@@ -14795,7 +15005,7 @@ BlockMovement		true
 BlockVisibility		false
 MoveCost			0.400000
 SoftEdged			-1
-Price				-165
+Price				-200
 ObjectRequired		Concrete
 SpriteType			Connected
 IndoorOutdoor		1
@@ -14822,39 +15032,25 @@ BEGIN Sprite1    x 2  y 2  END
 END
 #-
 
-#+生锈的栅栏草坪
-BEGIN Material   
-Name                 RustyFenceGrass 
-BlockMovement        true
-ConstructionTime     10.00000  
-MoveCost             1.00000  
-IndoorOutdoor        1 
-Price                -2
-SoftEdged            -1  
-SpriteType           Connected
-NumSprites           1
-BEGIN Sprite0    	 x 35 y 40  END
-DLC_Replace_Type	 ConcreteWall
-MadeOf               Metal
+#+牢房栏杆 $100
+BEGIN Object
+Name                 JailBars
+MoveSpeedFactor      0.500000
+Toughness            100.000
+BlockMove            true
+Price                -100
+RenderDepth          2
+Group                StaticObject
+BlockedBy            Wall
+BlockedBy            StaticObject
+BlockedBy            UtilityStation
+Sprite               JailBars
+MadeOf               HollowMetal
+Properties           StaticObject
+Properties           BlockMovement
 END
 #-
 
-#+生锈的栅栏茂密草丛
-BEGIN Material   
-Name                 RustyFenceLongGrass 
-BlockMovement        true
-ConstructionTime     10.00000  
-MoveCost             1.00000  
-IndoorOutdoor        1 
-Price                -2
-SoftEdged            -1  
-SpriteType           Connected
-NumSprites           1
-BEGIN Sprite0    	 x 34 y 36  END
-DLC_Replace_Type	 ConcreteWall
-MadeOf               Metal
-END
-#-
 
 #-==
 
@@ -14876,7 +15072,7 @@ Name                 RoadGate
 Width                7
 Height               1
 ConstructionTime     20
-Toughness            200
+Toughness            500
 Teleportable         true
 Price                -2000
 RenderPreOffset      -2
@@ -14899,7 +15095,7 @@ Name                 RoadBarrier
 Width                7
 Height               1
 ConstructionTime     30.00000
-Toughness            500.000
+Toughness            750.000
 Teleportable         true
 Price                -10000
 RenderPreOffset      -2
@@ -14916,7 +15112,7 @@ Properties           CanPlaceOnRoad
 END
 #-
 
-#+门（无锁） $50
+#+门 $50
 BEGIN Object
 Name                 Door
 ConstructionTime     7.00000
@@ -14934,7 +15130,7 @@ Properties           Door
 END
 #-
 
-#+双开门（无锁）$100
+#+双开门$100
 BEGIN Object     
 Name                 DoubleDoor
 Width		 2
@@ -14955,7 +15151,7 @@ VersionAdded        4000
 END
 #-
 
-#+竹门（无锁）$30
+#+竹门$30
 BEGIN Object     
 Name                 BambooDoor
 ConstructionTime     7.00000  
@@ -14976,7 +15172,7 @@ DLC					 PrisonWingPriviledges
 END
 #-
 
-#+沙龙门（无锁）$200
+#+沙龙门$200
 BEGIN Object     
 Name                 SaloonDoor
 Width		         2
@@ -15000,7 +15196,7 @@ VersionAdded         4000
 END
 #-
 
-#+谷仓门（无锁）$250
+#+谷仓门$250
 BEGIN Object     
 Name                 BarnDoor
 ConstructionTime     7.00000  
@@ -15048,7 +15244,7 @@ END
 
 
 
-#+大门 $200
+#+铁艺门 $200
 BEGIN Object
 Name				Gate
 ConstructionTime	7.00000
@@ -15069,7 +15265,7 @@ Properties			Door
 END
 #-
 
-#+双开大门 $400
+#+双开铁艺门 $400
 BEGIN Object
 Name				DoubleGate
 Width				2
@@ -15097,7 +15293,7 @@ BEGIN Object
 Name                 CageGate
 ConstructionTime     7.00000  
 Toughness            100.000  
-Price                -30  
+Price                -150 
 RenderDepth          2  
 IndoorOutdoor		 1
 Group                StaticObject  
@@ -15113,30 +15309,11 @@ Properties           Door
 END
 #-
 
-#+牢房栏杆 $100
-BEGIN Object
-Name                 JailBars
-MoveSpeedFactor      0.500000
-Toughness            100.000
-BlockMove            true
-Price                -100
-RenderDepth          2
-Group                StaticObject
-BlockedBy            Wall
-BlockedBy            StaticObject
-BlockedBy            UtilityStation
-Sprite               JailBars
-MadeOf               HollowMetal
-Properties           StaticObject
-Properties           BlockMovement
-END
-#-
-
 #+电磁锁门 $500
 BEGIN Object
 Name                 KeycardDoor  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            200.000  
 Teleportable         true  
 Price                -500  
 RenderDepth          2  
@@ -15153,14 +15330,14 @@ Properties           Door
 END
 #-
 
-#+电磁锁大门 $600
+#+双开电磁锁门 $600
 BEGIN Object
 Name		 KeycardDoorLarge
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            200.000  
 Teleportable         true  
-Price                -600  
+Price                -1000  
 RenderDepth          2  
 Group                StaticObject  
 BlockedBy            StaticObject  
@@ -15184,7 +15361,7 @@ END
 BEGIN Object     
 Name                 FenceGateStandard
 ConstructionTime     7.00000  
-Toughness            40.000  
+Toughness            100.000  
 Price                -70  
 RenderDepth          2  
 IndoorOutdoor		 1
@@ -15204,7 +15381,7 @@ END
 BEGIN Object     
 Name                 FenceGateStaff
 ConstructionTime     7.00000  
-Toughness            40.000  
+Toughness            100.000  
 Price                -70  
 RenderDepth          2  
 IndoorOutdoor		 1
@@ -15224,7 +15401,7 @@ END
 BEGIN Object     
 Name                 FenceGateGuard
 ConstructionTime     7.00000  
-Toughness            40.000  
+Toughness            100.000  
 Price                -70  
 RenderDepth          2  
 IndoorOutdoor		 1
@@ -15243,7 +15420,7 @@ END
 BEGIN Object     
 Name                 FenceGateVisitor
 ConstructionTime     7.00000  
-Toughness            40.000  
+Toughness            100.000  
 Price                -70  
 RenderDepth          2  
 IndoorOutdoor		 1
@@ -15470,7 +15647,7 @@ Name                 JailDoor
 Price                -200  
 ConstructionTime     7.00000  
 MadeOf               SolidMetal  
-Toughness            100.000  
+Toughness            150.000
 
 BEGIN Sprite
 	x 0
@@ -15495,7 +15672,7 @@ END
 BEGIN Object     
 Name                 JailDoorGrey  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -15514,7 +15691,7 @@ END
 BEGIN Object     
 Name                 JailDoorYellow 
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -15533,7 +15710,7 @@ END
 BEGIN Object     
 Name                 JailDoorOrange  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -15552,7 +15729,7 @@ END
 BEGIN Object     
 Name                 JailDoorRed  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -15572,7 +15749,7 @@ BEGIN Object
 Name                 JailDoorDarkRed
 Width                1
 ConstructionTime     7
-Toughness            100
+Toughness            150.000
 Teleportable         true
 Price                -200
 RenderDepth          2
@@ -15598,7 +15775,7 @@ BEGIN Object
 Name                 JailDoorBlack
 Width                1
 ConstructionTime     7
-Toughness            100
+Toughness            150.000
 Teleportable         true
 Price                -200
 RenderDepth          2
@@ -15623,7 +15800,7 @@ END
 BEGIN Object     
 Name                 JailDoorWhite
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -15638,7 +15815,7 @@ VersionAdded		 2000
 END
 #-
 
-#+监狱门生锈 $100
+#+监狱门（生锈） $100
 BEGIN Object     
 Name                 JailDoorRusty 
 ConstructionTime     7.00000  
@@ -15666,7 +15843,7 @@ Name                 JailDoorLarge
 Price                -400
 ConstructionTime     7
 MadeOf               SolidMetal
-Toughness            100
+Toughness            150.000
 
 BEGIN Sprite
 	x 22
@@ -15694,7 +15871,7 @@ BEGIN Object
 Name                 JailDoorLargeGrey
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -400  
 RenderDepth          2  
@@ -15715,7 +15892,7 @@ BEGIN Object
 Name                 JailDoorLargeYellow
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -400  
 RenderDepth          2  
@@ -15736,7 +15913,7 @@ BEGIN Object
 Name                 JailDoorLargeOrange
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -400  
 RenderDepth          2  
@@ -15757,7 +15934,7 @@ BEGIN Object
 Name                 JailDoorLargeRed
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -400  
 RenderDepth          2  
@@ -15778,7 +15955,7 @@ BEGIN Object
 Name                 JailDoorLargeDarkRed
 Width                2
 ConstructionTime     7
-Toughness            100
+Toughness            150.000
 Teleportable         true
 Price                -400
 RenderDepth          2
@@ -15810,7 +15987,7 @@ BEGIN Object
 Name                 JailDoorLargeBlack
 Width                2
 ConstructionTime     7
-Toughness            100
+Toughness            150.000
 Teleportable         true
 Price                -400
 RenderDepth          2
@@ -15842,7 +16019,7 @@ BEGIN Object
 Name                 JailDoorLargeWhite
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000
 Teleportable         true  
 Price                -400  
 RenderDepth          2  
@@ -15858,12 +16035,12 @@ VersionAdded		 2000
 END
 #-
 
-#+大型监狱门生锈 $200
+#+大型监狱门（生锈） $200
 BEGIN Object     
 Name                 JailDoorLargeRusty
 Width                2  
 ConstructionTime     7.00000  
-Toughness            100.000  
+Toughness            150.000  
 Teleportable         true  
 Price                -200  
 RenderDepth          2  
@@ -16155,7 +16332,7 @@ Name                 RemoteDoor
 ConstructionTime     20.00000
 Toughness            500.000
 Teleportable         true
-Price                -500
+Price                -800
 RenderDepth          2
 Research             RemoteAccess
 Group                StaticObject
@@ -16174,7 +16351,7 @@ Name                 RemoteDoorYellow
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16196,7 +16373,7 @@ Name                 RemoteDoorOrange
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16218,7 +16395,7 @@ Name                 RemoteDoorRed
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16240,7 +16417,7 @@ Name                 RemoteDoorBlack
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16262,7 +16439,7 @@ Name                 RemoteDoorWhite
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16284,7 +16461,7 @@ Name                 RemoteDoorMaroon
 ConstructionTime     20.00000  
 Toughness            500.000  
 Teleportable         true  
-Price                -500  
+Price                -800  
 RenderDepth          2  
 Research             RemoteAccess
 Group                StaticObject  
@@ -16314,230 +16491,6 @@ END
 
 
 #-==
-
-#+==倒塌冰冻生锈
-
-#+倒塌的墙
-BEGIN Material   
-Name                 CollapsedWall  
-ConstructionTime     -1
-Price                -3
-SpriteType           SpecialRubble 
-SoftEdged            -1 
-VersionAdded		 6000
-NumSprites           1
-BEGIN Sprite0    x 28  y 32 END		
-END
-#-
-
-#+倒塌的栅栏
-BEGIN Material   
-Name                CollapsedFence 
-ConstructionTime    -1
-Price               -3
-SpriteType          Connected 
-SoftEdged           -1 
-VersionAdded		6000
-NumSprites          1
-BEGIN Sprite0		x 21  y 60 END		
-END
-#-
-
-#+倒塌的木栅栏
-BEGIN Material   
-Name                CollapsedWoodenFence 
-ConstructionTime    -1
-SpriteType          Connected 
-SoftEdged           -1 
-NumSprites          1
-BEGIN Sprite0		x 28  y 44 END	
-Properties          HeatWaveAffected	
-END
-#-
-
-#+倒塌的白色尖桩篱笆
-BEGIN Material   
-Name                CollapsedWhitePicketFence 
-ConstructionTime    -1
-SpriteType          Connected 
-SoftEdged           -1 
-NumSprites          1
-BEGIN Sprite0		x 28  y 48 END	
-Properties           HeatWaveAffected	
-END
-#-
-
-#+倒塌的竹篱笆
-BEGIN Material   
-Name                CollapsedBambooFence 
-ConstructionTime    -1
-SpriteType          Connected 
-SoftEdged           -1 
-NumSprites          1
-BEGIN Sprite0		x 28  y 52 END
-Properties           HeatWaveAffected		
-END
-#-
-
-#+倒塌的栏杆墙
-BEGIN Material   
-Name                CollapsedBarredWall
-ConstructionTime    -1
-SpriteType          Connected 
-SoftEdged           -1 
-NumSprites          1
-BEGIN Sprite0		x 28  y 56 END		
-END
-#-
-
-#+倒塌的栅栏和草
-BEGIN Material   
-Name                CollapsedFenceAndGrass
-ConstructionTime    -1
-SpriteType          Connected 
-SoftEdged           -1 
-NumSprites          1
-BEGIN Sprite0		x 28  y 60 END	
-Properties          HeatWaveAffected	
-END
-#-
-
-#+钢筋墙覆盖
-BEGIN Material   
-Name                 RebarWallOverlay  
-ConstructionTime     -1  
-BlockMovement		 false
-BlockVisibility      false  
-MoveCost             0.400000  
-SoftEdged            -1  
-Price                -3
-SpriteType           Connected 
-NumSprites           1
-BEGIN Sprite0    x 28  y 40 END
-END
-#-
-
-#+钢筋地板覆盖层
-BEGIN Material   
-Name                 RebarFloorOverlay  
-ConstructionTime     -1  
-BlockMovement		 false
-BlockVisibility      false  
-MoveCost             0.400000  
-SoftEdged            -1  
-Price                -3
-SpriteType           Connected 
-NumSprites           1
-BEGIN Sprite0    x 28  y 43 END
-END
-#-
-
-#+冰冻地面覆盖
-BEGIN Material   
-Name                 FrozenGroundOverlay  
-ConstructionTime     -1.00000  
-MoveCost             0.50000  
-Price                0
-SoftEdged            1  
-IndoorOutdoor        1  
-SpriteType           RandomArea
-Inaccessible	 true
-VersionAdded		 1000
-NumSprites           2  
-BEGIN Sprite0    	 x 47 y 34  END
-BEGIN Sprite1    	 x 5  y 2  END
-BEGIN DecreasesRoom	 Room	Yard END
-END
-#-
-
-#+冰墙覆盖
-BEGIN Material   
-Name                 IcyWallOverlay  
-ConstructionTime     -1  
-BlockMovement		 true
-BlockVisibility      true  
-MoveCost             0.400000  
-SoftEdged            -1  
-Price                -3
-SpriteType           Connected 
-VersionAdded		 2000
-NumSprites           1
-BEGIN Sprite0    x 21  y 56 END		
-END
-#-
-
-#+融化的地面叠加层
-BEGIN Material   
-Name                 MeltedGroundOverlay  
-ConstructionTime     -1.00000  
-MoveCost             0.50000  
-Price                0
-SoftEdged            1  
-IndoorOutdoor        1  
-SpriteType           RandomArea
-Inaccessible	 true
-VersionAdded		 1000
-NumSprites           2  
-BEGIN Sprite0    	 x 42 y 38  END
-BEGIN Sprite1    	 x 2  y 2  END
-BEGIN DecreasesRoom	 Room	Yard END
-END
-#-
-
-#+磨碎的地面覆盖
-BEGIN Material   
-Name                 GrittedGroundOverlay  
-ConstructionTime     -1.00000  
-MoveCost             0.50000  
-Price                0
-SoftEdged            1  
-IndoorOutdoor        1  
-SpriteType           RandomArea
-Inaccessible	 true
-VersionAdded		 1000
-NumSprites           2  
-BEGIN Sprite0    	 x 47 y 38  END
-BEGIN Sprite1    	 x 5  y 2  END
-BEGIN DecreasesRoom	 Room	Yard END	
-END
-#-
-
-#+生锈的
-BEGIN Material   
-Name                 RustyFenceConcrete 
-BlockMovement        true  
-ConstructionTime     10.00000  
-MoveCost             1.00000  
-IndoorOutdoor        1 
-Price                -2
-SoftEdged            -1  
-SpriteType           Connected
-NumSprites           1
-BEGIN Sprite0    	 x 52 y 60  END
-DLC_Replace_Type	 ConcreteWall
-MadeOf               Metal
-END
-
-
-
-
-#-
-
-#+被污染的地板
-BEGIN Material
-Name				TaintedFloor
-ConstructionTime	1.00000
-MoveCost			0.50000
-Price				-5
-SoftEdged			-1
-Properties			NoGrowTrees
-SpriteType			AlignedArea
-IndoorOutdoor		1
-NumSprites			2
-BEGIN Sprite0		x 42 y 46  END
-BEGIN Sprite1		x 5  y 2  END
-END
-#-
 
 #-==
 
@@ -18217,7 +18170,8 @@ BEGIN LikelyObject  Id    Ivy     END
 BEGIN LikelyObject  Id    Tree     END
 BEGIN LikelyObject  Id    SnowyConiferTree     END
 BEGIN LikelyObject  Id    PalmTree     END
-BEGIN LikelyObject  Id    PalmTree     END
+BEGIN LikelyObject  Id    KayuMalamTree     END
+BEGIN LikelyObject  Id    WillowTree     END
 BEGIN LikelyObject  Id    SakuraTree     END
 BEGIN LikelyObject  Id    CactusTree     END
 BEGIN LikelyObject  Id    SpookyTree     END
@@ -18673,7 +18627,8 @@ BEGIN LikelyObject  Id    Ivy     END
 BEGIN LikelyObject  Id    Tree     END
 BEGIN LikelyObject  Id    SnowyConiferTree     END
 BEGIN LikelyObject  Id    PalmTree     END
-BEGIN LikelyObject  Id    PalmTree     END
+BEGIN LikelyObject  Id    KayuMalamTree     END
+BEGIN LikelyObject  Id    WillowTree     END
 BEGIN LikelyObject  Id    SakuraTree     END
 BEGIN LikelyObject  Id    CactusTree     END
 BEGIN LikelyObject  Id    SpookyTree     END
@@ -18716,7 +18671,7 @@ BEGIN Grading       Type    Item    Id      Radio Alt BoomBoxRoundhouse Multi tr
 BEGIN Grading       Type    Item    Id      PhoneBooth Quantity 4 END
 BEGIN Grading       Type    Item    Id      Canvas  END
 BEGIN Grading       Type    Item    Id      PetBird END
-BEGIN Grading       Type    Item    Id      Tree Alt SnowyConiferTree,PalmTree,PalmTree,WillowTree,WillowTree,SakuraTree Multi true END
+BEGIN Grading       Type    Item    Id      Tree Alt SnowyConiferTree,PalmTree,KayuMalamTree,WillowTree,SakuraTree Multi true END
 BEGIN Grading       Type    Item    Id      OutdoorTable Alt ParkBench,DeckChair Multi true END
 BEGIN Grading       Type    Item    Id      Bleachers END
 BEGIN Grading       Type    Item    Id      DumbbellRack Alt WeightsBench,GymMat,PunchBag,TrainingDummy Quantity 10  Multi true  END
@@ -20609,93 +20564,6 @@ END
 
 #+===============================DLC：紧急服务与实体===============================
 
-#+停机坪
-BEGIN Object
-Name                 Helipad
-Height		 7
-Width 		 7
-GroundBaseOveride		 1
-RenderDepth			 0
-ConstructionTime     8  
-RenderDepth			 -10
-Toughness            1000.0000  
-Price                -5000
-Filter		 Work
-Group                StaticObject  
-BlockedBy	 	 Wall
-BlockedBy            StaticObject
-BlockedBy            UtilityStation  
-BEGIN SpriteBank	
-Name			objects_d11_2
-Sprite				d_Helipad
-ToolbarSprite       d_Helipad
-END
-MadeOf               Composite
-Properties	 	 StaticObject
-IndoorOutdoor	 OutdoorOnly
-Inaccessible		true
-DLC              SeaAirLand
-END
-#-
-
-#+渡轮码头
-BEGIN Object
-Name				FerryDock
-Width				10
-Height				5
-GroundBaseOveride	1.2
-RenderDepth			-10
-BEGIN SpriteBank
-Name			objects_d11_2
-Sprite	    	 	        d_FerryDock
-ToolbarSprite        		d_FerryDock
-END
-ConstructionTime		20.00000
-Toughness			1000
-Price				-5000
-Filter				Work
-BlockedBy	 	 	Wall
-BlockedBy            		StaticObject  
-BlockedBy            		UtilityStation 
-NumSlots			1
-Group				StaticObject  
-MadeOf				Composite
-Properties			StaticObject
-IndoorOutdoor		OutdoorOnly
-Inaccessible		true
-DLC                  		SeaAirLand
-END
-#-
-
-#+船只码头
-BEGIN Object
-Name				BoatDock
-Width				10
-Height				5
-GroundBaseOveride		 1.155
-RenderDepth			-10
-BEGIN SpriteBank
-Name			objects_d11_2
-Sprite	    	 	        d_BoatDock
-ToolbarSprite        		d_BoatDock
-END
-ConstructionTime		20.00000
-Toughness			1000
-Price				-5000
-Filter				Work
-BlockedBy	 	 	Wall
-BlockedBy            		StaticObject  
-BlockedBy            		UtilityStation 
-NumSlots			1
-Group				StaticObject  
-MadeOf				Composite
-Properties			StaticObject
-IndoorOutdoor		OutdoorOnly
-Inaccessible		true
-DLC                  		SeaAirLand
-END
-#-
-
 #+供给船
 BEGIN Object     
 Name                 SupplyBoat		
@@ -21633,34 +21501,6 @@ Properties		    StaticObject
 Properties          DoNotRepair
 Properties			RequiresUndead
 Toughness           20.0000  
-END
-#-
-
-#+路由器
-BEGIN Object
-Name				Router
-SpriteScale			 1.4
-ConstructionTime	7.00000
-Price				-250
-Filter				Security
-Filter				RequiresElectricity
-RenderDepth         2
-AttachToWall        true
-Group				StaticObject
-BlockedBy           Wall 
-BlockedBy           StaticObject  
-BlockedBy           UtilityStation
-Research             Cctv
-BEGIN SpriteBank
-Name			objects_d11_2
-Sprite			d_Router
-END
-Properties          StaticObject
-Properties          Electrical
-Properties          Wired
-SpecialRestriction   AgainstWall
-SpecialRestriction	 NoShadow
-IndoorOutdoor		0
 END
 #-
 

@@ -25,8 +25,8 @@ END
 
 BEGIN SelectionList
     NAME        List
-    XPOS        Scaled          1109
-    YPOS        Scaled          2200
+    XPOS        Scaled          1100
+    YPOS        Scaled          2000
     WIDTH       Scaled          7777
     HEIGHT      Scaled          6800
 END
@@ -73,9 +73,9 @@ END
 
 BEGIN Custom
     NAME        MaxCaption
-    XPOS        Scaled          1221
-    YPOS        Scaled          1650
-    WIDTH       Scaled          7444
+    XPOS        Scaled          1500
+    YPOS        Scaled          1400
+    WIDTH       Scaled          7000
     HEIGHT      Scaled          500
 END
 

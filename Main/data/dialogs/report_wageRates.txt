@@ -20,7 +20,7 @@ BEGIN Custom
     XPOS        Scaled          1125
     YPOS        Scaled          580
     WIDTH       Scaled          7666
-    HEIGHT      Scaled          833
+    HEIGHT      Scaled          400
 END
 
 # Swap page buttons
@@ -29,24 +29,24 @@ BEGIN Button
 	NAME	PageFinanceButton
 	Caption	report_finance
 	XPOS	Scaled		1125
-	YPOS	Scaled		400
+	YPOS	Scaled		500
 	WIDTH	Scaled		3700
-	HEIGHT	Scaled		833
+	HEIGHT	Scaled		400
 END
 
 BEGIN Button
 	NAME	PageWageRatesButton
 	Caption	finance_cost_prisonerwages
 	XPOS	Scaled		5091
-	YPOS	Scaled		400
+	YPOS	Scaled		500
 	WIDTH	Scaled		3700
-	HEIGHT	Scaled		833
+	HEIGHT	Scaled		400
 END
 
 BEGIN Custom
     NAME        Content
 	XPOS	Scaled		4800
-	YPOS	Scaled		1300
+	YPOS	Scaled		1000
 	WIDTH	Scaled		2000
 	HEIGHT	Scaled		8500
 END

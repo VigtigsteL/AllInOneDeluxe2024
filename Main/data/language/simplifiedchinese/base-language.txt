@@ -57,7 +57,7 @@ BuildCost_CloneRoom	克隆间
 buildtoolbar_planning_autofoundation	自动地基
 
 #-==
-
+material_burntfloor	烧焦的地板
 
 #+############################## 基础游戏 ###############################
 
@@ -1068,7 +1068,7 @@ object_anatomyModel	解剖模型
 object_flipboard	翻转板
 object_medicineCabinetPsych	医药箱
 
-object_leatherSofa	皮革沙发
+
 
 object_classic	经典
 object_dalmation	斑点狗
@@ -1136,7 +1136,8 @@ buildtoolbar_popup_obj_rorschachTest	在精神科医生办公室里添加罗夏�
 buildtoolbar_popup_obj_anatomyModel	在精神科医生办公室里添加解剖模型，可改善精神科医生对精神病囚犯的治疗。
 buildtoolbar_popup_obj_flipboard	在精神科医生办公室里添加带有大脑图像的翻转板，可改善精神科医生对精神病囚犯的治疗。
 buildtoolbar_popup_obj_medicineCabinetPsych	在精神科医生办公室里添加医药箱，可改善精神科医生对精神病囚犯的治疗。
-buildtoolbar_popup_obj_leatherSofa	在精神科医生办公室里添加经典皮革沙发，可改善精神科医生对精神病囚犯的治疗。
+
+
 
 buildtoolbar_deployment_insaneseczone	只有精神病囚犯能够进入此区域。
 
@@ -1594,7 +1595,7 @@ report_Transfer	转移
 transfer_icon_tooltip	使用下列选项确定 *X 囚犯转换至 *Y 需要符合的标准。\n可以使用“政策标准”栏让囚犯更难获得移送资格，也可使用其他选项直接取消某些类型的囚犯的移送资格。\n并非所有囚犯都对移送感兴趣，特别是那些刑期较短的囚犯，他们正打算挖地道逃狱，或者干脆认为安全等级更低的区域的状况和舒适度也不比他们所在的区域好多少。
 transfer_tooltip_onOff	取消选择以打开/关闭选定的安全区域。
 
-transfer_description	为囚犯设置标准。囚犯若想转换至安全等级更低、更舒适的安全区域，则需要符合此标准。
+transfer_description	为囚犯设置转移标准。\n囚犯若想转换至安全等级更低、更舒适的安全区域，则需要符合此标准。
 transfer_use	从 *X 转换至 *Y 需要符合的标准
 transfer_behaviourtitle	品行良好
 transfer_reformtile	改造
@@ -1702,7 +1703,6 @@ rapsheet_action	处置
 # =============================================================================
 # Materials - Names
 #+
-material_WoodenDockFloor	码头（木制）
 material_waterBed	水底
 material_WaterShallow	水（浅）
 material_WaterLarge	水（多）
@@ -1732,10 +1732,8 @@ object_BoatDock	船只码头
 object_EliteOps	精英行动
 
 object_Fountain	喷泉
-object_SteppingStoneLillyPad	垫脚石（睡莲）
-object_SteppingStoneIceBlock	垫脚石（冰）
-object_SteppingStone	垫脚石
-object_SteppingStonePallet	垫脚石（草垫）
+
+
 object_ScannerMonitor	安检仪监视器
 object_ScannerMachine	安检仪主机
 object_CheckPoint	检查点
@@ -1823,16 +1821,12 @@ buildtoolbar_popup_obj_Helipad	直升机飞抵监狱、运送新囚犯、交付�
 
 buildtoolbar_popup_obj_Fountain	放置于水中创建令人放松的喷泉景观。
 
-buildtoolbar_popup_obj_SteppingStoneLillyPad	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
-buildtoolbar_popup_obj_SteppingStone	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
-buildtoolbar_popup_obj_SteppingStoneIceBlock	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
-buildtoolbar_popup_obj_SteppingStonePallet	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
 buildtoolbar_popup_uts_ScannerMonitor	与安检仪主机连接后，监视器可协助警卫辨认违禁品。警卫辨认违禁品的能力取决于他们的疲劳程度
 buildtoolbar_popup_uts_ScannerMachine	供收货区和仓库使用的机器，用于检测木板箱中的违禁品。必须将安检仪连接至监视器，警卫才能辨认出违禁品。警卫辨认违禁品的能力取决于他们的疲劳程度。
 buildtoolbar_popup_obj_Checkpoint	检查过往囚犯和探视者的检查站。囚犯只能从一个方向通过检查点。\n-必须有警卫值守。
 buildtoolbar_popup_mat_waterShallow	创建浅水区域，在沙滩和水面间形成更为美观的海岸线。与普通水面不同，此水面可供通行。
 buildtoolbar_popup_mat_waterLarge	创造大面积水面、湖泊或海洋。
-buildtoolbar_popup_mat_WoodenDockFloor	坚固的木质地面，适于码头。
+
 
 landscape_hint	（可在水面上建造）
 
@@ -2952,7 +2946,7 @@ d11_reform_no_prisoners_found	未发现囚犯！
 d11_all_prisoner_wages	所有囚犯的工资
 d11_report_policy_wage_hint	更高的工资会激励囚犯参加狱中劳役和工作相关的计划。
 d11_wage	工资
-d11_adjust_wage_description	囚犯在监狱里面参加工作就会得到工资。工资可以单独调整，也可以根据工作类型整体调整。由于工作所需要的培训量不同，因此掌握更强技能的囚犯有机会得到更高的小时工资。
+d11_adjust_wage_description	囚犯参加工作就会得到工资。工资可以单独调整或按工作类型整体调整。\n由于工作所需的培训量不同，因此掌握更强技能的囚犯有机会得到更高的小时工资。
 d11_intake_arrival_caption	囚犯到达时间
 d11_intake_arrival_tooltip	囚犯到达监狱的标准时间是早上 8 点，该选项可以根据监狱的需要设定时间。\n推荐设置在警力充裕的睡觉时间。
 d11_intake_restrictions_caption	移除囚犯接收限制
@@ -3116,7 +3110,7 @@ equipment_rollingpin	擀面杖
 
 weather_CalamityHeatwave	高温
 d11_staffalert_title_CalamityHeatwave01	高温
-report_Coverage	覆盖率
+report_Coverage	保险
 d11_coverage_staff_only	员工专区
 
 
@@ -3497,8 +3491,7 @@ buildtoolbar_popup_obj_TattooRemovalMachine	改造帮派成员的必备物品。
 。
 equipment_TattooRemovalTool	纹身去除工具
 
-material_CageFence	牢笼栅栏
-buildtoolbar_popup_mat_CageFence	一道铁网围栏，用于防止锻炼中的囚犯出逃。
+
 
 object_GangGraffiti	帮派涂鸦
 d11_hover_info_gang_graffiti_1	辖区内帮派成员武力 +15%
@@ -3506,8 +3499,7 @@ d11_hover_info_gang_graffiti_2	辖区内帮派成员坚韧 +15%
 object_FightRing	拳击场
 buildtoolbar_popup_obj_FightRing	如果囚犯能在擂台上一决高下，就不会在监狱侧翼中斗殴。\n\n需求：\n+ 锻炼 3.00\n+ 娱乐 3.00
 
-object_CageGate	牢笼大门
-buildtoolbar_popup_obj_CageGate	可以完美搭配围栏使用的监狱大门。功能和门一样。
+
 object_GymInstructor	健身教练
 
 
@@ -3822,10 +3814,8 @@ d11_logging_gangFight	[*T]*Y的*X是帮派打斗事件中的攻击者
 object_zombie	活尸
 interface_zombieTier	活尸等级：
 
-material_TaintedFloor	已污染
-buildtoolbar_popup_mat_TaintedFloor	这里看起来寸草不生。
-material_FenceWall	栅栏围墙
-buildtoolbar_popup_mat_FenceWall	这些墙壁让人感觉格外阴森可怖。
+
+
 
 buildtoolbar_popup_mat_Rotatable	可旋转
 
@@ -3850,10 +3840,8 @@ object_DistractionContraption	干扰装置
 buildtoolbar_popup_obj_DistractionContraption	一种音频设备，用于在短时间内转移作用范围内所有受感染单位的注意力，每24小时只能使用1次。建议在接近午夜时使用此物品，但这并不是强制要求。
 d11_cooldown_name_DistractionContraption	冷却时间：
 d11_cooldown_hours_DistractionContraption	*X小时
-object_Gate	大门
-buildtoolbar_popup_obj_Gate	深色大门。
-object_DoubleGate	双开大门
-buildtoolbar_popup_obj_DoubleGate	双开深色大门。
+
+
 object_SiberianHusky	鬼魂
 buildtoolbar_popup_obj_SiberianHusky	只是看起来空灵缥缈。俯卧而下舔舐两张脸，然后舔舔自己，但舔舐顺序并非总是如此。
 object_Corgi	莫诺克
@@ -3913,21 +3901,15 @@ object_Subwoofer	低音炮
 buildtoolbar_popup_obj_Subwoofer	这一人造奇迹比普通的警犬更迅猛，视线更清晰。只可惜持久力没那么好。
 object_Byte	字节
 buildtoolbar_popup_obj_Byte	最新的探测技术趋势。虽然体能相比其他警犬较弱，但它敏锐的感觉弥补了这一缺点。
-material_GlassWall	玻璃墙
+
 buildtoolbar_popup_mat_GlassWall	想要对监狱实施有效监控，高压电墙是最好的围墙选择。
 
-material_ElectrifiedFence	电栅栏
-buildtoolbar_popup_mat_ElectrifiedFence	高压电威慑。\n每一块见方区域地下都需要铺设电缆。
+
 equipment_keycard	门禁卡
-object_KeycardDoor	电磁锁门
-buildtoolbar_popup_obj_KeycardDoor	配备门禁卡的警卫或佩戴追踪器的囚犯可以进入此门。可以单独取消囚犯对每扇门的访问权限。
-object_KeycardDoorLarge	电磁锁大门
-buildtoolbar_popup_obj_KeycardDoorLarge	配备门禁卡的警卫或佩戴追踪器的囚犯可以进入此门。可以单独取消囚犯对每扇门的访问权限。
+
 entity_carryingkeycard	携带门禁卡
-material_HexagonalTiles	六边形瓷砖
-buildtoolbar_popup_mat_HexagonalTiles	见方设计已经是过去式了，欢迎选择六边形的未来设计理念。
-material_TriangularTiles	三角形瓷砖
-buildtoolbar_popup_mat_TriangularTiles	见方设计已经是过去式了，欢迎选择三角形的未来设计理念。
+
+
 schedule_zone_visitoronly	访客区域
 interfacedeployment_visitoronlyzone	[区域]\n  访客  
 buildtoolbar_deployment_visitoronlyzone	访客及民众优先使用的区域，只有访客、民众和员工可以进入该区域。
@@ -4037,7 +4019,7 @@ d11_view_room	查看房间
 mods_downscaled_spritesheet	精灵图片表单遭缩减
 mods_downscaled_spritesheet_msg	由于你的显卡限制，精灵图片表单必须缩减。\n可能是启动太多模组的结果。请反激活一些模组，以改善质量。
 mods_errors_no_memory	没有加载到模组精灵图片
-mods_errors_no_memory_msg	没有足够的显卡内存以装载更多模组精灵图片。\n可能是启动太多模组的结果。请反激活一些模组，以减少内存占用。
+mods_errors_no_memory_msg	内存不足！无法加载图像文件。\n可能是启用太多模组或长时间未关闭游戏。\n\n建议：\n1.请尝试重新启动游戏。\n2.禁用一些模组以减少内存占用。
 
 modnotification_title	发现模组变动
 modnotification_info	这个监狱试图使用下面列表中的模组。\n请确认哪些模组是你目前想要的，点击以激活它们。
@@ -6602,7 +6584,7 @@ finance_cost_grantfine	- 罚款：*X
 finance_cost_executionfine	不当处决罚金
 finance_cost_executioncompensation	行刑报酬
 finance_cost_shopintake	商店收入
-finance_cost_prisonerwages	囚犯的工资
+finance_cost_prisonerwages	囚犯工资
 finance_cost_fine	罚款
 finance_cost_shopcommission	商店销售提成
 
@@ -6748,6 +6730,9 @@ crisisSector_InsaneOnly	精神病专区
 #+==分区墙壁
 material_CliffEdge	悬崖
 material_perimeterwall	监狱围墙
+material_ElectrifiedFence	高压电墙
+
+
 material_concretewall	 ᠎混凝土墙※
 
 material_WallInsaneSec	 墙壁\n （精神病犯） 
@@ -6764,26 +6749,42 @@ material_WallDeathRowSec	᠎墙壁\n（死刑犯）
 #-==
 
 #+==装饰墙壁
-material_BottleWall	 墙壁\n （塑料瓶） 
-material_orientalWall	 墙壁\n （日式） 
+material_BottleWall			 墙壁\n （塑料瓶） 
+material_orientalWall		 墙壁\n （日式） 
 material_ReclaimedWoodWall	 墙壁\n （木制） 
-material_NewTiledWall	 墙壁\n （瓷砖） 
-material_NewBBlockWall	 墙壁\n （白色） 
+material_NewTiledWall		 墙壁\n （瓷砖） 
+material_NewBBlockWall		 墙壁\n （白色） 
 
-material_yutaniwall	 墙壁\n （科技） 
-material_brickwall	 墙壁\n （红砖）
-material_artdecowall	 墙壁\n （艺术）
-material_GardenWall	 墙壁\n （花园） 
+material_yutaniwall			 墙壁\n （科技） 
+material_brickwall			 墙壁\n （红砖）
+material_artdecowall		 墙壁\n （艺术）
+material_GardenWall			 墙壁\n （花园） 
+
+material_GlassWall			 墙壁\n （玻璃） 
+material_FenceWall			 墙壁\n （阴森） 
+
+material_greenWall			 墙壁\n （绿色） 
+material_cushionedwall		 墙壁\n （衬垫） 
+material_burgundyWall		 墙壁\n（勃艮第色）
+material_blueWall			 墙壁\n（蓝色条纹）
 
 #-==
 
 #+==户外围栏
-material_NewBarredWall	 铁栅栏
-material_fence	 铁网围栏
-material_FenceAndGrass	 铁网围栏\n（草坪）
-material_WoodenFence	 栅栏\n （棕色）
+material_NewBarredWall		 铁栅栏
+material_fence				 铁网围栏
+material_FenceAndGrass		 铁网围栏\n（草坪）
+material_WoodenFence		 栅栏\n （棕色）
 material_WhitePicketFence	 栅栏\n （白色）
-material_bamboofence	 栅栏\n （竹制）
+material_bamboofence		 栅栏\n （竹制）
+
+material_RustyFenceConcrete	 生锈栅栏\n（混凝土）
+buildtoolbar_popup_mat_RustyFenceConcrete	用锈迹斑斑的栅栏构成的栅栏区块。
+material_RustyFenceGrass	 生锈栅栏\n （草坪） 
+buildtoolbar_popup_mat_RustyFenceGrass	用锈迹斑斑的栅栏构成的栅栏区块。
+material_RustyFenceLongGrass	 生锈栅栏\n（茂密杂草）
+buildtoolbar_popup_mat_RustyFenceLongGrass	用锈迹斑斑的栅栏构成的栅栏区块。
+
 
 #-==
 
@@ -6798,14 +6799,13 @@ material_slumwall	 墙壁\n（贫民窟）
 #+==其他
 material_NewHedgeWall	 篱笆
 material_HayBailWall	 干草墙
+
+material_CageFence		 牢笼栅栏
+
 #-==
 
 #+==DLC
 material_pipewall	 墙壁\n（管道）
-material_blueWall	 墙壁\n（蓝色条纹）
-material_burgundyWall	 墙壁\n（勃艮第色）
-material_greenWall	 墙壁\n（绿色）
-material_cushionedwall	 墙壁\n（衬垫）
 material_burntwall	烧焦的墙
 #-==
 
@@ -6813,6 +6813,7 @@ material_burntwall	烧焦的墙
 
 buildtoolbar_popup_mat_CliffEdge			建造悬崖，从而在监狱周围创建无法通行的区域。
 buildtoolbar_popup_mat_PerimeterWall		坚固的围墙能够有效阻挡囚犯越狱。\n无法在下方铺设水管。
+buildtoolbar_popup_mat_ElectrifiedFence	高压电威慑。\n每一块见方区域地下都需要铺设电缆。
 buildtoolbar_popup_mat_concretewall			最常用的混凝土墙壁。
 buildtoolbar_popup_mat_WallMinSec			建造彩色的墙壁以区分监狱中特定区域。
 buildtoolbar_popup_mat_WallMedSec			建造彩色的墙壁以区分监狱中特定区域。
@@ -6850,6 +6851,8 @@ buildtoolbar_popup_mat_slumwall				廉价的贫民窟墙壁，可以节省囚犯
 
 buildtoolbar_popup_mat_HayBailWall	脆弱的干草捆。这种材料较为美观，但不怎么安全。
 buildtoolbar_popup_mat_newhedgewall	脆弱的树篱。这种材料较为美观，但不怎么安全。
+buildtoolbar_popup_mat_FenceWall	这些墙壁让人感觉格外阴森可怖。
+buildtoolbar_popup_mat_CageFence	一道铁网围栏，用于防止锻炼中的囚犯出逃。
 
 #+==未知
 buildtoolbar_popup_mat_pipewall	建造有管道通过的墙壁，以创建新区域或房间。
@@ -6865,134 +6868,155 @@ buildtoolbar_popup_mat_cushionedwall	在地基上建造墙壁部分，以创建�
 
 #+==========所有门
 
-object_door						木门\n  （无锁）  
+object_door						木门
 object_StaffDoorOrange			木门\n （员工） 
 object_StaffDoorBlue			木门\n （员工） 
 object_staffdoor				木门\n （员工） 
 object_visitorDoor				木门\n （探视） 
-
-object_DoubleDoor				 双开木门\n （无锁） 
+object_DoubleDoor				 双开木门
 object_DoubleStaffDoorOrange	 双开木门\n（员工）
 object_DoubleStaffDoorBlue		 双开木门\n（员工）
 object_DoubleStaffDoor			 双开木门\n（员工）
 object_DoubleVisitorDoor		 双开木门\n（探视）
 
-object_SaloonDoor				᠎ 沙龙门\n（无锁）
-object_secretdoor				᠎ 隐藏门\n（员工）
-object_jaildoor					᠎监狱门-᠎小
-object_jaildoorlarge			᠎监狱门-中
-object_jaildoorXL 				᠎监狱门-大
+object_jaildoor					  监狱门-小
+object_jaildoorlarge			 监狱门-中
+object_jaildoorXL 				 监狱门-大
 
-object_jaildoorgrey				 监狱门-小\n    （低戒备）    
-object_jaildoororange			 监狱门-小\n   （中戒备）   
-object_jaildoorred				 监狱门-小\n  （高戒备）  
-object_JailDoorDarkRed			 监狱门-小\n （超高戒备） 
-object_jaildoorYellow			 监狱门-小\n（重点保护）
-object_JailDoorWhite			 监狱门-小\n（精神病犯）
-object_JailDoorBlack			 监狱门-小\n（死刑犯）
+object_jaildoorgrey				   监狱门-小\n    （低戒备）    
+object_jaildoorlargegrey		  监狱门-中\n    （低戒备）    
+object_jaildoorgreyXL			  监狱门-大\n    （低戒备）    
 
-object_jaildoorlargegrey		 监狱门-中\n    （低戒备）    
-object_jaildoorlargeorange		 监狱门-中\n   （中戒备）   
-object_jaildoorlargered			 监狱门-中\n  （高戒备）  
-object_JailDoorLargeDarkRed		 监狱门-中\n （超高戒备） 
-object_jaildoorlargeyellow		 监狱门-中\n（重点保护）
-object_JailDoorLargeWhite		 监狱门-中\n（精神病犯）
-object_JailDoorLargeBlack		 监狱门-中\n（死刑犯）
+object_jaildoororange			 ᠎ 监狱门-小\n   （中戒备）   
+object_jaildoorlargeorange		 ᠎监狱门-中\n   （中戒备）   
+object_jaildoororangeXL			 ᠎监狱门-大\n   （中戒备）   
 
-object_jaildoorgreyXL			 监狱门-大\n    （低戒备）    
-object_jaildoororangeXL			 监狱门-大\n   （中戒备）   
-object_jaildoorredXL			 监狱门-大\n  （高戒备）  
-object_JailDoorDarkRedXL		 监狱门-大\n  （超高戒备） 
-object_jaildoorYellowXL			 监狱门-大\n（重点保护）
-object_JailDoorWhiteXL			 监狱门-大\n（精神病犯）
-object_JailDoorBlackXL			 监狱门-大\n（死刑犯）
+object_jaildoorred				   监狱门-小\n  （高戒备）  
+object_jaildoorlargered			  监狱门-中\n  （高戒备）  
+object_jaildoorredXL			  监狱门-大\n  （高戒备）  
 
-object_solitarydoor				 安全门
-object_securedoor				 禁闭安全门
-object_remotedoor				 遥控安全门
-object_WhitePicketGate			 白色栅栏门\n（无锁）
-object_bambooDoor				 竹门\n （无锁） 
+object_JailDoorDarkRed			   监狱门-小\n （超高戒备） 
+object_JailDoorLargeDarkRed		  监狱门-中\n （超高戒备） 
+object_JailDoorDarkRedXL		  监狱门-大\n （超高戒备） 
 
-object_fencegatestandard		 铁网门\n （无锁） 
-object_fencegatestaff			 铁网门\n（员工）
-object_fencegatevisitor			 铁网门\n（访客）
-object_fencegateguard			 铁网门\n（警卫）
-object_BarnDoor					 谷仓门\n（无锁）
+object_jaildoorYellow			   监狱门-小\n（重点保护）
+object_jaildoorlargeyellow		  监狱门-中\n（重点保护）
+object_jaildoorYellowXL			  监狱门-大\n（重点保护）
 
-object_roadgate					 道路闸门
-object_roadbarrier				 防暴路障
+object_JailDoorWhite			   监狱门-小\n（精神病犯）
+object_JailDoorLargeWhite		  监狱门-中\n（精神病犯）
+object_JailDoorWhiteXL			  监狱门-大\n（精神病犯）
+
+object_JailDoorBlack			   监狱门-小\n（死刑犯）
+object_JailDoorLargeBlack		  监狱门-中\n（死刑犯）
+object_JailDoorBlackXL			  监狱门-大\n（死刑犯）
+
+object_solitarydoor				 安全门
+object_securedoor				 禁闭安全门
+object_remotedoor				 遥控安全门
+object_RemoteDoorOrange			 遥控安全门\n   （中戒备）   
+object_RemoteDoorRed			 遥控安全门\n  （高戒备）  
+object_RemoteDoorMaroon			 遥控安全门\n （超高戒备） 
+object_RemoteDoorYellow			 遥控安全门\n（重点保护）
+object_RemoteDoorWhite			 遥控安全门\n（精神病犯）
+object_RemoteDoorBlack			 遥控安全门\n（死刑犯）
+object_KeycardDoor				  电磁锁门
+object_KeycardDoorLarge			 双开电磁锁门
+
+object_fencegatestandard		 铁网门
+object_fencegatestaff			 铁网门\n（员工）
+object_fencegatevisitor			 铁网门\n（访客）
+object_fencegateguard			 铁网门\n（警卫）
+object_secretdoor				 隐藏门\n（员工）
+
+object_Gate						  铁艺门
+object_DoubleGate				 双开铁艺门
+object_jaildoorrusty			   监狱门-小\n（生锈）
+object_jaildoorlargerusty		  监狱门-中\n（生锈）
+
+object_CageGate					 牢笼大门
+object_SaloonDoor				 沙龙门
+object_WhitePicketGate			 白色栅栏门
+object_bambooDoor				 竹门
+object_BarnDoor					 谷仓门
+
+object_roadgate					 道路闸门
+object_roadbarrier				 防暴路障
 
 #+==说明
-buildtoolbar_popup_obj_door						简单的无锁木门，谁都可以出入。\n使警卫不必忙于在各处开门，但无法保证安全。\n\n<提示>\n一般用于满足房间对“封闭”的需要，或用于分隔区域。\n你也可以用“空房间”分隔区域。
-buildtoolbar_popup_obj_staffdoor				上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
-buildtoolbar_popup_obj_StaffDoorBlue			上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
-buildtoolbar_popup_obj_StaffDoorRed				上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
-buildtoolbar_popup_obj_StaffDoorOrange			上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
-buildtoolbar_popup_obj_visitorDoor				上锁的门，允许监狱探视者和员工自行通过，不需要警卫来开门。
+buildtoolbar_popup_obj_door						韧性：40\n\n简单的无锁木门，谁都可以出入。\n使警卫不必忙于在各处开门，但无法保证安全。\n\n<提示>\n一般用于满足房间对“封闭”的需要，或用于分隔区域。\n你也可以用“空房间”分隔区域。
+buildtoolbar_popup_obj_staffdoor				韧性：40\n\n上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
+buildtoolbar_popup_obj_StaffDoorBlue			韧性：40\n\n上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
+buildtoolbar_popup_obj_StaffDoorRed				韧性：40\n\n上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
+buildtoolbar_popup_obj_StaffDoorOrange			韧性：40\n\n上锁的门，所有员工都能打开。\n\n<提示>\n囚犯仍然可以等待员工开门后一起通过。\n所以还是依靠区划来阻止囚犯进出某些区域吧。
+buildtoolbar_popup_obj_visitorDoor				韧性：40\n\n上锁的门，允许监狱探视者和员工自行通过，不需要警卫来开门。
 	
-buildtoolbar_popup_obj_DoubleDoor				简单的无锁双开木门，谁都可以出入。
-buildtoolbar_popup_obj_DoubleStaffDoorBlue		供员工使用的双开木门
-buildtoolbar_popup_obj_DoubleStaffDoorOrange	供员工使用的双开木门
-buildtoolbar_popup_obj_DoubleStaffDoor			供员工使用的双开木门。
-buildtoolbar_popup_obj_DoubleVisitorDoor		允许监狱探视者和员工自行通过。
+buildtoolbar_popup_obj_DoubleDoor				韧性：40\n\n简单的双开木门，谁都可以出入。
+buildtoolbar_popup_obj_DoubleStaffDoorBlue		韧性：40\n\n供员工使用的双开木门
+buildtoolbar_popup_obj_DoubleStaffDoorOrange	韧性：40\n\n供员工使用的双开木门
+buildtoolbar_popup_obj_DoubleStaffDoor			韧性：40\n\n供员工使用的双开木门。
+buildtoolbar_popup_obj_DoubleVisitorDoor		韧性：40\n\n允许监狱探视者和员工自行通过。
 
-buildtoolbar_popup_obj_SaloonDoor				老式沙龙风格的双开门。
-buildtoolbar_popup_obj_secretdoor				一扇伪装成书柜的暗门，可推开供员工通过。
-buildtoolbar_popup_obj_jaildoor					小型监狱门，把囚犯关在他们该待的地方。\n\n<提示>\n牢房的监狱门在“睡觉”和“监禁”时间，\n或者囚犯被禁足、关禁闭时，会变成关闭模式。\n非牢房的监狱门，则总是保持关闭。\n监狱门关闭时只有附近的警卫可以开门。\n\n如果没有及时开门，囚犯在高峰时段容易拥堵，产生不良情绪。\n清洁工也会被阻挡无法继续打扫。
-buildtoolbar_popup_obj_jaildoorlarge			中型监狱门，把囚犯关在他们该待的地方。
-buildtoolbar_popup_obj_jaildoorXL				大型监狱门，把囚犯关在他们该待的地方。
+buildtoolbar_popup_obj_SaloonDoor				韧性：40\n\n老式沙龙风格的双开门。
+buildtoolbar_popup_obj_secretdoor				韧性：40\n\n伪装成书柜的暗门，可推开供员工通过。
+buildtoolbar_popup_obj_jaildoor					韧性：150\n\n小型监狱门，把囚犯关在他们该待的地方。\n\n<提示>\n牢房的监狱门在“睡觉”和“监禁”时间，\n或者囚犯被禁足、关禁闭时，会变成关闭模式。\n非牢房的监狱门，则总是保持关闭。\n监狱门关闭时只有附近的警卫可以开门。\n\n如果没有及时开门，囚犯在高峰时段容易拥堵，产生不良情绪。\n清洁工也会被阻挡无法继续打扫。
+buildtoolbar_popup_obj_jaildoorlarge			韧性：150\n\n中型监狱门，把囚犯关在他们该待的地方。
+buildtoolbar_popup_obj_jaildoorXL				韧性：150\n\n大型监狱门，把囚犯关在他们该待的地方。
 
-buildtoolbar_popup_obj_jaildoorgrey				小型彩色监狱门，有助于标记低戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoororange			小型彩色监狱门，有助于标记中戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorred				小型彩色监狱门，有助于标记高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoordarkred			小型彩色监狱门，有助于标记超高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorblack			小型彩色监狱门，有助于标记死刑犯牢房。
-buildtoolbar_popup_obj_jaildooryellow			小型彩色监狱门，有助于标记重点保护牢房。
-buildtoolbar_popup_obj_JailDoorWhite			小型彩色监狱门，有助于标记精神病囚犯牢房。
+buildtoolbar_popup_obj_jaildoorgrey				韧性：150\n\n小型彩色监狱门，有助于标记低戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoororange			韧性：150\n\n小型彩色监狱门，有助于标记中戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorred				韧性：150\n\n小型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoordarkred			韧性：150\n\n小型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorblack			韧性：150\n\n小型彩色监狱门，有助于标记死刑犯牢房。
+buildtoolbar_popup_obj_jaildooryellow			韧性：150\n\n小型彩色监狱门，有助于标记重点保护牢房。
+buildtoolbar_popup_obj_JailDoorWhite			韧性：150\n\n小型彩色监狱门，有助于标记精神病囚犯牢房。
 
 
-buildtoolbar_popup_obj_jaildoorlargegrey		中型彩色监狱门，有助于标记低戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorlargeorange		中型彩色监狱门，有助于标记中戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorlargered			中型彩色监狱门，有助于标记高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorlargedarkred		中型彩色监狱门，有助于标记超高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorlargeblack		中型彩色监狱门，有助于标记死刑犯牢房。
-buildtoolbar_popup_obj_jaildoorlargeYellow		中型彩色监狱门，有助于标记重点保护牢房。
-buildtoolbar_popup_obj_JailDoorLargeWhite		中型彩色监狱门，有助于标记精神病囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargegrey		韧性：150\n\n中型彩色监狱门，有助于标记低戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargeorange		韧性：150\n\n中型彩色监狱门，有助于标记中戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargered			韧性：150\n\n中型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargedarkred		韧性：150\n\n中型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorlargeblack		韧性：150\n\n中型彩色监狱门，有助于标记死刑犯牢房。
+buildtoolbar_popup_obj_jaildoorlargeYellow		韧性：150\n\n中型彩色监狱门，有助于标记重点保护牢房。
+buildtoolbar_popup_obj_JailDoorLargeWhite		韧性：150\n\n中型彩色监狱门，有助于标记精神病囚犯牢房。
 
-buildtoolbar_popup_obj_jaildoorgreyXL			大型彩色监狱门，有助于标记低戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoororangeXL			大型彩色监狱门，有助于标记中戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorredXL			大型彩色监狱门，有助于标记高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoordarkredXL		大型彩色监狱门，有助于标记超高戒备囚犯牢房。
-buildtoolbar_popup_obj_jaildoorblackXL			大型彩色监狱门，有助于标记死刑犯牢房。
-buildtoolbar_popup_obj_jaildoorYellowXL			大型彩色监狱门，有助于标记重点保护牢房。
-buildtoolbar_popup_obj_JailDoorWhiteXL			大型彩色监狱门，有助于标记精神病囚犯牢房。
+buildtoolbar_popup_obj_jaildoorgreyXL			韧性：150\n\n大型彩色监狱门，有助于标记低戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoororangeXL			韧性：150\n\n大型彩色监狱门，有助于标记中戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorredXL			韧性：150\n\n大型彩色监狱门，有助于标记高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoordarkredXL		韧性：150\n\n大型彩色监狱门，有助于标记超高戒备囚犯牢房。
+buildtoolbar_popup_obj_jaildoorblackXL			韧性：150\n\n大型彩色监狱门，有助于标记死刑犯牢房。
+buildtoolbar_popup_obj_jaildoorYellowXL			韧性：150\n\n大型彩色监狱门，有助于标记重点保护牢房。
+buildtoolbar_popup_obj_JailDoorWhiteXL			韧性：150\n\n大型彩色监狱门，有助于标记精神病囚犯牢房。
 
-buildtoolbar_popup_obj_solitarydoor				坚固的金属安全门，能够有效防止囚犯的破坏。\n\n<提示>\n在任何时候安全门都处于关闭状态。\n适合用于禁闭室、枪械库等防护等级较高的区域。
-buildtoolbar_popup_obj_securedoor				坚固的禁闭安全门，附带食物投递口。\n负责分发食物的警卫可以用投递口传递食物，\n无需开门进入禁闭室。
-buildtoolbar_popup_obj_RemoteDoor				坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近……
-buildtoolbar_popup_obj_WhitePicketGate			能为花园遮风挡雨的装饰门。
-buildtoolbar_popup_obj_bambooDoor				用来搭配竹制栅栏的竹制装饰门。
+buildtoolbar_popup_obj_solitarydoor				韧性：500\n\n坚固的金属安全门，能够有效防止囚犯的破坏。\n\n<提示>\n在任何时候安全门都处于关闭状态。\n适合用于禁闭室、枪械库等防护等级较高的区域。
+buildtoolbar_popup_obj_securedoor				韧性：500\n\n坚固的禁闭安全门，附带食物投递口。\n负责分发食物的警卫可以用投递口传递食物，\n无需开门进入禁闭室。
+buildtoolbar_popup_obj_RemoteDoor				韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorOrange			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorRed			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorYellow			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorWhite			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorMaroon			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_RemoteDoorBlack			韧性：500\n\n坚固的遥控安全门，无法用钥匙打开，只能遥控开门。\n可以有效防止囚犯窃取钥匙而越狱。\n\n<提示>\n需要及时安装并连接"门禁控制器"，以免阻碍通行。\n员工会尽量不走这个门，即使其所在路线很近。
+buildtoolbar_popup_obj_KeycardDoor				韧性：200\n\n锈配备门禁卡的警卫或佩戴追踪器的囚犯可以进入此门。可以单独取消囚犯对每扇门的访问权限。
+buildtoolbar_popup_obj_KeycardDoorLarge			韧性：200\n\n锈配备门禁卡的警卫或佩戴追踪器的囚犯可以进入此门。可以单独取消囚犯对每扇门的访问权限。
 
-buildtoolbar_popup_obj_BarnDoor					适合用在谷仓的装饰门。
-buildtoolbar_popup_obj_fencegatestaff			适合用在户外的铁网门。
-buildtoolbar_popup_obj_fencegatestandard		适合用在户外的铁网门。
-buildtoolbar_popup_obj_fencegatevisitor			适合用在户外的铁网门。
-buildtoolbar_popup_obj_fencegateguard			适合用在户外的铁网门。
+buildtoolbar_popup_obj_fencegatestaff			韧性：100\n\n适合用在户外的铁网门。
+buildtoolbar_popup_obj_fencegatestandard		韧性：100\n\n适合用在户外的铁网门。
+buildtoolbar_popup_obj_fencegatevisitor			韧性：100\n\n适合用在户外的铁网门。
+buildtoolbar_popup_obj_fencegateguard			韧性：100\n\n适合用在户外的铁网门。
 
-buildtoolbar_popup_obj_roadgate					即防止囚犯从公路越狱，也便于车辆运输。
-buildtoolbar_popup_obj_roadbarrier				坚实的自动路障，甚至能够阻挡卡车冲撞。\n平时路障隐藏于地下，当戒严时自动升起。
+buildtoolbar_popup_obj_roadgate					韧性：500\n\n即防止囚犯从公路越狱，也便于车辆运输。
+buildtoolbar_popup_obj_roadbarrier				坚韧性：750\n\n实的自动路障，甚至能够阻挡卡车冲撞。\n平时路障隐藏于地下，当戒严时自动升起。
 
-#+==未知
-object_RemoteDoorOrange	遥控门（橙色）
-buildtoolbar_popup_obj_RemoteDoorOrange	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁控制器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
-object_RemoteDoorRed	遥控门（红色）
-buildtoolbar_popup_obj_RemoteDoorRed	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁控制器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
-object_RemoteDoorYellow	遥控门（黄色）
-buildtoolbar_popup_obj_RemoteDoorYellow	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁控制器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
-object_RemoteDoorWhite	遥控门（白色）
-buildtoolbar_popup_obj_RemoteDoorWhite	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁控制器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
-#-==
 
+buildtoolbar_popup_obj_WhitePicketGate			韧性：40\n\n能为花园遮风挡雨的装饰门。
+buildtoolbar_popup_obj_bambooDoor				韧性：40\n\n用来搭配竹制栅栏的竹制装饰门。
+buildtoolbar_popup_obj_BarnDoor					韧性：100\n\n适合用在谷仓的门。
+buildtoolbar_popup_obj_Gate						韧性：100\n\n铁艺门带有尖头装饰和弧形顶部，增加了门的安全性和美观度。
+buildtoolbar_popup_obj_DoubleGate				韧性：100\n\n铁艺门带有尖头装饰和弧形顶部，增加了门的安全性和美观度。
+buildtoolbar_popup_obj_jaildoorrusty			韧性：100\n\n锈迹斑斑的监狱门也能把囚犯关在他们应该待的地方，只是样子不太好看罢了。
+buildtoolbar_popup_obj_jaildoorlargerusty		韧性：100\n\n锈迹斑斑的大型监狱门也能把很多囚犯关在他们应该待的地方，只是样子不太好看罢了。
+buildtoolbar_popup_obj_CageGate					韧性：100\n\n可以完美搭配围栏使用的监狱大门。功能和门一样。
 #-==
 
 #-==========
@@ -7005,6 +7029,9 @@ material_concretefloor				 [均可]\n混凝土※
 material_concretetiles				 [均可]\n混凝土砖※
 material_YellowStraightLineTiles	 [均可]\n混凝土砖-线
 material_YellowCornerLineTiles		 [均可]\n混凝土砖-角
+material_ConcreteMossFlooring		 [均可]\n混凝土（苔藓）
+material_ConcreteLeavesFlooring		 [均可]\n混凝土（树叶）
+
 #-==
 
 #+==仅限户外
@@ -7019,9 +7046,9 @@ material_roadcrossingright			᠎(户外)\n 人行横道线-右
 
 material_sand						᠎(户外)\n᠎   沙土   
 material_dirt						᠎(户外)\n᠎   泥土   
+material_newmud						᠎(户外)\n᠎泥土(黑)
+material_mud						᠎(户外)\n᠎泥土(红)
 
-material_newmud						᠎(户外)\n᠎泥地(黑)
-material_mud						᠎(户外)\n᠎泥地(红)
 material_flowerfield				᠎(户外)\n    花田   
 material_grass						᠎(户外)\n    草坪   
 material_grasscornerfloor			᠎(户外)\n 草坪拐角
@@ -7040,8 +7067,12 @@ material_stone						᠎(户外)\n  石板路
 material_Snow						᠎(户外)\n    雪地   
 material_lunarfloor					᠎(户外)\n    月球   
 
+material_JunglePath					᠎(户外)\n 丛林道路
+material_TaintedFloor				᠎(户外)\n 污染地板
+material_WoodenDockFloor			᠎(户外)\n 码头木地板
 
 #-==
+
 
 #+==两者皆可
 
@@ -7056,10 +7087,8 @@ material_NewIronFloor				 [均可]\n᠎    铁板
 material_metalfloor					 [均可]\n 金属地板
 material_NewCargoFloor				 [均可]\n 货箱底板
 
-
-
-
 #-==
+
 
 #+==仅限室内
 
@@ -7074,18 +7103,21 @@ material_solacofloor				 <室内>\n 科技地板
 material_gratefloor					 <室内>\n 金属格柵
 material_marbletiles				 <室内>\n 大理石瓷砖
 material_limestonefloor				 <室内>\n 石灰岩
-material_CarpetFR					 <室内>\n 防火地毯
+
+material_TriangularTiles			 <室内>\n 三角形瓷砖
+material_HexagonalTiles				 <室内>\n 六边形瓷砖
+material_paddedfloor				 <室内>\n  软垫
+material_ColouredStoneTiles			 <室内>\n 彩色石砖
+material_WeatheredStoneFlooring		 <室内>\n 风化石
+
+
+material_CarpetFR					 <室内>\n 地毯-防火
+material_blueCarpet					 <室内>\n 地毯-蓝
+material_brownCarpet				 <室内>\n 地毯-棕
+material_redCarpet					 <室内>\n 地毯-红
 
 #-==
 
-#+==未分类地板
-
-material_blueCarpet	地毯（蓝色）
-material_redCarpet	地毯（红色）
-material_brownCarpet	地毯（棕色）
-material_paddedfloor	软垫
-material_burntfloor	烧焦的地板
-#-==
 
 #+==说明
 buildtoolbar_popup_mat_newmud				这是泥土，可免费使用！
@@ -7109,7 +7141,6 @@ buildtoolbar_popup_mat_grasscornerfloor1	带有泥土的草坪拐角，对于建
 buildtoolbar_popup_mat_grasscornerfloor2	带有泥土的草坪拐角，对于建设成角度的道路很有用。
 buildtoolbar_popup_mat_grasscornerfloor3	带有泥土的草坪拐角，对于建设成角度的道路很有用。
 buildtoolbar_popup_mat_grassstones			带有石板的草地区域。
-buildtoolbar_popup_mat_paddedfloor			搭配软垫墙壁，为精神病囚犯创建完整的软垫牢房。
 buildtoolbar_popup_mat_sandstone			在室外区域铺设砂岩板。
 buildtoolbar_popup_mat_limestonefloor		地板是褪色的石灰色。
 buildtoolbar_popup_mat_blueCarpet			铺设舒适地毯，非常适合员工区域。
@@ -7117,6 +7148,18 @@ buildtoolbar_popup_mat_redCarpet			铺设舒适地毯，非常适合员工区域
 buildtoolbar_popup_mat_brownCarpet			铺设舒适地毯，非常适合员工区域。
 buildtoolbar_popup_mat_grassscornerfloor	带有泥土的草坪拐角，对于成角度的道路很有用。
 buildtoolbar_popup_mat_lunarfloor			具有月球外观的坚硬岩石表面。
+
+buildtoolbar_popup_mat_TriangularTiles		见方设计已经是过去式了，欢迎选择三角形的未来设计理念。
+buildtoolbar_popup_mat_HexagonalTiles		见方设计已经是过去式了，欢迎选择六边形的未来设计理念。
+buildtoolbar_popup_mat_JunglePath			脚踩在这条陈旧且饱经风霜的道路上竟会感到出奇舒适。
+buildtoolbar_popup_mat_TaintedFloor			这里看起来寸草不生。
+buildtoolbar_popup_mat_ColouredStoneTiles	如此精湛的制作工艺，没人会知道这块石砖实际上是最近由肯特郡的克莱夫制作而成的。
+buildtoolbar_popup_mat_ConcreteMossFlooring	树叶铺满了这块混凝土地板。
+buildtoolbar_popup_mat_ConcreteLeavesFlooring	树叶铺满了这块混凝土地板。
+buildtoolbar_popup_mat_WoodenDockFloor		坚固的木质地面，适于码头。
+buildtoolbar_popup_mat_paddedfloor			搭配软垫墙壁，为精神病囚犯创建完整的软垫牢房。
+buildtoolbar_popup_mat_WeatheredStoneFlooring	饱经风霜的石质地板，可让你的丛林监狱更具真实感。
+
 #-==
 
 #-============================================================
@@ -7690,9 +7733,9 @@ buildtoolbar_popup_obj_ComfyBed	配有记忆海绵床垫的豪华大床，可提
 object_CoffinBed	  床铺\n （棺材） 
 buildtoolbar_popup_obj_CoffinBed	造型怪异的床。\n\n需求：\n+ 睡眠 0.18\n+ 舒适(坐) 0.15\n+ 舒适(睡) 0.18
 
-object_CampBed	  床铺\n （露营） 
+object_CampBed	  床铺\n （营地） 
 buildtoolbar_popup_obj_CampBed	这床用着比看起来舒服。\n\n需求：\n+ 睡眠 0.15\n+ 舒适(坐) 0.15\n+ 舒适(睡) 0.15
-object_NettedBed	  床铺\n （网状） 
+object_NettedBed	  床铺\n （简易帐篷） 
 buildtoolbar_popup_obj_NettedBed	在热带气候生活的必需品。舒适度不高，但可以驱赶蚊虫。\n\n需求：\n+ 睡眠 0.15\n+ 舒适(坐) 0.15\n+ 舒适(睡) 0.15
 
 object_crib						  床铺\n （婴儿）
@@ -7719,7 +7762,7 @@ buildtoolbar_popup_obj_GlassWindowLarge	可以见到充沛的阳光。
 buildtoolbar_popup_obj_WoodenWindowLarge	可以见到充沛的阳光。
 object_WindowClassy	 ᠎窗户\n （高级） 
 buildtoolbar_popup_obj_WindowClassy	让外观看起来远好于实际状态。
-object_WindowClassyLarge	 ᠎窗户\n （大型/高级） 
+object_WindowClassyLarge	 ᠎窗户-大\n （高级） 
 buildtoolbar_popup_obj_WindowClassyLarge	让外观看起来远好于实际状态。
 
 object_StainGlassWindow	  窗户\n（彩绘玻璃）
@@ -7730,15 +7773,19 @@ buildtoolbar_popup_obj_StainGlassWindow	让外观看起来远好于实际状态�
 object_OvalStaffTable			 员工休闲桌
 buildtoolbar_popup_obj_OvalStaffTable	在员工区域搭配椅子会很棒。
 
-object_Table					 *桌子
+object_Table					 *桌子
 buildtoolbar_popup_obj_Table	跟长凳很搭，一些房间需要它放置物品。
-object_Bench					 *板凳
+object_Bench					 *板凳
 buildtoolbar_popup_obj_Bench	跟长桌绝配,可以坐4个人。\n\n需求：\n+ 舒适 0.20
-object_SmallTable				 桌子\n  （短）  
+object_SmallTable				 桌子\n  （短）  
 buildtoolbar_popup_obj_SmallTable	长桌的缩小版。
-object_SmallBench				 板凳\n  （短）  
+object_SmallBench				 板凳\n  （短）  
 buildtoolbar_popup_obj_SmallBench	长凳的缩小版，可以坐2个人。\n\n需求：\n+ 舒适 0.20
-object_OakTable					 橡木桌
+object_JungleTable				  竹桌
+buildtoolbar_popup_obj_JungleTable	可以在这里吃饭，和竹凳很搭。
+object_JungleBench				  竹凳
+buildtoolbar_popup_obj_JungleBench	可以坐4给人在上面，和竹桌很搭。\n\n需求：\n+ 舒适 0.30
+object_OakTable					 ᠎橡木桌
 buildtoolbar_popup_obj_OakTable	搭配橡木板凳会很棒，可以在这里用餐。
 
 object_SofaChairsingle			  沙发\n（蓝）
@@ -7749,6 +7796,9 @@ object_SofaChairBrown			   沙发\n（棕）
 buildtoolbar_popup_obj_SofaChairBrown	一个柔软的沙发，坐在上面很舒服。\n\n需求：\n+ 舒适 0.70\n+ 奢侈品 0.09
 object_SofaChairDoubleBrown		   沙发-大\n（棕）
 buildtoolbar_popup_obj_SofaChairDoubleBrown	一个大而柔软的沙发，可供两人就座。\n\n需求：\n+ 舒适 0.70\n+ 奢侈品 0.09
+object_leatherSofa	皮革沙发
+buildtoolbar_popup_obj_leatherSofa	在精神科医生办公室里添加经典皮革沙发，可改善精神科医生对精神病囚犯的治疗。
+
 object_OakBench					  橡木板凳
 buildtoolbar_popup_obj_OakBench	 搭配橡木桌会很棒，可以坐3个人。\n\n需求：\n+ 舒适 0.30
 
@@ -7794,8 +7844,7 @@ object_MetalStool	  金属凳
 buildtoolbar_popup_obj_MetalStool	外观精致的小金属凳。\n\n需求：\n+ 舒适 0.30
 object_leatherChair	  皮革椅
 buildtoolbar_popup_obj_leatherChair	搭配皮革沙发。非常适合员工坐下，当然也非常适合囚犯。\n\n需求：\n+ 舒适 0.50
-object_JungleBench	  竹凳
-buildtoolbar_popup_obj_JungleBench	可以坐4给人在上面，和竹桌很搭。\n\n需求：\n+ 舒适 0.30
+
 #-==
 
 #-========================
@@ -7993,10 +8042,15 @@ object_SnowyConiferTree	‍  树\n  （雪松）
 buildtoolbar_popup_obj_SnowyConiferTree	在雪地上看起来很合适。\n\n需求：\n+ 自由 0.15\n+ 环境 0.03
 object_PalmTree			‍ ᠎树\n  （棕榈）  
 buildtoolbar_popup_obj_PalmTree	常见的装饰树木。\n\n需求：\n+ 自由 0.15\n+ 环境 0.03
+object_KayuMalamTree	‍ ᠎树\n  （黑檀木）  
+buildtoolbar_popup_obj_KayuMalamTree	一棵高大的树，外表为油亮的深黑色。\n\n需求：\n+ 自由 0.15\n+ 环境 0.03
+
 object_WillowTree		‍  树\n  （杨柳）  
 buildtoolbar_popup_obj_WillowTree	这棵树可以很好地点缀水域或增添花园的优雅魅力。\n\n需求：\n+ 自由 0.20\n+ 环境 0.04
 object_SakuraTree		‍  树\n  （樱花）  
 buildtoolbar_popup_obj_SakuraTree	一棵开着粉色花朵的美丽樱花树。\n\n需求：\n+ 自由 0.20\n+ 环境 0.04
+
+
 object_SpookyTree		‍  树\n  （阴森）  
 buildtoolbar_popup_obj_SpookyTree	一棵阴森恐怖的树，让囚犯更加想要远离这里。\n\n需求：\n- 自由 0.10\n+ 环境 0.02
 object_CactusTree		‍  树\n （仙人掌） 
@@ -8006,6 +8060,18 @@ buildtoolbar_popup_obj_BareTree	大部分的树叶已经凋落。
 
 object_IndoorTreePlanter	‍ 室内植树区域
 buildtoolbar_popup_obj_IndoorTreePlanter	下沉式植树，可用于室内种植树木。
+
+ object_SteppingStone	垫脚石
+buildtoolbar_popup_obj_SteppingStone	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
+object_SteppingStoneLillyPad	垫脚石/n （睡莲）
+buildtoolbar_popup_obj_SteppingStoneLillyPad	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
+object_SteppingStoneIceBlock	垫脚石（冰）
+buildtoolbar_popup_obj_SteppingStoneIceBlock	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
+object_SteppingStonePallet	垫脚石（草垫）
+buildtoolbar_popup_obj_SteppingStonePallet	建造道路，供囚犯和员工穿过水面。\n\n仅限室外建造。\n\n仅能放置于水面。
+
+
+
 
 object_treestump			‍ 树桩
 #-

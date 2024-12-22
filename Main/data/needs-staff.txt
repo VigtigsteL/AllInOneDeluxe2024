@@ -815,6 +815,20 @@ BEGIN Provider
 END
 #-
 
+#+黑檀木 自由 0.15 环境 0.03
+BEGIN Provider
+  Action          TouchNature
+  ProviderType    Object
+  Object          KayuMalamTree
+  PrimaryNeed     Freedom
+  PrimaryRate     -0.15
+  SecondaryNeed   Environment
+  SecondaryRate   -0.03
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  6
+END
+#-
 #+柳树 员工环境 0.04
 BEGIN Provider
   Action          TouchNature
