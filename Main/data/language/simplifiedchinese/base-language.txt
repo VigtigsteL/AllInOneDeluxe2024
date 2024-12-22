@@ -177,7 +177,7 @@ buildtoolbar_deployment_accessonly	囚犯和员工会尽可能地避开此区域
 buildtoolbar_deployment_prisonerdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示你的囚犯们朝哪个方向走。\n有助于控制监狱中的人流。
 buildtoolbar_deployment_staffdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示非囚犯人员朝哪个方向走。\n有助于控制监狱中的人流。
 
-buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。\n\n可使用右键旋转或按F翻转。
+buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。\n\n可使用鼠标中键旋转或按F翻转。
 
 # The ~ and ^ characters in front of some of the lines in the buildtoolbar_popup_help section are colour codes and should be preserved during translation
 

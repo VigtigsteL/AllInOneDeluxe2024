@@ -8013,113 +8013,6 @@ SpecialRestriction	 NoShadow
 END
 #-
 
-
-#+垫脚石
-BEGIN Object
-Name				SteppingStone
-RenderDepth			0
-GroundBaseOveride	1
-Width				1
-Depth 				1
-BEGIN SpriteBank	
-	Name			objects_d11_2
-	Sprite				d_SteppingStone
-END
-ConstructionTime		5.00000
-Price				-5
-Filter               Decoration
-VersionAdded		3000
-Group				StaticObject	
-Properties			StaticObject
-BlockedBy           StaticObject 
-SpecialRestriction	NoShadow	
-MadeOf				Composite
-PlaceOnWater			true
-Inaccessible		true
-	DLC                  		SeaAirLand
-END
-#-
-
-#+垫脚石（睡莲）
-BEGIN Object
-Name				SteppingStoneLillyPad
-RenderDepth			0
-GroundBaseOveride	1	
-Width				1
-Depth 				1
-BEGIN SpriteBank	
-	Name			objects_d11_2
-	Sprite				d_SteppingStoneLillyPad
-END
-
-ConstructionTime		5.00000
-Price				-5
-Filter               Foliage
-VersionAdded		3000
-Group				StaticObject	
-Properties			StaticObject
-BlockedBy           StaticObject  
-SpecialRestriction	NoShadow
-MadeOf				Composite
-PlaceOnWater			true
-Inaccessible		true
-	DLC                  		SeaAirLand
-END
-#-
-
-#+垫脚石（冰）
-BEGIN Object
-Name				SteppingStoneIceBlock
-RenderDepth			0
-GroundBaseOveride	1
-Width				1
-Depth 				1
-BEGIN SpriteBank	
-	Name			objects_d11_2
-	Sprite				d_SteppingStoneIceBlock
-END
-ConstructionTime		5.00000
-Price				-5
-	Filter               Decoration
-VersionAdded		3000
-Group				StaticObject	
-Properties			StaticObject
-BlockedBy           StaticObject  
-SpecialRestriction	NoShadow
-MadeOf				Composite
-PlaceOnWater			true
-Inaccessible		true
-	DLC                  		SeaAirLand
-END
-#-
-
-#+垫脚石（草垫）
-BEGIN Object
-Name				SteppingStonePallet
-RenderDepth			0
-GroundBaseOveride	1
-Width				1
-Depth 				1
-BEGIN SpriteBank	
-	Name			objects_d11_2
-	Sprite				d_SteppingStonePallet
-END
-ConstructionTime		5.00000
-Price				-10
-	Filter               Decoration
-VersionAdded		3000
-Group				StaticObject	
-Properties			StaticObject
-BlockedBy           StaticObject  
-SpecialRestriction	NoShadow
-MadeOf				Composite
-PlaceOnWater			true
-Inaccessible		true
-	DLC                  		SeaAirLand
-END
-#-
-
-
 #-==
 
 #+==迈向绿色
@@ -13149,6 +13042,111 @@ BEGIN Sprite1    	 x 5  y 2  END
 END
 #-
 
+#+垫脚石
+BEGIN Object
+Name				SteppingStone
+RenderDepth			0
+GroundBaseOveride	1
+Width				1
+Depth 				1
+BEGIN SpriteBank	
+	Name			objects_d11_2
+	Sprite				d_SteppingStone
+END
+ConstructionTime		5.00000
+Price				-5
+Filter               Decoration
+VersionAdded		3000
+Group				StaticObject	
+Properties			StaticObject
+BlockedBy           StaticObject 
+SpecialRestriction	NoShadow	
+MadeOf				Composite
+PlaceOnWater			true
+Inaccessible		true
+	DLC                  		SeaAirLand
+END
+#-
+
+#+垫脚石（睡莲）
+BEGIN Object
+Name				SteppingStoneLillyPad
+RenderDepth			0
+GroundBaseOveride	1	
+Width				1
+Depth 				1
+BEGIN SpriteBank	
+	Name			objects_d11_2
+	Sprite				d_SteppingStoneLillyPad
+END
+
+ConstructionTime		5.00000
+Price				-5
+Filter               Foliage
+VersionAdded		3000
+Group				StaticObject	
+Properties			StaticObject
+BlockedBy           StaticObject  
+SpecialRestriction	NoShadow
+MadeOf				Composite
+PlaceOnWater			true
+Inaccessible		true
+	DLC                  		SeaAirLand
+END
+#-
+
+#+垫脚石（冰）
+BEGIN Object
+Name				SteppingStoneIceBlock
+RenderDepth			0
+GroundBaseOveride	1
+Width				1
+Depth 				1
+BEGIN SpriteBank	
+	Name			objects_d11_2
+	Sprite				d_SteppingStoneIceBlock
+END
+ConstructionTime		5.00000
+Price				-5
+	Filter               Decoration
+VersionAdded		3000
+Group				StaticObject	
+Properties			StaticObject
+BlockedBy           StaticObject  
+SpecialRestriction	NoShadow
+MadeOf				Composite
+PlaceOnWater			true
+Inaccessible		true
+	DLC                  		SeaAirLand
+END
+#-
+
+#+垫脚石（草垫）
+BEGIN Object
+Name				SteppingStonePallet
+RenderDepth			0
+GroundBaseOveride	1
+Width				1
+Depth 				1
+BEGIN SpriteBank	
+	Name			objects_d11_2
+	Sprite				d_SteppingStonePallet
+END
+ConstructionTime		5.00000
+Price				-10
+	Filter               Decoration
+VersionAdded		3000
+Group				StaticObject	
+Properties			StaticObject
+BlockedBy           StaticObject  
+SpecialRestriction	NoShadow
+MadeOf				Composite
+PlaceOnWater			true
+Inaccessible		true
+	DLC                  		SeaAirLand
+END
+#-
+
 #-==
 
 #+==仅限户外
@@ -15839,7 +15837,7 @@ END
 #-
 
 
-#+大型监狱门 $400
+#+中型监狱门 $400
 BEGIN Object
 Name                 JailDoorLarge
 Price                -400
@@ -15868,7 +15866,7 @@ Teleportable         true
 END
 #-
 
-#+大型监狱门（灰色） $400
+#+中型监狱门（灰色） $400
 BEGIN Object     
 Name                 JailDoorLargeGrey
 Width                2  
@@ -15889,7 +15887,7 @@ VersionAdded		 2000
 END
 #-
 
-#+大型监狱门（黄色） $400
+#+中型监狱门（黄色） $400
 BEGIN Object     
 Name                 JailDoorLargeYellow
 Width                2  
@@ -15910,7 +15908,7 @@ VersionAdded		 2000
 END
 #-
 
-#+大型监狱门（橙色） $400
+#+中型监狱门（橙色） $400
 BEGIN Object     
 Name                 JailDoorLargeOrange
 Width                2  
@@ -15931,7 +15929,7 @@ VersionAdded		 2000
 END
 #-
 
-#+大型监狱门（红色） $400
+#+中型监狱门（红色） $400
 BEGIN Object     
 Name                 JailDoorLargeRed
 Width                2  
@@ -15952,7 +15950,7 @@ VersionAdded		 2000
 END
 #-
 
-#+大型监狱门-深红 $400
+#+中型监狱门-深红 $400
 BEGIN Object
 Name                 JailDoorLargeDarkRed
 Width                2
@@ -15965,18 +15963,8 @@ Group                StaticObject
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
 
-BEGIN Sprite
-x 0
-y 48
-w 4
-h 2
-RotateType 1
-END
-
-BEGIN SpriteBank	
-Name			objects_d11_2
-ToolbarSprite	d_JailDoorDarkRed
-END
+BEGIN ToolbarSprite	 x 2 y 48 w 2 h 2 END
+BEGIN	Sprite		 x 0 y 48 w 4 h 2 RotateType 1 TopAligned false END
 
 MadeOf               SolidMetal
 Properties           StaticObject
@@ -15997,18 +15985,8 @@ Group                StaticObject
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
 
-BEGIN Sprite
-x 0
-y 52
-w 4
-h 2
-RotateType 1
-END
-
-BEGIN SpriteBank	
-Name			objects_d11_2
-ToolbarSprite	d_JailDoorBlack
-END
+BEGIN ToolbarSprite	 x 2 y 52 w 2 h 2 END
+BEGIN	Sprite		 x 0 y 52 w 4 h 2 RotateType 1 TopAligned false END
 
 MadeOf               SolidMetal
 Properties           StaticObject
@@ -16060,7 +16038,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门 $800
+#+大监狱门 $800
 BEGIN Object
 Name                 JailDoorXL
 Width                3
@@ -16086,7 +16064,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-灰 $800
+#+大监狱门-灰 $800
 BEGIN Object
 Name                 JailDoorGreyXL
 Width                3
@@ -16112,7 +16090,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-橙 $800
+#+大监狱门-橙 $800
 BEGIN Object
 Name                 JailDoorOrangeXL
 Width                3
@@ -16138,7 +16116,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-红 $800
+#+大监狱门-红 $800
 BEGIN Object
 Name                 JailDoorRedXL
 Width                3
@@ -16164,7 +16142,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-深红 $800
+#+大监狱门-深红 $800
 BEGIN Object
 Name                 JailDoorDarkRedXL
 Width                3
@@ -16176,18 +16154,9 @@ RenderDepth          2
 Group                StaticObject
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
-BEGIN Sprite
-x 12
-y 46
-w 6
-h 2
-RotateType 1
-END
 
-BEGIN SpriteBank	
-Name			objects_d11_2
-ToolbarSprite	d_JailDoorDarkRed
-END
+BEGIN ToolbarSprite	 x 16 y 46 w 2 h 2 END
+BEGIN	Sprite		 x 12 y 46 w 6 h 2 RotateType 1 TopAligned false END
 
 MadeOf               SolidMetal
 Properties           StaticObject
@@ -16195,7 +16164,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-黑 $800
+#+大监狱门-黑 $800
 BEGIN Object
 Name                 JailDoorBlackXL
 Width                3
@@ -16208,20 +16177,8 @@ Group                StaticObject
 BlockedBy            StaticObject
 BlockedBy            UtilityStation
 
-BEGIN Sprite
-x 14
-y 48
-w 6
-h 2
-RotateType 1
-END
-
-BEGIN SpriteBank	
-Name			objects_d11_2
-ToolbarSprite	d_JailDoorBlack
-END
-
-
+BEGIN ToolbarSprite	 x 18 y 48 w 2 h 2 END
+BEGIN	Sprite		 x 14 y 48 w 6 h 2 RotateType 1 TopAligned false END
 
 MadeOf               SolidMetal
 Properties           StaticObject
@@ -16229,7 +16186,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-黄 $800
+#+大监狱门-黄 $800
 BEGIN Object
 Name                 JailDoorYellowXL
 Width                3
@@ -16255,7 +16212,7 @@ Properties           Door
 END
 #-
 
-#+特大监狱门-白 $800
+#+大监狱门-白 $800
 BEGIN Object
 Name                 JailDoorWhiteXL
 Width                3
