@@ -555,6 +555,23 @@ BEGIN Research
     NonWideY             170  
 END
 #-
+
+#+员工审查
+BEGIN Research
+	Name				StaffVetting
+	Type				Ability
+	Requires			Security
+	Admin				Security
+    Sprite              Guard
+	Cost				-1000
+	Time				360
+	X					1000
+	Y					440
+	NonWideX			800
+	NonWideY			740
+END
+#-
+
 #-
 
 #+==分支D

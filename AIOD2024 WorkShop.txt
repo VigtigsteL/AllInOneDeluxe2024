@@ -1,4 +1,4 @@
-[h1][B]　　　　　　当前版本:V2.3.0 | 更新日期:2024.12.17[/B][/h1][hr][/hr][H2]　　　　　　　　　！　感　谢　大　家　的　支　持　！
+[h1][B]　　　　　　当前版本:V2.6.4 | 更新日期:2024.12.24[/B][/h1][hr][/hr][H2]　　　　　　　　　！　感　谢　大　家　的　支　持　！
 本模组已荣登：2024年热门模组[B]第1名[/B]、"有史以来"热门模组前[B]50[/B]名！
 [/H2][hr][/hr]
 [H1]本模组是对 [中文豪华版] 基于 <原始模组> 与 <二次开发>
@@ -178,8 +178,9 @@
 [i]本模组 Github：[u]github.com/VigtigsteL/AllInOneDeluxe2024[/u][/i]
 [list]
 [*][url=steamcommunity.com/sharedfiles/filedetails/?id=821415114]原始模组 | 作者 GrandSong[/url]
-[*][url=steamcommunity.com/sharedfiles/filedetails/?id=2895128242]二次开发 | 作者 yuanze31[/url][/list]
+[*]二次开发 | 作者 yuanze31[/list]
+[hr][/hr][h3]感谢[B]Ozoneraxi[/B]的交流探讨，推荐模组[B]<Ozone's Fixes & Qol All-In-One>[/B]！[/h3]
 [hr][/hr][h3]感谢以下玩家提交的反馈与建议！[/h3]
  军刃血梦 | 绘心 | TheHZDev | 1466079333 | 小馨 | mezese | Wilson | Muziyami | Vulcan-H
  fluoswy | Mr1996 | 小白七 | Teruan | DakeBot | PUP-柯基 | QWQ2023 | Gigadead | 519875800
- 古月 | 元夜星雨 | Seayi | XC0118
+ 古月 | 元夜星雨 | Seayi | XC0118 | Dragon

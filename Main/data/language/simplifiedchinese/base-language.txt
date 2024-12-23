@@ -4,6 +4,14 @@
 
 
 #+==未整理
+
+dlc_name_futureTech		未来科技
+
+buildtoolbar_inventory                  典狱长库存
+buildtoolbar_tooltip_inventory          快捷方式：（TAB键）\n\管理典狱长的库存和个人防护队。
+
+dlc_name_jungle			热带森林
+
 timelapse_caption	【延时摄影】已录制 *Z 帧，回放时长 *X:*Y
 
 double_click_move_item	双击：移动物品
@@ -1468,6 +1476,10 @@ interfaceLogistics_MinSecGrading	评级\n低戒备区
 interfaceLogistics_MedSecGrading	评级\n中戒备区
 interfaceLogistics_MaxSecGrading	评级\n高戒备区
 interfaceLogistics_SuperMaxGrading	评级\n超高戒备区
+
+
+d11_labour_management	劳役管理
+d11_LabourManagementDescription	这个菜单可以对在这里工作的囚犯、劳动时间以及快速警卫部署选项进行控制。
 
 sectorGrading_title	*X 区域
 sectorGrading_housed	*X 囚犯住在 *Y
@@ -2955,8 +2967,6 @@ rapsheet_stint	再犯罪入狱次数
 reform_reward	囚犯改造奖励
 help_warning_prisonerreleased	改造计划是囚犯成功重新融入社会的关键。一些囚犯会浪子回头，开始新的生活，而另一些则会重蹈覆辙，再次犯罪。你会因囚犯改过自新得到额外的现金奖励，但一些再犯罪的囚犯可能会回到你的监狱。你不仅会因为他们的改造失败而被罚款，而且他们也可能在外面染上了更多恶习。
 
-d11_labour_management	劳役管理
-d11_LabourManagementDescription	这个菜单可以对在这里工作的囚犯、劳动时间以及快速警卫部署选项进行控制。
 d11_HighestSecurityLevel	最高安全级别
 d11_LabourManagement_RegimeActivity_hint	在工作时间、自由时间或两者之间，选择客户可以光临时间段。
 d11_LabourManagement_HighestSecurityLevel_hint	高戒备囚犯可以在这里工作，但不能越过该房间的安全区域。
@@ -3392,7 +3402,7 @@ reports_visitation_info	调整探视时长：
 visitation_title	探视时长
 visitation_desc	增加囚犯探视时间将刺激囚犯需求增长，并延长增长量持续时间。探视时间仅限上午 8 点至晚上 8 点。
 reports_visitation_primaryerror	目前的制度不允许在此时段进行探视。
-reports_visitation_secondaryerror	目前的制度仅允许在此时段进行 *X 次探视。
+reports_visitation_secondaryerror	目前制度仅允许在此时段进行 *X 次探视。
 
 buildtoolbar_StayIndoors	禁止户外活动
 buildtoolbar_tooltip_StayIndoors	发生灾难时，让所有囚犯和非必要员工尽可能选择室内活动，从而保证其安全。只有在灾难来临时他们才会听从该命令。
@@ -6224,7 +6234,7 @@ research_timetounlock	解锁时间：*X小时
 research_movementpenalty	移动减慢：↘*X%
 research_protectionbonus	防护作用：↗*X%
 research_tap_to_authorise	轻按以授权
-research_missingadministrator	需要雇用
+research_missingadministrator	需要
 research_legaldefense_adviser1	看样子你的律师帮你避免了一些麻烦。
 research_legaldefense_adviser2	迅速让监狱恢复秩序，并确保其正常运作。
 
@@ -7292,6 +7302,14 @@ buildtoolbar_popup_room_flowergarden	花园娱乐区，可供囚犯种植和照�
 room_pantry	  食品储藏室
 buildtoolbar_popup_room_Pantry	储存所有新鲜种植的蔬菜水果的房间，此房间为冷藏室，用于储存所有监狱内生长的食材。
 #-
+#+热带树林
+room_cinema	 放映室
+buildtoolbar_popup_room_Cinema	灯光准备，摄像机准备，开播！囚犯现在可以观赏许多经典电影。
+
+room_visitorreception	 访客接待处
+buildtoolbar_popup_room_visitorreception	供访客登记的区域，他们也可能会在此处接受搜查，以确保他们不会因携带违禁品或因自身的健康状况为监狱带来危险。
+
+#-
 #+二次机会
 room_Bakery      面包房
 buildtoolbar_popup_room_Bakery   有烹饪或服务经验的囚犯可以烤制面包和蛋糕，卖给平民顾客。
@@ -7302,25 +7320,22 @@ buildtoolbar_popup_room_Restaurant   有烹饪或服务经验的囚犯可以为�
 room_TherapyRoom      会客室
 buildtoolbar_popup_room_TherapyRoom   一个“安全空间”，供动物疗法课程以及与已释放人员交流使用。
 #-
-#+完美风暴
-room_WeatherCentre	 气象中心
-buildtoolbar_popup_room_WeatherCentre	配备天气预报设备的房间，可提前预警极端天气事件。
-
-room_TrainingRoom	 培训室
-buildtoolbar_popup_room_TrainingRoom	供员工学习新技能的地方。
-#-
 #+精神病房
-room_PaddedCell	 软垫牢房
+room_PaddedCell	 软垫牢房
 buildtoolbar_popup_room_paddedcell	适用于精神病囚犯，软垫墙壁能产生安抚效果。
 
-room_PaddedHoldingCell	 软垫拘留室
+room_PaddedHoldingCell	  软垫拘留室
 buildtoolbar_popup_room_paddedholdingcell	永久性软垫牢房准备好之前，新来的精神病囚犯会放置在这里。
 
-room_PaddedSolitary	 软垫禁闭室
+room_PaddedSolitary	 ᠎软垫禁闭室
 buildtoolbar_popup_room_paddedsolitary	专门针对穷凶极恶的精神病囚犯的隔离惩戒牢房。
 
-room_PsychiatristOffice	 精神科医生办公室
+room_PsychiatristOffice	  精神科医生办公室
 buildtoolbar_popup_room_psychiatristoffice	供精神科医生诊断精神病囚犯的区域。解锁额外物品并将其放置在精神科医生办公室，从而提升对精神病囚犯的治疗效果。通过让精神病囚犯参加心理咨询计划来解锁物品。
+#-
+#+亡灵
+room_graveyard	 墓地
+buildtoolbar_popup_room_graveyard	部分监狱囚犯的安息之地。他们是否想要一直安息下去就是另一回事了。
 #-
 #+帮派
 room_TheCage	​牢笼
@@ -7332,14 +7347,20 @@ buildtoolbar_popup_room_FightClubRoom	无论谁问起，都不要承认此房间
 room_TattooRemovalRoom	​纹身去除室
 buildtoolbar_popup_room_TattooRemovalRoom	囚犯在这里经历痛苦、漫长的过程，最终将身上的帮派纹身去除。
 #-
-#+亡灵
-room_graveyard	‌墓地
-buildtoolbar_popup_room_graveyard	部分监狱囚犯的安息之地。他们是否想要一直安息下去就是另一回事了。
-#-
-#+未知
-room_superiorcell	‌高级牢房
+#+完美风暴
+room_TrainingRoom	‌培训室
+buildtoolbar_popup_room_TrainingRoom	供员工学习新技能的地方。
 
-room_sharedcell	‌共用牢房
+room_WeatherCentre	‌气象中心
+buildtoolbar_popup_room_WeatherCentre	配备天气预报设备的房间，可提前预警极端天气事件。
+
+
+#-
+
+#+未知
+room_superiorcell	高级牢房
+
+room_sharedcell	共用牢房
 buildtoolbar_popup_room_sharedcell	一个多人牢房。至多能够容纳8个囚犯。
 #-
 #-==
@@ -7512,39 +7533,41 @@ quickbuild_Security				  警备室
 quickbuild_Armoury				  枪械库
 quickbuild_utilityroom			  基础设施房
 
-quickbuild_grove				 树林
-quickbuild_flowerGarden			 花园
-quickbuild_hedgeMaze			 树篱迷宫
+quickbuild_grove				 土树林
+quickbuild_flowerGarden			  花园
+quickbuild_hedgeMaze			 ᠎树篱迷宫
 
+quickbuild_smallLand			 土地（小）
+quickbuild_largeLand			  土地（大）
+quickbuild_smallIsland			 ᠎岛屿（小）
+quickbuild_mediumIsland			  岛屿（中）
+quickbuild_largeIsland			  岛屿（大）
 
+quickbuild_OutdoorLake			 纹身室外湖泊
+quickbuild_River				  搏河流
+quickbuild_Cinema				 ᠎会放映室
+quickbuild_WeatherCentre		  面气象中心
+quickbuild_TheCage				  牢笼
 
-quickbuild_paddedbasiccell	软垫（小）
-quickbuild_paddedintermediatecell	软垫（中）
-quickbuild_paddedholdingcell	软垫拘留牢房
-quickbuild_paddedsolitarycell	软垫禁闭室
-quickbuild_PsychiatristOffice	精神科医生办公室
-quickbuild_OutdoorLake	室外湖泊
-quickbuild_River	河流
-quickbuild_smallIsland	岛屿（小）
-quickbuild_mediumIsland	岛屿（中）
-quickbuild_largeIsland	岛屿（大）
-quickbuild_smallLand	土地（小）
-quickbuild_largeLand	土地（大）
+quickbuild_TattooRemovalRoom	 纹身去除室
+quickbuild_FightClubRoom		  搏击俱乐部
+quickbuild_Therapy				 ᠎会客室
+quickbuild_Bakery				  面包房
+quickbuild_Restaurant			  餐厅
+
+quickbuild_paddedbasiccell			 纹身软垫（小）
+quickbuild_paddedintermediatecell	  搏软垫（中）
+quickbuild_paddedholdingcell		 ᠎会软垫拘留牢房
+quickbuild_paddedsolitarycell		  面软垫禁闭室
+quickbuild_PsychiatristOffice		  精神科医生办公室
+
+quickbuild_graveyard	​纹墓地
+quickbuild_GlassCell	​ 玻璃牢房
 
 quickbuild_VegetableAllotment	菜田
 quickbuild_FruitOrchard	果园
 quickbuild_FarmingField	农田
 quickbuild_pantry	食品储藏室
-
-quickbuild_Therapy	会客室
-quickbuild_Restaurant	餐厅
-quickbuild_Bakery	面包房
-quickbuild_WeatherCentre	气象中心
-quickbuild_TheCage	牢笼
-quickbuild_TattooRemovalRoom	纹身去除室
-quickbuild_FightClubRoom	搏击俱乐部
-quickbuild_graveyard	墓地
-quickbuild_GlassCell	玻璃牢房
 
 buildtoolbar_quickbuild_TattooRemovalRoom	囚犯在这里经历痛苦、漫长的过程，最终将身上的帮派纹身去除。
 buildtoolbar_quickbuild_FightClubRoom	无论谁问起，都不要承认此房间的存在。\n\n需求：\n+ 自由 3.00\n- 饮水 0.50
