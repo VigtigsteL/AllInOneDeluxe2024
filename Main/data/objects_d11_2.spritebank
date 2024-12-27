@@ -68,8 +68,8 @@ BEGIN Sprites
     BEGIN "[i 64]"     Name d_BountyHunter_Male2  x 14  y 107  w 2  h 2  RotateType 1  TopAligned false  END
     BEGIN "[i 65]"     Name d_BountyHunter_Trike  x 10  y 103  w 4  h 7  RotateType 4  TopAligned false  END
     BEGIN "[i 66]"     Name d_BreadOven  x 87  y 66  w 4  h 4  RotateType 1  TopAligned false  END
-    BEGIN "[i 67]"     Name d_BreadOvenGlow  x 95  y 70  w 4  h 4  RotateType 0  TopAligned false  END
-    BEGIN "[i 68]"     Name d_BreadOvenToolbar  x 95  y 66  w 4  h 4  RotateType 0  TopAligned false  END
+    BEGIN "[i 67]"     Name d_BreadOvenGlow  x 190  y 140  w 8  h 8  RotateType 0  TopAligned false  END
+    BEGIN "[i 68]"     Name d_BreadOvenToolbar  x 87  y 66  w 4  h 4  RotateType 0  TopAligned false  END
     BEGIN "[i 69]"     Name d_CCTVMarkerIcon  x 250  y 28  w 6  h 6  RotateType 0  TopAligned false  END
     BEGIN "[i 70]"     Name d_CageGate  x 86  y 90  w 2  h 2  RotateType 2  TopAligned false  END
     BEGIN "[i 71]"     Name d_CakeStandEmpty  x 89  y 64  w 2  h 2  RotateType 4  TopAligned false  END
