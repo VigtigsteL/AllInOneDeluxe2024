@@ -170,7 +170,7 @@
 > [!IMPORTANT]
 >## **感谢两位开发者对 PA 社区做出的巨大贡献！**
 >*本模组 Github：github.com/VigtigsteL/AllInOneDeluxe2024*
->- [原始模组 | 作者 GrandSong](steamcommunity.com/sharedfiles/filedetails/?id=821415114)
+>- [原始模组 | 作者 GrandSong](https://steamcommunity.com/sharedfiles/filedetails/?id=821415114)
 >- 二次开发 | 作者 yuanze31
 >--- 
 >### 感谢Ozoneraxi的交流探讨，推荐模组<Ozone's Fixes & Qol All-In-One>！
