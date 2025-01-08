@@ -15,8 +15,8 @@
 >*如果有任何需要完善的地方、希望更改或添加的功能。<br/><ins>欢迎大家反馈与讨论。</ins>*
 >
 ---
-#  　　　　鼓励请点赞，好用请收藏，感谢大家的支持！　　　　　<br/>　　　　　　　　![](https://steamuserimages-a.akamaihd.net/ugc/1814394089131313920/D3E88542AC38D66B46C5A5AEEA936BB5C7A40694/)
-
+> [!WARNING]
+>#  　　　　鼓励请点赞，好用请收藏，感谢大家的支持！　　　　　<br/>　　　　　　　　![](https://steamuserimages-a.akamaihd.net/ugc/1814394089131313920/D3E88542AC38D66B46C5A5AEEA936BB5C7A40694/)
 ---
 > [!CAUTION]
 ># 　　　　　　　重要！修复在大型游戏中，
